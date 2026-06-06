@@ -1,0 +1,844 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-06-06T11:11:56-0700",
+    "kicad_version": "9.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/e7d26e72-3287-4d9d-b245-45d7d8c953b0",
+            "violations": [
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 1 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 1.524
+                            },
+                            "uuid": "ffa67a02-c064-4eb3-93a7-94af140150fc"
+                        },
+                        {
+                            "description": "Symbol U10 Pin 49 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.524
+                            },
+                            "uuid": "71c81008-db56-45e7-857d-7e5b2ac8965b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 4 [IO4, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 1.6002
+                            },
+                            "uuid": "47e00d0b-a6a8-4b92-a52c-95ccf59747c2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 5 [IO5, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 1.6256
+                            },
+                            "uuid": "ae5dee5d-ef05-44c8-a17a-76c0c7fd54f2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 6 [IO6, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 1.651
+                            },
+                            "uuid": "6ceeff90-cc43-41d4-aa9b-98c71cbcd7fb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 7 [IO7, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 1.6764
+                            },
+                            "uuid": "ce54485b-bf2f-4836-a23e-d9275df9e849"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 10 [IO17, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 1.7526
+                            },
+                            "uuid": "03266a1d-8a6b-49e1-9d4f-d3abbdc849dd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 49 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.524
+                            },
+                            "uuid": "71c81008-db56-45e7-857d-7e5b2ac8965b"
+                        },
+                        {
+                            "description": "Symbol U7 Pin 2 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 4.7498,
+                                "y": 1.1811
+                            },
+                            "uuid": "98b72032-a0ca-4ca6-af91-8ffc4dcbd496"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 48 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.5494
+                            },
+                            "uuid": "74a29edd-1816-49e0-b667-54c8f6876246"
+                        },
+                        {
+                            "description": "Symbol U10 Pin 49 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.524
+                            },
+                            "uuid": "71c81008-db56-45e7-857d-7e5b2ac8965b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 47 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.5748
+                            },
+                            "uuid": "7c01bcfc-1b1e-4338-bfb7-ee3d44ab4288"
+                        },
+                        {
+                            "description": "Symbol U10 Pin 48 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.5494
+                            },
+                            "uuid": "74a29edd-1816-49e0-b667-54c8f6876246"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 46 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.6002
+                            },
+                            "uuid": "e9147b9e-c982-4a66-b914-3457407be67c"
+                        },
+                        {
+                            "description": "Symbol U10 Pin 47 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.5748
+                            },
+                            "uuid": "7c01bcfc-1b1e-4338-bfb7-ee3d44ab4288"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 15 [IO3, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 1.8796
+                            },
+                            "uuid": "888178e8-dd31-4f87-862f-87bcd6d936aa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 45 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.6256
+                            },
+                            "uuid": "c41a179a-0d91-42db-804f-3941dcafd197"
+                        },
+                        {
+                            "description": "Symbol U10 Pin 46 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.6002
+                            },
+                            "uuid": "e9147b9e-c982-4a66-b914-3457407be67c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 16 [IO46, Input, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 1.905
+                            },
+                            "uuid": "9ddb0cce-0d1c-4fe0-a23b-0f82d7fafb81"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 16 [IO46, Input, Line]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 1.905
+                            },
+                            "uuid": "9ddb0cce-0d1c-4fe0-a23b-0f82d7fafb81"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 44 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.651
+                            },
+                            "uuid": "75566ad5-9870-4477-a412-4527ea432ac5"
+                        },
+                        {
+                            "description": "Symbol U10 Pin 45 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.6256
+                            },
+                            "uuid": "c41a179a-0d91-42db-804f-3941dcafd197"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 43 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.6764
+                            },
+                            "uuid": "da000deb-e79e-4f6b-bcb2-d3e444fa7a55"
+                        },
+                        {
+                            "description": "Symbol U10 Pin 44 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.651
+                            },
+                            "uuid": "75566ad5-9870-4477-a412-4527ea432ac5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 42 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.7018
+                            },
+                            "uuid": "c9369ac0-75a3-41b1-aec3-ffe2131a4ce3"
+                        },
+                        {
+                            "description": "Symbol U10 Pin 43 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.6764
+                            },
+                            "uuid": "da000deb-e79e-4f6b-bcb2-d3e444fa7a55"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 41 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.7272
+                            },
+                            "uuid": "3e10691a-950b-45e5-8d3f-0c034487390e"
+                        },
+                        {
+                            "description": "Symbol U10 Pin 42 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.7018
+                            },
+                            "uuid": "c9369ac0-75a3-41b1-aec3-ffe2131a4ce3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 40 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.7526
+                            },
+                            "uuid": "92a2bb12-1dee-4258-904a-e2a2d7c26aa0"
+                        },
+                        {
+                            "description": "Symbol U10 Pin 41 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.7272
+                            },
+                            "uuid": "3e10691a-950b-45e5-8d3f-0c034487390e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 31 [IO38, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.9812
+                            },
+                            "uuid": "e7b0b2a2-992b-451b-8fc5-75989003fd25"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 30 [IO37, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.0066
+                            },
+                            "uuid": "237c40ea-5314-4b8b-9841-ac29f531c4c8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 29 [IO36, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.032
+                            },
+                            "uuid": "a168213e-c89e-4d29-ba58-5fad3d9bda16"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 28 [IO35, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.0574
+                            },
+                            "uuid": "b46be018-f81f-4289-aa5c-08cf79bee4b0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 26 [IO45, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.1082
+                            },
+                            "uuid": "f2697c9b-fabd-44db-a19c-a6074292e0a4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U10 Pin 25 [IO34, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.1336
+                            },
+                            "uuid": "0bddc9e3-58a3-4262-911b-d2c72aeabc90"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR026 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.9845,
+                                "y": 0.8128
+                            },
+                            "uuid": "4957876f-eb08-4845-a34e-16ba64feaac8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 32 [VBAT_BB, Power input, Line]",
+                            "pos": {
+                                "x": 2.8702,
+                                "y": 1.4859
+                            },
+                            "uuid": "8053480d-22d1-4033-910a-dc6080a2fa45"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR07 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 4.2164,
+                                "y": 0.8763
+                            },
+                            "uuid": "8944e0fc-60fd-4b5d-a322-3df55898bf88"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Output and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U8 Pin 1 [OUT, Output, Line]",
+                            "pos": {
+                                "x": 4.0894,
+                                "y": 1.6891
+                            },
+                            "uuid": "3bf0ff6e-fe46-410a-9ec8-5caf8ed4cc97"
+                        },
+                        {
+                            "description": "Symbol U8 Pin 20 [OUT__1, Output, Line]",
+                            "pos": {
+                                "x": 4.0894,
+                                "y": 1.7145
+                            },
+                            "uuid": "d767afbb-2ad7-4e0d-b73b-4b1c284e5506"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR06 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 4.3688,
+                                "y": 0.8763
+                            },
+                            "uuid": "a7a9daf1-751a-4b16-b771-6ada7523e9f7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U7 Pin 2 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 4.7498,
+                                "y": 1.1811
+                            },
+                            "uuid": "98b72032-a0ca-4ca6-af91-8ffc4dcbd496"
+                        },
+                        {
+                            "description": "Symbol U7 Pin 5 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 5.1562,
+                                "y": 1.1557
+                            },
+                            "uuid": "1e49f34e-8ed6-48a6-b498-c7e355f68b3d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U7 Pin 5 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 5.1562,
+                                "y": 1.1557
+                            },
+                            "uuid": "1e49f34e-8ed6-48a6-b498-c7e355f68b3d"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 5 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 5.1435,
+                                "y": 3.1115
+                            },
+                            "uuid": "8784c48d-f8f3-4bc8-bcaa-f92d46a6eda7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol J7 Pin C1 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 3.9751,
+                                "y": 3.6068
+                            },
+                            "uuid": "7618d86c-4711-441f-98d9-55ca5fa8c4f2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 3 [VDD, Power input, Line]",
+                            "pos": {
+                                "x": 4.9657,
+                                "y": 3.1369
+                            },
+                            "uuid": "24f620ec-deb8-4926-a7a3-c9b0517efede"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Both +3.3V and 3V3 are attached to the same items; +3.3V will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR024 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.1684
+                            },
+                            "uuid": "537cb91b-01c8-498a-b0ef-498fc595fcf7"
+                        },
+                        {
+                            "description": "Label '3V3'",
+                            "pos": {
+                                "x": 0.8255,
+                                "y": 1.1684
+                            },
+                            "uuid": "318208b8-d26d-4893-b01a-d198e2a6dc40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U8 Pin 21 [EP, Bidirectional, Line]",
+                            "pos": {
+                                "x": 3.7338,
+                                "y": 1.8669
+                            },
+                            "uuid": "c3050241-cb2d-4d29-b82f-ccac0b2b9b40"
+                        },
+                        {
+                            "description": "Symbol U7 Pin 2 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 4.7498,
+                                "y": 1.1811
+                            },
+                            "uuid": "98b72032-a0ca-4ca6-af91-8ffc4dcbd496"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 5 [FB, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.2418,
+                                "y": 0.3429
+                            },
+                            "uuid": "b26c0357-85f1-492c-8aa4-e8afc5d9f049"
+                        },
+                        {
+                            "description": "Symbol U7 Pin 2 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 4.7498,
+                                "y": 1.1811
+                            },
+                            "uuid": "98b72032-a0ca-4ca6-af91-8ffc4dcbd496"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CR1 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.556,
+                                "y": 3.0861
+                            },
+                            "uuid": "41f5e3a6-e420-43af-b060-3424f35cbb58"
+                        },
+                        {
+                            "description": "Symbol J7 Pin C7 [I/O, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.3307,
+                                "y": 3.683
+                            },
+                            "uuid": "33e2399b-759d-4a60-a878-895968570afb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CR1 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.556,
+                                "y": 3.3401
+                            },
+                            "uuid": "803479d5-e73d-4fd0-bc5d-4e4fc5ae1a8f"
+                        },
+                        {
+                            "description": "Symbol #PWR03 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.556,
+                                "y": 3.3401
+                            },
+                            "uuid": "782781b6-faf7-47c4-a150-fc675cdbcbb4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CR2 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.8735,
+                                "y": 3.0861
+                            },
+                            "uuid": "790d59f8-e252-49a3-b897-f0e61ea211d3"
+                        },
+                        {
+                            "description": "Symbol J7 Pin C3 [CLK, Input, Clock]",
+                            "pos": {
+                                "x": 3.9751,
+                                "y": 3.683
+                            },
+                            "uuid": "2c552c6f-6855-4732-a76c-378dc875aece"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CR2 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 3.8735,
+                                "y": 3.3401
+                            },
+                            "uuid": "8fee7b28-d4ab-4a3a-bb4d-abe94462df0a"
+                        },
+                        {
+                            "description": "Symbol #PWR03 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.556,
+                                "y": 3.3401
+                            },
+                            "uuid": "782781b6-faf7-47c4-a150-fc675cdbcbb4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CR3 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.191,
+                                "y": 3.0861
+                            },
+                            "uuid": "d439bbb4-d172-4c20-9987-633c55a92e40"
+                        },
+                        {
+                            "description": "Symbol J7 Pin C2 [RST, Input, Line]",
+                            "pos": {
+                                "x": 3.9751,
+                                "y": 3.6576
+                            },
+                            "uuid": "2d38e942-094d-446b-952b-066b179fde6e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CR3 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 4.191,
+                                "y": 3.3401
+                            },
+                            "uuid": "d40e85ae-14e3-44f0-8aaa-e2b69ca840ed"
+                        },
+                        {
+                            "description": "Symbol J7 Pin GND8 [SH, Passive, Line]",
+                            "pos": {
+                                "x": 4.3307,
+                                "y": 3.7338
+                            },
+                            "uuid": "923c20fe-a3aa-4982-913c-e68c3ec5b474"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "bingbong.kicad_sch"
+}
