@@ -1,0 +1,267 @@
+                                             CUI Devices is now Same Sky! Learn More                                                     date 11/03/2025
+                                                                                                                                         page 1 of 6
+                                                          Additional Resources: Product Page | 3D Model | PCB Footprint
+
+SERIES: TS04 | DESCRIPTION: TACTILE SWITCH
+
+FEATURES
+
+· surface mount
+· black actuator
+
+SPECIFICATIONS
+
+parameter              conditions/description                                                                  min       typ             max   units
+                                                                                                                                                Vdc
+rated voltage                                                                                                  1                         12      mA
+                                                                                                                                                Vac
+rated current                                                                                                  0.01                      50     m
+                                                                                                                                                M
+withstanding voltage   for 1 minute                                                                                      250
+                                                                                                                                                mm
+contact resistance     applying load of 2 times operating force at 5 Vdc, 10 mA                                                          100     °C
+                                                                                                                                                 °C
+insulation resistance  at 100 Vdc for 1 minute                                                                 100
+                                                                                                                                               cycles
+operating force        see force table                                                                                                         cycles
+                                                                                                                                               cycles
+actuator travel                                                                                                0.15      0.25            0.35
+
+operating temperature                                                                                          -30                       80
+
+storage temperature                                                                                            -40                       90
+
+                       rated load, 2 cycles/second, 1.5 times operating force
+
+life                   100 gf models                                                                                     100,000
+                       160 gf models                                                                                     80,000
+
+                       260 gf models                                                                                     60,000
+
+vibration              10~55~10 Hz, 1.5 mm amplitude, 2 hours on each XYZ
+
+flammability rating    see material table
+
+RoHS                   yes
+
+PART NUMBER KEY
+
+                       TS04 - 66 - XX - BK - XXX - SMT - XX
+
+                       Base Number   Actuator Height above PCB:  Push Force:                                         Packaging:
+                                     43 = 4.3 mm *73 = 7.3 mm    100 = 100 gf                                        "blank" = bag
+                                     50 = 5.0 mm 75 = 7.5 mm     160 = 160 gf                                        TR = tape and reel
+                                     55 = 5.5 mm 85 = 8.5 mm     260 = 260 gf
+                                     65 = 6.5 mm 95 = 9.5 mm
+                                     70 = 7.0 mm
+
+Note: *7.3 mm height versions have square actuator top. All other models have round actuator top.
+
+                                                                                           sameskydevices.com
+                                                          Additional Resources: Product Page | 3D Model | PCB Footprint  date 11/03/2025 | page 2 of 6
+SAME SKY | SERIES: TS04 | DESCRIPTION: TACTILE SWITCH
+
+MECHANICAL DRAWING (7.3 MM HEIGHT MODELS)
+
+units: mm                                                                             ITEM  DESCRIPTION       MATERIAL         PLATING/COLOR
+tolerance: ±0.2 mm                                                                      1   terminals         brass            silver
+unless otherwise noted                                                                  2   case              PA66 (UL94HB)    black
+                                                                                        3   contacts          stainless steel  silver
+                                               Ø 2. 4± 0. 1                             4   cover             stainless steel
+                                                                                        5   stem              PA66 (UL94HB)    black
+
+5                                                                   3. 5± 0. 2
+4                                                                         7. 3± 0. 2
+3
+2
+1
+
+                                                                                                                               ACTUATOR POSITION
+                                                                                                                                  ( ): MOMENTARY
+
+                                                                                                                               NORMAL  DOWN
+
+                                                                                                                               OFF     (ON)
+
+                                                                                                                                 SCHEMATIC
+
+                                                                                                                                              
+
+                                                                                                                                              
+
+                                                                                            Recommended PCB Layout
+                                                                                                        Top View
+
+                                                                    Operting Force Table
+
+                                                             Model  Press Force (N)         Return Force (N)
+                                                              100
+                                                              160   1.0±0.3                 >0.2
+                                                              260
+                                                                    1.6±0.5                 >0.2
+
+                                                                    2.6±0.5                 >0.2
+
+                                                                    sameskydevices.com
+                                                          Additional Resources: Product Page | 3D Model | PCB Footprint     date 11/03/2025 | page 3 of 6
+SAME SKY | SERIES: TS04 | DESCRIPTION: TACTILE SWITCH
+
+MECHANICAL DRAWING (ALL OTHER HEIGHT MODELS)
+
+units: mm                                                  ITEM            DESCRIPTION    MATERIAL                          PLATING/COLOR
+tolerance: ±0.2 mm                                           1             terminals      brass                             silver
+unless otherwise noted                                       2             case           PA66 (UL94HB)                     black
+                                                             3             contacts       stainless steel                   silver
+                      Ø 3.5                                  4             cover          stainless steel
+                                                             5             stem           PA66 (UL94HB)                     black
+
+   5                         0++00.1
+                                                            H±0.2
+   4
+   3                                                              3.45
+   2
+   1
+
+0.3          7.5                                                                                                            ACTUATOR POSITION
+      0.7  9±0.3                                                                                                               ( ): MOMENTARY
+
+                                                                                                                            NORMAL  DOWN
+
+                                                                                                                            OFF     (ON)
+
+                                                                                                                            SCHEMATIC
+
+                                                                           10.2
+                                                                             7
+
+1                            3
+
+                             4.5±0.1                                    1                                                3
+                                                 5.9
+                                                      3.1
+
+2                            4
+
+                                                                        2                                                4
+
+           6±0.2
+
+                                                           Recommended PCB Layout
+                                                                       Top View
+
+                                    Operting Force Table
+
+                             Model  Press Force (N)                     Return Force (N)
+                              100
+                              160   1.0±0.3                                >0.2
+                              260
+                                    1.6±0.5                                >0.2
+
+                                    2.6±0.5                                >0.2
+
+                                    sameskydevices.com
+                                                          Additional Resources: Product Page | 3D Model | PCB Footprint       date 11/03/2025 | page 4 of 6
+SAME SKY | SERIES: TS04 | DESCRIPTION: TACTILE SWITCH
+
+SOLDERABILITY
+
+parameter                                  conditions/description        min                                             typ  max  units
+                                           for maximum 3 seconds                                                                     °C
+hand soldering                             see reflow profile                                                                 350    °C
+
+reflow soldering1                                                                                                             260
+
+Notes:  1. Do not exceed 2 reflow cycles.
+
+                   230                                               260max.VecmD[
+                                                                        SHDNWHPSHUDWXUH
+                   180
+                   150
+
+                        URRPWHPS                                                     WLPH
+
+PACKAGING (BAG)                            SUHKHDWLQJ
+                                           WLPHLQVLGHVROGHULQJHTXLSPHQW
+units: mm
+Bag Size: 190 x 160 mm                                               A=160mmB=190mm
+Carton Box Size: 445 x 350 x 280 mm
+Bag QTY: 1,000 pcs per bag
+Carton Box QTY: 60,000 pcs per carton
+
+                                                                   
+
+                                                                     C=160mmD=216mmE=48mm
+
+                                                                                             X=350mmY=455Z=280mm
+                                                                     sameskydevices.com
+                                                          Additional Resources: Product Page | 3D Model | PCB Footprint                           date 11/03/2025 | page 5 of 6
+SAME SKY | SERIES: TS04 | DESCRIPTION: TACTILE SWITCH
+
+PACKAGING (TAPE & REEL)
+
+                                                            Packaging Table
+
+Actuator Height  Reel QTY  Carton Size (XxYxZ)  Carton QTY   RW                W                                                           AO        B0       K0            F
+ Models (mm)                        (mm)                    (mm)             (mm)                                                         (mm)     (mm)      (mm)        (mm)
+        4.3        1,000                                                                                                                 6.3±0.1  10.4±0.1  4.5±0.1     7.5±0.1
+        5.0        1,000    340 x 430 x 340     20,000      16.5             16±0.3                                                      6.3±0.1  10.4±0.1  5.2±0.1     7.5±0.1
+        5.5        1,000    340 x 430 x 340                                                                                              6.3±0.1  10.4±0.1  5.7±0.1     7.5±0.1
+        6.5         800     340 x 430 x 340     20,000      16.5             16±0.3                                                      6.3±0.1  10.4±0.1  6.7±0.1     7.5±0.1
+        7.0         750     340 x 430 x 340                                                                                              6.3±0.1  10.3±0.1  7.3±0.1     11.5±0.1
+        7.3         750     340 x 430 x 340     20,000      16.5             16±0.3                                                      6.4±0.1  10.5±0.1  7.8±0.1     11.5±0.1
+        7.5         750     340 x 430 x 340                                                                                              6.4±0.1  10.5±0.1  7.8±0.1     11.5±0.1
+        8.5         500     340 x 430 x 340     16,000      16.5             16±0.3                                                      6.3±0.1  10.4±0.1   8.6±-00.1  11.5±0.1
+        9.5         500     340 x 430 x 340                                                                                              6.3±0.1  10.4±0.1   9.6+-00.1  11.5±0.1
+                            340 x 430 x 340     10,500      24.5             24±0.3
+
+                                                10,500      24.5             24±0.3
+
+                                                10,500      24.5             24±0.3
+
+                                                7,000       24.5             24±0.3
+
+                                                7,000       24.5             24±0.3
+
+                 1.75±0.10                                                                                                                                  0.4±0.05
+                                                                                                          1.5±00.10
+                           4.0±0.10             12.0±0.10                    2.0±0.10
+
+Note: 1. Actuator height 4.3 & 5.0 models have about 15~25 open positions reserved for the front and rear positions of the reel.
+       2. Actuator height 5.5 & 6.5 models have about 15~30 open positions reserved for the front and rear positions of the reel.
+       3. Actuator height 7.0, 7.3, & 7.5 models have about 20~35 open positions reserved for the front and rear positions of the reel.
+       4. Actuator height 8.5 & 9.5 models have about 30~50 open positions reserved for the front and rear positions of the reel.
+
+                                                                                           sameskydevices.com
+                                                          Additional Resources: Product Page | 3D Model | PCB Footprint  date 11/03/2025 | page 6 of 6
+SAME SKY | SERIES: TS04 | DESCRIPTION: TACTILE SWITCH
+
+REVISION HISTORY
+
+rev.              description                                                                                            date
+
+1.0               initial release                                                                                        09/20/2021
+
+1.01              added 7.3 mm height model drawing                                                                      11/03/2021
+
+1.02              logo, datasheet style update                                                                           08/05/2022
+
+1.03              added tape and reel packaging option                                                                   05/12/2023
+
+1.04              CUI Devices rebranded to Same Sky                                                                      09/12/2024
+
+1.05              modified terminal shape and changed terminal plating                                                   11/03/2025
+
+                  The revision history provided is for informational purposes only and is believed to be accurate.
+
+                  Same Sky offers a one (1) year limited warranty. Complete warranty information is listed on our website.
+
+                  Same Sky reserves the right to make changes to the product at any time without notice. Information provided by Same Sky is believed to be accurate and
+                  reliable. However, no responsibility is assumed by Same Sky for its use, nor for any infringements of patents or other rights of third parties which may result
+                  from its use.
+
+                  Same Sky products are not authorized or warranted for use as critical components in equipment that requires an extremely high level of reliability. A critical
+                  component is any component of a life support device or system whose failure to perform can be reasonably expected to cause the failure of the life support
+                  device or system, or to affect its safety or effectiveness.
+
+                  sameskydevices.com
+

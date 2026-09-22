@@ -1,0 +1,3384 @@
+[
+ {
+  "ref": "#PWR01",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "00452e49-cf8d-4c5d-8784-d16673992a0d",
+  "props": {
+   "Reference": "#PWR01",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR023",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "00ff6895-c22a-42d7-8249-58a9b7ee47c2",
+  "props": {
+   "Reference": "#PWR023",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR018",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "0279e828-4887-4a54-8444-b90a0c80fe9c",
+  "props": {
+   "Reference": "#PWR018",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "R2",
+  "value": "100k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "0489996b-481b-4afc-914d-624e5571a5cc",
+  "props": {
+   "Reference": "R2",
+   "Value": "100k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "J5",
+  "value": "ER-CON26HT-1",
+  "fp": "Bingbong_library:Conn_Zif_26Pin",
+  "libid": "Connector:Conn_01x28_Socket",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "04d9dccf-fab6-48eb-9498-3658b089cf12",
+  "props": {
+   "Reference": "J5",
+   "Value": "ER-CON26HT-1",
+   "Footprint": "Bingbong_library:Conn_Zif_26Pin",
+   "Datasheet": "https://www.buydisplay.com/download/connector/ER-CON26HT-1.pdf",
+   "Description": "ZIF FFC 26-pin 0.5mm for buydisplay ER-OLED018-1 (SSD1326 256x32 OLED). Pin order VERIFIED 26/26 against datasheet section 5 / Table 5.1 on 2026-09-04 - pad N = display pin N, DIRECT map. Do not renumber."
+  }
+ },
+ {
+  "ref": "R24",
+  "value": "10k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": true,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "062ca42c-0548-452a-96a4-dca5571daa53",
+  "props": {
+   "Reference": "R24",
+   "Value": "10k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP73871-Data-Sheet-DS20002090F.pdf",
+   "Description": "Optional MCP73871 THERM bypass resistor; populate only when no battery NTC is installed"
+  }
+ },
+ {
+  "ref": "TH1",
+  "value": "Battery_NTC",
+  "fp": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+  "libid": "Connector:Conn_01x02_Pin",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "bec39732-3d39-481d-8834-89446d4b7dfe",
+  "props": {
+   "Reference": "TH1",
+   "Value": "Battery_NTC",
+   "Footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+   "Datasheet": "~",
+   "Description": "External battery NTC connector for MCP73871 THERM input; pin 1 THERM, pin 2 GND"
+  }
+ },
+ {
+  "ref": "#PWR07",
+  "value": "+1.8V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "075a21ea-31a5-45dd-a552-38738247fc9c",
+  "props": {
+   "Reference": "#PWR07",
+   "Value": "+1.8V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "R13",
+  "value": "680R",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "09315e68-3e13-433d-b0ef-52f89c43755b",
+  "props": {
+   "Reference": "R13",
+   "Value": "680R",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "R9",
+  "value": "100k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "09bb643a-34ce-4bd8-96ec-eb9457d3f26e",
+  "props": {
+   "Reference": "R9",
+   "Value": "100k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR08",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "0a28615f-349b-4355-b554-c5fc588615eb",
+  "props": {
+   "Reference": "#PWR08",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "J4",
+  "value": "Conn_01x02_Pin",
+  "fp": "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical",
+  "libid": "Connector:Conn_01x02_Pin",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "0b0f6d36-a45a-44c0-9b25-8f295b66f853",
+  "props": {
+   "Reference": "J4",
+   "Value": "Conn_01x02_Pin",
+   "Footprint": "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical",
+   "Datasheet": "~",
+   "Description": "Generic connector, single row, 01x02, script generated"
+  }
+ },
+ {
+  "ref": "R17",
+  "value": "0",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "0d65f9f9-5d30-41e1-b9d9-6dcd59862594",
+  "props": {
+   "Reference": "R17",
+   "Value": "0",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR071",
+  "value": "+5V",
+  "fp": "",
+  "libid": "power:+5V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "1098212f-6dfc-4fe9-b1a6-34d8cc0049ef",
+  "props": {
+   "Reference": "#PWR071",
+   "Value": "+5V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+5V\""
+  }
+ },
+ {
+  "ref": "C26",
+  "value": "220pF",
+  "fp": "Capacitor_SMD:C_0603_1608Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "1166964a-5c48-4f43-b9e0-43988b9fd23c",
+  "props": {
+   "Reference": "C26",
+   "Value": "220pF",
+   "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "R15",
+  "value": "100k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "12d5f06b-ce42-405e-bb68-e0575c2a5bb5",
+  "props": {
+   "Reference": "R15",
+   "Value": "100k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "J7",
+  "value": "2452808-1",
+  "fp": "Bingbong_library:TE_2452808-1",
+  "libid": "Bingbong_library:2452808-1",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "12ddf2d3-27d4-4538-894d-a69b0a486586",
+  "props": {
+   "Reference": "J7",
+   "Value": "2452808-1",
+   "Footprint": "Bingbong_library:TE_2452808-1",
+   "Datasheet": "",
+   "Description": "",
+   "MAXIMUM_PACKAGE_HEIGHT": "1.37 mm",
+   "CREATOR": "KARTHIK",
+   "STANDARD": "Manufacturer Recommendations",
+   "PARTREV": "C",
+   "VERIFIER": "",
+   "CAD_BUILD": "TE OEM",
+   "MANUFACTURER": "TE Connectivity"
+  }
+ },
+ {
+  "ref": "C5",
+  "value": "0.1uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "1337894b-60d4-4e74-9f0c-656b72523e08",
+  "props": {
+   "Reference": "C5",
+   "Value": "0.1uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR059",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "144552e1-9299-445c-a0c4-614c944e667a",
+  "props": {
+   "Reference": "#PWR059",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR070",
+  "value": "+12V",
+  "fp": "",
+  "libid": "power:+12V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "1545eee9-f0a2-4fd9-9ab2-b1fd844d2e3f",
+  "props": {
+   "Reference": "#PWR070",
+   "Value": "+12V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+12V\""
+  }
+ },
+ {
+  "ref": "#PWR020",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "16878b20-b1c2-44ab-986e-97c7f7c0668a",
+  "props": {
+   "Reference": "#PWR020",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "R23",
+  "value": "10k",
+  "fp": "Resistor_SMD:R_0603_1608Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "17a1261d-34ee-4f3a-97dd-985944531d51",
+  "props": {
+   "Reference": "R23",
+   "Value": "10k",
+   "Footprint": "Resistor_SMD:R_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "CR3",
+  "value": "ESD9B5.0ST5G",
+  "fp": "Diode_SMD:D_SOD-923",
+  "libid": "Bingbong_library:PESD5V0F1BLD_315",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "1c65d8cc-468d-42d4-a515-c67f03e5907c",
+  "props": {
+   "Reference": "CR3",
+   "Value": "ESD9B5.0ST5G",
+   "Footprint": "Diode_SMD:D_SOD-923",
+   "Datasheet": "ESD9B5.0ST5G",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "R14",
+  "value": "10k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "1cf77fc6-8c29-4aa6-a8af-e99d7838dcfe",
+  "props": {
+   "Reference": "R14",
+   "Value": "10k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "C11",
+  "value": "1uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "1e5ad18d-06b5-4e37-a926-41e41f1979e9",
+  "props": {
+   "Reference": "C11",
+   "Value": "1uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "D4",
+  "value": "LED Green 573nm",
+  "fp": "LED_SMD:LED_0603_1608Metric",
+  "libid": "Device:LED",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "20381be7-5bc6-40c8-9a2c-0279f3e7b04d",
+  "props": {
+   "Reference": "D4",
+   "Value": "LED Green 573nm",
+   "Footprint": "LED_SMD:LED_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Light emitting diode",
+   "Sim.Pins": "1=K 2=A"
+  }
+ },
+ {
+  "ref": "C14",
+  "value": "4.7uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "23e4e74b-130d-493f-aa43-6573a900b3b1",
+  "props": {
+   "Reference": "C14",
+   "Value": "4.7uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "Q1",
+  "value": "SMMBT2222ALT3G",
+  "fp": "Bingbong_library:SOT-23-3_1P4X3P040_ONS",
+  "libid": "Transistor_BJT:Q_NPN_BEC",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "243f1df6-ae14-459f-b9ea-17ca8cab0f38",
+  "props": {
+   "Reference": "Q1",
+   "Value": "SMMBT2222ALT3G",
+   "Footprint": "Bingbong_library:SOT-23-3_1P4X3P040_ONS",
+   "Datasheet": "https://www.onsemi.com/download/data-sheet/pdf/mmbt2222lt1-d.pdf",
+   "Description": "NPN transistor, SOT-23, pin 1 base, pin 2 emitter, pin 3 collector"
+  }
+ },
+ {
+  "ref": "#PWR053",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "249edd51-eeb3-4ce5-8573-313edf3492e1",
+  "props": {
+   "Reference": "#PWR053",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR03",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "29c67130-f798-45cb-934c-fc43eb546cd0",
+  "props": {
+   "Reference": "#PWR03",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "C23",
+  "value": "4.7uF",
+  "fp": "Capacitor_SMD:C_1206_3216Metric",
+  "libid": "Device:C_Polarized",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "2b844137-7aea-46d3-959f-99254f12f9a1",
+  "props": {
+   "Reference": "C23",
+   "Value": "4.7uF",
+   "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+   "Datasheet": "~",
+   "Description": "Polarized capacitor"
+  }
+ },
+ {
+  "ref": "R26",
+  "value": "10k",
+  "fp": "Resistor_SMD:R_0603_1608Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "2e67877d-414d-40a5-89eb-6a1701e767db",
+  "props": {
+   "Reference": "R26",
+   "Value": "10k",
+   "Footprint": "Resistor_SMD:R_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR024",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "31241313-f1e5-4244-99ea-3d35161077a7",
+  "props": {
+   "Reference": "#PWR024",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "U1",
+  "value": "R1200N002A-TR-FE",
+  "fp": "Package_TO_SOT_SMD:SOT-23-6",
+  "libid": "Bingbong_library:R1200",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "32050b73-0ed0-4cb6-8dd9-f3189b48f0da",
+  "props": {
+   "Reference": "U1",
+   "Value": "R1200N002A-TR-FE",
+   "Footprint": "Package_TO_SOT_SMD:SOT-23-6",
+   "Datasheet": "https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/r1200-ea.pdf",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "#PWR065",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "357b6803-8f14-4fbd-8eb3-4b3dbaf20071",
+  "props": {
+   "Reference": "#PWR065",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "R27",
+  "value": "110k",
+  "fp": "Resistor_SMD:R_0603_1608Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "3590f620-a9bd-4a1d-8211-6b8d6b204105",
+  "props": {
+   "Reference": "R27",
+   "Value": "110k",
+   "Footprint": "Resistor_SMD:R_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "D2",
+  "value": "LED Green 573nm",
+  "fp": "LED_SMD:LED_0603_1608Metric",
+  "libid": "Device:LED",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "359b1cc4-d687-4143-991b-a7748048087f",
+  "props": {
+   "Reference": "D2",
+   "Value": "LED Green 573nm",
+   "Footprint": "LED_SMD:LED_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Light emitting diode",
+   "Sim.Pins": "1=K 2=A"
+  }
+ },
+ {
+  "ref": "C3",
+  "value": "470 uF",
+  "fp": "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm",
+  "libid": "Device:C_Polarized",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "380125a9-65e9-4034-bdf4-b6f334a93ae3",
+  "props": {
+   "Reference": "C3",
+   "Value": "470 uF",
+   "Footprint": "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm",
+   "Datasheet": "~",
+   "Description": "Polarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR037",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "396ce90b-a92d-445d-83c7-abecd4028c1f",
+  "props": {
+   "Reference": "#PWR037",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR030",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "3a6435e0-c7ba-4c48-a195-d1bf1d55fcf4",
+  "props": {
+   "Reference": "#PWR030",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR057",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "3a9d5ecf-4145-4cc3-b8f4-cf28a97e774e",
+  "props": {
+   "Reference": "#PWR057",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR013",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "3b5e89f7-2373-496f-ad34-94cbe397c857",
+  "props": {
+   "Reference": "#PWR013",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "SW1",
+  "value": "SW_Push",
+  "fp": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+  "libid": "Switch:SW_Push",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "3c60da8f-5b4a-4875-b35a-18b1b14c2a37",
+  "props": {
+   "Reference": "SW1",
+   "Value": "SW_Push",
+   "Footprint": "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",
+   "Datasheet": "~",
+   "Description": "Push button switch, generic, two pins"
+  }
+ },
+ {
+  "ref": "C2",
+  "value": "1uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "3e0afb2d-e141-42fe-ada9-efa654bdd3ab",
+  "props": {
+   "Reference": "C2",
+   "Value": "1uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR034",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "3e1f60d0-4727-4485-802c-e77750443309",
+  "props": {
+   "Reference": "#PWR034",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR019",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "40fcabdd-03aa-462d-98dd-221869e2e3a9",
+  "props": {
+   "Reference": "#PWR019",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR060",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "41850cb0-1021-4159-bedd-375cb67cbd8b",
+  "props": {
+   "Reference": "#PWR060",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR021",
+  "value": "+1.8V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "41962546-9bfd-4ce6-8c1c-bd970cdd1572",
+  "props": {
+   "Reference": "#PWR021",
+   "Value": "+1.8V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR058",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "44eb2142-011f-40e7-ae70-16e6fa9ff123",
+  "props": {
+   "Reference": "#PWR058",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR047",
+  "value": "+5V",
+  "fp": "",
+  "libid": "power:+5V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "48c0e94e-fbac-4274-a2fb-f8278f1299a9",
+  "props": {
+   "Reference": "#PWR047",
+   "Value": "+5V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+5V\""
+  }
+ },
+ {
+  "ref": "R8",
+  "value": "5.1k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "4aa21219-22c1-4f71-b760-4b7012bfe518",
+  "props": {
+   "Reference": "R8",
+   "Value": "5.1k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR038",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "4bf600f9-3b5a-4018-a421-8f139961de1a",
+  "props": {
+   "Reference": "#PWR038",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "C22",
+  "value": "4.7uF",
+  "fp": "Capacitor_SMD:C_1206_3216Metric",
+  "libid": "Device:C_Polarized",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "4ca02b47-b951-4851-b5e9-561cda86f199",
+  "props": {
+   "Reference": "C22",
+   "Value": "4.7uF",
+   "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+   "Datasheet": "~",
+   "Description": "Polarized capacitor"
+  }
+ },
+ {
+  "ref": "R4",
+  "value": "0",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "4e13a832-ce84-4d99-a0d9-00bb72770f90",
+  "props": {
+   "Reference": "R4",
+   "Value": "0",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "U8",
+  "value": "MCP73871-2CCI_ML",
+  "fp": "Bingbong_library:QFN50P400X400X100-21N",
+  "libid": "Bingbong_library:MCP73871-2CCI_ML",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "4eeb49c1-8018-4bd3-a051-2aac5a462e8a",
+  "props": {
+   "Reference": "U8",
+   "Value": "MCP73871-2CCI_ML",
+   "Footprint": "Bingbong_library:QFN50P400X400X100-21N",
+   "Datasheet": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP73871-Data-Sheet-DS20002090F.pdf",
+   "Description": "Li-Ion/Li-Polymer charger with load sharing and power path management"
+  }
+ },
+ {
+  "ref": "#PWR035",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "50337f7b-3169-46c5-a45a-872432a562c8",
+  "props": {
+   "Reference": "#PWR035",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR049",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "53bfb430-ef9e-4bd8-9005-927ff00945a1",
+  "props": {
+   "Reference": "#PWR049",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "R11",
+  "value": "680R",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "574fc439-3fde-43ab-b407-127f07d5f713",
+  "props": {
+   "Reference": "R11",
+   "Value": "680R",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "C17",
+  "value": "0.1uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "57bceb26-324b-4f49-8c92-b0b1c6737e44",
+  "props": {
+   "Reference": "C17",
+   "Value": "0.1uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR025",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "57d81a45-cd67-4292-8005-540e09ee7e2a",
+  "props": {
+   "Reference": "#PWR025",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "U6",
+  "value": "TPS62172DSGR",
+  "fp": "Bingbong_library:SON50P200X200X80-9N",
+  "libid": "Bingbong_library:TPS62172DSGR",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "58e21b4f-16c8-40f2-a69f-e1491fa6b4d0",
+  "props": {
+   "Reference": "U6",
+   "Value": "TPS62172DSGR",
+   "Footprint": "Bingbong_library:SON50P200X200X80-9N",
+   "Datasheet": "",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "#PWR06",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "59c1c274-4311-415c-a13b-8d248b9b1ef8",
+  "props": {
+   "Reference": "#PWR06",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "C24",
+  "value": "1uF",
+  "fp": "Capacitor_SMD:C_0603_1608Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "5b0e0d9a-4d5d-423a-bbd2-a8cdcc9d8531",
+  "props": {
+   "Reference": "C24",
+   "Value": "1uF",
+   "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "R22",
+  "value": "10k",
+  "fp": "Resistor_SMD:R_0603_1608Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "5c79d314-a9de-4a8a-86ea-273279c17dac",
+  "props": {
+   "Reference": "R22",
+   "Value": "10k",
+   "Footprint": "Resistor_SMD:R_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "R21",
+  "value": "680k",
+  "fp": "Resistor_SMD:R_0603_1608Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "5cf646cb-8dcc-44f4-9959-e96c4ce92aba",
+  "props": {
+   "Reference": "R21",
+   "Value": "680k",
+   "Footprint": "Resistor_SMD:R_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "R16",
+  "value": "100k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "5e1afd30-6ed9-4e9d-8c36-bf30afb6615b",
+  "props": {
+   "Reference": "R16",
+   "Value": "100k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR066",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "631fed1e-384a-4316-804f-7342df28dcf0",
+  "props": {
+   "Reference": "#PWR066",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "CR1",
+  "value": "ESD9B5.0ST5G",
+  "fp": "Diode_SMD:D_SOD-923",
+  "libid": "Bingbong_library:PESD5V0F1BLD_315",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "64caf5ae-401f-47df-8331-0b4fb72e0359",
+  "props": {
+   "Reference": "CR1",
+   "Value": "ESD9B5.0ST5G",
+   "Footprint": "Diode_SMD:D_SOD-923",
+   "Datasheet": "ESD9B5.0ST5G",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "C21",
+  "value": "0.1uF",
+  "fp": "Capacitor_SMD:C_0603_1608Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "69e94d27-ab10-4585-b272-d5d1e497ec4d",
+  "props": {
+   "Reference": "C21",
+   "Value": "0.1uF",
+   "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "U2",
+  "value": "BG95M3LA-64-SGNS",
+  "fp": "Bingbong_library:XCVR_BG95M3LA-64-SGNS",
+  "libid": "Bingbong_library:BG95M3LA-64-SGNS",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "6bd4f336-06b0-40ae-9775-dc6f7ce79234",
+  "props": {
+   "Reference": "U2",
+   "Value": "BG95M3LA-64-SGNS",
+   "Footprint": "Bingbong_library:XCVR_BG95M3LA-64-SGNS",
+   "Datasheet": "",
+   "Description": "",
+   "MF": "Quectel Wireless Solutions Co., Ltd",
+   "Purchase-URL": "https://pricing.snapeda.com/search/part/BG95M3LA-64-SGNS/?ref=eda",
+   "Package": "SMD Quectel Wireless Solutions Co., Ltd",
+   "Price": "None",
+   "MP": "BG95M3LA-64-SGNS",
+   "Availability": "In Stock",
+   "Description_1": "Cellular, Navigation BeiDou, Galileo, GLONASS, GPS, GNSS, LTE Transceiver Module - Antenna Not Included Surface Mount"
+  }
+ },
+ {
+  "ref": "C1",
+  "value": "0.1uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "6f07d8ac-de9b-4cbb-afd1-379c17131b8b",
+  "props": {
+   "Reference": "C1",
+   "Value": "0.1uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR072",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "70868bbb-2627-49be-98f3-d99879832798",
+  "props": {
+   "Reference": "#PWR072",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "C7",
+  "value": "0.1uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "71165271-807c-40e4-9f58-c222eb780449",
+  "props": {
+   "Reference": "C7",
+   "Value": "0.1uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "C16",
+  "value": "4.7uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "7174b528-918a-4c4a-8480-09ddaa59dba6",
+  "props": {
+   "Reference": "C16",
+   "Value": "4.7uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR011",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "72ff487e-0973-4222-a4a3-8553fbdd24a9",
+  "props": {
+   "Reference": "#PWR011",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "C6",
+  "value": "0.1uF",
+  "fp": "Capacitor_SMD:C_0603_1608Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "7306631e-744e-4e68-8a1c-f7e6595be658",
+  "props": {
+   "Reference": "C6",
+   "Value": "0.1uF",
+   "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "U3",
+  "value": "SN74AVC2T245RSWR",
+  "fp": "Bingbong_library:QFN40P180X140X55-10N",
+  "libid": "Bingbong_library:SN74AVC2T245RSWR",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "754272e9-feec-4d78-98f8-046c95f96368",
+  "props": {
+   "Reference": "U3",
+   "Value": "SN74AVC2T245RSWR",
+   "Footprint": "Bingbong_library:QFN40P180X140X55-10N",
+   "Datasheet": "",
+   "Description": "",
+   "MF": "Texas Instruments",
+   "DESCRIPTION": "Dual-Bit, 2-DIR pin Dual-Supply Bus Transceiver w/ Configurable Voltage Translation, 3-State Output 10-UQFN",
+   "PACKAGE": "UQFN-10 Texas Instruments",
+   "PRICE": "None",
+   "STANDARD": "IPC-7351B",
+   "MP": "SN74AVC2T245RSWR",
+   "AVAILABILITY": "Unavailable"
+  }
+ },
+ {
+  "ref": "#PWR032",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "7a0d2d4e-099b-467f-ae32-3db215f8205f",
+  "props": {
+   "Reference": "#PWR032",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "L2",
+  "value": "22uH",
+  "fp": "Inductor_SMD:L_0805_2012Metric",
+  "libid": "Device:L",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "7a75231e-1e63-4baf-a395-4c3db0eea1c0",
+  "props": {
+   "Reference": "L2",
+   "Value": "22uH",
+   "Footprint": "Inductor_SMD:L_0805_2012Metric",
+   "Datasheet": "~",
+   "Description": "Inductor"
+  }
+ },
+ {
+  "ref": "#PWR015",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "7b9cfed7-be62-4e24-b189-d5c8f89f9168",
+  "props": {
+   "Reference": "#PWR015",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR067",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "7d70e5e8-327f-41bd-946e-d96e41a9996c",
+  "props": {
+   "Reference": "#PWR067",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "R12",
+  "value": "1k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "7fa044a0-e8d3-44b0-8789-ab52fc35edb0",
+  "props": {
+   "Reference": "R12",
+   "Value": "1k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR028",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "816a1b55-9da7-40c5-a3f2-11e47a0e8c23",
+  "props": {
+   "Reference": "#PWR028",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR010",
+  "value": "+1.8V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "8802b46a-8a28-466e-b753-f0e5bbb5368f",
+  "props": {
+   "Reference": "#PWR010",
+   "Value": "+1.8V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+1.8V\""
+  }
+ },
+ {
+  "ref": "#PWR016",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "8d29d7b2-088e-4473-9805-48a412d034f3",
+  "props": {
+   "Reference": "#PWR016",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "J2",
+  "value": "1054500101",
+  "fp": "Bingbong_library:MOLEX_1054500101",
+  "libid": "Bingbong_library:1054500101",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "8d6094dd-42ef-4b9e-84a5-a9ccbda0ab54",
+  "props": {
+   "Reference": "J2",
+   "Value": "1054500101",
+   "Footprint": "Bingbong_library:MOLEX_1054500101",
+   "Datasheet": "",
+   "Description": "",
+   "PARTREV": "A7",
+   "STANDARD": "Manufacturer Recommendations",
+   "OPTION": "MOLEX_CONFIG",
+   "MAXIMUM_PACKAGE_HEIGHT": "3.24mm",
+   "MANUFACTURER": "Molex"
+  }
+ },
+ {
+  "ref": "S2",
+  "value": "TS04-66-70-BK-100-SMT",
+  "fp": "Bingbong_library:SW_TS04-66-70-BK-100-SMT",
+  "libid": "Bingbong_library:TS04-66-70-BK-100-SMT",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "90ec6407-833a-4c97-b373-b2d99483796a",
+  "props": {
+   "Reference": "S2",
+   "Value": "TS04-66-70-BK-100-SMT",
+   "Footprint": "Bingbong_library:SW_TS04-66-70-BK-100-SMT",
+   "Datasheet": "",
+   "Description": "",
+   "PARTREV": "1.0",
+   "MANUFACTURER": "CUI Devices",
+   "STANDARD": "Manufacturer Recommendations"
+  }
+ },
+ {
+  "ref": "#PWR044",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "9107ab9c-f49c-4414-ac65-b2ad1e65a3b7",
+  "props": {
+   "Reference": "#PWR044",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "L1",
+  "value": "3.3uH",
+  "fp": "Inductor_SMD:L_1008_2520Metric",
+  "libid": "Device:L",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "91813438-499e-4891-a860-aba39901765c",
+  "props": {
+   "Reference": "L1",
+   "Value": "3.3uH",
+   "Footprint": "Inductor_SMD:L_1008_2520Metric",
+   "Datasheet": "~",
+   "Description": "Inductor"
+  }
+ },
+ {
+  "ref": "R28",
+  "value": "2k",
+  "fp": "Resistor_SMD:R_0603_1608Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "9393394d-0023-4e8a-a42a-c3d4f9ce1126",
+  "props": {
+   "Reference": "R28",
+   "Value": "2k",
+   "Footprint": "Resistor_SMD:R_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR036",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "951867a8-abeb-4d1b-9bfc-1e58e9d07673",
+  "props": {
+   "Reference": "#PWR036",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "R31",
+  "value": "100k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "c2383577-44c5-42ac-b96c-deb827fb7d68",
+  "props": {
+   "Reference": "R31",
+   "Value": "100k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "R32",
+  "value": "100k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "893826c2-fd08-444d-998f-38da45e7fb12",
+  "props": {
+   "Reference": "R32",
+   "Value": "100k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR0102",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "ee1b732f-ec31-40b8-a747-87141dc638f7",
+  "props": {
+   "Reference": "#PWR0102",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR0103",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "8d375513-f7ef-43fe-b4e8-ae02edb5cfed",
+  "props": {
+   "Reference": "#PWR0103",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR0104",
+  "value": "+5V",
+  "fp": "",
+  "libid": "power:+5V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "554f353f-08f8-4b14-a01c-8847428b389a",
+  "props": {
+   "Reference": "#PWR0104",
+   "Value": "+5V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+5V\""
+  }
+ },
+ {
+  "ref": "R33",
+  "value": "100k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "5f4b3e14-fed1-4560-bd05-9c2c4edf3690",
+  "props": {
+   "Reference": "R33",
+   "Value": "100k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "R34",
+  "value": "40.2k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "c48c0199-a711-4d04-95ae-39ae0285d880",
+  "props": {
+   "Reference": "R34",
+   "Value": "40.2k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR0105",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "52512ffb-cf09-440b-8311-6f852e798d0b",
+  "props": {
+   "Reference": "#PWR0105",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C30",
+  "value": "100nF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "9b63ae1e-4abc-4f58-9953-f003dc5765f4",
+  "props": {
+   "Reference": "C30",
+   "Value": "100nF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR0106",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "b9a971e9-2067-4c40-a2c3-8f641ae3c0a2",
+  "props": {
+   "Reference": "#PWR0106",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "R35",
+  "value": "100k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "938f409d-b379-4687-8670-06d0e15cfd82",
+  "props": {
+   "Reference": "R35",
+   "Value": "100k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR0107",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "4853c9e1-47c7-41f7-8e98-8c0594adc095",
+  "props": {
+   "Reference": "#PWR0107",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "#PWR0108",
+  "value": "+1.8V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "4e780d16-1c58-4cc6-9901-eed3c7cc2790",
+  "props": {
+   "Reference": "#PWR0108",
+   "Value": "+1.8V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+1.8V\""
+  }
+ },
+ {
+  "ref": "C31",
+  "value": "15pF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "177cce41-c7bf-4ba7-a4f7-e830949d413f",
+  "props": {
+   "Reference": "C31",
+   "Value": "15pF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "RF pi series / DC block - C0G, populate in build 1"
+  }
+ },
+ {
+  "ref": "C32",
+  "value": "DNP",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": true,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "ee9590a9-024a-4b16-94ca-366c193d88a7",
+  "props": {
+   "Reference": "C32",
+   "Value": "DNP",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "RF pi shunt, modem side - C0G, DNP in build 1"
+  }
+ },
+ {
+  "ref": "#PWR0109",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "af5c4fde-2516-4651-aa38-20b3c58e5583",
+  "props": {
+   "Reference": "#PWR0109",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C33",
+  "value": "DNP",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": true,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "6e3d1a98-b6cc-4bcb-9460-325ccf6d3e24",
+  "props": {
+   "Reference": "C33",
+   "Value": "DNP",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "RF pi shunt, connector side - C0G, DNP in build 1"
+  }
+ },
+ {
+  "ref": "#PWR0110",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "8e220a39-53d9-4f37-914b-29496680b366",
+  "props": {
+   "Reference": "#PWR0110",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C34",
+  "value": "15pF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "3a239d1e-7fbc-443c-b417-6902feecff72",
+  "props": {
+   "Reference": "C34",
+   "Value": "15pF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "RF pi series / DC block - C0G, populate in build 1"
+  }
+ },
+ {
+  "ref": "C35",
+  "value": "DNP",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": true,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "1dd2c5ba-2214-4496-a6ce-e42eb7998cb5",
+  "props": {
+   "Reference": "C35",
+   "Value": "DNP",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "RF pi shunt, modem side - C0G, DNP in build 1"
+  }
+ },
+ {
+  "ref": "#PWR0111",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "05a530bf-560a-49e5-8f54-1cda77099019",
+  "props": {
+   "Reference": "#PWR0111",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C36",
+  "value": "DNP",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": true,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "0edbebcf-dd8a-4702-bb18-b18673e83e3b",
+  "props": {
+   "Reference": "C36",
+   "Value": "DNP",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "RF pi shunt, connector side - C0G, DNP in build 1"
+  }
+ },
+ {
+  "ref": "#PWR0112",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "cbdb60c0-bffe-438a-a872-ef40b75d0cbb",
+  "props": {
+   "Reference": "#PWR0112",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "J8",
+  "value": "CONMHF1-SMD-T",
+  "fp": "Bingbong_library:TE_CONMHF1-SMD-T",
+  "libid": "Bingbong_library:CONMHF1-SMD-T",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "cc730811-4acb-488a-aa9a-27b59a0ca024",
+  "props": {
+   "Reference": "J8",
+   "Value": "CONMHF1-SMD-T",
+   "Footprint": "Bingbong_library:TE_CONMHF1-SMD-T",
+   "Datasheet": "",
+   "Description": "",
+   "MAXIMUM_PACKAGE_HEIGHT": "1.31mm",
+   "CREATOR": "DIZAR",
+   "STANDARD": "Manufacturer Recommendations",
+   "PARTREV": "09/22",
+   "VERIFIER": "",
+   "CAD_BUILD": "TE OEM",
+   "MANUFACTURER": "TE Connectivity"
+  }
+ },
+ {
+  "ref": "#PWR0113",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "1b1d1680-5805-4945-8e70-340191c846e6",
+  "props": {
+   "Reference": "#PWR0113",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "CR4",
+  "value": "ESD9B5.0ST5G",
+  "fp": "Diode_SMD:D_SOD-923",
+  "libid": "Bingbong_library:PESD5V0F1BLD_315",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "cee9ec66-8208-4284-894b-84d7415a841f",
+  "props": {
+   "Reference": "CR4",
+   "Value": "ESD9B5.0ST5G",
+   "Footprint": "Diode_SMD:D_SOD-923",
+   "Datasheet": "ESD9B5.0ST5G",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "#PWR0114",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "7722afd2-5940-4d8e-a5db-f5691d061696",
+  "props": {
+   "Reference": "#PWR0114",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "CR5",
+  "value": "ESD9B5.0ST5G",
+  "fp": "Diode_SMD:D_SOD-923",
+  "libid": "Bingbong_library:PESD5V0F1BLD_315",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "eb689219-0916-44a7-b5a4-73be41728042",
+  "props": {
+   "Reference": "CR5",
+   "Value": "ESD9B5.0ST5G",
+   "Footprint": "Diode_SMD:D_SOD-923",
+   "Datasheet": "ESD9B5.0ST5G",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "#PWR0115",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "04286f41-0de9-4881-aeed-1f91a2ab5ba5",
+  "props": {
+   "Reference": "#PWR0115",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "CR6",
+  "value": "ESD9B5.0ST5G",
+  "fp": "Diode_SMD:D_SOD-923",
+  "libid": "Bingbong_library:PESD5V0F1BLD_315",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "29b20b6e-0980-451d-9734-4978124e2d61",
+  "props": {
+   "Reference": "CR6",
+   "Value": "ESD9B5.0ST5G",
+   "Footprint": "Diode_SMD:D_SOD-923",
+   "Datasheet": "ESD9B5.0ST5G",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "#PWR0116",
+  "value": "+5V",
+  "fp": "",
+  "libid": "power:+5V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "3a329a73-9adb-4895-ada2-b1c72981e111",
+  "props": {
+   "Reference": "#PWR0116",
+   "Value": "+5V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+5V\""
+  }
+ },
+ {
+  "ref": "#PWR0117",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "6f911242-9baf-4500-9db9-8d668277b91c",
+  "props": {
+   "Reference": "#PWR0117",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C37",
+  "value": "100nF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "5f7c3f72-1d70-4d47-8fd1-6ff3b6b055e4",
+  "props": {
+   "Reference": "C37",
+   "Value": "100nF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "VBUS HF bypass - X7R, PLACE WITHIN 5mm OF U8 PINS 18/19"
+  }
+ },
+ {
+  "ref": "#PWR0118",
+  "value": "+5V",
+  "fp": "",
+  "libid": "power:+5V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "7366c3e9-be56-44f9-b3ec-560f92782266",
+  "props": {
+   "Reference": "#PWR0118",
+   "Value": "+5V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+5V\""
+  }
+ },
+ {
+  "ref": "#PWR0119",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "52d2e037-0e5a-4ef6-91e5-5a50e2edb8af",
+  "props": {
+   "Reference": "#PWR0119",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C38",
+  "value": "100nF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "826ccc39-38f6-4eac-9a57-1f719d298784",
+  "props": {
+   "Reference": "C38",
+   "Value": "100nF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "USIM_VDD bypass - X7R, place within 3-5mm of J7 pin C1"
+  }
+ },
+ {
+  "ref": "#PWR0120",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "95a86266-00bf-4bdf-856f-7c1885aeb2d4",
+  "props": {
+   "Reference": "#PWR0120",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C39",
+  "value": "1uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "fe0330d9-fa02-44d9-bc7e-7754ffaa2169",
+  "props": {
+   "Reference": "C39",
+   "Value": "1uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "USIM_VDD bulk - place close to J7 pin C1"
+  }
+ },
+ {
+  "ref": "#PWR0121",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "fb4decf0-a378-4aa5-8c29-a5b90e0f0840",
+  "props": {
+   "Reference": "#PWR0121",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C40",
+  "value": "100nF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "0fcbaf22-8645-4f0d-a6d1-8f4d35c31fbd",
+  "props": {
+   "Reference": "C40",
+   "Value": "100nF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "SIM detect filter - place at the MCU end"
+  }
+ },
+ {
+  "ref": "#PWR0122",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "237bf203-49b2-4986-ab71-03f1166d1724",
+  "props": {
+   "Reference": "#PWR0122",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C41",
+  "value": "DNP",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": true,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "6e4ce539-22dc-408e-9f18-c44c4dc65ddd",
+  "props": {
+   "Reference": "C41",
+   "Value": "DNP",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "SIM EMI shunt (Quectel ref) - 22pF C0G, DNP in build 1"
+  }
+ },
+ {
+  "ref": "#PWR0123",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "e034b987-2e6e-4405-a892-00dd19c41cd5",
+  "props": {
+   "Reference": "#PWR0123",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C42",
+  "value": "DNP",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": true,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "0f5525be-85ed-47e5-a702-1c5c9785d838",
+  "props": {
+   "Reference": "C42",
+   "Value": "DNP",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "SIM EMI shunt (Quectel ref) - 22pF C0G, DNP in build 1"
+  }
+ },
+ {
+  "ref": "#PWR0124",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "6fe5e6ec-2372-4245-88b6-aed016ac5d9c",
+  "props": {
+   "Reference": "#PWR0124",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "C43",
+  "value": "DNP",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": true,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "1df84793-864f-4388-81ba-22d5173e859d",
+  "props": {
+   "Reference": "C43",
+   "Value": "DNP",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "SIM EMI shunt (Quectel ref) - 22pF C0G, DNP in build 1"
+  }
+ },
+ {
+  "ref": "#PWR0125",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "c67d9a19-ca96-4393-aa83-4e1508fc4916",
+  "props": {
+   "Reference": "#PWR0125",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "CR7",
+  "value": "ESD9B5.0ST5G",
+  "fp": "Diode_SMD:D_SOD-923",
+  "libid": "Bingbong_library:PESD5V0F1BLD_315",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "5e1b63a9-2c47-4e78-9a24-a8e83f11e965",
+  "props": {
+   "Reference": "CR7",
+   "Value": "ESD9B5.0ST5G",
+   "Footprint": "Diode_SMD:D_SOD-923",
+   "Datasheet": "ESD9B5.0ST5G",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "#PWR0126",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "57e20b99-0ecd-4668-871a-d64fef1a2643",
+  "props": {
+   "Reference": "#PWR0126",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "CR8",
+  "value": "ESD9B5.0ST5G",
+  "fp": "Diode_SMD:D_SOD-923",
+  "libid": "Bingbong_library:PESD5V0F1BLD_315",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "6cb0e25d-b0b6-4f45-9e71-1a9fb510fe2a",
+  "props": {
+   "Reference": "CR8",
+   "Value": "ESD9B5.0ST5G",
+   "Footprint": "Diode_SMD:D_SOD-923",
+   "Datasheet": "ESD9B5.0ST5G",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "#PWR0127",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "57cd1d00-954f-4828-8fbc-b646dbf3be7f",
+  "props": {
+   "Reference": "#PWR0127",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\""
+  }
+ },
+ {
+  "ref": "R36",
+  "value": "1k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "d4cf088f-acf9-4f88-a758-ba91a595e8c8",
+  "props": {
+   "Reference": "R36",
+   "Value": "1k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR0128",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "b3837ce6-01f7-42d1-8e26-e793c32853a0",
+  "props": {
+   "Reference": "#PWR0128",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "R37",
+  "value": "10k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "beb7f0d1-7fc2-4a67-9b4c-cc7c9ef9031b",
+  "props": {
+   "Reference": "R37",
+   "Value": "10k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR050",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "95503aa0-591c-4098-9334-923713726a0e",
+  "props": {
+   "Reference": "#PWR050",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "R7",
+  "value": "5.1k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "962d7c5e-5d56-47d0-b9d7-9b974c64d947",
+  "props": {
+   "Reference": "R7",
+   "Value": "5.1k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "C13",
+  "value": "22uF",
+  "fp": "Capacitor_SMD:C_0805_2012Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "9638bd35-1774-4f40-a760-1f31cfb8b000",
+  "props": {
+   "Reference": "C13",
+   "Value": "22uF",
+   "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR045",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "96d5dc4b-c0f7-4482-92df-cd1825fa42ab",
+  "props": {
+   "Reference": "#PWR045",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR031",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "9a341fd1-3c9f-4df1-9035-db42f0a0107b",
+  "props": {
+   "Reference": "#PWR031",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR042",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "a19a4106-ea34-460e-84ad-ee2898b53068",
+  "props": {
+   "Reference": "#PWR042",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR02",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "a48ae292-3c77-4a9f-9428-76981aa17019",
+  "props": {
+   "Reference": "#PWR02",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "C25",
+  "value": "1uF",
+  "fp": "Capacitor_SMD:C_0603_1608Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "aa8b8e3a-a839-4f23-ba8b-74cfa154d7ee",
+  "props": {
+   "Reference": "C25",
+   "Value": "1uF",
+   "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "J6",
+  "value": "Conn_01x05_Pin",
+  "fp": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+  "libid": "Connector:Conn_01x05_Pin",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "abacd54f-92e8-4438-a509-cf5a5cc3b2a4",
+  "props": {
+   "Reference": "J6",
+   "Value": "Conn_01x05_Pin",
+   "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+   "Datasheet": "~",
+   "Description": "Generic connector, single row, 01x05, script generated"
+  }
+ },
+ {
+  "ref": "#PWR048",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "abd46360-b2ac-482d-903a-71298e811830",
+  "props": {
+   "Reference": "#PWR048",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR026",
+  "value": "+5V",
+  "fp": "",
+  "libid": "power:+5V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "ad9889e7-e880-4faa-b420-07e06d0f4fd6",
+  "props": {
+   "Reference": "#PWR026",
+   "Value": "+5V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+5V\""
+  }
+ },
+ {
+  "ref": "U5",
+  "value": "TPD2EUSB30ADRTR",
+  "fp": "Bingbong_library:SOTFL35P100X50-3N",
+  "libid": "Bingbong_library:TPD2EUSB30ADRTR",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "af4297e3-7d9c-496a-b5e9-248839c612ae",
+  "props": {
+   "Reference": "U5",
+   "Value": "TPD2EUSB30ADRTR",
+   "Footprint": "Bingbong_library:SOTFL35P100X50-3N",
+   "Datasheet": "",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "R18",
+  "value": "10k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "af4ac18d-c65c-489b-9da5-ea09bc106294",
+  "props": {
+   "Reference": "R18",
+   "Value": "10k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR029",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "b00de684-3d69-4ec3-a738-2f452de782d9",
+  "props": {
+   "Reference": "#PWR029",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR054",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "b1a18c87-5451-46f3-ae2b-aa7e8d277646",
+  "props": {
+   "Reference": "#PWR054",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "R20",
+  "value": "10k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "b20de051-2562-4989-acab-eab233b54f63",
+  "props": {
+   "Reference": "R20",
+   "Value": "10k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "C18",
+  "value": "0.1uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "b24bdf33-0515-492f-90e3-44002d5dbe66",
+  "props": {
+   "Reference": "C18",
+   "Value": "0.1uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "C8",
+  "value": "10uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "b2783951-896a-4c3f-a031-5fb3de737b0f",
+  "props": {
+   "Reference": "C8",
+   "Value": "10uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR05",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "b29415fe-4b21-4cb8-9415-ed35e1ec8b60",
+  "props": {
+   "Reference": "#PWR05",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR055",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "b338c0fc-ff67-4d78-8149-ef9fff602740",
+  "props": {
+   "Reference": "#PWR055",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR014",
+  "value": "+12V",
+  "fp": "",
+  "libid": "power:+12V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "b52f0329-3465-4d8c-957f-715e256d5d11",
+  "props": {
+   "Reference": "#PWR014",
+   "Value": "+12V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+12V\""
+  }
+ },
+ {
+  "ref": "#PWR027",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "bc1c5a3e-bf67-42d2-8568-6b23888fd6a1",
+  "props": {
+   "Reference": "#PWR027",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR051",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "bce632b8-86ea-4533-83b3-823625a4a66a",
+  "props": {
+   "Reference": "#PWR051",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "S1",
+  "value": "TS04-66-70-BK-100-SMT",
+  "fp": "Bingbong_library:SW_TS04-66-70-BK-100-SMT",
+  "libid": "Bingbong_library:TS04-66-70-BK-100-SMT",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "bf204148-f568-4717-ab5b-b8ecc67b8a23",
+  "props": {
+   "Reference": "S1",
+   "Value": "TS04-66-70-BK-100-SMT",
+   "Footprint": "Bingbong_library:SW_TS04-66-70-BK-100-SMT",
+   "Datasheet": "",
+   "Description": "",
+   "PARTREV": "1.0",
+   "MANUFACTURER": "CUI Devices",
+   "STANDARD": "Manufacturer Recommendations"
+  }
+ },
+ {
+  "ref": "#PWR046",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "c2ecbc6b-bc60-4e6c-af65-e6e9093bcd94",
+  "props": {
+   "Reference": "#PWR046",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR017",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "caf01bcd-6dd4-4456-b389-49c02a58fec6",
+  "props": {
+   "Reference": "#PWR017",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR062",
+  "value": "+12V",
+  "fp": "",
+  "libid": "power:+12V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "cd90b559-0cf0-42eb-b79d-356c26c4e2da",
+  "props": {
+   "Reference": "#PWR062",
+   "Value": "+12V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+12V\""
+  }
+ },
+ {
+  "ref": "C4",
+  "value": "0.1uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "cdabc968-a7df-40ff-aae1-d612ccf0a56b",
+  "props": {
+   "Reference": "C4",
+   "Value": "0.1uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "C29",
+  "value": "1uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "cf1da871-354c-4349-a774-bbdc9e2c2253",
+  "props": {
+   "Reference": "C29",
+   "Value": "1uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "R6",
+  "value": "100k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "d17745c5-8a59-4567-8a02-9f3275194f61",
+  "props": {
+   "Reference": "R6",
+   "Value": "100k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "C15",
+  "value": "10uF",
+  "fp": "Capacitor_SMD:C_0603_1608Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "d1e31a61-ff0e-479c-84e0-316844e7b56e",
+  "props": {
+   "Reference": "C15",
+   "Value": "10uF",
+   "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR068",
+  "value": "+1.8V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "d3d703c3-3fd9-4382-a6df-ff9a8b1320f7",
+  "props": {
+   "Reference": "#PWR068",
+   "Value": "+1.8V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR09",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "d9950d9f-0371-4c70-bc7a-0fb8e8ac0393",
+  "props": {
+   "Reference": "#PWR09",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "#PWR056",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "da573746-b688-4493-9e2b-f871468a3224",
+  "props": {
+   "Reference": "#PWR056",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "C9",
+  "value": "10uF",
+  "fp": "Capacitor_SMD:C_0402_1005Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "daa7fb4b-6d7e-4329-8fe7-8833e07c36a5",
+  "props": {
+   "Reference": "C9",
+   "Value": "10uF",
+   "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "J3",
+  "value": "CONMHF1-SMD-T",
+  "fp": "Bingbong_library:TE_CONMHF1-SMD-T",
+  "libid": "Bingbong_library:CONMHF1-SMD-T",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "db83b3e8-528e-4697-a702-7943d3678b98",
+  "props": {
+   "Reference": "J3",
+   "Value": "CONMHF1-SMD-T",
+   "Footprint": "Bingbong_library:TE_CONMHF1-SMD-T",
+   "Datasheet": "",
+   "Description": "",
+   "MAXIMUM_PACKAGE_HEIGHT": "1.31mm",
+   "CREATOR": "DIZAR",
+   "STANDARD": "Manufacturer Recommendations",
+   "PARTREV": "09/22",
+   "VERIFIER": "",
+   "CAD_BUILD": "TE OEM",
+   "MANUFACTURER": "TE Connectivity"
+  }
+ },
+ {
+  "ref": "C10",
+  "value": "22uF",
+  "fp": "Capacitor_SMD:C_0805_2012Metric",
+  "libid": "Device:C",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "dd1eae87-ab7a-4541-aaea-d873ea3fc526",
+  "props": {
+   "Reference": "C10",
+   "Value": "22uF",
+   "Footprint": "Capacitor_SMD:C_0805_2012Metric",
+   "Datasheet": "~",
+   "Description": "Unpolarized capacitor"
+  }
+ },
+ {
+  "ref": "#PWR040",
+  "value": "+1.8V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "de69c23e-82d4-4b1f-b7d2-1473c310e3ce",
+  "props": {
+   "Reference": "#PWR040",
+   "Value": "+1.8V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR012",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "e06d2908-0314-4d0f-83a7-95e4935eadf1",
+  "props": {
+   "Reference": "#PWR012",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "U10",
+  "value": "ESP32-S2-SOLO-2U-N4",
+  "fp": "Bingbong_library:ESP32-S2-SOLO-2U_EXP",
+  "libid": "Bingbong_library:ESP32-S2-SOLO-2U-N4",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "e2ce3897-fd55-4ac8-8560-7d42e1f8bf0d",
+  "props": {
+   "Reference": "U10",
+   "Value": "ESP32-S2-SOLO-2U-N4",
+   "Footprint": "Bingbong_library:ESP32-S2-SOLO-2U_EXP",
+   "Datasheet": "ESP32-S2-SOLO-2U-N4",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "D3",
+  "value": "LED Red 630nm",
+  "fp": "LED_SMD:LED_0603_1608Metric",
+  "libid": "Device:LED",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "e380b70e-aa63-48e8-80e6-a279780ee8ae",
+  "props": {
+   "Reference": "D3",
+   "Value": "LED Red 630nm",
+   "Footprint": "LED_SMD:LED_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Light emitting diode",
+   "Sim.Pins": "1=K 2=A"
+  }
+ },
+ {
+  "ref": "R3",
+  "value": "1k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "e380ff4a-e835-43e5-b375-bb64e469ba4a",
+  "props": {
+   "Reference": "R3",
+   "Value": "1k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR061",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "e3ba5ef6-564d-4028-887d-265a04d13e24",
+  "props": {
+   "Reference": "#PWR061",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "R1",
+  "value": "10k",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "e3ea9131-b93d-4950-93b7-a2d22f41c726",
+  "props": {
+   "Reference": "R1",
+   "Value": "10k",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "D1",
+  "value": "LED Red 630nm",
+  "fp": "LED_SMD:LED_0603_1608Metric",
+  "libid": "Device:LED",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "e925c3cb-9c4f-4949-bc02-810f13bd1e01",
+  "props": {
+   "Reference": "D1",
+   "Value": "LED Red 630nm",
+   "Footprint": "LED_SMD:LED_0603_1608Metric",
+   "Datasheet": "~",
+   "Description": "Light emitting diode",
+   "Sim.Pins": "1=K 2=A"
+  }
+ },
+ {
+  "ref": "CR2",
+  "value": "ESD9B5.0ST5G",
+  "fp": "Diode_SMD:D_SOD-923",
+  "libid": "Bingbong_library:PESD5V0F1BLD_315",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "e93e3a5a-ad75-4d5b-93ac-833c03cad8c2",
+  "props": {
+   "Reference": "CR2",
+   "Value": "ESD9B5.0ST5G",
+   "Footprint": "Diode_SMD:D_SOD-923",
+   "Datasheet": "ESD9B5.0ST5G",
+   "Description": ""
+  }
+ },
+ {
+  "ref": "R5",
+  "value": "0",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "eab0d4b1-e4e5-4e0b-9fdf-31993818c6a0",
+  "props": {
+   "Reference": "R5",
+   "Value": "0",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ },
+ {
+  "ref": "#PWR022",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "f3c95dac-717d-45e2-9b27-70b3a484febd",
+  "props": {
+   "Reference": "#PWR022",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR069",
+  "value": "+3.3V",
+  "fp": "",
+  "libid": "power:+3.3V",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "f4fd7029-fc5b-487c-8692-0809128009c1",
+  "props": {
+   "Reference": "#PWR069",
+   "Value": "+3.3V",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"+3.3V\""
+  }
+ },
+ {
+  "ref": "#PWR033",
+  "value": "GND",
+  "fp": "",
+  "libid": "power:GND",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "f6a5277b-a7cf-4be0-8101-b01b3737b622",
+  "props": {
+   "Reference": "#PWR033",
+   "Value": "GND",
+   "Footprint": "",
+   "Datasheet": "",
+   "Description": "Power symbol creates a global label with name \"GND\" , ground"
+  }
+ },
+ {
+  "ref": "R19",
+  "value": "0",
+  "fp": "Resistor_SMD:R_0402_1005Metric",
+  "libid": "Device:R",
+  "dnp": false,
+  "in_bom": true,
+  "unit": "1",
+  "uuid": "fffe5b4c-173c-40c2-a4d7-1c1d70454b77",
+  "props": {
+   "Reference": "R19",
+   "Value": "0",
+   "Footprint": "Resistor_SMD:R_0402_1005Metric",
+   "Datasheet": "~",
+   "Description": "Resistor"
+  }
+ }
+]

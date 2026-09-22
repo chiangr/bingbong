@@ -1,0 +1,219 @@
+                                             CONMHF1-SMD
+
+                                             U.FL-Type Jack PCB Surface-Mount
+                                             Connector
+
+The CONMHF1-SMD is an U.FL-type jack (male pin) PCB surface-mount connector designed for reflow-solder
+mounting directly to a printed circuit board. Operating from 0 Hz to 6 GHz, the CONMHF1-SMD combines superior
+performance, compact size, and a convenient snap-on mating interface to provide a reliable, easy-to-use connector.
+Additionally, all Linx connectors meet RoHS lead free standards and are tested to meet requirements for corrosion
+resistance, vibration, mechanical and thermal shock.
+
+FEATURES                                     APPLICATIONS
+
+· 0 Hz to 6 GHz operation                    · LPWA
+· Gold plating                                   ­ LoRaWAN®, Sigfox®, WiFi HaLowTM (802.11ah)
+
+    ­ Superior corrosion resistance          · Cellular IoT
+· MHF1/U.FL-type jack (male pin) connection      ­ LTE-M (Cat-M1), NB-IoT
+
+    ­ Gold plated brass center contact       · Cellular
+· Direct PCB attachment                          ­ 5G/4G LTE/3G/2G
+· Reflow- or hand-solder assembly
+                                             · GNSS
+                                                 ­ GPS, Galileo, GLONASS, BeiDou, QZSS
+
+                                             · Industrial/Commercial/Enterprise
+                                             · ISM
+
+TABLE 1. ELECTRICAL SPECIFICATIONS
+
+Impedance                                             50 
+Frequency Range
+Voltage Rating                                        0 Hz to 6 GHz
+Contact Resistance
+Insulation Resistance                                 60 V RMS
+Select Frequencies
+Insertion Loss (dB max)                      Main: [.002] Ground: [.002] [ 364-23]
+VSWR (max)
+                                                      500 M min.
+
+                                             2.4 GHz                 5 GHz
+
+                                             0.10                    0.81
+
+                                             1.1                     2.0
+
+DATA AND DEVICES / CONMHF1-SMD
+ORDERING INFORMATION
+
+Part Number                                                                        Description
+CONMHF1-SMD-T
+CONMHF1-SMD-G-T       MHF1/U.FL-type nickel plated jack (male pin) PCB surface-mount connector in tape and reel
+                      (4500 per reel)
+
+                      MHF1/U.FL-type gold plated jack (male pin) PCB surface-mount connector in tape and reel
+                      (4500 per reel)
+
+Available from Linx Technologies and select distributors and representatives.
+
+PRODUCT DIMENSIONS
+
+                                Figure 1. Product Dimensions for the CONMHF1-SMD Connector
+
+TABLE 2. CONNECTOR COMPONENTS
+
+Model                                  CONMHF1-SMD                                          CONMHF1-SMD-G
+Connector Part
+Connector Body                  Material                                       Finish  Material         Finish
+Outer Contact
+Center Contact (male  LCP, UL94V-0                                             ­       LCP, UL94V-0        ­
+pin)
+Signal Contact                  Brass                                          Nickel  Brass               Gold
+Ground Contact
+                                Brass                                          Gold    Brass               Gold
+
+                      Phosphor Bronze                                          Gold    Phosphor Bronze     Gold
+                      Phosphor Bronze                                          Gold    Phosphor Bronze     Gold
+
+DATA AND DEVICES / CONMHF1-SMD                                                                                   2
+RECOMMENDED PCB FOOTPRINT
+
+Figure 2 shows the connectors recommended PCB footprint for the CONMHF1-SMD connector.
+
+                                Figure 2. Recommended PCB Dimensions for the CONMHF1-SMD
+
+CONNECTOR PERFORMANCE
+
+Table 3 shows insertion loss and VSWR values for the CONMHF1-SMD connector at commonly used frequencies.
+Insertion loss is the loss of signal power (gain) resulting from the insertion of a device in a transmission line. VSWR
+describes how efficiently power is transmitted through the connector. A lower VSWR value indicates better
+performance at a given frequency.
+
+TABLE 3. INSERTION LOSS AND VSWR FOR THE CONMHF1-SMD CONNECTOR
+
+Band                    Low-Band    GNSS  Midband Cellular                                WiFi/ISM
+                         Cellular/
+Frequency Range         ISM/LPWA    1164 MHz to 1609 1427 MHz to 5000                      2.4 GHz
+Insertion Loss (dB  400 MHz to 960                                                            0.10
+max)                                MHz   MHz                                                  1.1
+VSWR (max)                   MHz
+                                    0.07  0.85
+                            0.04
+                                    1.1   2.0
+                               1.1
+
+DATA AND DEVICES / CONMHF1-SMD                                                                                           3
+TABLE 4. MECHANICAL SPECIFICATIONS                                                     CONMHF1-SMD
+                                                                                     PCB Surface-Mount
+Model                                                                                 Snap-on Coupling
+Mounting Type
+Fastening Type                                                                               EIA-364
+Interface in Accordance with                                                             30 cycles min.
+Connector Durability                                                                 0.017 g (0.0006 oz)
+Weight
+
+TABLE 5. ENVIRONMENTAL SPECIFICATIONS
+
+                                              STD, Test Condition
+
+Corrosion (Salt spray)                                                                                 EIA 364-26
+Thermal Shock                                                                                          EIA 364-32
+Vibration                                                                                              EIA 364-28
+Mechanical Shock                                                                                       EIA 364-27
+Temperature Range                                                                                  -40 °C to +90 ° C
+Environmental Compliance
+                                                                                                            RoHS
+
+REFLOW SOLDER PROFILE
+
+Figure 3 shows the time and temperature data for reflow soldering the connector to a PCB.
+
+                  300                 Recommended RoHS Profile            Recommended Non-RoHS Profile
+                                      Max RoHS Profile
+                           255°C
+                  250
+
+                           235°C
+                           217°C
+
+Temperature (°C)  200
+                           185°C
+                           180°C
+
+                  150
+                           125°C
+
+                  100
+
+                  50
+
+                       0          30  60  90  120               150  180  210   240                270  300           330  360
+
+                                                                Time (Seconds)
+
+                                          Figure 3. CONMHF1-SMD Recommended Reflow Solder Profile
+
+DATA AND DEVICES / CONMHF1-SMD                                                                                                  4
+PACKAGING INFORMATION
+
+Figure 4 shows the tape dimensions for the CONMHF1-SMD connector. The reel specifications are provided
+in Figure 5.
+
+                                                                                     Figure 4. Tape Specifications for the CONMHF1-SMD Connector
+
+PACKAGING INFORMATION (CONTINUED)
+
+                                                                                         W1
+
+   E                                     Symbol                                                                                                   Reel Dimensions  Unit
+                                      QTY per reel                                                                                                         Qty     pcs
+C                               B      Tape width                                                                                                                  mm
+                                                                                                                                                          4,500    mm
+                                              A                                                                                                           12.00    mm
+                                              B                                                                                                         Ø 330 ±1   mm
+                                              C                                                                                                       Ø 100 ±0.5   mm
+                                              E                                                                                                      Ø 13.00 ±0.2  mm
+                                              W                                                                                                         2.2 ±0.5   mm
+                                             W1                                                                                                          12 ±0.5
+                                                                                                                                                        16.4 ±0.2
+
+A                                  W
+
+                                Figure 5. Reel Specifications for the CONMHF1-SMD Connector
+
+DATA AND DEVICES / CONMHF1-SMD                                                                                                                                           5
+TE TECHNICAL SUPPORT CENTER
+
+USA:               +1 (800) 522-6752
+Canada:            +1 (905) 475-6222
+Mexico:            +52 (0) 55-1106-0800
+Latin/S. America:  +54 (0) 11-4733-2200
+Germany:           +49 (0) 6251-133-1999
+UK:                +44 (0) 800-267666
+France:            +33 (0) 1-3420-8686
+Netherlands:       +31 (0) 73-6246-999
+China:             +86 (0) 400-820-6015
+
+te.com
+
+TE Connectivity, TE, TE connectivity (logo), Linx and Linx Technologies are trademarks owned or licensed by the TE Connectivity Ltd. family of companies. All other logos,
+products and/or company names referred to herein might be trademarks of their respective owners.
+
+The information given herein, including drawings, illustrations and schematics which are intended for illustration purposes only, is believed to be reliable. However,
+TE Connectivity makes no warranties as to its accuracy or completeness and disclaims any liability in connection with its use. TE Connectivity`s obligations shall only be as
+set forth in TE Connectivity`s Standard Terms and Conditions of Sale for this product and in no case will TE Connectivity be liable for any incidental, indirect or consequential
+damages arising out of the sale, resale, use or misuse of the product. Users of TE Connectivity products should make their own evaluation to determine the suitability of each
+such product for the specific application.
+
+TE Connectivity warrants to the original end user customer of its products that its products are free from defects in material and workmanship. Subject to conditions and
+limitations TE Connectivity will, at its option, either repair or replace any part of its products that prove defective because of improper workmanship or materials. This limited
+warranty is in force for the useful lifetime of the original end product into which the TE Connectivity product is installed. Useful lifetime of the original end product may vary but
+is not warrantied to exceed one (1) year from the original date of the end product purchase.
+
+©2022 TE Connectivity. All Rights Reserved.
+
+09/22 Original
+
+DATA AND DEVICES / CONMHF1-SMD
+

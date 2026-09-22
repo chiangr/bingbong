@@ -1,0 +1,116 @@
+nRF9151 Product Specification 
+
+Contents 
+nRF9151 Product Specification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3 
+2
+
+1. nRF9151 Product Specification 
+This Product Specification contains functional descriptions, register tables, and electrical specifications, and is organized into 
+chapters based on the modules and peripherals that are available in this IC. 
+• nRF9151 Product Specification v1.0 
+Note: The HTML rendition of the Product Specification corresponds to the latest version only. All versions are available as 
+PDF files. 
+Features: 
+Microcontroller: 
+• Arm® Cortex®-M33 
+• 247 EEMBC CoreMark score running from flash memory 
+• Data watchpoint and trace (DWT), embedded trace macrocell 
+(ETM), and instrumentation trace macrocell (ITM) 
+• Serial wire debug (SWD) 
+• Trace port 
+• 1 MB flash 
+• 256 kB low leakage RAM 
+• Arm TrustZone® 
+• Arm CryptoCell™ 310 
+• Up to 4x SPI master/slave with EasyDMA 
+• Up to 4x I2C compatible two-wire master/slave with EasyDMA 
+• Up to 4x UART (CTS/RTS) with EasyDMA 
+• I2S with EasyDMA 
+• Digital microphone interface (PDM) with EasyDMA 
+• 4x pulse width modulator (PWM) unit with EasyDMA 
+• 12-bit, 200 ksps ADC with EasyDMA - eight configurable channels 
+with programmable gain 
+• 3x 32-bit timer with counter mode 
+• 2x real-time counter (RTC) 
+• Programmable peripheral interconnect (PPI) 
+• 32 general purpose I/O pins 
+• Single supply voltage: 3.0 – 5.5 V 
+• All necessary clock sources integrated 
+• Package: 12.1 × 11.1 × 1.2 mm LGA 
+LTE modem: 
+• Transceiver and baseband 
+• 3GPP LTE release 14 Cat-M1 compliant 
+• 3GPP LTE release 14 Cat-NB1 and Cat-NB2 
+compliant 
+• GPS receiver 
+• GPS L1 C/A supported 
+• QZSS L1 C/A supported 
+• RF transceiver for global coverage 
+• Power Class 3 up to 23 dBm output power 
+• Power Class 5 up to 20 dBm output power 
+• -108 dBm sensitivity (Cat-M1) for low band, -107 
+dBm for mid band 
+• Single 50 Ω antenna interface 
+• LTE band support in hardware: 
+• Cat-M1: B1, B2, B3, B4, B5, B8, B12, B13, B18, B19, 
+B20, B25, B26, B28, B66, B85 
+• Cat-NB1/NB2: B1, B2, B3, B4, B5, B8, B12, B13, 
+B17, B19, B20, B25, B26, B28, B65, B66, B85 
+• Supports SIM and eSIM with an ETSI TS 102 221 
+compatible UICC interface 
+• Power saving features: DRX, eDRX, PSM 
+• IP v4/v6 stack 
+• Secure socket (TLS/DTLS) API 
+DECT NR+: 
+• NR+ band: 1, 2, 9, 22 
+3
+
+Features: 
+Current consumption @ 3.7 V: 
+• LTE power saving mode (PSM) floor current: 2.7 µA 
+• eDRX @ 81.92s: 18 µA in Cat-M1, 32 µA in Cat-NB1 
+(UICC included) 
+Applications: 
+• Sensor networks 
+• Logistics and asset tracking 
+• Smart energy 
+• Smart building automation 
+• Smart agriculture 
+• Industrial 
+• Retail and monitor devices 
+• Medical devices 
+• Wearables 
+Revision history 
+About this documentThis document is organized into chapters that are based on the modules and peripherals available in the 
+IC. 
+Product overview The nRF9151 System-in-Package (SiP) is a low-power Internet of Things (IoT) solution integrating an Arm 
+Cortex-M33 processor with advanced security features, a range of peripherals and a Low-Power Wide-Area (LPWA) network 
+processor. The LPWA network processor can operate as a 5G DECT NR+ (NR+) device, independent of cellular network 
+provider or as an LTE modem compliant with 3GPP LTE release 14 Cat-M1 and Cat-NB1/NB2 standards. 
+Application coreThe nRF9151 application core has a modern and powerful Arm Cortex-M33 with on-chip flash and RAM 
+exclusively for application use. 
+Power and clock managementThe power and clock management system automatically ensures maximum power efficiency. 
+PeripheralsThe nRF9151 application core peripherals are found in Instantiation. 
+LTE modemThe nRF9151 SiP contains a Low-Power Wide-Area (LPWA) network processor with dedicated flash/RAM, which 
+controls the radio and baseband hardware components. LTE capabilities are provided by installing Nordic Semiconductor 
+firmware, which complies with 3GPP LTE release 14 Cat-M1 and Cat-NB1/NB2 standards. 
+DECT NR+ The nRF9151 SiP contains a Low-Power Wide-Area (LPWA) network processor with dedicated flash/RAM, which 
+controls the radio and baseband hardware components. DECT NR+ (NR+) capabilities are provided by installing Nordic 
+Semiconductor firmware, that implements the physical layer (PHY) level operation of the NR+ radio protocol stack according to 
+ETSI specifications (TS 103 636-2 and TS 103 636-3). 
+GPS receiver The LPWA network processor supports GPS reception, if the onboard network protocol firmware supports it. 
+Debug and traceThe debug and trace system offers a flexible and powerful mechanism for non-intrusive debugging. 
+Hardware and layoutThe following sections describe nRF9151 hardware and layout specifications. 
+Operating conditionsThe operating conditions are the physical parameters that the chip can operate within. 
+Absolute maximum ratingsMaximum ratings are the extreme limits to which the chip can be exposed for a limited amount of 
+time without permanently damaging it. Exposure to absolute maximum ratings for prolonged periods of time may affect the 
+reliability of the device. 
+Ordering informationThis chapter contains information on IC marking, ordering codes, and container sizes. 
+Regulatory informationThe nRF9151 undergoes regulatory certifications, ensuring both regional compliances and compatibility 
+4
+
+with the LTE 3GPP specification. 
+Legal noticesBy using this documentation you agree to our terms and conditions of use. Nordic Semiconductor may change 
+these terms and conditions at any time without notice. 
+nRF9151_PS_v1.0.pdf 
+5

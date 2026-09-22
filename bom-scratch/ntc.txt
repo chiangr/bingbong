@@ -1,0 +1,1391 @@
+NTC DISC THERMISTORS
+
+ND 03/06/09 ­ NE 03/06/09 ­ NV 06/09
+
+                                                           APPLICATIONS
+                                                                  · ND or NE: Commerical, Industrial and Automotive Applications AEC-Q200 based Qual
+
+                                                                     NV: Professional Applicationsl
+                                                                  · Alarm and temperature measurement application
+                                                                  · Temperature regulation application
+                                                                  · Level detection application
+                                                                  · Compensation application and more
+
+                                                 TECHNOLOGY
+
+                                                 · ND: epoxy-phenolic resin coating
+                                                    NE: epoxy resin coating (recommended for severe mounting conditions)
+                                                    NV: epoxy varnish coating
+
+                                                 · Leads: Radial copper wire tinned
+
+                                                 · Marking: on package only for ND03 & NE03
+
+                                                 ND/NE 06/09: Nominal resistance and tolerance for ±5%, ±10%
+
+                                                 NV06/09:          Nominal resistance and tolerance
+
+                                                 · Delivery Mode: Bulk, reeled or ammopacked
+
+PERFORMANCE CHARACTERISTICS
+
+             Types                               General purpose                                    Professional
+                                                  ND06 or NE06
+Climatic category           ND03 or NE03          ­55 to +150°C    ND09 or NE09               NV06                                                                   NV09
+Operating Temperature                            ±3*, 5, 10, ±20%  ­55 to +150°C
+                            ­55 to +150°C                          ±3*, 5, 10, ±20%  55/125/56-434                                                             55/125/56-434
+Tolerance on Rn (25°C)     330 to 1M : ±               0.71 W
+                        ±3*, 5, 10, 20% 1500        7.1 mW/°C            0.9 W       ­55 to +150°C                                                             ­55 to +150°C
+Maximum dissipation at                                                 9 mW/°C
+25°C                          to 150 k : ±               22 s                        ±2, 3, 5, ±10%                                                            ±2, 3, 5, ±10%
+Thermal dissipation                 3%                                    30 s
+factor                                                                                 0.69 W                                                                          0.85 W
+Thermal time constant            0.25 W
+Response time                                                                        6.9 mW/°C                                                                       8.5 mW/°C
+                                5 mW/°C                                                  18 s                                                                            30 s
+
+                                   10 s
+                                   < 3s
+
+STANDARDIZATION         NFC 93271                                  OPTIONS
+                        Type: TN115 A for NV06
+NV range : approved by                                             Consult factory for availability of options:
+                                 TN116 for NV09                    · other nominal resistance values
+                        List: GAM-T1                               · other tolerances
+                        List: LNZ                                  · alternative lead materials or lengths
+                                                                   · controlled dimensions
+
+* Optional tolerance, please contact factory
+
+                                              The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+58                                            online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                                 TDS-THERM-0005 | Rev 1
+
+                                                 ­NTC THERMISTORS ­
+NTC DISC THERMISTORS
+
+ND/NE 03
+
+HOW TO ORDER
+
+    ND06                   P0                     0103            K                       --
+
+    Type        Material Code                     Resistance      Tolerance         Packaging
+    ND03                 P                            10 k     G (±2%) for NV         ­ ­: Bulk
+    NE03                                                       H (±3%)*
+    ND06          (See tables                     (See tables  J (±5%)              Ammopack
+    NE06          page 23-25)                     page 22-24)  K (±10%)        (See table page 26)
+    NV06                                                       M (±20%)
+                                                                                  Tape and reel
+    ND09                                                                       (See table page 26)
+    NE09
+    NV09
+
+    * Optional tolerance, please contact factory
+
+TABLE OF VALUES
+
+ND03/NE03 TYPE                                                                            ND03/NE03
+
+Part Number  Rn at 25°C    Material    B (K)             at 25°C               3.5 (.138) max                           3 (.118) max
+                  ()         Code                        (%/°C)
+N_03J00681                     J     3480 (2)             ­ 3.9                35 (1.38) min
+N_03J00102            680      K     3630 (2)             ­ 4.0                                           3 (.118) max
+N_03K00152          1,000      L     3790 (2)             ­ 4.2                               ø 0.5 (.020)+-01.00%5
+N_03K00222          1,500      M     3950 (2)             ­ 4.4                                  2.54 (0.1)
+N_03L00272          2,200      N     4080 (2)             ­ 4.6
+N_03L00332          2,700      P     4220 (2)             ­ 4.7
+N_03M00472          3,300      Q     4300 (2)             ­ 4.7
+N_03M00682          4,700      R     4400 (2)             ­ 4.8
+N_03N00103          6,800      S     4520 (2)             ­ 5.0
+N_03N00153        10,000       T     4630 (2)             ­ 5.1
+N_03P00223        15,000       U     4840 (2)             ­ 5.3
+N_03P00333        22,000
+N_03Q00473        33,000
+N_03Q00683        47,000
+N_03R00104        68,000
+N_03R00154      100,000
+N_03S00224      150,000
+N_03T00334      220,000
+N_03T00474      330,000
+N_03U00105      470,000
+              1,000,000
+
+                                     The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+59                                   online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                                                  TDS-THERM-0005 | Rev 1
+
+                                                                  ­NTC THERMISTORS ­
+NTC DISC THERMISTORS
+
+ND/NE/NV 06
+
+TABLE OF VALUES
+
+ND06/NE06/NV06                                                                     ND06/NE06
+
+Part Number  Rn at 25°C  Material                  B (K)    at 25°C                6.3 (.248) max             4 (.157) max
+                  ()       Code                             (%/°C)
+                                                 3480 (2)    ­ 3.9
+N_06J00151      150                              3630 (2)    ­ 4.0   35 (1.38) min
+N_06J00221                    J                  3790 (2)    ­ 4.2                              3 (.118) max
+                                                 3950 (2)    ­ 4.4
+                220                              4080 (2)    ­ 4.6
+
+N_06K00331      330                              4220 (2)    ­ 4.7
+N_06K00471                    K
+                                                 4300 (2)    ­ 4.7
+                470                              4400 (2)    ­ 4.8
+                                                 4520 (2)    ­ 5.0
+N_06L00681        680                            4630 (2)    ­ 5.1                 ø 0.6 (.024)+-01.00%5
+N_06L00102                       L               4840 (2)    ­ 5.3
+
+                1,000
+
+N_06M00152      1,500    M
+
+N_06N00222      2,200                                                              5.08 (0.2)
+N_06N00332                      N
+
+                3,300
+
+N_06P00472      4,700
+
+N_06P00682      6,800    P                                                         NV06
+
+N_06P00103   10,000
+
+N_06Q00153   15,000      Q                                                         6.3 (.248) max             3.5 (.138) max
+
+N_06Q00223   22,000
+
+N_06R00333   33,000      R
+
+N_06S00473   47,000      S                                           35 (1.38) min
+                                                                                                3 (.118) max
+N_06S00683   68,000
+
+N_06T00104   100,000     T
+
+N_06U00154   150,000
+
+N_06U00224   220,000     U                                                         ø 0.6 (.024)+-01.00%5
+                                                                                      5.08 (0.2)
+N_06U00334   330,000
+
+For other resistance values, please consult us.
+
+                                                 The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+60                                               online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                                           TDS-THERM-0005 | Rev 1
+
+                                                           ­NTC THERMISTORS ­
+NTC DISC THERMISTORS
+
+ND/NE/NV 09
+
+TABLE OF VALUES
+
+ND09/NE09/NV09                                                                 ND09/NE09
+
+Part Number    Rn at     Material    B (K)    at 25°C  9.5 (.375) max                               5 (.197) max
+             25°C ()       Code               (%/°C)
+N_09J00680                   J     3480 (2)    ­ 3.9   35 (.138) min
+N_09J00101           68      K     3630 (2)    ­ 4.0                              3 (.118) max
+N_09K00151          100      L     3790 (2)    ­ 4.2                                          ø 0.6 (.024)+-01.00%5
+N_09K00221          150      M     3950 (2)    ­ 4.4                                             5.08 (.02)
+N_09L00331          220      N     4080 (2)    ­ 4.6
+N_09M00471          330      P     4220 (2)    ­ 4.7                                          NV09
+N_09M00681          470      Q     4300 (2)    ­ 4.7
+N_09N00102          680      R     4400 (2)    ­ 4.8   9.5 (.374) max                               3.5 (.138) max
+N_09N00152       1,000       S     4520 (2)    ­ 5.0
+N_09P00222       1,500       T     4630 (2)    ­ 5.1   35 (.138) min
+N_09P00332       2,200                                                            3 (.118) max
+N_09Q00472       3,300       U     4840 (2)    ­ 5.3
+N_09Q00682       4,700
+N_09R00103       6,800                                                                        ø 0.6 (.024)+-01.00%5
+N_09R00153      10,000                                                                           5.08 (.02)
+N_09S00223      15,000
+N_09T00333      22,000
+N_09T00473      33,000
+N_09U00683      47,000
+N_09U00104      68,000
+N_09U00154    100,000
+              150,000
+
+                                   The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+61                                 online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                                       TDS-THERM-0005 | Rev 1
+
+                                                       ­NTC THERMISTORS ­
+NTC DISC THERMISTORS                                                           H represents the distance between the sprocket holes axis and the bottom
+                                                                               plane of component body (base of resin or base of stand off).
+Packaging for Automatic Insertion
+                                                                               ­ Kinked leads and flat leads:
+PACKAGING AND KINK SUFFIXES                                                    Ho represents the distance between the sprocket holes axis and the base
+                                                                               on the knee (kinked leads) or the bottom of the flat part (flat leads).
+Tables below indicate the suffixes to specify when ordering to get the
+required kink and packaging. For devices on tape, it is necessary to specify
+the height (H or Ho) which is the distance between the tape axis (sprocket
+holes axis) and the seating plane on the printed circuit board. The following
+types can be ordered on tape either in AMMOPACK (fan folder) or on REEL
+in accordance with IEC 286-2.
+
+­ Straight leads:
+
+· Reel & Ammopack
+
+millimeters (inches)
+
+Types     Suffix                H or Ho      Leads    Quantity/Size             Packaging  NTC
+                                            Straight       3000                AMMOPACK
+          CA                   16 ± 0.5     Straight       3000                            Type
+                           (0.630 ± 0.020)  Straight       3000                    REEL    ND03
+ND/NE 03  CB                                Straight       3000                AMMOPACK    NE03
+                               16 ± 0.5     Straight       2000                            NJ28
+& NJ28    CC               (0.630 ± 0.020)  Straight       2000                    REEL    NP30
+                                            Straight       2000                AMMOPACK
+          CD                  19.5 ± 0.5    Straight       2000                            NTC
+                           (0.768 ± 0.020)  Straight       1500                    REEL
+          CA                                Straight       1500                AMMOPACK    Types
+                              19.5 ± 0.5    Straight       1500                            ND/NE/NV
+                       CB  (0.768 ± 0.020)  Straight       1500                    REEL    06/09
+    NP30                                    Kinked         1500                AMMOPACK
+                               16 ± 0.5     Kinked         1500
+                       CC  (0.630 ± 0.020)  Kinked         1500                    REEL
+                                            Kinked         1500                AMMOPACK
+          CD                   16 ± 0.5
+                           (0.630 ± 0.020)                                         REEL
+          DA                                                                   AMMOPACK
+                              19.5 ± 0.5
+          DB               (0.768 ± 0.020)                                         REEL
+                                                                               AMMOPACK
+          DC                  19.5 ± 0.5
+                           (0.768 ± 0.020)                                         REEL
+ND/NE/NV  DD
+                               16 ± 0.5
+06/09     DL               (0.630 ± 0.020)
+
+          DM                   16 ± 0.5
+                           (0.630 ± 0.020)
+          DN
+                              19.5 ± 0.5
+          DP               (0.768 ± 0.020)
+
+                              19.5 ± 0.5
+                           (0.768 ± 0.020)
+
+                               16 ± 0.5
+                           (0.630 ± 0.020)
+
+                               16 ± 0.5)
+                           (0.630 ± 0.020)
+
+                              19.5 ± 0.5
+                           (0.768 ± 0.020)
+
+                              19.5 ± 0.5
+                           (0.768 ± 0.020)
+
+· Bulk                     ND03 / NE03                ND/NE/NV
+                           NJ28 / NP30                   06/09
+    Type
+          Quantity/box
+ ND/NE03       3000
+ ND/NE06       1500
+ ND/NE09       1500
+                100
+   NV06         100
+   NV09
+    NI24       1000
+   NJ28
+   NK20
+   NP30
+
+                           The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+62                         online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                                      TDS-THERM-0005 | Rev 1
+
+                                                      ­NTC THERMISTORS ­
+AUTOMATIC INSERTION                                                                     The beginning and the end of tape exhibit 8 or 9 blank positions.
+
+NTC Disc Thermistors
+
+TAPING CHARACTERISTICS
+
+Missing components
+A maximum of 3 consecutive components may be missing from the
+bandolier, surrounded by at least 6 filled positions. The number of missing
+components may not exceed 0.5% of the total per packing module.
+
+                DIMENSIONS: millimeters (inches)                                                              REEL
+
+                                   AMMOPACK
+
+                                                                                                   30 (1.18)
+
+                                                                                                                              Interlayer
+
+                                  H                                                                                           Paper
+
+                                                                                        8 (.315)
+
+                                                        L
+
+                      L                    I                 H                          31 (1.22)                             42 (1.66)
+                330 (13.0)                              290 (11.4)                           360 (14.2)                       Inside
+                                       I                                                                                      48(1.99)
+                                  46 (1.81)                                                                                   Outside
+
+             h                 h                           P                                                           p                p
+
+                                                                             Reference plane                                                             Marking on
+                                                                                                                                                         this side
+                                  H1 W2       P1                                                                 H1
+                                                                                                              H                                          Adhesive
+                                                                         E                                                                               tape
+
+                                                           A          B          H0     W1
+                                                                             W0
+                                                                                            W
+
+                                  I2                       d                                   Direction of unreeling
+
+                                               D0                        Cross section                  t
+                                                    P0
+                                                                          A-B
+
+                                                                                            E
+
+     Value   Tolerance            Dimensions Characteristics                               Value   Tolerance                        Dimensions Characteristics
+       18      +1 / -0.5                                                                    12.7      ±0.2                P0 Sprocket holes pitch
+        6                  W Leading tape width                                                                           ­ Distance between 21 consecutive
+        9        ±0.3                                                                       254         ±1
+             +0.75 / -0.5  W0 Adhesive tape width                                                                               holes 20 pitches
+    3 max.                                                                                   0.7      ±0.2                t Total thickness of tape
+                 ±0.2      W1 Sprocket hole position                                                  +0.6
+        4        ±0.5                                                                   2.54 5.08      -0.1
+                           W2     Distance between the top of the
+    16/19.5                       tape and the adhesive                                 5.08 3.85     ± 0.7
+                                                                                            12.7                          E Lead spacing
+                           D0 Diameter of sprocket hole                                                ±1.0
+                                                                                        0.5 0.6        ±5%
+                           H0     Distance between the tape axis and                          0        ±1.3               P1  Distance between the sprocket hole
+                                  the seating plane of the component                          0         ±2                    axis and the lead axis
+
+                           H1     Distance between the tape axis and                                                      P Spacing of components
+                                  the top of component body
+                                                                                                                          d Lead diameter
+
+                                                                                                                          3P Verticality of components
+
+                                                                                                                          3h Alignment of components
+
+                                  The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+63                                online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                                                    TDS-THERM-0005 | Rev 1
+
+                                                                    ­NTC THERMISTORS ­
+TABLES OF RESISTANCE VS TEMPERATURE
+
+     T            Material B(K)          T             Material B(K)           T                                                                           Material B(K)
+    (°C)                                (°C)                                  (°C)
+                  I 3250                               J-J5 3480                                                                                           K 3630
+                                                                             1.4 pt
+          R(T) / R25 TF (%)  (%/°C)           R(T) / R25 TF (%)  (%/°C)       -50    R(T) / R25 TF (%)  (%/°C)
+                                                                              -45
+    -55   42.35   21.9           -5.98  -55   51.75    20.5           -6.23   -40                                                                 56.27    21.4           -6.25
+                                                                              -35
+    -50   31.48   20.0           -5.78  -50   37.98    17.7           -6.03   -30                                                                 41.22    18.5           -6.06
+                                                                              -25
+    -45   23.63   18.1           -5.59  -45   28.15    15.2           -5.84   -20                                                                 30.48    15.9           -5.89
+                                                                              -15
+    -40   17.91   16.3           -5.41  -40   21.07    13.0           -5.65   -10                                                                 22.74    13.6           -5.71
+                                                                               -5
+    -35   13.70   14.6           -5.23  -35   15.91    11.0           -5.48    0                                                                  17.11    11.5           -5.55
+                                                                               5
+    -30   10.58   13.1           -5.06  -30   12.13    9.3            -5.31    10                                                                 12.98    9.7            -5.39
+                                                                               15
+    -25   8.232   11.6           -4.90  -25   9.321    7.8            -5.15    20                                                                 9.931    8.1            -5.24
+                                                                               25
+    -20   6.460   10.1           -4.74  -20   7.222    6.4            -4.99    30                                                                 7.655    6.7            -5.09
+                                                                               35
+    -15   5.110   8.8            -4.59  -15   5.640    5.2            -4.84    40                                                                 5.945    5.4            -4.95
+                                                                               45
+    -10   4.072   7.5            -4.45  -10   4.438    4.2            -4.69    50                                                                 4.651    4.4            -4.81
+                                                                               55
+    -5    3.268   6.3            -4.31  -5    3.517    3.3            -4.55    60                                                                 3.663    3.4            -4.67
+                                                                               65
+    0     2.641   5.1            -4.18  0     2.807    2.5            -4.42    70                                                                 2.905    2.6            -4.54
+                                                                               75
+    5     2.148   4.0            -4.05  5     2.255    1.8            -4.29    80                                                                 2.319    1.9            -4.42
+                                                                               85
+    10    1.759   2.9            -3.92  10    1.824    1.2            -4.17    90                                                                 1.862    1.3            -4.30
+                                                                               95
+    15    1.449   1.9            -3.81  15    1.484    0.7            -4.05   100                                                                 1.505    0.8            -4.18
+                                                                              105
+    20    1.200   0.9            -3.69  20    1.215    0.3            -3.93   110                                                                 1.223    0.3            -4.07
+                                                                              115
+    25    1.000   0.0            -3.58  25    1.0000   0.0            -3.82   120                                                                 1.0000   0.0            -3.96
+                                                                              125
+    30    0.8377  0.9            -3.48  30    0.8278   0.3            -3.71   130                                                                 0.8219   0.3            -3.85
+                                                                              135
+    35    0.7054  1.8            -3.38  35    0.6889   0.7            -3.61   140                                                                 0.6792   0.7            -3.75
+                                                                              145
+    40    0.5969  2.6            -3.28  40    0.5763   1.1            -3.51   150                                                                 0.5641   1.1            -3.65
+
+    45    0.5076  3.5            -3.19  45    0.4845   1.5            -3.41                                                                       0.4708   1.6            -3.55
+
+    50    0.4336  4.3            -3.10  50    0.4092   2.0            -3.32                                                                       0.3949   2.1            -3.46
+
+    55    0.3720  5.1            -3.01  55    0.3472   2.5            -3.23                                                                       0.3327   2.6            -3.37
+
+    60    0.3206  5.9            -2.93  60    0.2960   3.0            -3.15                                                                       0.2816   3.1            -3.28
+
+    65    0.2774  6.6            -2.85  65    0.2533   3.5            -3.06                                                                       0.2393   3.7            -3.20
+
+    70    0.2410  7.4            -2.77  70    0.2177   4.1            -2.98                                                                       0.2043   4.3            -3.12
+
+    75    0.2102  8.1            -2.70  75    0.1879   4.7            -2.90                                                                       0.1751   4.9            -3.04
+
+    80    0.1839  8.8            -2.63  80    0.1628   5.3            -2.83                                                                       0.1506   5.5            -2.96
+
+    85    0.1616  9.5            -2.56  85    0.1415   5.9            -2.76                                                                       0.1301   6.1            -2.89
+
+    90    0.1424  10.2           -2.49  90    0.12349  6.5            -2.69                                                                       0.1128   6.8            -2.82
+
+    95    0.1259  10.9           -2.43  95    0.10813  7.1            -2.62                                                                       0.09811  7.4            -2.75
+
+    100   0.1117  11.5           -2.36  100 0.09499    7.7            -2.55                                                                       0.08564  8.1            -2.68
+
+    105 0.09938 12.2             -2.30  105 0.08372    8.4            -2.49                                                                       0.07501  8.7            -2.61
+
+    110 0.08869 12.8             -2.25  110 0.07402    9.0            -2.43                                                                       0.06591  9.4            -2.55
+
+    115 0.07938 13.4             -2.19  115 0.06564    9.7            -2.37                                                                       0.05809 10.1            -2.49
+
+    120 0.07124 14.0             -2.14  120 0.05837 10.3              -2.31                                                                       0.05136 10.8            -2.43
+
+    125 0.06410 14.6             -2.08  125 0.05206 11.0              -2.26                                                                       0.04554 11.5            -2.37
+
+    130 0.05783 15.2             -2.03  130 0.04656 11.6              -2.21                                                                       0.04049 12.2            -2.32
+
+    135 0.05230 15.7             -1.98  135 0.04175 12.3              -2.15                                                                       0.03611 12.8            -2.26
+
+    140 0.04741 16.3             -1.94  140 0.03753 13.0              -2.10                                                                       0.03228 13.5            -2.21
+
+    145 0.04308 16.8             -1.89  145 0.03382 13.6              -2.06                                                                       0.02893 14.2            -2.16
+
+    150 0.03924 17.4             -1.85  150 0.03055 14.3              -2.01                                                                       0.02600 14.9            -2.11
+
+                                 The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+64                               online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                              TDS-THERM-0005 | Rev 1
+
+                                              ­NTC THERMISTORS ­
+TABLES OF RESISTANCE VS TEMPERATURE
+
+     T             Material B(K)          T            Material B(K)           T                                                                            Material B(K)
+    (°C)                                 (°C)                                 (°C)
+                   KA 3625                             KC 3470                                                                                              L0 3790
+
+          R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)
+
+    -55   61.22    7.1            -6.55  -55   60.08   34.0            -7.00  -55                                                                  82.54    22.3           -7.12
+
+    -50   44.25    6.1            -6.33  -50   43.19   29.4            -6.71  -50                                                                  58.03    19.3           -6.87
+
+    -45   32.34    5.3            -6.12  -45   31.42   25.3            -6.44  -45                                                                  41.31    16.6           -6.63
+
+    -40   23.88    4.5            -5.92  -40   23.13   21.6            -6.18  -40                                                                  29.75    14.2           -6.40
+
+    -35   17.81    3.8            -5.73  -35   17.22   18.4            -5.94  -35                                                                  21.68    12.0           -6.18
+
+    -30   13.41    3.2            -5.54  -30   12.95   15.5            -5.71  -30                                                                  15.97    10.1           -5.98
+
+    -25   10.19    2.7            -5.37  -25   9.842   12.9            -5.49  -25                                                                  11.88    8.5            -5.78
+
+    -20   7.815    2.2            -5.20  -20   7.550   10.7            -5.29  -20                                                                  8.931    7.0            -5.59
+
+    -15   6.041    1.8            -5.04  -15   5.845   8.7             -5.10  -15                                                                  6.777    5.7            -5.40
+
+    -10   4.707    1.5            -4.89  -10   4.564   6.9             -4.91  -10                                                                  5.188    4.5            -5.23
+
+    -5    3.696    1.1            -4.74  -5    3.594   5.4             -4.74  -5                                                                   4.007    3.6            -5.06
+
+    0     2.923    0.9            -4.60  0     2.853   4.1             -4.58  0                                                                    3.120    2.7            -4.90
+
+    5     2.329    0.6            -4.46  5     2.281   3.0             -4.42  5                                                                    2.449    2.0            -4.75
+
+    10    1.867    0.4            -4.33  10    1.838   2.0             -4.27  10                                                                   1.937    1.3            -4.60
+
+    15    1.507    0.3            -4.21  15    1.491   1.2             -4.13  15                                                                   1.543    0.8            -4.46
+
+    20    1.224    0.1            -4.09  20    1.217   0.5             -4.00  20                                                                   1.238    0.4            -4.33
+
+    25    1.0000   0.0            -3.97  25    1.0000  0.0             -3.90  25                                                                   1.0000   0.0            -4.20
+
+    30    0.8217   0.1            -3.86  30    0.8267  0.5             -3.74  30                                                                   0.8128   0.3            -4.07
+
+    35    0.6788   0.2            -3.75  35    0.6873  1.1             -3.63  35                                                                   0.6648   0.7            -3.95
+
+    40    0.5638   0.4            -3.65  40    0.5747  1.8             -3.52  40                                                                   0.5469   1.2            -3.84
+
+    45    0.4707   0.5            -3.55  45    0.4830  2.5             -3.41  45                                                                   0.4525   1.6            -3.73
+
+    50    0.3948   0.7            -3.46  50    0.4081  3.3             -3.31  50                                                                   0.3764   2.2            -3.62
+
+    55    0.3328   0.9            -3.37  55    0.3465  4.1             -3.21  55                                                                   0.3148   2.7            -3.52
+
+    60    0.2817   1.0            -3.28  60    0.2955  5.0             -3.12  60                                                                   0.2646   3.3            -3.42
+
+    65    0.2396   1.2            -3.19  65    0.2532  5.9             -3.03  65                                                                   0.2235   3.8            -3.33
+
+    70    0.2046   1.4            -3.11  70    0.2179  6.8             -2.94  70                                                                   0.1896   4.5            -3.24
+
+    75    0.1754   1.6            -3.03  75    0.1883  7.8             -2.86  75                                                                   0.1616   5.1            -3.15
+
+    80    0.1510   1.8            -2.96  80    0.1634  8.7             -2.78  80                                                                   0.1383   5.7            -3.07
+
+    85    0.1305   2.0            -2.88  85    0.1423  9.7             -2.71  85                                                                   0.1189   6.4            -2.98
+
+    90    0.1131   2.3            -2.81  90    0.1244  10.8            -2.63  90                                                                   0.1026   7.1            -2.91
+
+    95    0.09844  2.5            -2.74  95    0.10915 11.8            -2.56  95                                                                   0.08888  7.7            -2.83
+
+    100 0.08596    2.7            -2.68  100 0.09608 12.9              -2.50  100 0.07728                                                                   8.4            -2.76
+
+    105 0.07530    2.9            -2.61  105 0.08486 13.9              -2.43  105 0.06744                                                                   9.1            -2.69
+
+    110 0.06618    3.1            -2.55  110 0.07519 15.0              -2.37  110 0.05905                                                                   9.8            -2.62
+
+    115 0.05833    3.4            -2.49  115 0.06683 16.1              -2.31  115 0.05188 10.5                                                                             -2.56
+
+    120 0.05157    3.6            -2.43  120 0.05957 17.2              -2.25  120 0.04572 11.3                                                                             -2.49
+
+    125 0.04573    3.8            -2.38  125 0.05325 18.3              -2.20  125 0.04042 12.0                                                                             -2.43
+
+    130 0.04065    4.0            -2.32  130 0.04774 19.4              -2.14  130 0.03585 12.7                                                                             -2.37
+
+    135 0.03624    4.3            -2.27  135 0.04290 20.5              -2.09  135 0.03188 13.4                                                                             -2.32
+
+    140 0.03239    4.5            -2.22  140 0.03866 21.6              -2.04  140 0.02843 14.1                                                                             -2.26
+
+    145 0.02902    4.7            -2.17  145 0.03492 22.7              -1.99  145 0.02542 14.8                                                                             -2.21
+
+    150 0.02607    5.0            -2.12  150 0.03162 23.8              -1.95  150 0.02279 15.6                                                                             -2.16
+
+                                  The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+65                                online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                               TDS-THERM-0005 | Rev 1
+
+                                               ­NTC THERMISTORS ­
+TABLES OF RESISTANCE VS TEMPERATURE
+
+     T             Material B(K)          T             Material B(K)          T                                                                           Material B(K)
+    (°C)                                 (°C)                                 (°C)
+                   L2 3805                              M 3950                                                                                             MA 3965
+
+          R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)
+
+    -55   62.45    22.4           -6.41  -55   99.59    15.6           -7.42  -55                                                                  101.09  2.47           -7.49
+
+    -50   45.40    19.3           -6.22  -50   68.97    14.3           -7.16  -50                                                                  69.81   2.26           -7.22
+
+    -45   33.33    16.6           -6.03  -45   48.40    12.9           -6.91  -45                                                                  48.87   2.06           -6.96
+
+    -40   24.70    14.2           -5.85  -40   34.38    11.7           -6.67  -40                                                                  34.65   1.87           -6.71
+
+    -35   18.47    12.1           -5.68  -35   24.71    10.5           -6.45  -35                                                                  24.87   1.69           -6.48
+
+    -30   13.92    10.2           -5.52  -30   17.97    9.4            -6.23  -30                                                                  18.06   1.52           -6.26
+
+    -25   10.58    8.5            -5.36  -25   13.20    8.3            -6.02  -25                                                                  13.259  1.35           -6.05
+
+    -20   8.110    7.0            -5.21  -20   9.804    7.3            -5.82  -20                                                                  9.837   1.19           -5.84
+
+    -15   6.260    5.7            -5.07  -15   7.352    6.3            -5.63  -15                                                                  7.372   1.04           -5.65
+
+    -10   4.867    4.6            -4.93  -10   5.565    5.4            -5.45  -10                                                                  5.578   0.89           -5.47
+
+    -5    3.810    3.6            -4.80  -5    4.251    4.5            -5.28  -5                                                                   4.259   0.75           -5.29
+
+    0     3.003    2.7            -4.67  0     3.275    3.7            -5.11  0                                                                    3.280   0.61           -5.12
+
+    5     2.382    2.0            -4.55  5     2.544    2.9            -4.95  5                                                                    2.548   0.48           -4.96
+
+    10    1.901    1.3            -4.43  10    1.992    2.1            -4.80  10                                                                   1.994   0.35           -4.81
+
+    15    1.526    0.8            -4.31  15    1.572    1.4            -4.65  15                                                                   1.573   0.23           -4.66
+
+    20    1.232    0.4            -4.20  20    1.249    0.7            -4.51  20                                                                   1.250   0.11           -4.52
+
+    25    1.0000   0.0            -4.10  25    1.0000   0.0            -4.38  25                                                                   1.0000  0.00           -4.38
+
+    30    0.8161   0.3            -4.00  30    0.8057   0.7            -4.25  30                                                                   0.8054  0.11           -4.25
+
+    35    0.6694   0.7            -3.90  35    0.6534   1.3            -4.12  35                                                                   0.6528  0.22           -4.13
+
+    40    0.5518   1.2            -3.80  40    0.5331   1.9            -4.00  40                                                                   0.5324  0.32           -4.01
+
+    45    0.4570   1.7            -3.71  45    0.4376   2.5            -3.89  45                                                                   0.4368  0.42           -3.90
+
+    50    0.3802   2.2            -3.62  50    0.3612   3.1            -3.77  50                                                                   0.3603  0.52           -3.79
+
+    55    0.3178   2.7            -3.53  55    0.2998   3.7            -3.67  55                                                                   0.2989  0.61           -3.68
+
+    60    0.2667   3.3            -3.45  60    0.2501   4.3            -3.57  60                                                                   0.2492  0.70           -3.58
+
+    65    0.2248   3.9            -3.37  65    0.2097   4.8            -3.47  65                                                                   0.2088  0.79           -3.48
+
+    70    0.1902   4.5            -3.29  70    0.1767   5.3            -3.37  70                                                                   0.1758  0.88           -3.39
+
+    75    0.1615   5.1            -3.22  75    0.1496   5.9            -3.28  75                                                                   0.1487  0.96           -3.30
+
+    80    0.1377   5.8            -3.14  80    0.1272   6.4            -3.19  80                                                                   0.1263  1.04           -3.21
+
+    85    0.1179   6.4            -3.07  85    0.1087   6.9            -3.11  85                                                                   0.1078  1.12           -3.13
+
+    90    0.1012   7.1            -3.00  90    0.09320  7.4            -3.03  90                                                                   0.0923  1.20           -3.05
+
+    95    0.08721  7.8            -2.94  95    0.08025  7.8            -2.95  95                                                                   0.0794  1.27           -2.97
+
+    100 0.07539    8.5            -2.87  100 0.06937    8.3            -2.87  100 0.06857 1.35                                                                            -2.90
+
+    105 0.06538    9.2            -2.81  105 0.06019    8.8            -2.80  105 0.05942 1.42                                                                            -2.83
+
+    110 0.05688    9.9            -2.75  110 0.05242    9.2            -2.73  110 0.05167 1.49                                                                            -2.76
+
+    115 0.04963 10.6              -2.69  115 0.04580    9.6            -2.66  115 0.04509 1.55                                                                            -2.69
+
+    120 0.04343 11.3              -2.63  120 0.04016 10.1              -2.60  120 0.03948 1.62                                                                            -2.62
+
+    125 0.03812 12.0              -2.58  125 0.03532 10.5              -2.53  125 0.03467 1.68                                                                            -2.56
+
+    130 0.03354 12.7              -2.53  130 0.03117 10.9              -2.47  130 0.03055 1.75                                                                            -2.50
+
+    135 0.02960 13.5              -2.47  135 0.02758 11.3              -2.41  135 0.02699 1.81                                                                            -2.44
+
+    140 0.02618 14.2              -2.42  140 0.02448 11.7              -2.36  140 0.02392 1.87                                                                            -2.39
+
+    145 0.02322 14.9              -2.37  145 0.02179 12.1              -2.30  145 0.02125 1.93                                                                            -2.33
+
+    150 0.02064 15.6              -2.33  150 0.01945 12.4              -2.25  150 0.01894 1.98                                                                            -2.28
+
+                                  The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+66                                online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                               TDS-THERM-0005 | Rev 1
+
+                                               ­NTC THERMISTORS ­
+TABLES OF RESISTANCE VS TEMPERATURE
+
+     T             Material B(K)          T            Material B(K)           T                                                                            Material B(K)
+    (°C)                                 (°C)                                 (°C)
+                   MC 3910                             ME 3975                                                                                              M4 3995
+
+          R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)
+
+    -55   100.6    23.0           -7.56  -55   103.9   2.47            -7.56  -55                                                                  98.22    23.5           -7.38
+
+    -50   69.29    19.9           -7.27  -50   71.53   2.26            -7.28  -50                                                                  68.17    20.3           -7.12
+
+    -45   48.40    17.1           -7.00  -45   49.94   2.06            -7.01  -45                                                                  47.92    17.5           -6.88
+
+    -40   34.27    14.6           -6.75  -40   35.32   1.87            -6.76  -40                                                                  34.11    14.9           -6.64
+
+    -35   24.57    12.4           -6.50  -35   25.29   1.69            -6.53  -35                                                                  24.57    12.7           -6.42
+
+    -30   17.83    10.5           -6.27  -30   18.32   1.52            -6.30  -30                                                                  17.89    10.7           -6.20
+
+    -25   13.09    8.7            -6.05  -25   13.43   1.35            -6.08  -25                                                                  13.17    8.9            -6.00
+
+    -20   9.71     7.2            -5.84  -20   9.945   1.19            -5.88  -20                                                                  9.790    7.4            -5.80
+
+    -15   7.282    5.9            -5.64  -15   7.440   1.04            -5.68  -15                                                                  7.349    6.0            -5.62
+
+    -10   5.514    4.7            -5.45  -10   5.621   0.89            -5.50  -10                                                                  5.568    4.8            -5.44
+
+    -5    4.215    3.7            -5.27  -5    4.286   0.75            -5.32  -5                                                                   4.256    3.8            -5.27
+
+    0     3.250    2.8            -5.10  0     3.297   0.61            -5.15  0                                                                    3.280    2.8            -5.11
+
+    5     2.528    2.0            -4.93  5     2.557   0.48            -4.98  5                                                                    2.549    2.1            -4.95
+
+    10    1.982    1.4            -4.77  10    2.000   0.35            -4.83  10                                                                   1.996    1.4            -4.80
+
+    15    1.567    0.8            -4.62  15    1.576   0.23            -4.68  15                                                                   1.574    0.8            -4.66
+
+    20    1.247    0.4            -4.48  20    1.251   0.11            -4.54  20                                                                   1.250    0.4            -4.52
+
+    25    1.0000   0.0            -4.34  25    1.0000  0.00            -4.40  25                                                                   1.0000   0.0            -4.39
+
+    30    0.8072   0.4            -4.21  30    0.8048  0.11            -4.27  30                                                                   0.8049   0.4            -4.27
+
+    35    0.6559   0.8            -4.08  35    0.6519  0.22            -4.14  35                                                                   0.6519   0.8            -4.15
+
+    40    0.5362   1.2            -3.96  40    0.5313  0.32            -4.02  40                                                                   0.5311   1.2            -4.03
+
+    45    0.4410   1.7            -3.85  45    0.4356  0.42            -3.91  45                                                                   0.4352   1.7            -3.92
+
+    50    0.3647   2.2            -3.74  50    0.3591  0.52            -3.80  50                                                                   0.3586   2.3            -3.81
+
+    55    0.3033   2.8            -3.63  55    0.2977  0.61            -3.69  55                                                                   0.2970   2.8            -3.71
+
+    60    0.2535   3.4            -3.53  60    0.2481  0.70            -3.59  60                                                                   0.2472   3.4            -3.61
+
+    65    0.2130   4.0            -3.43  65    0.2078  0.79            -3.49  65                                                                   0.2068   4.1            -3.52
+
+    70    0.1798   4.6            -3.34  70    0.1749  0.88            -3.40  70                                                                   0.1738   4.7            -3.42
+
+    75    0.1525   5.2            -3.25  75    0.1479  0.96            -3.31  75                                                                   0.1468   5.4            -3.34
+
+    80    0.1300   5.9            -3.16  80    0.1256  1.04            -3.22  80                                                                   0.1245   6.0            -3.25
+
+    85    0.1112   6.6            -3.08  85    0.1071  1.12            -3.14  85                                                                   0.1060   6.7            -3.17
+
+    90    0.09552  7.3            -2.99  90    0.09175 1.20            -3.06  90                                                                   0.09060  7.4            -3.09
+
+    95    0.08239  8.0            -2.92  95    0.07890 1.27            -2.98  95                                                                   0.07776  8.2            -3.01
+
+    100 0.07133    8.7            -2.84  100 0.06810 1.35              -2.90  100 0.06700                                                                   8.9            -2.94
+
+    105 0.06199    9.4            -2.77  105 0.05900 1.42              -2.83  105 0.05793                                                                   9.6            -2.87
+
+    110 0.05406 10.1              -2.70  110 0.05130 1.49              -2.76  110 0.05026 10.4                                                                             -2.80
+
+    115 0.04731 10.9              -2.63  115 0.04476 1.55              -2.69  115 0.04376 11.1                                                                             -2.74
+
+    120 0.04153 11.6              -2.57  120 0.03918 1.62              -2.63  120 0.03822 11.9                                                                             -2.67
+
+    125 0.03658 12.3              -2.51  125 0.03441 1.68              -2.57  125 0.03349 12.6                                                                             -2.61
+
+    130 0.03231 13.1              -2.45  130 0.03031 1.75              -2.50  130 0.02944 13.4                                                                             -2.55
+
+    135 0.02863 13.8              -2.39  135 0.02678 1.81              -2.45  135 0.02595 14.1                                                                             -2.49
+
+    140 0.02544 14.6              -2.33  140 0.02373 1.87              -2.39  140 0.02294 14.9                                                                             -2.44
+
+    145 0.02267 15.3              -2.28  145 0.02108 1.93              -2.34  145 0.02033 15.6                                                                             -2.38
+
+    150 0.02025 16.1              -2.23  150 0.01878 1.98              -2.28  150 0.01807 16.4                                                                             -2.33
+
+                                  The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+67                                online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                               TDS-THERM-0005 | Rev 1
+
+                                               ­NTC THERMISTORS ­
+TABLES OF RESISTANCE VS TEMPERATURE
+
+     T            Material B(K)          T             Material B(K)          T                                                                            Material B(K)
+    (°C)                                (°C)                                 (°C)
+                  MN 4077                              N 4080                                                                                              NA 4100
+
+          R(T) / R25 TF (%)  (%/°C)           R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)
+
+    -55   103.6   2.54           -7.39  -55   110.1    24.0           -7.50  --55                                                                 109.5    8.0            -7.53
+
+    -50   71.79   2.32           -7.14  -50   75.89    20.7           -7.25  -50                                                                  75.44    6.9            -7.27
+
+    -45   50.39   2.12           -6.90  -45   52.97    17.8           -7.01  -45                                                                  52.64    6.0            -7.02
+
+    -40   35.79   1.92           -6.68  -40   37.42    15.2           -6.78  -40                                                                  37.19    5.1            -6.78
+
+    -35   25.71   1.74           -6.46  -35   26.75    12.9           -6.56  -35                                                                  26.59    4.3            -6.56
+
+    -30   18.67   1.56           -6.25  -30   19.33    10.9           -6.35  -30                                                                  19.22    3.7            -6.34
+
+    -25   13.70   1.39           -6.06  -25   14.11    9.1            -6.14  -25                                                                  14.05    3.1            -6.14
+
+    -20   10.15   1.22           -5.87  -20   10.41    7.5            -5.95  -20                                                                  10.37    2.5            -5.94
+
+    -15   7.591   1.06           -5.68  -15   7.758    6.1            -5.76  -15                                                                  7.730    2.1            -5.75
+
+    -10   5.730   0.91           -5.51  -10   5.834    4.9            -5.58  -10                                                                  5.817    1.6            -5.57
+
+    -5    4.362   0.77           -5.34  -5    4.426    3.8            -5.41  -5                                                                   4.417    1.3            -5.40
+
+    0     3.349   0.63           -5.18  0     3.387    2.9            -5.24  0                                                                    3.382    1.0            -5.23
+
+    5     2.592   0.49           -5.03  5     2.614    2.1            -5.08  5                                                                    2.611    0.7            -5.08
+
+    10    2.021   0.36           -4.88  10    2.033    1.4            -4.93  10                                                                   2.032    0.5            -4.92
+
+    15    1.587   0.24           -4.74  15    1.593    0.9            -4.78  15                                                                   1.593    0.3            -4.78
+
+    20    1.256   0.12           -4.60  20    1.258    0.4            -4.64  20                                                                   1.258    0.1            -4.64
+
+    25    1.0000  0.00           -4.47  25    1.0000   0.0            -4.51  25                                                                   1.0000   0.0            -4.51
+
+    30    0.8016  0.11           -4.35  30    0.8004   0.4            -4.37  30                                                                   0.8003   0.1            -4.38
+
+    35    0.6465  0.22           -4.23  35    0.6449   0.8            -4.25  35                                                                   0.6446   0.3            -4.25
+
+    40    0.5246  0.33           -4.11  40    0.5228   1.3            -4.13  40                                                                   0.5224   0.4            -4.14
+
+    45    0.4281  0.43           -4.00  45    0.4264   1.8            -4.01  45                                                                   0.4258   0.6            -4.02
+
+    50    0.3514  0.53           -3.89  50    0.3497   2.3            -3.90  50                                                                   0.3490   0.8            -3.91
+
+    55    0.2899  0.63           -3.79  55    0.2885   2.9            -3.79  55                                                                   0.2877   1.0            -3.81
+
+    60    0.2404  0.72           -3.69  60    0.2392   3.5            -3.68  60                                                                   0.2383   1.2            -3.71
+
+    65    0.2004  0.81           -3.59  65    0.1994   4.1            -3.58  65                                                                   0.1984   1.4            -3.61
+
+    70    0.1678  0.90           -3.50  70    0.1671   4.8            -3.49  70                                                                   0.1660   1.6            -3.51
+
+    75    0.1411  0.99           -3.41  75    0.1406   5.5            -3.39  75                                                                   0.1395   1.8            -3.42
+
+    80    0.1193  1.07           -3.32  80    0.1189   6.2            -3.30  80                                                                   0.1178   2.1            -3.34
+
+    85    0.1012  1.15           -3.24  85    0.1010   6.9            -3.22  85                                                                   0.09989  2.3            -3.25
+
+    90    0.08624 1.23           -3.16  90    0.08616  7.6            -3.13  90                                                                   0.08506  2.5            -3.17
+
+    95    0.07378 1.31           -3.08  95    0.07381  8.3            -3.05  95                                                                   0.07271  2.8            -3.09
+
+    100 0.06336 1.38             -3.00  100 0.06347    9.1            -2.97  100 0.06240                                                                   3.0            -3.02
+
+    105 0.05462 1.46             -2.93  105 0.05480    9.8            -2.90  105 0.05375                                                                   3.3            -2.94
+
+    110 0.04725 1.53             -2.86  110 0.04748 10.6              -2.83  110 0.04647                                                                   3.5            -2.87
+
+    115 0.04101 1.60             -2.79  115 0.04129 11.3              -2.76  115 0.04032                                                                   3.8            -2.81
+
+    120 0.03572 1.67             -2.73  120 0.03603 12.1              -2.69  120 0.03509                                                                   4.1            -2.74
+
+    125 0.03122 1.73             -2.66  125 0.03155 12.9              -2.62  125 0.03065                                                                   4.3            -2.68
+
+    130 0.02736 1.80             -2.60  130 0.02771 13.7              -2.56  130 0.02685                                                                   4.6            -2.61
+
+    135 0.02406 1.86             -2.54  135 0.02442 14.4              -2.50  135 0.02359                                                                   4.8            -2.55
+
+    140 0.02121 1.92             -2.49  140 0.02158 15.2              -2.44  140 0.02079                                                                   5.1            -2.50
+
+    145 0.01876 1.98             -2.43  145 0.01913 16.0              -2.38  145 0.01837                                                                   5.4            -2.44
+
+    150 0.01663 2.04             -2.38  150 0.01700 16.8              -2.33  150 0.01628                                                                   5.6            -2.39
+
+                                 The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+68                               online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                              TDS-THERM-0005 | Rev 1
+
+                                              ­NTC THERMISTORS ­
+TABLES OF RESISTANCE VS TEMPERATURE
+
+     T             Material B(K)          T             Material B(K)         T                                                                             Material B(K)
+    (°C)                                 (°C)                                (°C)
+                   NC 4080                              NE 4100                                                                                             N5 4160
+
+          R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)           R(T) / R25 TF (%)  (%/°C)
+
+    -55   105.4    24.0           -7.45  -55   97.27    24.1           -7.2  -55                                                                   115.8    16.3           -7.52
+
+    -50   72.89    20.7           -7.20  -50   67.99    20.8           -7.0  -50                                                                   79.72    14.1           -7.28
+
+    -45   51.04    17.8           -6.95  -45   48.08    17.9           -6.8  -45                                                                   55.54    12.1           -7.04
+
+    -40   36.18    15.2           -6.72  -40   34.39    15.3           -6.5  -40                                                                   39.15    10.4           -6.82
+
+    -35   25.94    12.9           -6.50  -35   24.85    13.0           -6.3  -35                                                                   27.91    8.8            -6.61
+
+    -30   18.81    10.9           -6.29  -30   18.15    11.0           -6.1  -30                                                                   20.11    7.4            -6.40
+
+    -25   13.78    9.1            -6.08  -25   13.38    9.2            -6.0  -25                                                                   14.64    6.2            -6.20
+
+    -20   10.20    7.5            -5.89  -20   9.960    7.6            -5.8  -20                                                                   10.77    5.1            -6.01
+
+    -15   7.621    6.1            -5.71  -15   7.479    6.2            -5.6  -15                                                                   7.996    4.2            -5.83
+
+    -10   5.748    4.9            -5.53  -10   5.664    4.9            -5.4  -10                                                                   5.991    3.3            -5.65
+
+    -5    4.373    3.8            -5.36  -5    4.325    3.8            -5.3  -5                                                                    4.529    2.6            -5.48
+
+    0     3.355    2.9            -5.20  0     3.328    2.9            -5.1  0                                                                     3.454    2.0            -5.31
+
+    5     2.595    2.1            -5.04  5     2.581    2.1            -5.0  5                                                                     2.655    1.4            -5.16
+
+    10    2.023    1.4            -4.89  10    2.016    1.4            -4.9  10                                                                    2.057    1.0            -5.00
+
+    15    1.588    0.9            -4.75  15    1.585    0.9            -4.7  15                                                                    1.606    0.6            -4.86
+
+    20    1.256    0.4            -4.61  20    1.255    0.4            -4.6  20                                                                    1.263    0.3            -4.72
+
+    25    1.0000   0.0            -4.48  25    1.0000   0.0            -4.5  25                                                                    1.0000   0.0            -4.58
+
+    30    0.8014   0.4            -4.35  30    0.8017   0.4            -4.3  30                                                                    0.7973   0.3            -4.45
+
+    35    0.6463   0.8            -4.23  35    0.6466   0.8            -4.2  35                                                                    0.6398   0.5            -4.32
+
+    40    0.5243   1.3            -4.11  40    0.5245   1.3            -4.1  40                                                                    0.5167   0.9            -4.20
+
+    45    0.4278   1.8            -4.00  45    0.4278   1.8            -4.0  45                                                                    0.4198   1.2            -4.09
+
+    50    0.3510   2.3            -3.89  50    0.3508   2.3            -3.9  50                                                                    0.3430   1.6            -3.97
+
+    55    0.2896   2.9            -3.79  55    0.2891   2.9            -3.8  55                                                                    0.2819   2.0            -3.86
+
+    60    0.2401   3.5            -3.69  60    0.2394   3.5            -3.7  60                                                                    0.2329   2.4            -3.76
+
+    65    0.2001   4.1            -3.59  65    0.1992   4.2            -3.6  65                                                                    0.1934   2.8            -3.66
+
+    70    0.1675   4.8            -3.50  70    0.1666   4.8            -3.5  70                                                                    0.1614   3.3            -3.56
+
+    75    0.1409   5.5            -3.41  75    0.1399   5.5            -3.4  75                                                                    0.1354   3.7            -3.46
+
+    80    0.1190   6.2            -3.32  80    0.11794  6.2            -3.4  80                                                                    0.1141   4.2            -3.37
+
+    85    0.1010   6.9            -3.24  85    0.09987  6.9            -3.3  85                                                                    0.09658  4.7            -3.29
+
+    90    0.08605  7.6            -3.16  90    0.08491  7.6            -3.2  90                                                                    0.08211  5.2            -3.20
+
+    95    0.07360  8.3            -3.08  95    0.07246  8.4            -3.1  95                                                                    0.07010  5.7            -3.12
+
+    100 0.06319    9.1            -3.01  100 0.06207    9.1            -3.1  100 0.06009                                                                    6.2            -3.04
+
+    105 0.05446    9.8            -2.94  105 0.05336    9.9            -3.0  105 0.05171                                                                    6.7            -2.96
+
+    110 0.04710 10.6              -2.87  110 0.04604 10.6              -2.9  110 0.04467                                                                    7.2            -2.89
+
+    115 0.04087 11.3              -2.80  115 0.03985 11.4              -2.8  115 0.03872                                                                    7.7            -2.82
+
+    120 0.03559 12.1              -2.73  120 0.03461 12.2              -2.8  120 0.03369                                                                    8.2            -2.75
+
+    125 0.03109 12.9              -2.67  125 0.03015 12.9              -2.7  125 0.02941                                                                    8.8            -2.68
+
+    130 0.02724 13.7              -2.61  130 0.02635 13.7              -2.7  130 0.02576                                                                    9.3            -2.62
+
+    135 0.02394 14.4              -2.55  135 0.02309 14.5              -2.6  135 0.02263                                                                    9.8            -2.55
+
+    140 0.02111 15.2              -2.49  140   0.0203   15.3           -2.5  140 0.01995 10.3                                                                              -2.49
+
+    145 0.01866 16.0              -2.44  145 0.01789 16.1              -2.5  145 0.01763 10.9                                                                              -2.44
+
+    150 0.01654 16.8              -2.38  150 0.01581 16.8              -2.4  150 0.01563 11.4                                                                              -2.38
+
+                                  The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+69                                online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                               TDS-THERM-0005 | Rev 1
+
+                                               ­NTC THERMISTORS ­
+TABLES OF RESISTANCE VS TEMPERATURE
+
+     T             Material B(K)          T             Material B(K)          T                                                                            Material B(K)
+    (°C)                                 (°C)                                 (°C)
+                   P 4220                               PA 4235                                                                                             Q 4300
+
+          R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)
+
+    -55   121.4    24.8           -7.56  -55   123.40   8.3            -7.68  -55                                                                  98.04    25.3           -6.87
+
+    -50   83.35    21.5           -7.32  -50   84.33    7.2            -7.42  -50                                                                  69.53    21.9           -6.70
+
+    -45   57.92    18.4           -7.09  -45   58.39    6.2            -7.17  -45                                                                  49.73    18.8           -6.53
+
+    -40   40.72    15.8           -6.87  -40   40.93    5.3            -6.93  -40                                                                  35.87    16.1           -6.37
+
+    -35   28.95    13.4           -6.66  -35   29.04    4.5            -6.71  -35                                                                  26.08    13.6           -6.22
+
+    -30   20.80    11.3           -6.45  -30   20.83    3.8            -6.49  -30                                                                  19.12    11.5           -6.07
+
+    -25   15.10    9.4            -6.26  -25   15.11    3.2            -6.29  -25                                                                  14.12    9.6            -5.92
+
+    -20   11.07    7.8            -6.07  -20   11.07    2.6            -6.09  -20                                                                  10.51    7.9            -5.78
+
+    -15   8.197    6.3            -5.89  -15   8.190    2.1            -5.90  -15                                                                  7.877    6.5            -5.64
+
+    -10   6.123    5.1            -5.71  -10   6.117    1.7            -5.72  -10                                                                  5.947    5.2            -5.50
+
+    -5    4.615    4.0            -5.54  -5    4.610    1.3            -5.54  -5                                                                   4.521    4.0            -5.37
+
+    0     3.508    3.0            -5.38  0     3.505    1.0            -5.38  0                                                                    3.460    3.1            -5.24
+
+    5     2.688    2.2            -5.22  5     2.686    0.7            -5.22  5                                                                    2.666    2.2            -5.11
+
+    10    2.076    1.5            -5.07  10    2.075    0.5            -5.07  10                                                                   2.067    1.5            -4.99
+
+    15    1.616    0.9            -4.92  15    1.615    0.3            -4.92  15                                                                   1.613    0.9            -4.87
+
+    20    1.267    0.4            -4.78  20    1.267    0.1            -4.78  20                                                                   1.266    0.4            -4.75
+
+    25    1.0000   0.0            -4.64  25    1.0000   0.0            -4.64  25                                                                   1.0000   0.0            -4.63
+
+    30    0.7949   0.4            -4.51  30    0.7949   0.1            -4.51  30                                                                   0.7944   0.4            -4.52
+
+    35    0.6359   0.8            -4.38  35    0.6359   0.3            -4.39  35                                                                   0.6347   0.8            -4.41
+
+    40    0.5120   1.3            -4.26  40    0.5119   0.4            -4.27  40                                                                   0.5099   1.3            -4.30
+
+    45    0.4148   1.8            -4.14  45    0.4145   0.6            -4.15  45                                                                   0.4119   1.9            -4.20
+
+    50    0.3379   2.4            -4.03  50    0.3376   0.8            -4.04  50                                                                   0.3344   2.4            -4.09
+
+    55    0.2769   3.0            -3.92  55    0.2764   1.0            -3.93  55                                                                   0.2730   3.1            -3.99
+
+    60    0.2281   3.6            -3.81  60    0.2276   1.2            -3.83  60                                                                   0.2239   3.7            -3.90
+
+    65    0.1890   4.3            -3.71  65    0.1883   1.4            -3.73  65                                                                   0.1846   4.4            -3.80
+
+    70    0.1573   5.0            -3.61  70    0.1566   1.7            -3.63  70                                                                   0.1529   5.1            -3.71
+
+    75    0.1316   5.7            -3.52  75    0.1308   1.9            -3.54  75                                                                   0.1272   5.8            -3.62
+
+    80    0.1106   6.4            -3.42  80    0.1098   2.1            -3.45  80                                                                   0.1063   6.5            -3.53
+
+    85    0.09337  7.1            -3.34  85    0.09257  2.4            -3.37  85                                                                   0.08927  7.2            -3.44
+
+    90    0.07918  7.9            -3.25  90    0.07836  2.6            -3.28  90                                                                   0.07526  8.0            -3.36
+
+    95    0.06743  8.6            -3.17  95    0.06661  2.9            -3.20  95                                                                   0.06372  8.8            -3.28
+
+    100 0.05766    9.4            -3.09  100 0.05685    3.1            -3.13  100 0.05417                                                                   9.6            -3.20
+
+    105 0.04950 10.2              -3.01  105 0.04870    3.4            -3.05  105 0.04622 10.4                                                                             -3.13
+
+    110 0.04266 10.9              -2.93  110 0.04188    3.7            -2.98  110 0.03960 11.2                                                                             -3.05
+
+    115 0.03691 11.7              -2.86  115 0.03614    3.9            -2.91  115 0.03405 12.0                                                                             -2.98
+
+    120 0.03204 12.5              -2.79  120 0.03129    4.2            -2.84  120 0.02938 12.8                                                                             -2.91
+
+    125 0.02791 13.3              -2.72  125 0.02719    4.5            -2.78  125 0.02545 13.6                                                                             -2.84
+
+    130 0.02439 14.1              -2.66  130 0.02370    4.7            -2.71  130 0.02211 14.4                                                                             -2.77
+
+    135 0.02139 14.9              -2.59  135 0.02072    5.0            -2.65  135 0.01928 15.2                                                                             -2.71
+
+    140 0.01881 15.7              -2.53  140 0.01817    5.3            -2.59  140 0.01686 16.0                                                                             -2.64
+
+    145 0.01660 16.5              -2.47  145 0.01598    5.5            -2.54  145 0.01479 16.8                                                                             -2.58
+
+    150 0.01469 17.3              -2.42  150 0.01409    5.8            -2.48  150 0.01302 17.7                                                                             -2.52
+
+                                  The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+70                                online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                               TDS-THERM-0005 | Rev 1
+
+                                               ­NTC THERMISTORS ­
+TABLES OF RESISTANCE VS TEMPERATURE
+
+     T             Material B(K)          T             Material B(K)          T                                                                            Material B(K)
+    (°C)                                 (°C)                                 (°C)
+                   QA 4250                              R 4400                                                                                              RA 4380
+
+          R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)
+
+    -55   99.06    8.3            -7.09  -55   113.90   25.9           -7.13  -55                                                                  110.80   8.6            -7.24
+
+    -50   69.60    7.2            -6.88  -50   79.71    22.4           -6.95  -50                                                                  77.24    7.4            -7.03
+
+    -45   49.42    6.2            -6.68  -45   56.30    19.2           -6.77  -45                                                                  54.44    6.4            -6.83
+
+    -40   35.45    5.3            -6.49  -40   40.13    16.4           -6.60  -40                                                                  38.76    5.5            -6.63
+
+    -35   25.67    4.5            -6.30  -35   28.85    14.0           -6.44  -35                                                                  27.87    4.6            -6.45
+
+    -30   18.77    3.8            -6.13  -30   20.92    11.8           -6.28  -30                                                                  20.22    3.9            -6.27
+
+    -25   13.84    3.2            -5.96  -25   15.29    9.8            -6.12  -25                                                                  14.81    3.3            -6.10
+
+    -20   10.29    2.6            -5.79  -20   11.27    8.1            -5.97  -20                                                                  10.94    2.7            -5.93
+
+    -15   7.719    2.1            -5.64  -15   8.368    6.6            -5.82  -15                                                                  8.144    2.2            -5.78
+
+    -10   5.834    1.7            -5.49  -10   6.261    5.3            -5.68  -10                                                                  6.112    1.8            -5.62
+
+    -5    4.442    1.3            -5.34  -5    4.719    4.1            -5.53  -5                                                                   4.623    1.4            -5.48
+
+    0     3.407    1.0            -5.20  0     3.583    3.1            -5.40  0                                                                    3.522    1.0            -5.34
+
+    5     2.632    0.7            -5.07  5     2.739    2.3            -5.26  5                                                                    2.702    0.8            -5.20
+
+    10    2.047    0.5            -4.94  10    2.108    1.5            -5.13  10                                                                   2.087    0.5            -5.07
+
+    15    1.602    0.3            -4.81  15    1.634    0.9            -5.00  15                                                                   1.623    0.3            -4.94
+
+    20    1.262    0.1            -4.69  20    1.274    0.4            -4.88  20                                                                   1.270    0.1            -4.82
+
+    25    1.0000   0.0            -4.57  25    1.0000   0.0            -4.75  25                                                                   1.0000   0.0            -4.70
+
+    30    0.7971   0.1            -4.46  30    0.7897   0.4            -4.64  30                                                                   0.7920   0.1            -4.59
+
+    35    0.6389   0.3            -4.35  35    0.6273   0.9            -4.52  35                                                                   0.6308   0.3            -4.47
+
+    40    0.5149   0.4            -4.24  40    0.5012   1.4            -4.41  40                                                                   0.5052   0.5            -4.37
+
+    45    0.4172   0.6            -4.14  45    0.4028   1.9            -4.30  45                                                                   0.4068   0.6            -4.26
+
+    50    0.3397   0.8            -4.04  50    0.3255   2.5            -4.19  50                                                                   0.3292   0.8            -4.16
+
+    55    0.2780   1.0            -3.95  55    0.2644   3.1            -4.09  55                                                                   0.2678   1.0            -4.07
+
+    60    0.2286   1.2            -3.85  60    0.2159   3.8            -3.98  60                                                                   0.2189   1.3            -3.97
+
+    65    0.1888   1.4            -3.76  65    0.1772   4.5            -3.89  65                                                                   0.1797   1.5            -3.88
+
+    70    0.1567   1.7            -3.68  70    0.1462   5.2            -3.79  70                                                                   0.1482   1.7            -3.79
+
+    75    0.1306   1.9            -3.59  75    0.1212   5.9            -3.70  75                                                                   0.1228   2.0            -3.71
+
+    80    0.1093   2.1            -3.51  80    0.1009   6.7            -3.60  80                                                                   0.1022   2.2            -3.63
+
+    85    0.09179  2.4            -3.43  85    0.08440  7.4            -3.52  85                                                                   0.08536  2.5            -3.55
+
+    90    0.07743  2.6            -3.36  90    0.07092  8.2            -3.43  90                                                                   0.07159  2.7            -3.47
+
+    95    0.06556  2.9            -3.28  95    0.05984  9.0            -3.35  95                                                                   0.06028  3.0            -3.39
+
+    100 0.05571    3.2            -3.21  100 0.05071    9.8            -3.26  100 0.05095                                                                   3.2            -3.32
+
+    105 0.04752    3.4            -3.14  105 0.04314 10.6              -3.19  105 0.04322                                                                   3.5            -3.25
+
+    110 0.04067    3.7            -3.07  110 0.03685 11.4              -3.11  110 0.03679                                                                   3.8            -3.18
+
+    115 0.03492    3.9            -3.01  115 0.03160 12.2              -3.03  115 0.03142                                                                   4.1            -3.11
+
+    120 0.03008    4.2            -2.94  120 0.02719 13.1              -2.96  120 0.02693                                                                   4.3            -3.05
+
+    125 0.02600    4.5            -2.88  125 0.02349 13.9              -2.89  125 0.02315                                                                   4.6            -2.98
+
+    130 0.02254    4.7            -2.82  130 0.02036 14.7              -2.82  130 0.01997                                                                   4.9            -2.92
+
+    135 0.01960    5.0            -2.76  135 0.01770 15.6              -2.76  135 0.01728                                                                   5.2            -2.86
+
+    140 0.01709    5.3            -2.71  140 0.01545 16.4              -2.69  140 0.01499                                                                   5.4            -2.80
+
+    145 0.01495    5.5            -2.65  145 0.01352 17.2              -2.63  145 0.01304                                                                   5.7            -2.75
+
+    150 0.01311    5.8            -2.60  150 0.01187 18.1              -2.57  150 0.01138                                                                   6.0            -2.69
+
+                                  The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+71                                online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                               TDS-THERM-0005 | Rev 1
+
+                                               ­NTC THERMISTORS ­
+TABLES OF RESISTANCE VS TEMPERATURE
+
+     T             Material B(K)          T             Material B(K)          T                                                                            Material B(K)
+    (°C)                                 (°C)                                 (°C)
+                   RC 4340                              T 4630                                                                                              U 4840
+
+          R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)
+
+    -55   105.70   25.5           -7.15  -55   137.10   27.2           -7.33  -55                                                                  173.70   28.5           -7.69
+
+    -50   74.01    22.1           -6.95  -50   94.94    23.5           -7.15  -50                                                                  118.20   24.6           -7.50
+
+    -45   52.37    19.0           -6.75  -45   66.35    20.2           -6.98  -45                                                                  81.18    21.2           -7.32
+
+    -40   37.43    16.2           -6.56  -40   46.78    17.3           -6.82  -40                                                                  56.26    18.1           -7.15
+
+    -35   27.01    13.8           -6.38  -35   33.25    14.7           -6.66  -35                                                                  39.34    15.4           -6.98
+
+    -30   19.66    11.6           -6.20  -30   23.84    12.4           -6.50  -30                                                                  27.75    12.9           -6.82
+
+    -25   14.44    9.7            -6.04  -25   17.23    10.3           -6.35  -25                                                                  19.74    10.8           -6.66
+
+    -20   10.70    8.0            -5.87  -20   12.54    8.5            -6.20  -20                                                                  14.15    8.9            -6.50
+
+    -15   7.990    6.5            -5.72  -15   9.206    6.9            -6.05  -15                                                                  10.23    7.3            -6.34
+
+    -10   6.013    5.2            -5.57  -10   6.807    5.6            -5.91  -10                                                                  7.457    5.8            -6.19
+
+    -5    4.559    4.1            -5.42  -5    5.070    4.3            -5.77  -5                                                                   5.476    4.5            -6.04
+
+    0     3.482    3.1            -5.29  0     3.803    3.3            -5.63  0                                                                    4.051    3.4            -5.90
+
+    5     2.678    2.2            -5.15  5     2.873    2.4            -5.50  5                                                                    3.020    2.5            -5.76
+
+    10    2.074    1.5            -5.02  10    2.185    1.6            -5.36  10                                                                   2.267    1.7            -5.62
+
+    15    1.616    0.9            -4.90  15    1.673    1.0            -5.23  15                                                                   1.714    1.0            -5.48
+
+    20    1.267    0.4            -4.77  20    1.289    0.4            -5.11  20                                                                   1.305    0.5            -5.35
+
+    25    1.0000   0.0            -4.66  25    1.0000   0.0            -4.99  25                                                                   1.0000   0.0            -5.22
+
+    30    0.7936   0.4            -4.54  30    0.7805   0.4            -4.86  30                                                                   0.7715   0.4            -5.09
+
+    35    0.6334   0.8            -4.43  35    0.6129   0.9            -4.75  35                                                                   0.5991   0.9            -4.97
+
+    40    0.5083   1.3            -4.33  40    0.4841   1.4            -4.63  40                                                                   0.4681   1.5            -4.84
+
+    45    0.4100   1.9            -4.23  45    0.3847   2.0            -4.52  45                                                                   0.3680   2.1            -4.72
+
+    50    0.3325   2.5            -4.13  50    0.3074   2.6            -4.41  50                                                                   0.2911   2.8            -4.61
+
+    55    0.2709   3.1            -4.03  55    0.2470   3.3            -4.30  55                                                                   0.2316   3.4            -4.49
+
+    60    0.2218   3.7            -3.94  60    0.1996   4.0            -4.19  60                                                                   0.1853   4.2            -4.38
+
+    65    0.1825   4.4            -3.85  65    0.1621   4.7            -4.09  65                                                                   0.1491   4.9            -4.28
+
+    70    0.1508   5.1            -3.76  70    0.1323   5.4            -3.99  70                                                                   0.1206   5.7            -4.17
+
+    75    0.1251   5.8            -3.67  75    0.1086   6.2            -3.89  75                                                                   0.09812  6.5            -4.07
+
+    80    0.1043   6.6            -3.59  80    0.08951  7.0            -3.80  80                                                                   0.08022  7.3            -3.97
+
+    85    0.08727  7.3            -3.51  85    0.07416  7.8            -3.71  85                                                                   0.06591  8.2            -3.87
+
+    90    0.07332  8.1            -3.43  90    0.06172  8.6            -3.62  90                                                                   0.05442  9.0            -3.77
+
+    95    0.06184  8.9            -3.36  95    0.05160  9.5            -3.53  95                                                                   0.04515  9.9            -3.68
+
+    100 0.05235    9.7            -3.29  100 0.04333 10.3              -3.44  100 0.03763 10.8                                                                             -3.59
+
+    105 0.04448 10.5              -3.22  105 0.03655 11.2              -3.36  105 0.03150 11.7                                                                             -3.50
+
+    110 0.03793 11.3              -3.15  110 0.03095 12.0              -3.28  110 0.02649 12.6                                                                             -3.42
+
+    115 0.03245 12.1              -3.08  115 0.02632 12.9              -3.20  115 0.02237 13.5                                                                             -3.33
+
+    120 0.02785 12.9              -3.01  120 0.02246 13.7              -3.12  120 0.01897 14.4                                                                             -3.25
+
+    125 0.02399 13.7              -2.95  125 0.01925 14.6              -3.05  125 0.01615 15.3                                                                             -3.17
+
+    130 0.02072 14.5              -2.89  130 0.01656 15.5              -2.97  130 0.01380 16.2                                                                             -3.10
+
+    135 0.01796 15.4              -2.83  135 0.01429 16.4              -2.90  135 0.01184 17.1                                                                             -3.02
+
+    140 0.01561 16.2              -2.77  140 0.01238 17.3              -2.83  140 0.01020 18.0                                                                             -2.95
+
+    145 0.01360 17.0              -2.72  145 0.01076 18.1              -2.77  145 0.008814 19.0                                                                            -2.88
+
+    150 0.01189 17.8              -2.66  150 0.009383 19.0             -2.70  150 0.007643 19.9                                                                            -2.81
+
+                                  The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+72                                online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                               TDS-THERM-0005 | Rev 1
+
+                                               ­NTC THERMISTORS ­
+TABLES OF RESISTANCE VS TEMPERATURE
+
+     T             Material B(K)          T             Material B(K)
+    (°C)                                 (°C)
+                   S 4520                               SC 4500
+
+          R(T) / R25 TF (%)  (%/°C)            R(T) / R25 TF (%)  (%/°C)
+
+    -55   126.10   26.6           -7.25  -55   129.80   26.5           -7.51
+
+    -50   87.75    23.0           -7.07  -50   89.31    22.9           -7.29
+
+    -45   61.60    19.8           -6.90  -45   62.15    19.7           -7.07
+
+    -40   43.63    16.9           -6.73  -40   43.72    16.8           -6.87
+
+    -35   31.17    14.3           -6.56  -35   31.07    14.3           -6.68
+
+    -30   22.46    12.1           -6.40  -30   22.29    12.0           -6.49
+
+    -25   16.31    10.1           -6.25  -25   16.15    10.0           -6.31
+
+    -20   11.94    8.3            -6.10  -20   11.80    8.3            -6.14
+
+    -15   8.809    6.8            -5.95  -15   8.703    6.8            -5.97
+
+    -10   6.549    5.4            -5.80  -10   6.470    5.4            -5.81
+
+    -5    4.904    4.2            -5.66  -5    4.849    4.2            -5.66
+
+    0     3.699    3.2            -5.52  0     3.662    3.2            -5.51
+
+    5     2.810    2.3            -5.39  5     2.786    2.3            -5.36
+
+    10    2.149    1.6            -5.26  10    2.135    1.6            -5.23
+
+    15    1.654    1.0            -5.13  15    1.647    0.9            -5.09
+
+    20    1.282    0.4            -5.00  20    1.279    0.4            -4.96
+
+    25    1.0000   0.0            -4.88  25    1.0000   0.0            -4.84
+
+    30    0.7848   0.4            -4.76  30    0.7865   0.4            -4.72
+
+    35    0.6196   0.9            -4.64  35    0.6223   0.9            -4.60
+
+    40    0.4921   1.4            -4.52  40    0.4953   1.4            -4.49
+
+    45    0.3931   2.0            -4.41  45    0.3963   2.0            -4.38
+
+    50    0.3158   2.6            -4.30  50    0.3189   2.6            -4.28
+
+    55    0.2551   3.2            -4.20  55    0.2579   3.2            -4.18
+
+    60    0.2072   3.9            -4.09  60    0.2096   3.9            -4.08
+
+    65    0.1691   4.6            -3.99  65    0.1712   4.6            -3.99
+
+    70    0.1387   5.3            -3.89  70    0.1405   5.3            -3.89
+
+    75    0.1144   6.1            -3.80  75    0.1159   6.0            -3.80
+
+    80    0.0948   6.8            -3.71  80    0.09595  6.8            -3.72
+
+    85    0.0789   7.6            -3.61  85    0.07980  7.6            -3.63
+
+    90    0.06594  8.4            -3.53  90    0.06664  8.4            -3.55
+
+    95    0.05538  9.2            -3.44  95    0.05588  9.2            -3.47
+
+    100 0.04671 10.1              -3.36  100 0.04704 10.0              -3.40
+
+    105 0.03956 10.9              -3.28  105 0.03975 10.8              -3.32
+
+    110 0.03364 11.7              -3.20  110 0.03371 11.7              -3.25
+
+    115 0.02872 12.6              -3.12  115 0.02869 12.5              -3.18
+
+    120 0.02461 13.4              -3.04  120 0.02450 13.4              -3.12
+
+    125 0.02117 14.3              -2.97  125 0.02100 14.2              -3.05
+
+    130 0.01827 15.1              -2.90  130 0.01805 15.1              -2.99
+
+    135 0.01583 16.0              -2.83  135 0.01557 15.9              -2.92
+
+    140 0.01376 16.8              -2.77  140 0.01347 16.8              -2.86
+
+    145 0.01200 17.7              -2.70  145 0.01169 17.6              -2.80
+
+    150 0.01050 18.6              -2.64  150 0.01017 18.5              -2.75
+
+                                  The Important Information/Disclaimer is incorporated in the catalog where these specifications came from or available
+
+73                                online at www.kyocera-avx.com/disclaimer/ by reference and should be reviewed in full before placing any order.
+
+                                               TDS-THERM-0005 | Rev 1
+
+                                               ­NTC THERMISTORS ­
+

@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-20T17:48:13.909Z",
+  "checks": [
+    {
+      "name": "All chapter crossings traversed in both directions 1440/no-preference",
+      "pass": true,
+      "details": 28
+    },
+    {
+      "name": "Rendered object never jumps between positions 1440/no-preference",
+      "pass": true,
+      "details": {
+        "position": 17.832309696911423,
+        "rotation": 0.07486345194021093,
+        "size": 0.04691407431820824,
+        "screen": 0.051969074218738864,
+        "halo": 0.03312834814571519,
+        "clip": 0,
+        "toolbar": 0,
+        "partTravel": 39.10663675768131
+      }
+    },
+    {
+      "name": "Exploded components follow a continuous path 1440/no-preference",
+      "pass": true,
+      "details": 39.10663675768131
+    },
+    {
+      "name": "No browser errors during scroll, reverse or navigation",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

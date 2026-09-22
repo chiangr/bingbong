@@ -1,0 +1,22 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 900,
+    "frames": 2987,
+    "captureFps": 57.394315794134506,
+    "encodedFps": 60,
+    "seconds": 52.026057958602905,
+    "note": "CDP capture at native refresh cadence; 60 fps encode preserves timestamps, duplicating when the capture has fewer frames. Phone is emulated, not a physical handset."
+  },
+  {
+    "name": "phone-emulation",
+    "width": 390,
+    "height": 844,
+    "frames": 3703,
+    "captureFps": 59.66530956924868,
+    "encodedFps": 60,
+    "seconds": 62.046103954315186,
+    "note": "CDP capture at native refresh cadence; 60 fps encode preserves timestamps, duplicating when the capture has fewer frames. Phone is emulated, not a physical handset."
+  }
+]

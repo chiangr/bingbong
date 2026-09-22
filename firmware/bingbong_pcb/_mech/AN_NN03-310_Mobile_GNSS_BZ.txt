@@ -1,0 +1,947 @@
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 1 ====
+     
+TRIO mXTENDTM: 
+ONLY ONE 
+ANTENNA FOR 
+YOUR TRACKER: 
+MOBILE, GNSS & 
+BLUETOOTH INTO 
+ONE CHIP   
+ 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 2 ====
+ 
+ 
+ 
+ 
+2 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+ONLY one antenna for YOUR TRACKER: Mobile, GNSS & 
+Bluetooth INTO ONE CHIP   
+ 
+- 
+Antenna Component: TRIO mXTENDTM NN03-310 
+- 
+Dimensions: 30.0 mm x 3.0 mm x 1.0 mm 
+- 
+Frequency regions: 824-960 MHz, 1710-1990 MHz, 1561-1606 MHz & 2400-2500 MHz 
+ 
+The TRIO mXTEND™ chip antenna enables Mobile, GNSS and Bluetooth connection 
+simultaneosly through a single antenna component. Thanks to its modular, multiband and 
+multiport configuration this chip antenna works in multiple frequency regions, making your 
+ASSET TRACKING device simpler and more compact while reducing its time to market. 
+ 
+Forget about the usual lack of space in your tracking device and the cost of that many antennas 
+you usually need: TRIO mXTEND™ integrates three antennas in one! Save time, cost and 
+space. TRIO mXTENDTM is presented in an ultra slim, off the shelf component of only 1.0 
+mm height, this gives the designer freedom to integrate it in about all wireless platforms.  
+ 
+Discover within this application note this triple coverage in different frequency regions including 
+2G, GNSS and Bluetooth: 824-960 MHz, 1710-1990 MHz, 1561-1606 MHz and 2400-2500 MHz.  
+ 
+Feel free to design you ideal new IoT platform, the antenna choice is only one.   
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 3 ====
+ 
+ 
+ 
+ 
+3 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+TABLE OF CONTENTS 
+ 
+1. 
+PRODUCT DESCRIPTION NN03-310 
+4 
+2. 
+EVALUATION BOARD 2G, GNSS, BLUETOOTH 
+5 
+2.1. 
+QUICK REFERENCE GUIDE 
+5 
+2.2. 
+EVALUATION BOARD 
+5 
+2.3. 
+MATCHING NETWORK 
+6 
+2.4 
+VSWR AND TOTAL EFFICIENCY 
+9 
+2.5 
+TRANSMISSION COEFFICIENT 
+9 
+2.6 
+RECOMMENDED ANTENNA FOOTPRINT FOR NN03-310 
+10 
+2.7 
+RADIATION PATTERNS (824 – 960 MHz), GAIN, AND EFFICIENCY 
+11 
+2.8 
+RADIATION PATTERNS (1710 – 1990 MHz), GAIN, AND EFFICIENCY 12 
+2.9 
+RADIATION PATTERNS (1561 – 1606 MHz), GAIN, AND EFFICIENCY 13 
+2.10 
+RADIATION PATTERNS (2400 – 2500 MHz), GAIN, AND EFFICIENCY 14 
+3. 
+PRODUCT CHANGE NOTIFICATION 
+15 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 4 ====
+ 
+ 
+ 
+ 
+4 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+1. PRODUCT DESCRIPTION NN03-310 
+ 
+The TRIO mXTENDTM chip antenna component has been specifically designed for providing the 
+major level of flexibility to operate any required frequency band inside any wireless device. It 
+can be used in its single port or multiport configuration. Several radios can be allocated inside 
+the same antenna component when used in its multiport configuration, thus allowing its 
+operation in a great variety of communication standards through the same single antenna piece. 
+This modular design reduces considerably the integration complexity while saving cost, time 
+and space. This application note is intended to illustrate its multiport configuration to operate 
+2G, GNSS (Global Navigation Satellite Systems), and Bluetooth frequency bands.  
+ 
+TRIO mXTENDTM chip antenna component not only offers the versatility of being used in a single 
+port or multiport configuration, but also offers the flexibility to be tuned at the frequency regions 
+of interest through just the proper adjustment of the matching network. This characteristic 
+provides an important benefit since it allows designers to easily adapt the antenna performance 
+to the different device requirements, constraints, or environmental conditions without the need 
+of changing the antenna component. The results gathered herein present how the matching 
+network should be configured for operating 2G mobile communication standards, GNSS, and 
+Bluetooth frequencies. 
+ 
+TOP 
+BOTTOM 
+ 
+ 
+ 
+ 
+Material: The TRIO mXTENDTM chip antenna component is built on glass epoxy substrate. 
+ 
+APPLICATIONS 
+ 
+• 
+Asset Tracking 
+• 
+Smart Meters 
+• 
+Smart City & Home 
+• 
+IoT Devices 
+• 
+Modules & Sensors 
+• 
+Routers and Gateways 
+• 
+eHealth 
+BENEFITS 
+ 
+• 
+High efficiency 
+• 
+Small size  
+• 
+Multi-port: 3 radios into one antennaa component 
+• 
+Multiband coverage (worldwide standards) 
+• 
+Off-the-Shelf Standard Product (no customization is 
+required)  
+• 
+Automated assembly (Pick and place) 
+• 
+Shorter Design cycle 
+ 
+ 
+ 
+The TRIO mXTENDTM chip antenna component belongs to a new generation of antenna 
+solutions based on Virtual AntennaTM technology owned by Ignion. This technology enables 
+replacing conventional and custom antenna solutions by a new class of so-called antenna 
+boosters, delivered in the form of a new range of miniature and off-the-shelf chip antenna 
+components. These new chip antennas are by nature multiband and multipurpose, so they fit in 
+a variety of wireless platforms to provide a wireless link at many different communication 
+services. By using a Virtual AntennaTM component the design becomes more predictable 
+compared to a custom solution, making the whole process faster, cheaper and easier. 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 5 ====
+ 
+ 
+ 
+ 
+5 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+ 
+2. 
+EVALUATION BOARD 2G, GNSS, BLUETOOTH 
+ 
+2.1. QUICK REFERENCE GUIDE 
+ 
+Technical features 
+Port 1 
+824-960 MHz 
+Port 1 
+1710-1990 MHz 
+Port 2 
+1561-1606 MHz 
+Port 3 
+2400-2500MHz 
+Average Efficiency 
+> 50% 
+> 60% 
+> 50% 
+> 75% 
+Peak Gain 
+0.4 dBi 
+1.9 dBi 
+0.9 dBi 
+2.4 dBi 
+VSWR 
+< 2.8:1 
+< 2.1:1  
+< 2.1:1 
+< 2.0:1 
+Radiation Pattern 
+Omnidirectional 
+Polarization 
+Linear 
+Weight (approx.) 
+0.25 g. 
+Temperature 
+-40 to +125 ºC 
+Impedance 
+50  
+Dimensions 
+(L x W x H) 
+30.0 mm x 3.0 mm x 1.0 mm 
+Table 1 – Technical Features. Measures from the Evaluation Board. See  
+ 
+2.2. EVALUATION BOARD 
+ 
+This Evaluation Board EB_NN03-310-2G-GNSS-BT integrates one TRIO mXTENDTM chip 
+antenna component to provide operation from 824 to 960 MHz, 1710 to 1990 MHz at port  1, 
+from 1561 to 1606 MHz at port 2 and 2400 to 2500 MHz at port 3.  
+ 
+ 
+Figure 1 EB_NN03-310-2G-GNSS-BT. Evaluation Board for providing 
+operation at 824 – 960MHz and 1710 – 1990MHz (Port 1), 1561 – 1606MHz 
+(Port 2) and 2400 – 2500MHz (Port 3).  
+Measure 
+mm 
+A 
+142 
+B 
+130 
+C 
+60 
+D 
+9 
+E 
+40 
+F 
+20 
+G 
+12 
+Tolerance: ±0.2 mm 
+D: Distance between the 
+TRIO 
+mXTEND™ 
+chip 
+antenna component and the 
+ground plane. 
+Material: The Evaluation 
+Board is built on FR4 
+substrate. Thickness is 1 
+mm. 
+Clearance Area: 40.0 mm 
+x 12.0 mm (E x G) 
+This product and/or its use is protected by at least one or more of the following patents and 
+patent applications WO 2019008171, US 16/731755, EP 18736916.0, CN 201880045357.8; 
+and other domestic and international patents pending. Additional information about patents 
+related to this product is available at www.ignion.io/virtual-antenna/. 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 6 ====
+ 
+ 
+ 
+ 
+6 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+2.3. MATCHING NETWORK 
+ 
+TRIO mXTENDTM antenna booster needs a matching network to connect to your RF module. 
+This section will present the proposed matching network and specs obtained in the 
+corresponding Evaluation Board (Figure 1), which is an ideal case. Please note that different 
+devices with different ground planes and different components nearby the TRIO mXTENDTM 
+chip antenna component may need a different matching network. To ensure optimal results, the 
+use of high-quality factor (Q) and tight tolerance components is highly recommended (e.g. 
+Murata components (Figure 4, Figure 5, Figure 6)).  
+ 
+The antenna performance is always conditioned by its operating environment. Different devices 
+with different printed circuit board sizes, components nearby the antenna, LCD’s, batteries, 
+covers, connectors, etc. affect the antenna performance. Accordingly, it is highly recommended 
+placing pads compatible with 0402 and 0603 SMD components for a matching network as close 
+as possible to the feeding point of the antenna element in the ground plane area, not in the 
+clearance area. This provides a degree of freedom to tune the TRIO mXTENDTM chip antenna 
+component once the design is finished and taking into account all elements of the system 
+(batteries, displays, covers, etc.).  
+ 
+If you need assistance to design your matching network beyond this application note, please 
+contact support@ignion.io, or if you are designing a different device size or a different band 
+of the sub-6GHz spectrum, we can assist you in less than 24 hours. Please, try our free-of-
+charge1 NN Wireless Fast-Track design service, you will get your chip antenna design including 
+a custom matching network for your device in 24h1. Other related to NN’s range of R&D services 
+is available at: https://ignion.io/rdservices/ 
+ 
+ 
+ 
+ 
+Figure 2 –TRIO mXTENDTM matching network layout 
+ 
+ 
+ 
+ 
+1 See terms and conditions for a free NN Wireless Fast-Track service in 24h  at: https://www.ignion.io/fast-track-project/ 
+ 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 7 ====
+ 
+ 
+ 
+ 
+7 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+ 
+Figure 3 – TRIO mXTENDTM chip antenna component footprint 
+ 
+ 
+824 – 960 MHz and 1710 – 1990 MHz 
+MN 
+Section 
+a 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Value 
+Part Number 
+12.0 nH 
+LQW18AN12NG80 
+1.0 pF 
+GJM1555C1H1R0WB01 
+6.0 nH 
+LQW18AN6N0G80 
+2.4 pF 
+GJM1555C1H2R4WB01 
+5.6 nH 
+LQW18AN5N6G80 
+3.6pF 
+GJM1555C1H3R6WB01 
+ 
+MN 
+Section 
+b 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Value 
+Part Number 
+2.2 nH 
+LQW15AN2N2G80 
+1.1 pF 
+GJM1555C1H1R1WB01 
+MN 
+Section 
+c 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Value 
+Part Number 
+13.0 nH 
+LQW18AN13NG80 
+0.1 pF 
+GJM1555C1HR10WB01 
+Figure 4 – Matching Network implemented in the Evaluation Board port 1 (Figure 1) 
+ 
+ 
+ 
+2.2nH 
+1.1pF 
+13.0nH 
+0.1pF 
+NN03
+-310 
+12.0nH 
+1.0pF 
+6.0nH 
+2.4pF 
+5.6nH 
+3.6pF 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 8 ====
+ 
+ 
+ 
+ 
+8 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+1561 – 1606 MHz 
+MN 
+Section 
+d 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Value 
+Part Number 
+40.0 nH 
+LQW15AN40NG00 
+0.3 pF 
+GJM1555C1HR30WB01 
+MN 
+Section 
+e 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Value 
+Part Number 
+2.2 nH 
+LQW15AN2N2G80 
+1.3 pF 
+GJM1555C1H1R3WB01 
+6.5 nH 
+LQW15AN6N5G80 
+6.0 nH 
+LQW15AN6N0B80 
+Figure 5 – Matching Network implemented in the Evaluation Board port 2 (Figure 1) 
+ 
+2400 – 2500 MHz 
+MN 
+Section f 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Value 
+Part Number 
+4.9 nH 
+LQW15AN4N9G80 
+1.7 pF 
+GJM1555C1H1R7WB01 
+4.3 nH 
+LQW15AN4N3G80 
+Figure 6 – Matching Network implemented in the Evaluation Board port 3 (Figure 1) 
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+40.0nH 
+0.3pF 
+2.2nH 
+1.3pF 
+6.5nH 
+6.0nH 
+NN03-310 
+4.9nH 
+1.7pF 
+4.3nH 
+NN03-
+310 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 9 ====
+ 
+ 
+ 
+ 
+9 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+2.4 VSWR AND TOTAL EFFICIENCY 
+ 
+VSWR (Voltage Standing Wave Ratio) and Total Efficiency versus Frequency (GHz). 
+ 
+Figure 7 – VSWR and Total Efficiency for the different bands covered by the Evaluation 
+Board from Figure 1. Simulated results obtained with CST. 
+ 
+2.5 TRANSMISSION COEFFICIENT 
+ 
+The transmission coefficient between the three ports is gathered herein. 
+Figure 8 –Transmission coefficients between the ports of the Evaluation Board from Figure 1 
+ 
+ 
+ 
+ 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 10 ====
+ 
+ 
+ 
+ 
+10 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+ 
+2.6 RECOMMENDED ANTENNA FOOTPRINT FOR NN03-310 
+ 
+The TRIO mXTENDTM chip antenna component (NN03-310) must be placed in the clearance 
+area of the PCB, see below the recommended footprint dimensions, to provide operation from 
+824 to 960 MHz, 1710 to 1990 MHz at port 1, from 1561 to 1606 MHz at port  2 and from 2400 
+to 2500 MHz at port 3.  
+ 
+ 
+Measure 
+mm 
+A 
+1.0 
+B 
+0.5 
+C 
+2.0 
+D 
+3.0 
+E 
+5.5 
+F 
+8.0 
+G 
+8.5 
+H 
+10.0 
+Tolerance: ±0.2mm 
+Figure 9 – Footprint dimensions for the NN03-310 chip antenna component. 
+ 
+ 
+ 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 11 ====
+ 
+ 
+ 
+ 
+11 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+2.7 RADIATION PATTERNS (824 – 960 MHz), GAIN, AND 
+EFFICIENCY 
+ 
+ 
+Measurement System Set-Up 
+Evaluation Board in Plane XY 
+ = 90º Plane XY at 890 MHz 
+ 
+ 
+ = 0º Plane XZ at 890 MHz 
+ = 90º Plane YZ at 890 MHz 
+ 
+ 
+Gain 
+Peak Gain 
+0.4 dBi 
+Average Gain across the band 
+0.08 dBi 
+Gain Range across the band (min, max) 
+-0.6 <–> 0.4 dBi 
+Efficiency 
+Peak Efficiency 
+55.3 % 
+Average Efficiency across the band 
+53.7 % 
+Efficiency Range across the band (min, max) 
+ 49.2 – 55.3 % 
+Table 2 – Antenna Gain and Total Efficiency from the Evaluation Board port 1 (Figure 1) within 
+the 824MHz – 960MHz frequency range. Simulated results obtained with CST. 
+ 
+ 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 12 ====
+ 
+ 
+ 
+ 
+12 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+2.8 RADIATION PATTERNS (1710 – 1990 MHz), GAIN, AND 
+EFFICIENCY 
+ 
+ 
+ 
+Measurement System Set-Up 
+Evaluation Board in Plane XY 
+ = 90º Plane XY at 1800 MHz 
+ 
+ 
+ = 0º Plane XZ at 1800 MHz 
+ = 90º Plane YZ at 1800 MHz 
+ 
+ 
+Gain 
+Peak Gain 
+1.9 dBi 
+Average Gain across the band 
+1.5 dBi 
+Gain Range across the band (min, max) 
+1.2 <–> 1.9 dBi 
+Efficiency 
+Peak Efficiency 
+65.7 % 
+Average Efficiency across the band 
+63.9 % 
+Efficiency Range across the band (min, max) 
+ 61.0 – 65.7 % 
+Table 3 – Antenna Gain and Total Efficiency from the Evaluation Board port 1 (Figure 1) within 
+the 1710MHz – 1990MHz frequency range. Simulated results obtained with CST. 
+ 
+ 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 13 ====
+ 
+ 
+ 
+ 
+13 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+2.9 RADIATION PATTERNS (1561 – 1606 MHz), GAIN, AND 
+EFFICIENCY 
+ 
+ 
+Measurement System Set-Up 
+Evaluation Board in Plane XY 
+ = 90º Plane XY at 1580 MHz 
+ 
+ 
+ = 0º Plane XZ at 1580 MHz 
+ = 90º Plane YZ at 1580 MHz 
+ 
+ 
+Gain 
+Peak Gain 
+0.9 dBi 
+Average Gain across the band 
+0.7 dBi 
+Gain Range across the band (min, max) 
+0.3 <–> 0.9 dBi 
+Efficiency 
+Peak Efficiency 
+57.0 % 
+Average Efficiency across the band 
+54.6 % 
+Efficiency Range across the band (min, max) 
+ 50.8 – 57.0 % 
+Table 4 – Antenna Gain and Total Efficiency from the Evaluation Board port 2 (Figure 1) within 
+the 1561MHz – 1606MHz frequency range. Simulated results obtained with CST. 
+ 
+ 
+ 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 14 ====
+ 
+ 
+ 
+ 
+14 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+2.10 RADIATION PATTERNS (2400 – 2500 MHz), GAIN, AND 
+EFFICIENCY 
+ 
+ 
+Measurement System Set-Up 
+Evaluation Board in Plane XY 
+ = 90º Plane XY at 2450 MHz 
+ 
+ 
+ = 0º Plane XZ at 2450 MHz 
+ = 90º Plane YZ at 2450 MHz 
+ 
+ 
+Gain 
+Peak Gain 
+2.4 dBi 
+Average Gain across the band 
+2.3 dBi 
+Gain Range across the band (min, max) 
+2.1 <–> 2.4 dBi 
+Efficiency 
+Peak Efficiency 
+81.8 % 
+Average Efficiency across the band 
+79.9 % 
+Efficiency Range across the band (min, max) 
+ 75.3 – 81.8 % 
+Table 5 – Antenna Gain and Total Efficiency from the Evaluation Board port 3 (Figure 1) within 
+the 2400MHz – 2500MHz frequency range. Simulated results obtained with CST. 
+ 
+ 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 15 ====
+ 
+ 
+ 
+ 
+15 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+3. 
+PRODUCT CHANGE NOTIFICATION 
+ 
+This document is property of Ignion,  
+Not to disclose or copy without prior written consent 
+ 
+PCN Number: NN19100013 
+Notification Date: October 07th, 2019 
+ 
+Part Number identification: 
+Part Number changes, it will be applied in all the document of the company (User Manual, Data Sheet, …) 
+ 
+ 
+Previous Part Number 
+ 
+New Part Number 
+ 
+FR01-S4-210 
+ 
+NN03-310 
+ 
+Reason for change: 
+ 
+ Specs (electrical/mechanical) 
+ 
+Manufacturing location 
+ 
+User Manual/Data Sheet 
+ 
+Quality/Reliability 
+ 
+Material/Composition 
+ 
+Logistics 
+ 
+Processing/Manufacturing 
+X 
+Other: Part Number 
+ 
+Change description 
+ 
+1.- Part Number: From FR01-S4-210 FRACTUS to NN03-310 Ignion in the User Manual 
+ 
+OLD 
+ 
+NEW 
+ 
+ 
+ 
+ 
+ 
+Comments: 
+1.- Electrical and Mechanical specs remain the same 
+2.- Footprint in the PCB to solder the chip antenna remains the same 
+ 
+Identification method 
+1.- The part number on the antenna is different 
+User Manual 
+X 
+Available from: 
+ 
+ 
+January 2020 
+Samples 
+X 
+Available from: 
+ 
+ 
+January 2020 
+ 
+Ignion Contact: 
+ 
+Sales 
+ 
+Supply Chain 
+Name: 
+Josep Portabella 
+ 
+Albert Vidal 
+Email:  
+josep.portabella@ignion.io 
+ 
+albert.vidal@ignion.io 
+ 
+ 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 16 ====
+ 
+ 
+ 
+ 
+16 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+ 
+ 
+ 
+The TRIO mXTENDTM chip antenna component and other Ignion products based on its 
+proprietary Virtual AntennaTM technology are protected by one or more of the following 
+https://ignion.io/files/PL_NN03-310.pdf 
+All information contained within this document is property of Ignion and is subject to change 
+without prior notice. Information is provided “as is” and without warranties. It is prohibited to copy 
+or reproduce this information without prior approval. 
+Ignion is an ISO 9001:2015 certified company. All our antennas are lead-free and RoHS and 
+REACH compliant. 
+ 
+ 
+ISO 9001: 2015 Certified 
+                
+ 
+ 
+Do you need more help with your antenna for your device?  
+ 
+Use our NN Wireless Fast Track service and get your ready-to-test antenna design specially 
+thought for your platform free of charge1 and in 24 hours.  
+ 
+1. Fill out the form and submit it. Get confirmation email. 
+2. Reply to email. If you wish, attach any relevant design file. 
+3. Get your design in 24h. 
+ 
+ 
+https://www.ignion.io/fast-track-project/ 
+
+==== AN_NN03-310_Mobile_GNSS_BZ.pdf PAGE 17 ====
+ 
+ 
+ 
+ 
+17 
+Last Update: January 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+ 
+Contact: 
+support@ignion.io 
++34 935 660 710 
+Barcelona 
+ 
+Av. Alcalde Barnils, 64-68 Modul C, 3a pl. 
+Sant Cugat del Vallés 
+08174 Barcelona 
+Spain 
+Shanghai 
+ 
+Shanghai Bund Centre 
+18/F Bund Centre, 222 Yan’an Road East, 
+Huangpu District 
+Shanghai, 200002 
+China 
+New Dehli 
+ 
+New Delhi, Red Fort Capital Parsvnath Towers 
+Bhai Veer Singh Marg, Gole Market, 
+New Delhi, 110001 
+India 
+ 
+Tampa 
+ 
+8875 Hidden River Parkway 
+Suite 300  
+Tampa, FL 33637 
+USA 
+ 

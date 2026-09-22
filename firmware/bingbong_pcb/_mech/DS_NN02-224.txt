@@ -1,0 +1,306 @@
+==== DS_NN02-224.pdf PAGE 1 ====
+     
+RUN mXTENDTM  
+(NN02-224) 
+ 
+ 
+DATASHEET 
+
+==== DS_NN02-224.pdf PAGE 2 ====
+ 
+ 
+ 
+ 
+Last Update: January 2024 
+DATASHEET 
+RUN mXTENDTM (NN02-224) 
+RUN mXTEND™: Highly versatile and powerful. 
+ 
+The small, versatile RUN mXTEND™ (NN02-224) is the perfect solution for devices where 
+volume and cost are constrained but maximum performance is desired. 
+ 
+Thanks to its dimensions and tuneability, the antenna easily adapts to almost every wireless 
+device and to any radio technology within the 824-8000 MHz frequency range. 
+ 
+ 
+ 
+RUN mXTEND™ component (NN02-224) 
+ 
+ 
+Most used industries. 
+• Smart Metering 
+• Smart City & Smart Building 
+• Industrial IoT 
+• Asset Tracking & Logistics 
+ 
+RUN mXTEND™ benefits.  
+• 
+Top performance: Top multiband IoT performance.  
+ 
+• 
+Ultra-compact form factor: 12.0 mm x 3.0 mm x 2.4 mm. 
+ 
+• 
+Global reach: Multiband performance compatible with global standards. 
+ 
+• 
+Fast time to market – build a digital prototype using Oxion™ platform. 
+ 
+• 
+Simple manufacturing: Off-the-Shelf standard component mounted with pick-and-place. 
+ 
+Operation bands summary. 
+LTE/LTE-M/NB-IoT, GSM, UMTS, 4G, 5G, GNSS, Bluetooth, Wi-Fi (4/5/6/6E/7), and many more 
+within the frequency range of 698 MHz to 8000 MHz.  
+ 
+
+==== DS_NN02-224.pdf PAGE 3 ====
+ 
+ 
+ 
+ 
+Last Update: January 2024 
+DATASHEET 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+ 
+1. AVAILABLE SOLUTIONS SUMMARY 
+ 
+Configuration 
+Frequency range 
+Frequency 
+Regions 
+CELLULAR IoT 
+824 – 960 MHz & 1710 – 2690 MHz 
+2 
+ISM 
+863 – 928 MHz 
+1 
+ISM + BLUETOOTH 
+863 – 928 MHz & 2400 – 2500 MHz 
+2 
+GNSS 
+1561 MHz, 1575 MHz & 1598 – 1606 MHz 
+3 
+BLUETOOTH 
+2400 – 2500 MHz 
+1 
+Wi-Fi 
+2400 – 2500 MHz & 4900 – 5875 MHz 
+2 
+ 
+ 
+ 
+2. DETAILED AVAILABLE SOLUTIONS  
+ 
+The following table presents the technical specifications of the RUN mXTEND™ antenna 
+booster, including its radiation pattern, polarization, weight, temperature range, impedance, and 
+dimensions. These features make the RUN mXTEND™ antenna booster a highly versatile and 
+durable component that can be easily integrated into a wide range of wireless applications. 
+ 
+Technical Features 
+RUN mXTEND™ (NN02-224) 
+Radiation Pattern 
+Omnidirectional 
+Polarization 
+Linear 
+Weight (approx.) 
+0.19 g 
+Temperature 
+-40 to + 125 ºC 
+Impedance 
+50  
+Technical features for the RUN mXTEND™. 
+ 
+ 
+
+==== DS_NN02-224.pdf PAGE 4 ====
+ 
+ 
+ 
+ 
+Last Update: January 2024 
+DATASHEET 
+RUN mXTENDTM (NN02-224) 
+ 
+2.1. LTE SOLUTION  
+ 
+Technical features 
+824 – 960 MHz 
+1710 – 2690 MHz 
+Average Efficiency 
+> 65 % 
+> 70 % 
+Peak Gain 
+1.8 dBi 
+1.9 dBi 
+VSWR 
+< 3:1 
+Technical features. Measures from the evaluation board (131 mm x 60 mm x 1 mm). 
+ 
+2.2 ISM SOLUTION  
+ 
+Technical 
+features 
+863 – 870 MHz 
+902 – 928 MHz 
+863 – 928 MHz 
+Average 
+Efficiency 
+> 85 % 
+> 85 % 
+> 85 % 
+Peak Gain 
+2.1 dBi 
+2.1 dBi 
+2.2 dBi 
+VSWR 
+< 2:1 
+< 2:1 
+< 2:1 
+Technical features. Measures from the evaluation board with UFL cables (131 mm x 60 mm x 1 mm). 
+ 
+2.3 GNSS SOLUTION  
+ 
+Technical 
+features 
+1561 MHz 
+1575 MHz 
+1598 – 1606 MHz 
+Average 
+Efficiency 
+> 75 % 
+> 75 % 
+> 80 % 
+Peak Gain 
+2.9 dBi 
+3.0 dBi 
+3.3 dBi 
+VSWR 
+< 1.5:1 
+Technical features. Measures from the evaluation board with UFL cables (126.5 mm x 60 mm x 1 mm). 
+ 
+2.4 BLUETOOTH SOLUTION  
+ 
+Technical features 
+2400 – 2500MHz 
+Average Efficiency 
+> 75% 
+Peak Gain 
+4.2 dBi 
+VSWR 
+< 1.5:1 
+Technical features. Measures from the evaluation board with UFL cables (126.5 mm x 60 mm x 1 mm). 
+ 
+ 
+
+==== DS_NN02-224.pdf PAGE 5 ====
+ 
+ 
+ 
+ 
+Last Update: January 2024 
+DATASHEET 
+RUN mXTENDTM (NN02-224) 
+ 
+2.5 Wi-Fi SOLUTION  
+ 
+Technical features 
+2400 – 2500 MHz 
+4900 – 5875 MHz 
+Average Efficiency 
+> 70 % 
+> 70 % 
+Peak Gain 
+2.9 dBi 
+3.1 dBi 
+VSWR 
+< 2.5:1 
+Technical features. Measures from the evaluation board with a coplanar grounded transmission line 
+(126.5 mm x 60 mm x 1 mm). 
+2.6 ISM + BLUETOOTH SOLUTION 
+ 
+Technical 
+features 
+863 – 870 MHz 
+902 – 928 MHz 
+863 – 928 MHz 
+Average Efficiency 
+> 75 % 
+> 75 % 
+> 75 % 
+Peak Gain 
+1.4 dBi 
+1.6 dBi 
+1.6 dBi 
+VSWR 
+< 2:1 
+< 2:1 
+< 2:1 
+Technical features 
+2400 – 2500MHz 
+Average Efficiency 
+> 80 % 
+Peak Gain 
+2.9 dBi 
+VSWR 
+< 2:1 
+Technical features. Measures from the evaluation board with UFL cables (131 mm x 60 mm x 1 mm). 
+ 
+ 
+
+==== DS_NN02-224.pdf PAGE 6 ====
+ 
+ 
+ 
+ 
+Last Update: January 2024 
+DATASHEET 
+RUN mXTENDTM (NN02-224) 
+ 
+2.7 ANTENNA FOOTPRINT 
+ 
+ 
+Footprint dimensions for the single booster. 
+ 
+ 
+Measure mm 
+A 
+2.2 
+B 
+7.8 
+C 
+3.2 
+D 
+2.0 
+Tolerance: 
+±0.2 mm 
+ 
+ 
+ 
+If you are designing a device with a different size or operating frequency than shown above, you 
+can assess the performance of this configuration using our free-of-charge Oxion™ platform. 
+This platform provides a complete design report, including expected performance and tailored 
+design guide, within 24 hours. For additional information about Ignion's range of R&D services, 
+please visit: https://ignion.io/resources-support/technical-center/engineering-support/. If you 
+require further assistance, please contact support@ignion.io. 
+ 
+Purchase this or other evaluation boards through our main distributors by visiting the following 
+link: https://ignion.io/distributors/. 
+ 
+Clearance Area 
+Ground Plane Area 
+
+==== DS_NN02-224.pdf PAGE 7 ====
+ 
+ 
+ 
+ 
+Last Update: January 2024 
+DATASHEET 
+RUN mXTENDTM (NN02-224) 
+ 
+Contact: 
+support@ignion.io 
++34 935 660 710 

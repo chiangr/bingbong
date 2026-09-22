@@ -1,0 +1,198 @@
+Playdate
+Shop
+Games
+Dev
+Education
+Help
+Sign In
+
+It's a new, tiny handheld game system with a bunch of brand-new games. We made Playdate just for fun.
+
+Playdate®
+Shop Now!!
+The System.
+
+Playdate is familiar, but unlike anything you've ever seen. It has a very special black and white screen – not backlit, but super reflective – that looks way more amazing than you're probably imagining.
+
+It also has a peppy little processor, Wi-Fi, and a surprisingly loud loudspeaker. And when you're not using it, the screen doesn't turn off – it becomes a very nice low-power clock!
+
+The Design.
+
+Thanks to our friends at Teenage Engineering, Playdate looks incredible. It's colorful. It fits in your pocket. And we worked hard to make sure buttons feel perfectly clicky and that the crank action is silky smooth.
+
+The Crank.
+
+Yes, the crank. Is it a gimmick? Nah. Does it charge Playdate's battery? Nope. Is it really fun? Yes yes yes. It's an analog controller that flips out from the side, allowing you to precisely dial in the action. Not every game uses it, but some really do, like Crankin's Time Travel Adventure, below.
+
+The Season.
+
+Here's the truly unique bit. Playdate isn't just an empty system. Once you set up your Playdate, you'll start to receive two brand new games... every week. For 12 weeks.
+
+That's 24 free games, in lots of genres. Some are short. Some are long. Will you love them all? Probably not. Will you have a great time trying them? Absolutely.
+
+Wait! No spoilers, please!
+Casual Birder
+Diego Garcia, Music by Maxo
+Crankin's Time Travel Adventure
+uvula
+Keita Takahashi & Ryan Mohler, Shaun Inman, Matthew Grimm
+Demon Quest '85
+Lawrence Bishop, Alex Ashby, Duncan Fyfe
+Echoic Memory
+Samantha Kalman, Everest Pipkin, Carol Mertz, Rachelle Viola
+Executive Golf DX
+davemakes
+Flipper Lifter
+Serenity Forge
+Forrest Byrnes: Up In Smoke
+Christina "castpixel" Neofotistou, Nels Anderson
+HYPER METEOR
+VERTEX POP
+Lost Your Marbles
+Sweet Baby Inc.
+and Friends
+Omaze
+Gregory Kogos
+Pick Pack Pup
+Nic Magnier, Arthur Hamer, Music by Logan Gabriel
+Questy Chess
+Dadako
+The Racheteer
+Shaun Inman, Matthew Grimm, Charlie Davis
+Sasquatchers
+Chuck Jordan,
+Music and sound by Jared Emerson-Johnson
+Saturday Edition
+Chris Makris,
+Sound by A Shell In The Pit
+Snak
+Zach Gage
+Spellcorked
+Jada Gibbs, Nick Splendorr, Ryan Splendorr, Tony Ghostbrite, A Shell in the Pit (Em Halberstadt)
+Whitewater Wipeout
+Chuhai Labs
+Zipper
+Bennett Foddy
+Boogie Loops
+May-Li Khoe, Andy Matuschak, Andres Velasquez
+Battleship Godios
+TPM.CO SOFT WORKS
+b360
+Panic
+Inventory Hero
+Panic
+Star Sled
+Panic
+
+Learn more about the Season One games!
+
+Catalog
+
+The fun continues with awesome new Playdate games made by developers around the world. You can install our favorites with Catalog, a little game store right on your Playdate.
+
+ Grab some games!
+Playdate Catalog
+Your games?
+
+You can also make your own Playdate games. Our SDK is free to download, no special hardware required. And with the Pulp game maker, all you need is a web browser. Plus, sideloading games onto the Playdate is easy.
+
+ Playdate Developer Site
+Big Screen Optional.
+
+If you ever want to play Playdate games on another screen, we've got that covered with the Playdate Mirror app. It's a desktop app that streams gameplay in real-time from your Playdate to a macOS, Windows, or Linux computer. Handy for recording your playthrough or using alternative game controllers.
+
+ Playdate Mirror
+Playdate for Education
+Playdate's simplicity and scope make it perfect for teaching programming and game design.
+With Playdate, students create real, playable games on a device they can hold in their hands. Students can code on their computers, test out the game on a Playdate, then go back to fine-tune. It’s experiential, project-based, learning-by-doing at its very best.
+
+Qualified education customers receive a 15% discount on all Playdate hardware and accessories!
+
+ Learn More
+All for just $229.
+
+Includes the full Season One of games – 24 original Playdate games, delivered weekly, at no extra charge.
+
+Does not include shipping. But you do get a very nice yellow USB-C to USB-A cable.
+
+Visit our Shop.
+AND
+Playdate Cover
+
+A cute, clean way to protect your Playdate. The Playdate Cover aligns with Playdate's screws and secures itself magnetically. Plus, when folded, it looks like a delicious electronic ice cream sandwich. Check it out!
+
+Order now for $34.
+The Specs.
+Battery
+14 days standby clock
+8 hours active
+CPU
+168 MHz Cortex M7
+SDK supports Lua, C
+Storage
+16 MB RAM
+8 KB L1 Cache
+4 GB Flash
+Size
+76 × 74 × 9 mm
+See it for yourself
+Included
+Playdate
+USB-C to A Cable
+User Guide
+Wireless
+802.11bgn 2.4GHz Wi-Fi
+Sound
+Built-In Mono Speaker
+Stereo Headphone Jack
+Condenser Mic + TRRS Mic In
+Display
+400 × 240 1-bit
+Inputs
+D-Pad
+A + B
+Sleep + Menu
+3-Axis Accelerometer
+Crank
+Cost
+$229
+Plus Taxes & Shipping
+The Idea.
+"If we made hardware, and built a tiny little game system that came with lots of surprise games, would that make people happy?"
+Who Made It?
+
+Playdate was created by Panic. Since 1999, Panic makes Mac software, and publishes video games like Firewatch, Untitled Goose Game, and Nour: Play With Your Food. Learn more about it from the first episode of the Playdate Podcast!
+
+View Playdate Credits
+Stay in Touch!
+
+Sign up to get Playdate news. Only the important stuff.
+
+Email Address
+Notify Me!
+Need Help?
+
+We're here. Head on over and we'll get you sorted.
+
+ Help / Contact / FAQ
+Mastodon
+© Panic
+Playdate is a registered trademark of Panic
+1140 SW Washington St Suite 300 Portland OR 97205
+EU Responsible Party
+Playdate
+Games
+News
+Podcast
+Developer
+Pulp
+Education
+Mirror app
+Help
+Press
+Privacy
+Follow us
+Catalog Terms of Service
+Refund Policy
+Sign In
+Sign Up

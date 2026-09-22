@@ -1,0 +1,409 @@
+{
+  "measures": [
+    {
+      "name": "bingbong-load-to-live",
+      "duration": 674
+    },
+    {
+      "name": "bingbong-webgl-context",
+      "duration": 17
+    }
+  ],
+  "functions": [
+    {
+      "name": "(idle)",
+      "url": "",
+      "line": -1,
+      "ms": 1409.7960000000016
+    },
+    {
+      "name": "(program)",
+      "url": "",
+      "line": -1,
+      "ms": 240.38400000000016
+    },
+    {
+      "name": "i",
+      "url": "http://127.0.0.1:4173/assets/index-Ci6_UmD6.js",
+      "line": 0,
+      "ms": 138.489
+    },
+    {
+      "name": "requestAnimationFrame",
+      "url": "",
+      "line": -1,
+      "ms": 45.492999999999995
+    },
+    {
+      "name": "C",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4161,
+      "ms": 21.917
+    },
+    {
+      "name": "Bu",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 12.251999999999999
+    },
+    {
+      "name": "Hu",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 10.774
+    },
+    {
+      "name": "(garbage collector)",
+      "url": "",
+      "line": -1,
+      "ms": 10.165
+    },
+    {
+      "name": "pe",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 8.880999999999998
+    },
+    {
+      "name": "setTimeout",
+      "url": "",
+      "line": -1,
+      "ms": 7.603
+    },
+    {
+      "name": "Nu.renderBufferDirect",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 7.235999999999999
+    },
+    {
+      "name": "St",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 7.0729999999999995
+    },
+    {
+      "name": "Oe",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 5.723
+    },
+    {
+      "name": "Se",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4195,
+      "ms": 4.973
+    },
+    {
+      "name": "Vu",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 4.6530000000000005
+    },
+    {
+      "name": "Nu.setSize",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 4.528
+    },
+    {
+      "name": "Tc",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4117,
+      "ms": 3.9679999999999995
+    },
+    {
+      "name": "setAttribute",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 0,
+      "ms": 3.851
+    },
+    {
+      "name": "x",
+      "url": "http://127.0.0.1:4173/assets/index-Ci6_UmD6.js",
+      "line": 0,
+      "ms": 3.658
+    },
+    {
+      "name": "Nu.render",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 3.3749999999999996
+    },
+    {
+      "name": "n",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4071,
+      "ms": 3.369
+    },
+    {
+      "name": "fl",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4117,
+      "ms": 3.3200000000000003
+    },
+    {
+      "name": "p",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 3822,
+      "ms": 3.258
+    },
+    {
+      "name": "me",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4195,
+      "ms": 2.9749999999999996
+    },
+    {
+      "name": "c",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4071,
+      "ms": 2.593
+    },
+    {
+      "name": "de",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4195,
+      "ms": 2.243
+    },
+    {
+      "name": "",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 0,
+      "ms": 2.198
+    },
+    {
+      "name": "computeBoundingSphere",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 0,
+      "ms": 2.027
+    },
+    {
+      "name": "Ar",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 0,
+      "ms": 1.9979999999999998
+    },
+    {
+      "name": "s",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 3822,
+      "ms": 1.9209999999999998
+    },
+    {
+      "name": "Wu",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 1.879
+    },
+    {
+      "name": "c",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 0,
+      "ms": 1.875
+    },
+    {
+      "name": "setTimeout",
+      "url": "",
+      "line": -1,
+      "ms": 1.861
+    },
+    {
+      "name": "p",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4219,
+      "ms": 1.803
+    },
+    {
+      "name": "xc",
+      "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js",
+      "line": 4117,
+      "ms": 1.7730000000000001
+    }
+  ],
+  "tasks": [
+    {
+      "args": {
+        "data": {
+          "columnNumber": 1,
+          "frame": "",
+          "lineNumber": 1,
+          "sampleTraceId": 8328214469222312,
+          "scriptId": 0,
+          "url": "blob:http://127.0.0.1:4173/f2c2f508-4791-4a6c-851b-fb252c26b8c0"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 266212,
+      "name": "EvaluateScript",
+      "ph": "X",
+      "pid": 9400,
+      "tdur": 3513,
+      "tid": 27588,
+      "ts": 158686944777,
+      "tts": 5376
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 867,
+          "frame": "475B9393158739AAFD46D3F1EBEC0B98",
+          "partialLayout": false,
+          "sampleTraceId": 8328214469221630,
+          "stackTrace": [
+            {
+              "columnNumber": 2402,
+              "functionName": "i",
+              "lineNumber": 1,
+              "scriptId": "4",
+              "url": "http://127.0.0.1:4173/assets/index-Ci6_UmD6.js"
+            },
+            {
+              "columnNumber": 29807,
+              "functionName": "",
+              "lineNumber": 1,
+              "scriptId": "4",
+              "url": "http://127.0.0.1:4173/assets/index-Ci6_UmD6.js"
+            }
+          ],
+          "totalObjects": 867
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 2,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  390,
+                  0,
+                  390,
+                  844,
+                  0,
+                  844
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 131573,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 9400,
+      "tdur": 122203,
+      "tid": 20080,
+      "ts": 158686749087,
+      "tts": 88291
+    },
+    {
+      "args": {
+        "data": {
+          "columnNumber": 68416,
+          "frame": "475B9393158739AAFD46D3F1EBEC0B98",
+          "functionName": "pe",
+          "isolate": "17112502263117137242",
+          "lineNumber": 4220,
+          "sampleTraceId": 8328214469221016,
+          "scriptId": "5",
+          "url": "http://127.0.0.1:4173/assets/scene-B8TbPZWG.js"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 44713,
+      "name": "FunctionCall",
+      "ph": "X",
+      "pid": 9400,
+      "tdur": 24165,
+      "tid": 20080,
+      "ts": 158687562835,
+      "tts": 407864
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 854,
+          "frame": "475B9393158739AAFD46D3F1EBEC0B98",
+          "partialLayout": false,
+          "sampleTraceId": 8328214469221429,
+          "totalObjects": 867
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 2,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  390,
+                  0,
+                  390,
+                  844,
+                  0,
+                  844
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 27113,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 9400,
+      "tdur": 26339,
+      "tid": 20080,
+      "ts": 158686892747,
+      "tts": 221714
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 295,
+          "frame": "475B9393158739AAFD46D3F1EBEC0B98",
+          "partialLayout": false,
+          "sampleTraceId": 8328214469221497,
+          "totalObjects": 867
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 2,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  390,
+                  0,
+                  390,
+                  844,
+                  0,
+                  844
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 10661,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 9400,
+      "tdur": 10101,
+      "tid": 20080,
+      "ts": 158686927086,
+      "tts": 254722
+    }
+  ]
+}

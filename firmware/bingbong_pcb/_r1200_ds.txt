@@ -1,0 +1,1555 @@
+
+=====PAGE 1
+R1200x SERIES 
+STEP-UP DC/DC CONVERTER FOR OLED BACK LIGHT with SHUTDOWN FUNCTION 
+NO.EA-192-230529 
+1 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+OUTLINE 
+R1200x series are CMOS-based control type step-up DC/DC converter with low supply current ICs. Each of 
+these ICs consists of a Nch MOSFET, NPN transistor, an oscillator, PWM comparator, a voltage reference unit, 
+an error amplifier, a current limit circuit, an under voltage lockout circuit (UVLO), an over voltage protection circuit 
+(OVP), and a soft start circuit. As the external components, an inductor, resistances or capacitors are necessary 
+to make a constant output voltage of step-up DC/DC converter with the R1200x. At standby mode, the NPN 
+transistor can separate the output from the input. During the situation of that, there are two versions. R1200xxxxA: 
+the output of VOUT is generated to 0V by the low resistance (with the auto discharge function). R1200xxxxB does 
+not generate the output of VOUT (without the auto discharge function). 
+The soft-start time (Typ. 1.5ms) and the maximum duty cycle (Typ. 91%) are set internally. For the protection 
+functions of R1200x series are the current limit function of the LX peak current, the OVP function for detection the 
+over voltage of output and the UVLO function for protective miss-operation by the low voltage. (The threshold of 
+OVP is selectable from 17V, 19V or 21V.)  
+Since the packages for these ICs are DFN1616-6, DFN(PL)1820-6, SOT-23-6 and WLCSP-6-P1, therefore 
+high density mounting of the ICs on boards is possible. 
+FEATURES 
+• Supply Current ............................................................. Typ. 500µA 
+• Standby Current ........................................................... Max. 3µA 
+• Input Voltage Range .................................................... 2.3V to 5.5V 
+• Feedback Voltage ........................................................ 1.0V (Externally adjustable) 
+• Feedback Voltage Accuracy ......................................... ±1.5% 
+• Temperature-Drift Coefficient of Feedback Voltage ..... ±150ppm/°C 
+• Oscillator Frequency .................................................... Typ. 1.2MHz 
+• Maximum Duty Cycle ................................................... Typ. 91% 
+• Switch ON Resistance ................................................. Typ. 1.35Ω 
+• UVLO Detector Threshold ............................................ Typ. 2.0V 
+• Soft-start Time .............................................................. Typ. 1.5ms 
+• Lx Current Limit Protection .......................................... Typ. 700mA 
+• OVP Detector Threshold .......................... ................... 17V, 19V, 21V 
+• Switching Control ......................................................... PWM 
+• Built-in a rectifier NPN transistor, at standby mode, complete shutdown is possible.
+• Built-in Auto discharge function ................................... A version 
+• Packages ..................................................................... DFN1616-6, DFN(PL)1820-6, SOT-23-6, 
+WLCSP-6-P1 
+• Ceramic capacitors are recommended ........................ 1µF 
+APPLICATION 
+• OLED power supply for portable equipment
+• White LED Backlight for portable equipment
+
+=====PAGE 2
+R1200x
+NO.EA-192-230529 
+ 
+ 
+2 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+SELECTION GUIDE 
+The OVP threshold voltage, auto discharge function, and the package for the ICs can be selected at the user's 
+request.  
+ 
+Product Name 
+Package 
+Quantity per Reel 
+Pb Free 
+Halogen Free 
+R1200Zxxx∗-E2-F 
+WLCSP-6-P1  
+5,000 pcs 
+Yes 
+Yes 
+R1200Lxxx∗-TR 
+DFN1616-6 
+5,000 pcs 
+Yes 
+Yes 
+R1200Kxxx∗-TR 
+DFN(PL)1820-6 
+5,000 pcs 
+Yes 
+Yes 
+R1200Nxxx∗-TR-FE 
+SOT-23-6 
+3,000 pcs 
+Yes 
+Yes 
+xxx : Designation of OVP detector threshold 
+     (001) 17V threshold of OVP 
+     (002) 19V threshold of OVP 
+     (003) 21V threshold of OVP  
+ 
+∗  : The auto discharge function at off state are options as follows. 
+     (A) with auto discharge function at off state 
+     (B) without auto discharge function at off state 
+ 
+ 
+ 
+
+=====PAGE 3
+R1200x
+NO.EA-192-230529 
+ 
+ 
+3 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+BLOCK DIAGRAMS 
+R1200xxxxA 
+     
+Σ 
+Error Amp 
+PWM Comp 
+Vref 
+Soft Start 
+Chip Enable 
+OSC 
+Slope 
+Compensation 
+VFB 
+VIN 
+LX 
+VOUT 
+CE 
+GND 
+R 
+Q 
+S 
+UVLO 
+Current 
+Protection 
+OVP 
+Switching 
+Control 
+Current 
+Sense 
+ 
+ 
+R1200xxxxB 
+     
+Σ 
+Error Amp 
+PWM Comp 
+Vref 
+Soft Start 
+Chip Enable 
+OSC 
+Slope 
+Compensation 
+VFB 
+VIN 
+LX 
+VOUT 
+CE 
+GND 
+R 
+Q 
+S 
+UVLO 
+Current 
+Protection 
+OVP 
+Switching 
+Control 
+Current 
+Sense 
+ 
+ 
+ 
+ 
+
+=====PAGE 4
+R1200x
+NO.EA-192-230529 
+ 
+ 
+4 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+PIN DESCRIPTIONS 
+WLCSP-6-P1 
+ 
+DFN1616-6 
+Top View 
+4 
+1 
+5 
+2 
+6 
+3 
+ 
+Bottom View 
+4 
+1 
+5 
+2 
+6 
+3 
+ 
+ 
+Top View 
+3 
+4 
+2 
+5 
+1 
+6 
+ 
+Bottom View 
+1 
+6 
+2 
+5 
+3 
+4 
+∗ 
+ 
+ 
+DFN(PL)1820-6 
+ 
+SOT-23-6 
+Top View 
+6 
+5 
+4 
+1 
+2 
+3 
+ 
+Bottom View 
+4 
+5 
+6 
+3 
+2 
+1 
+∗ 
+ 
+6 
+5 
+4 
+1 
+2 
+3 
+(mark side) 
+ 
+ 
+• WLCSP-6-P1  
+Pin No 
+Symbol 
+Pin Description 
+1 
+Lx 
+Switching Pin (Open Drain Output) 
+2 
+VIN 
+Power Supply Input Pin 
+3 
+VFB 
+Feedback Pin 
+4 
+CE 
+Chip Enable Pin ("H" Active) 
+5 
+VOUT 
+Output Pin 
+6 
+GND 
+Ground Pin 
+ 
+• DFN1616-6, DFN(PL)1820-6 
+Pin No 
+Symbol 
+Pin Description 
+1 
+CE 
+Chip Enable Pin ("H" Active) 
+2 
+VFB 
+Feedback Pin 
+3 
+Lx 
+Switching Pin (Open Drain Output) 
+4 
+GND 
+Ground Pin 
+5 
+VDD 
+Input Pin 
+6 
+VOUT 
+Output Pin 
+ 
+∗) Tab is GND level. (They are connected to the reverse side of this IC.)  
+The tab is better to be connected to the GND, but leaving it open is also acceptable. 
+ 
+ 
+
+=====PAGE 5
+R1200x
+NO.EA-192-230529 
+5 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+• SOT-23-6
+Pin No 
+Symbol 
+Pin Description 
+1 
+CE 
+Chip Enable Pin ("H" Active) 
+2 
+VOUT 
+Output Pin 
+3 
+VDD 
+Input Pin 
+4 
+Lx 
+Switching Pin (Open Drain Output) 
+5 
+GND 
+Ground Pin 
+6 
+VFB 
+Feedback Pin 
+
+=====PAGE 6
+R1200x
+NO.EA-192-230529 
+ 
+ 
+6 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+ABSOLUTE MAXIMUM RATINGS 
+(GND=0V) 
+Symbol 
+Item 
+Rating 
+Unit 
+VIN 
+VIN Pin Voltage 
+−0.3 to 6.5 
+V 
+VCE 
+CE Pin Voltage 
+−0.3 to VIN+0.3 
+V 
+VFB 
+VFB Pin Voltage 
+−0.3 to VIN+0.3 
+V 
+VOUT 
+VOUT Pin Voltage 
+−0.3 to 25.0 
+V 
+VLX 
+LX Pin Voltage 
+−0.3 to 25.0 
+V 
+ILX 
+LX Pin Current 
+1000 
+mA 
+PD 
+Power Dissipation∗ 
+Standard Test Land 
+Pattern 
+WLCSP-6-P1 
+633 
+mW 
+JEDEC STD. 51-7 Test 
+Land Pattern 
+DFN1616-6 
+2400 
+DFN(PL)1820-6 
+2200 
+SOT-23-6 
+660 
+Tj 
+Junction Temperature Range 
+−40 to 125 
+°C 
+Tstg 
+Storage Temperature Range 
+−55 to 125 
+°C 
+ 
+∗) For Power Dissipation, please refer to POWER DISSIPATION. 
+ 
+ 
+ 
+ABSOLUTE MAXIMUM RATINGS 
+Electronic and mechanical stress momentarily exceeded absolute maximum ratings may cause the permanent 
+damages and may degrade the life time and safety for both device and system using the device in the field. The 
+functional operation at or over these absolute maximum ratings is not assured. 
+ 
+ 
+ 
+ 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+Symbol 
+Item 
+Rating 
+Unit 
+VIN 
+Input Voltage 
+2.3 to 5.5 
+V 
+Ta 
+Operating Temperature Range 
+−40 to 85 
+°C 
+ 
+RECOMMENDED OPERATING CONDITIONS 
+All of electronic equipment should be designed that the mounted semiconductor devices operate within the 
+recommended operating conditions. The semiconductor devices cannot operate normally over the recommended 
+operating conditions, even if when they are used over such ratings by momentary electronic noise or surge. And the 
+semiconductor devices may receive serious damage when they continue to operate over the recommended operating 
+conditions. 
+ 
+ 
+
+=====PAGE 7
+R1200x
+NO.EA-192-230529 
+ 
+ 
+7 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+ELECTRICAL CHARACTERISTICS 
+• R1200x 
+Ta=25°C 
+Symbol 
+Item 
+Conditions 
+Min. 
+Typ. 
+Max. 
+Unit 
+IDD 
+Supply Current 
+VIN=5.5V, VFB=0V, Lx at no load 
+ 
+0.5 
+1.0 
+mA 
+Istandby 
+Standby Current 
+VIN=5.5V, VCE=0V 
+ 
+0 
+3.0 
+µA 
+VUVLO1 
+UVLO Detector Threshold VIN falling 
+1.9 
+2.0 
+2.1 
+V 
+VUVLO2 
+UVLO Released Voltage 
+VIN rising 
+ 
+VUVLO1 
++0.10 
+2.25 
+V 
+VCEH 
+CE Input Voltage "H" 
+VIN=5.5V 
+1.5 
+ 
+ 
+V 
+VCEL 
+CE Input Voltage "L" 
+VIN=2.3V 
+ 
+ 
+0.5 
+V 
+RCE 
+CE Pull Down Resistance VIN=3.6V 
+600 
+1200 
+2200 
+kΩ 
+VFB 
+VFB Voltage Accuracy 
+VIN=3.6V 
+0.985 
+1.0 
+1.015 
+V 
+∆VFB/ 
+∆Ta 
+VFB Voltage Temperature  
+Coefficient 
+VIN=3.6V, −40°C ≤ Ta ≤ 85°C 
+ 
+±150 
+ 
+ppm 
+/°C 
+IFB 
+VFB Input Current 
+VIN=5.5V, VFB=0V or 5.5V 
+−0.1 
+ 
+0.1 
+µA 
+tstart 
+Soft-start Time 
+VIN=3.6V 
+ 
+1.5 
+ 
+ms 
+RON 
+Switch ON Resistance 
+VIN=3.6V, ISW=100mA 
+ 
+1.35 
+ 
+Ω 
+ILXleak 
+Switch Leakage Current 
+ 
+ 
+0 
+3.0 
+µA 
+ILXlim 
+Switch Current Limit 
+VIN=3.6V 
+400 
+700 
+1000 
+mA 
+VNPN 
+NPN VCE Voltage 
+INPN=100mA 
+ 
+0.8 
+ 
+V 
+INPNOFF1 
+NPN Leakage Current 1 
+VOUT=23V 
+ 
+ 
+10 
+µA 
+INPNOFF2 
+NPN Leakage Current 2 
+VOUT=0V, VLX=5.5V 
+ 
+ 
+3.0 
+µA 
+fosc 
+Oscillator Frequency 
+VIN=3.6V, VOUT=VFB=0V 
+1.0 
+1.2 
+1.4 
+MHz 
+Maxduty Maximum Duty Cycle 
+VIN=3.6V, VOUT=VFB=0V 
+86 
+91 
+ 
+% 
+VOVP1 
+OVP Detector Threshold 
+VIN=3.6V, 
+VOUT rising 
+R1200x001x 
+16 
+17 
+18 
+V 
+R1200x002x 
+18 
+19 
+20 
+R1200x003x 
+20 
+21 
+22 
+VOVP2 
+OVP Released Voltage 
+VIN=3.6V, VOUT falling 
+ 
+VOVP1 
+−1.1 
+ 
+V 
+IDISCHG 
+VOUT Discharge Current 
+VIN=3.6V, VOUT=0.1V R1200xxxxA 
+ 
+0.7 
+ 
+mA 
+IVOUT 
+OVP Sense Current 
+VIN=3.6V, VOUT=23V 
+ 
+6.0 
+ 
+µA 
+ 
+ 
+ 
+
+=====PAGE 8
+R1200x
+NO.EA-192-230529 
+ 
+ 
+8 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+OPERATING DESCRIPTIONS 
+ 
+Operation of Step-Up DC/DC Converter and Output Current 
+ 
+ 
+<Basic Circuit> 
+L 
+Diode 
+CL 
+Lx Tr 
+VIN 
+VOUT 
+IOUT 
+i2 
+i1 
+GND 
+VOUT 
+ 
+ 
+ 
+ 
+<Current through L> 
+ 
+ 
+Discontinuous mode 
+Continuous mode  
+ILmax 
+ILmin 
+ton 
+toff 
+topen 
+IL 
+t
+T=1/fosc 
+ 
+ILmax 
+ILmin 
+ton 
+toff 
+t
+IL 
+T=1/fosc 
+ 
+ 
+There are two operation modes of the step-up PWM control-DC/DC converter. That is the continuous mode and 
+discontinuous mode by the continuousness inductor. 
+When the transistor turns ON, the voltage of inductor L becomes equal to VIN voltage. The increase value of 
+inductor current (i1) will be 
+ 
+∆i1 = VIN × ton / L ........................................................................................................... Formula 1 
+ 
+ 
+
+=====PAGE 9
+R1200x
+NO.EA-192-230529 
+ 
+ 
+9 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+As the step-up circuit, during the OFF time (when the transistor turns OFF) the voltage is continually supply from 
+the power supply. The decrease value of inductor current (i2) will be 
+ 
+∆i2 = (VOUT − VIN) × topen / L .......................................................................................... Formula 2 
+ 
+At the PWM control-method, the inductor current become continuously when topen=toff, the DC/DC converter 
+operate as the continuous mode. 
+ 
+In the continuous mode, the variation of current of i1 and i2 is same at regular condition. 
+ 
+VIN × ton / L = (VOUT - VIN) × toff / L .................................................................................. Formula 3 
+ 
+The duty at continuous mode will be 
+ 
+duty (%)= ton / (ton + toff) = (VOUT - VIN) / VOUT ................................................................ Formula 4 
+  
+The average of inductor current at tf = toff will be 
+ 
+IL(Ave.) = VIN × ton / (2 × L) ........................................................................................... Formula 5 
+ 
+If the input voltage = output voltage, the IOUT will be 
+ 
+IOUT = VIN2 × ton / (2 × L × VOUT) ...................................................................................... Formula 6 
+ 
+If the IOUT value is large than above the calculated value (Formula 6), it will become the continuous mode, at this 
+status, the peak current (ILmax) of inductor will be 
+ 
+ILmax = IOUT × VOUT / VIN + VIN × ton / (2 × L) ................................................................... Formula 7 
+ 
+ILmax = IOUT × VOUT / VIN + VIN × T × (VOUT - VIN) / (2 × L × VOUT) ..................................... Formula 8 
+ 
+The peak current value is larger than the IOUT value. In case of this, selecting the condition of the input and the 
+output and the external components by considering of ILmax value.  
+The explanation above is based on the ideal calculation, and the loss caused by LX switch and the external 
+components are not included. 
+The actual maximum output current will be between 50% and 80% by the above calculations. Especially, when 
+the IL is large or VIN is low, the loss of VIN is generated with on resistance of the switch. Moreover, it is necessary 
+to consider Vf of the diode (approximately 0.8V) about VOUT. 
+ 
+ 
+
+=====PAGE 10
+R1200x
+NO.EA-192-230529 
+ 
+ 
+10 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+ Shutdown 
+⋅ At standby mode, the output is completely separated from the input and shutdown by the NPN transistor of 
+internal IC. However, the leakage current is generated when the LX pin voltage is equal or more than VIN pin 
+voltage at standby mode. 
+⋅ R1200xxxxA (with auto discharge function): In the term of standby mode, the switch is turned ON between VOUT 
+to GND and the VOUT capacitor is discharged. 
+⋅ R1200xxxxB (without auto discharge function): The built-in switch for discharge does not turn on, but the OVP 
+sense resistors between VOUT and GND exists as same as A version. 
+⋅ However, the both version (A/B) has the OVP sense resistance (4 to 5MΩ) between VOUT and GND (refer to 
+OVP sense current (IVOUT) on ELECTRICAL CHARACTERISTICS table) and the current flows through from VOUT 
+to GND. 
+ 
+ 
+APPLICATION INFORMATION 
+ 
+ Typical Applications 
+C1 
+VIN 
+LX 
+CE 
+GND 
+1µF 
+L1 
+22µH 
+C2 
+1µF 
+R1 
+VOUT 
+VFB 
+R2 
+R3 
+C3 
+ 
+ 
+ Selection of Inductors 
+The peak current of the inductor at normal mode can be estimated as the next formula when the efficiency is 
+80%. 
+ 
+ILmax=1.25 x IOUT x VOUT / VIN + 0.5 x VIN x (VOUT - VIN) / (L x VOUT x fosc) 
+ 
+In the case of start-up or dimming control by CE pin, inductor transient current flows, and the peak current of it 
+must be equal or less than the current limit of the IC. The peak current should not beyond the rated current of 
+the inductor.  
+The recommended inductance value is 4.7 µH – 22 µH. 
+ 
+Table 1 Peak current value in each condition 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIN (V) 
+VOUT (V) 
+IOUT (mA) 
+L (µH) 
+ILmax (mA) 
+3 
+14
+20 
+10 
+215 
+3 
+14
+20 
+22 
+160 
+3 
+21
+20 
+10 
+280 
+3 
+21
+20 
+22 
+225 
+Condition 
+
+=====PAGE 11
+R1200x
+NO.EA-192-230529 
+11 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+Table 2 Recommended inductors 
+L 
+(µH) 
+Part No. 
+Rated 
+Current (mA) 
+Size (mm) 
+10 
+LQH32CN100K53 
+450 
+3.2 x 2.5 x 1.55 
+10 
+LQH2MC100K02 
+225 
+2.0 x 1.6 x 0.9 
+10 
+VLF3010A-100 
+490 
+2.8 x 2.6 x 0.9 
+10 
+VLS252010-100 
+520 
+2.5 x 2.0 x 1.0 
+22 
+LQH32CN220K53 
+250 
+3.2 x 2.5 x 1.55 
+22 
+LQH2MC220K02 
+185 
+2.0 x 1.6 x 0.9 
+22 
+VLF3010A-220 
+330 
+2.8 x 2.6 x 0.9 
+4.7 
+LQH32CN4R7M53 
+650 
+3.2 x 2.5 x 1.55 
+Selection of Capacitors
+Set 1µF or more value bypass capacitor C1 between VIN pin and GND pin as close as possible.
+Set 1µF – 4.7µF or more capacitor C2 between VOUT and GND pin.
+Table 3  Recommended components 
+External Components Setting
+⋅ If the spike noise of VOUT may be large, the spike noise may be picked into VFB pin and make the operation
+unstable. In this case, use a R3 of the resistance value in the range from 1kΩ to 5kΩ to reduce a noise level of 
+VFB. 
+The Method of Output Voltage Setting
+⋅ The output voltage can be calculated with divider resistors (R1 and R2) values as the following formula:
+Output Voltage = VFB × (R1 + R2) / R1 
+ 
+⋅ The total value of R1 and R2 should be equal or less than 300kΩ. Make the VIN and GND line sufficient. The
+large current flows through the VIN and GND line due to the switching. If this impedance (VIN and GND line) is 
+high, the internal voltage of the IC may shift by the switching current, and the operating may become unstable. 
+Moreover, when the built-in LX switch is turn OFF, the spike noise caused by the inductor may be generated. 
+As a result of this, recommendation voltage rating of capacitor (C2) value is equal 1.5 times larger or more than 
+the setting output voltage. 
+Rated voltage(V) 
+Part No. 
+C1 
+6.3 
+CM105B105K06 
+C2 
+25 
+GRM21BR11E105K 
+C3 
+25 
+22pF 
+R1 
+For VOUT Setting 
+R2 
+For VOUT Setting 
+R3 
+2kΩ 
+
+=====PAGE 12
+R1200x
+NO.EA-192-230529 
+ 
+ 
+12 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+TECHNICAL NOTES 
+ 
+ Current Path on PCB 
+The current paths in an application circuit are shown in Fig. 1 and 2. 
+A current flows through the paths shown in Fig. 1 at the time of MOSFET-ON, and shown in Fig. 2 at the time 
+of MOSFET-OFF. In the paths pointed with red arrows in Fig. 2, current flows just in MOSFET-ON period or 
+just in MOSFET-OFF period. Parasitic impedance/inductance and the capacitance of these paths influence 
+stability of the system and cause noise outbreak. So please minimize this side effect. In addition, please shorten 
+the wiring of other current paths shown in Fig. 1 and 2 except for the paths of LED load. 
+ 
+ Layout Guide for PCB 
+⋅ Please shorten the wiring of the input capacitor (C1) between VIN pin and GND pin of IC. The GND pin should 
+be connected to the strong GND plane. 
+ 
+⋅ The area of LX land pattern should be smaller. 
+ 
+⋅ Please put output capacitor (C2) close to the VOUT pin. 
+ 
+⋅ Please make the GND side of output capacitor (C2) close to the GND pin of IC. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MOSFET-ON 
+Fig. 1 
+Load 
+MOSFET-OFF 
+Fig. 2 
+Load 
+
+=====PAGE 13
+R1200x
+NO.EA-192-230529 
+ 
+ 
+13 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+ PCB Layout 
+・PKG: DFN1616-6pin 
+R1200L Typical Board Layout 
+Topside 
+Backside 
+ 
+ 
+ 
+・PKG:DFN(PL)1820-6pin 
+R1200K Typical Board Layout 
+Topside 
+Backside 
+ 
+ 
+ 
+ 
+ 
+
+=====PAGE 14
+R1200x
+NO.EA-192-230529 
+ 
+ 
+14 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+ 
+・PKG:SOT-23-6pin 
+R1200N Typical Board Layout 
+Topside 
+Backside 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=====PAGE 15
+R1200x
+NO.EA-192-230529 
+ 
+ 
+15 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+TYPICAL CHARACTERISTICS 
+1) Output Voltage vs. Output Current (L=22µH) 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+2) Efficiency vs. Output Current 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+
+=====PAGE 16
+R1200x
+NO.EA-192-230529 
+ 
+ 
+16 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+  
+3) OVP Sense Current vs. Temperature 
+4) Supply Current vs. Temperature 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+  
+
+=====PAGE 17
+R1200x
+NO.EA-192-230529 
+ 
+ 
+17 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+5) CE Pulldown Resistance vs. Temperature 
+6) CE Input Voltage "L" vs. Temperature 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+7) CE Input Voltage "H" vs. Temperature 
+8) NPN VCE Voltage vs. Temperature 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+9) VFB Voltage vs. Temperature  
+10) UVLO Detect / Released Voltage vs. Temperature 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+
+=====PAGE 18
+R1200x
+NO.EA-192-230529 
+ 
+ 
+18 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+11) Oscillator Frequency vs. Temperature 
+12) Maxduty vs. Temperature 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+13) OVP Detect / Released Voltage vs. Temperature 
+ 
+R1200x001x 
+ 
+ 
+ 
+ 
+ 
+14) Soft-start Time vs. Temperature 
+15) VOUT Discharge Current vs. Temperature 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+
+=====PAGE 19
+R1200x
+NO.EA-192-230529 
+ 
+ 
+19 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+16) LX Limit Current vs. Temperature 
+17) Switch ON Resistance vs. Temperature 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+18) Load Transient Response (VIN=3.6V, IOUT=5mA↔25mA, tr=tf=0.5µs) 
+ 
+R1200x 
+R1200x 
+ 
+ 
+ 
+ 
+19) Start-up Waveform (VIN=3.6V, IOUT=20mA) 
+ 
+R1200x001A 
+R1200x003A 
+ 
+ 
+ 
+ 
+
+=====PAGE 20
+R1200x
+NO.EA-192-230529 
+20 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+20) Shut-down Waveform (VIN=3.6V, IOUT=20mA)
+R1200x001A 
+R1200x003A 
+21) OVP Waveform (VFB=0V)
+R1200x001A 
+
+=====PAGE 21
+POWER DISSIPATION  
+WLCSP-6-P1
+Ver. A 
+i 
+The power dissipation of the package is dependent on PCB material, layout, and environmental conditions. 
+The following conditions are used in this measurement. 
+Measurement Conditions 
+Standard Test Land Pattern 
+Environment 
+Mounting on Board (Wind Velocity = 0 m/s) 
+Board Material 
+Glass Cloth Epoxy Plastic (Double-Sided Board) 
+Board Dimensions 
+40 mm × 40 mm × 1.6 mm 
+Copper Ratio 
+Top Side: Approx. 50% 
+Bottom Side: Approx. 50% 
+Through-holes 
+- 
+Measurement Result 
+ (Ta = 25°C, Tjmax = 125°C) 
+Standard Test Land Pattern 
+Power Dissipation 
+633 mW 
+Thermal Resistance 
+θja = (125 − 25°C) / 0.633 W = 158°C/W 
+   IC Mount Area (mm) 
+Power Dissipation vs. Ambient Temperature 
+    Measurement Board Pattern 
+0
+100
+200
+300
+400
+500
+600
+700
+0
+25
+50
+75
+100
+125
+Power Dissipation PD (mW)
+Ambient Temperature (°C)
+633
+85
+Standard Test Land Pattern
+40 
+40 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+
+=====PAGE 22
+PACKAGE DIMENSIONS 
+WLCSP-6-P1
+Ver. A 
+i 
+WLCSP-6-P1 Package Dimensions (Unit: mm) 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+
+=====PAGE 23
+POWER DISSIPATION 
+DFN1616-6 
+PD-DFN1616-6-(85125)-JE-B
+i
+The power dissipation of the package is dependent on PCB material, layout, and environmental conditions. 
+The following measurement conditions are based on JEDEC STD. 51-7.
+Measurement Conditions
+Item
+Measurement Conditions
+Environment
+Mounting on Board (Wind Velocity = 0 m/s)
+Board Material
+Glass Cloth Epoxy Plastic (Four-Layer Board)
+Board Dimensions
+76.2 mm × 114.3 mm × 0.8 mm
+Copper Ratio
+Outer Layer (First Layer): Less than 95% of 50 mm Square
+Inner Layers (Second and Third Layers): Approx. 100% of 50 mm Square
+Outer Layer (Fourth Layer): Approx. 100% of 50 mm Square
+Through-holes
+ 0.2 mm × 25 pcs
+Measurement Result
+    (Ta = 25°C, Tjmax = 125°C)
+Item
+Measurement Result
+Power Dissipation
+2400 mW
+Thermal Resistance (ja)
+ja = 41°C/W
+Thermal Characterization Parameter (ψjt)
+ψjt = 11°C/W
+ja: Junction-to-Ambient Thermal Resistance
+ψjt: Junction-to-Top Thermal Characterization Parameter
+Power Dissipation vs. Ambient Temperature
+Measurement Board Pattern
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+
+=====PAGE 24
+PACKAGE DIMENSIONS 
+DFN1616-6
+Ver. A 
+i 
+DFN1616-6 Package Dimensions (Unit: mm) 
+∗ The tab on the bottom of the package shown by blue circle is a substrate potential (GND). It is recommended that 
+this tab be connected to the ground plane on the board but it is possible to leave the tab floating. 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+
+=====PAGE 25
+POWER DISSIPATION
+  DFN(PL)1820-6
+Ver. A 
+i 
+The power dissipation of the package is dependent on PCB material, layout, and environmental conditions. 
+The following conditions are used in this measurement. 
+Measurement Conditions 
+Item 
+Measurement Conditions (JEDEC STD. 51-7) 
+Environment 
+Mounting on Board (Wind Velocity = 0 m/s) 
+Board Material 
+Glass Cloth Epoxy Plastic (Four-Layer Board) 
+Board Dimensions 
+76.2 mm × 114.3 mm × 0.8 mm 
+Copper Ratio 
+1st Layer: Less than 95% of 50 mm Square 
+2nd, 3rd, 4th Layers: Approx. 100% of 50 mm Square 
+Through-holes 
+φ 0.2 mm × 34 pcs 
+Measurement Result
+     (Ta = 25°C, Tjmax = 125°C) 
+Item
+Measurement Result 
+Power Dissipation 
+2200 mW 
+Thermal Resistance (θja) 
+θja = 45°C/W 
+Thermal Characterization Parameter (ψjt) 
+ψjt = 18°C/W 
+θja: Junction-to–ambient thermal resistance. 
+ψjt: Junction–to-top of package thermal characterization parameter.
+Power Dissipation vs. Ambient Temperature 
+Measurement Board Pattern 
+0
+500
+1000
+1500
+2000
+2500
+0
+25
+50
+75
+100
+125
+Power Dissipation PD (mW)
+Ambient Temperature (°C)
+85
+2200
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+
+=====PAGE 26
+PACKAGE DIMENSIONS 
+DFN(PL)1820-6
+Ver. A 
+i 
+2.00
+1.80
+0.25±0.1
+0.25±0.1 
+0.1NOM.
+0.3±0.1
+0.5
+0.6MAX.
+A 
+B 
+0.05
+X4
+0.05 M  AB 
+INDEX 
+S 
+0.05min
+1 
+2 
+3 
+4 
+5 
+6 
+1.6±0.1
+1.0±0.1 
+0.20±0.1 
+※
+0.05  S
+Bottom View 
+DFN(PL)1820-6 Package Dimensions (Unit: mm) 
+*
+∗ The tab on the bottom of the package is substrate level (GND). It is recommended that the tab be connected to the 
+ground plane on the board, or otherwise be left floating.  
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+
+=====PAGE 27
+POWER DISSIPATION   
+  SOT-23-6
+Ver. A 
+i 
+The power dissipation of the package is dependent on PCB material, layout, and environmental conditions. 
+The following conditions are used in this measurement. 
+Measurement Conditions 
+Item 
+Measurement Conditions (JEDEC STD. 51-7) 
+Environment 
+Mounting on Board (Wind Velocity = 0 m/s) 
+Board Material 
+Glass Cloth Epoxy Plastic (Four-Layer Board) 
+Board Dimensions 
+76.2 mm × 114.3 mm × 0.8 mm 
+Copper Ratio 
+1st Layer : Less than 95% of 50 mm Square 
+2nd, 3rd, 4th Layers: Approx. 100% of 50 mm Square 
+Through-holes 
+φ 0.3 mm × 7 pcs 
+Measurement Result 
+ (Ta = 25°C, Tjmax = 125°C) 
+Item 
+Measurement Result 
+Power Dissipation 
+660 mW 
+Thermal Resistance (θja) 
+θja = 150°C/W 
+Thermal Characterization Parameter (ψjt) 
+ψjt = 51°C/W 
+θja: Junction-to–ambient thermal resistance. 
+ψjt: Junction–to-top of package thermal characterization parameter
+Power Dissipation vs. Ambient Temperature 
+    Measurement Board Pattern 
+0
+100
+200
+300
+400
+500
+600
+700
+0
+25
+50
+75
+100
+125
+Power Dissipation PD (mW)
+Ambient Temperature (°C)
+660
+85
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+
+=====PAGE 28
+PACKAGE DIMENSIONS 
+SOT-23-6
+Ver. A 
+i 
+SOT-23-6 Package Dimensions
+2.9±0.2 
+1.9±0.2 
+(0.95)   (0.95) 
+6 
+4 
+1 
+2 
+3 
+1.6-0.1 
++0.2
+2.8±0.3 
+0.4-0.2 
+Unit : mm 
+5 
++0.1
+0.8±0.1 
+1.1-0.1 
++0.2
+0 to 0.1 
+0.15-0.05 
++0.1
+0.2MIN. 
+R1200Z (WLCSP-6-P1) is the discontinued product as of September 2017. 
+R1200K (DFN(PL)1820-6) is the NRND Product as of April 2023. 
+
+=====PAGE 29
+1.
+The products and the product specifications described in this document are subject to change or discontinuation of production without
+notice for reasons such as improvement. Therefore, before deciding to use the products, please refer to our sales representatives for the 
+latest information thereon.
+2.
+The materials in this document may not be copied or otherwise reproduced in whole or in part without the prior written consent of us.
+3.
+This product and any technical information relating thereto are subject to complementary export controls (so-called KNOW controls)
+under the Foreign Exchange and Foreign Trade Law, and related politics ministerial ordinance of the law. (Note that the complementary
+export controls are inapplicable to any application-specific products, except rockets and pilotless aircraft, that are insusceptible to design
+or program changes.) Accordingly, when exporting or carrying abroad this product, follow the Foreign Exchange and Foreign Trade
+Control Law and its related regulations with respect to the complementary export controls.
+4.
+The technical information described in this document shows typical characteristics and example application circuits for the products. The
+release of such information is not to be construed as a warranty of or a grant of license under our or any third party's intellectual property 
+rights or any other rights.
+5.
+The products listed in this document are intended and designed for use as general electronic components in standard applications (office 
+equipment, telecommunication equipment, measuring instruments, consumer electronic products, amusement equipment etc.). Those
+customers intending to use a product in an application requiring extreme quality and reliability, for example, in a highly specific application 
+where the failure or misoperation of the product could result in human injury or death should first contact us.
+•
+Aerospace Equipment
+•
+Equipment Used in the Deep Sea
+•
+Power Generator Control Equipment (nuclear, steam, hydraulic, etc.)
+•
+Life Maintenance Medical Equipment
+•
+Fire Alarms / Intruder Detectors
+•
+Vehicle Control Equipment (automotive, airplane, railroad, ship, etc.)
+•
+Various Safety Devices
+•
+Traffic control system
+•
+Combustion equipment
+In case your company desires to use this product for any applications other than general electronic equipment mentioned above, make 
+sure to contact our company in advance. Note that the important requirements mentioned in this section are not applicable to cases 
+where operation requirements such as application conditions are confirmed by our company in writing after consultation with your 
+company. 
+6.
+We are making our continuous effort to improve the quality and reliability of our products, but semiconductor products are likely to fail
+with certain probability. In order to prevent any injury to persons or damages to property resulting from such failure, customers should be 
+careful enough to incorporate safety measures in their design, such as redundancy feature, fire containment feature and fail-safe feature. 
+We do not assume any liability or responsibility for any loss or damage arising from misuse or inappropriate use of the products.
+7.
+The products have been designed and tested to function within controlled environmental conditions. Do not use products under conditions
+that deviate from methods or applications specified in this datasheet. Failure to employ the products in the proper applications can lead
+to deterioration, destruction or failure of the products. We shall not be responsible for any bodily injury, fires or accident, property damage 
+or any consequential damages resulting from misuse or misapplication of the products.
+8.
+Quality Warranty
+8-1. Quality Warranty Period
+In the case of a product purchased through an authorized distributor or directly from us, the warranty period for this product shall be
+one (1) year after delivery to your company. For defective products that occurred during this period, we will take the quality warranty 
+measures described in section 8-2. However, if there is an agreement on the warranty period in the basic transaction agreement, 
+quality assurance agreement, delivery specifications, etc., it shall be followed.  
+8-2. Quality Warranty Remedies
+When it has been proved defective due to manufacturing factors as a result of defect analysis by us, we will either deliver a substitute 
+for the defective product or refund the purchase price of the defective product. 
+Note that such delivery or refund is sole and exclusive remedies to your company for the defective product. 
+8-3. Remedies after Quality Warranty Period
+With respect to any defect of this product found after the quality warranty period, the defect will be analyzed by us. On the basis of
+the defect analysis results, the scope and amounts of damage shall be determined by mutual agreement of both parties. Then we 
+will deal with upper limit in Section 8-2. This provision is not intended to limit any legal rights of your company. 
+9.
+Anti-radiation design is not implemented in the products described in this document.
+10.
+The X-ray exposure can influence functions and characteristics of the products. Confirm the product functions and characteristics in the
+evaluation stage.
+11.
+WLCSP products should be used in light shielded environments. The light exposure can influence functions and characteristics of the
+products under operation or storage.
+12.
+Warning for handling Gallium and Arsenic (GaAs) products (Applying to GaAs MMIC, Photo Reflector). These products use Gallium (Ga) 
+and Arsenic (As) which are specified as poisonous chemicals by law. For the prevention of a hazard, do not burn, destroy, or process
+chemically to make them as gas or power. When the product is disposed of, please follow the related regulation and do not mix this with
+general industrial waste or household waste.
+13.
+Please contact our sales representatives should you have any questions or comments concerning the products or the technical
+information.
+Official website 
+https://www.nisshinbo-microdevices.co.jp/en/ 
+Purchase information 
+https://www.nisshinbo-microdevices.co.jp/en/buy/

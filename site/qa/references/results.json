@@ -1,0 +1,61 @@
+[
+  {
+    "name": "approved",
+    "url": "https://claude.ai/artifact/Eqdui62rGSzzt9QofQwnec",
+    "title": "Just a moment...",
+    "captured": true
+  },
+  {
+    "name": "airpods",
+    "url": "https://www.apple.com/airpods-pro/",
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.apple.com/airpods-pro/\nCall log:\n\u001b[2m  - navigating to \"https://www.apple.com/airpods-pro/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "name": "ob4",
+    "url": "https://teenage.engineering/products/ob-4",
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://teenage.engineering/products/ob-4\nCall log:\n\u001b[2m  - navigating to \"https://teenage.engineering/products/ob-4\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "name": "nothing",
+    "url": "https://us.nothing.tech/products/phone-3",
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://us.nothing.tech/products/phone-3\nCall log:\n\u001b[2m  - navigating to \"https://us.nothing.tech/products/phone-3\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "name": "analogue",
+    "url": "https://www.analogue.co/pocket",
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.analogue.co/pocket\nCall log:\n\u001b[2m  - navigating to \"https://www.analogue.co/pocket\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "name": "rabbit",
+    "url": "https://www.rabbit.tech/rabbit-r1",
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.rabbit.tech/rabbit-r1\nCall log:\n\u001b[2m  - navigating to \"https://www.rabbit.tech/rabbit-r1\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "name": "playdate",
+    "url": "https://play.date/",
+    "title": "Playdate",
+    "captured": true
+  },
+  {
+    "name": "bond",
+    "url": "https://bond-touch.com/",
+    "error": "page.screenshot: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n"
+  },
+  {
+    "name": "lovebox",
+    "url": "https://en.lovebox.love/",
+    "error": "page.screenshot: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n"
+  },
+  {
+    "name": "lusion",
+    "url": "https://lusion.co/",
+    "title": "Lusion - Award Winning 3D and Interactive Web Studio",
+    "captured": true
+  },
+  {
+    "name": "active-theory",
+    "url": "https://activetheory.net/",
+    "title": "Active Theory · Creative Digital Experiences",
+    "captured": true
+  }
+]

@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+    <!--[if IEMobile 7 ]> <html dir="ltr" lang="en" class="no-js iem7"> <![endif]-->
+    <!--[if lt IE 7 ]> <html dir="ltr" lang="en" class="no-js ie6 oldie"> <![endif]-->
+    <!--[if IE 7 ]>    <html dir="ltr" lang="en" class="no-js ie7 oldie"> <![endif]-->
+    <!--[if IE 8 ]>    <html dir="ltr" lang="en" class="no-js ie8 oldie"> <![endif]-->
+    <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html dir="ltr" lang="en" class="no-js"><!--<![endif]-->
+    <!-- Reading Values from Page Properties-->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>TE Connectivity: Every Connection Counts - TE | TE Connectivity</title>
+	<meta property="og:url" content="http://" />
+	<meta name="teListingThumbnail"  content="/content/dam/te-com/images/corporate/digital-strategy-and-solutions/global/500-error-new.jpg"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<link rel="icon" href="/dr-teda/prd/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/dr-teda/prd/images/favicon.ico">            
+	<meta property="analytics:business_unit" content="Corporate-Marketing" />
+    <meta property="analytics:application" content="AEM">
+    <meta property="analytics:application_source" content="te-com">
+    <meta property="analytics:page_type" content="te/components/pages/error-detail-500">
+    <meta property="analytics:publish_date" content="Apr 9, 2015 11:44:49 AM">
+	
+	<link rel="stylesheet" type="text/css" href="/dr-teda/prd/generated-src/css/te-global-en.css" title="default" media="all">
+	<link rel="canonical" href="http://"/>
+</head>
+
+<body class="responsive">
+	<div class="top-nav">
+		<div id="te-header" role="banner">
+			<div class="eu-cookie-banner">
+		<div class="banner-content">
+			</div>
+		 <a class="btn-block-1 btn-clr-4 btn-close">
+		<i class="icon icon-close icon-medium" role="presentation">
+		</i>
+		</a>
+	</div>
+	<div class="te-header-wrap">
+				<p id="te-skip-navigation"><a href="#te-body"></a></p>
+
+				<nav role="navigation" class="wrapper">
+					<div class="logo">
+						<a href="/usa-en/home.html" id="te-logo" data-close-menus="true">TE Connectivity</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<div class="content-well">
+		<div class="page-error-standalone">
+			<div class="full-page-error">
+				<div class="error-body">
+					<div class="media-error">
+						<img src="/dr-teda/prd/images/500-error-new.jpg"/>
+					</div>
+					<div class="error-content">
+						<h1>SITE UNAVAILABLE</h1>
+						<p></p><p><b>We’ll have it back up and running as soon as possible.</b><br>
+						Please try refreshing your browser, or check back in a few minutes.<br>
+						</p>
+						<p></p>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,996 @@
+==== AN_NN02-224_CAVLI.pdf PAGE 1 ====
+     
+HIGH EFFICIENCY 
+ON GLOBAL  
+NB-IOT AND  
+LTE-CAT-M WITH A 
+VERY COMPACT 
+MODULE-ANTENNA 
+COMBO 
+ 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 2 ====
+ 
+ 
+ 
+ 
+2 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+RUN mXTENDTM: High efficiency on global NB-IoT and LTE-
+CAT-M with a very compact module-antenna combo 
+ 
+- 
+Product: P-Series Module by Cavli Wireless with embedded RUN mXTENDTM NN02-
+224 
+- 
+Antenna Dimensions: 12.0 mm x 3.0 mm x 2.4 mm 
+- 
+Frequency regions: 824-960 MHz and 1710-1880 MHz 
+ 
+ 
+Let´s enable cellular IoT for your Smart World! 
+ 
+As the Internet of Things is a priority for many companies now, all of them need help with the 
+design process to be ready for this quick market. How can designers be ready in the shortest 
+way? 
+ 
+IoT could reduce its product development process if designers get a compact and ready to 
+use solution that simplifies the product development process: a module-antenna combo. 
+Here we present to designers the P-Series modules by Cavli Wireless with the RUN 
+mXTEND™ embedded antenna by NN that connects computing modules that enable IoT 
+companies to these large-scale deployments.  
+ 
+Discover within this application note how to adjust your P-Series module with the 
+integrated antenna booster to your device and easily cover the NB IoT and LTE CAT-M 
+bands (824-960 MHz and 1710-1880 MHz) desired frequencies worldwide.  
+ 
+Use the P-Series module with embedded RUN mXTENDTM antenna for multiple use cases as 
+Smart Factories and Smart City applications and its multiple possibilities: Smart Street lighting, 
+Smart Parking, Smart Logistics etc. 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 3 ====
+ 
+ 
+ 
+ 
+3 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+TABLE OF CONTENTS 
+ 
+1. 
+PRODUCT DESCRIPTION NN02-224 
+4 
+2. 
+PRODUCT DESCRIPTION P32 Series Modules from CAVLI 
+6 
+3. 
+P32-C1-RS Module 
+8 
+3.1. 
+MATCHING NETWORK 
+9 
+3.2. 
+VSWR AND TOTAL EFFICIENCY 
+10 
+3.3. 
+QUICK REFERENCE GUIDE FOR ANTENNA PERFORMANCE 
+10 
+4. 
+RECOMMENDED P32 C1-RS INTEGRATION 
+10 
+4.1. 
+DESIGN RECOMMENDATIONS TO INTEGRATE P32 SERIES                 
+MODULES                                                                                                              11 
+4.2. 
+PERFORMANCE IN DIFFERENT PCB SIZES 
+12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 4 ====
+ 
+ 
+ 
+ 
+4 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+1. PRODUCT DESCRIPTION NN02-224  
+ 
+The RUN mXTENDTM antenna booster has been specifically designed for providing multiband 
+performance in any wireless device enabling worldwide coverage, supporting 2G, 3G, 4G, NB-
+IoT, and LTE CAT-M. It is featured by a small form factor, that makes it ideal to be easily 
+embedded in any IoT device with high size constraints. This is the case of the P32 series 
+modules from CAVLI that integrate the RUN mXTENDTM antenna booster in a very compact 
+module size of just 48 mm length by 20 mm width (section 2).  
+ 
+TOP 
+BOTTOM 
+ 
+ 
+Material: The RUN mXTENDTM antenna booster is built on glass epoxy substrate. 
+ 
+APPLICATIONS 
+BENEFITS 
+ 
+• 
+Asset Tracking 
+• 
+Fleet Management 
+• 
+Smart Agriculture/Sensors 
+• 
+Smart Home/Building/City 
+• 
+Smart Metering 
+• 
+IoT 
+• 
+Smartphones, Handsets 
+• 
+Tablets, Phablets, Laptop PCs 
+• 
+Netbooks, eBook readers 
+• 
+Modules 
+• 
+Routers 
+• 
+Data Loggers Gateways 
+• 
+Smartwatches and Wearables 
+ 
+• 
+High efficiency 
+• 
+Small size  
+• 
+Cost-effective 
+• 
+Easy-to-use (pick and place) 
+• 
+Multiband behaviour (worldwide 
+standards) 
+• 
+Off-the-Shelf Standard Product (no 
+customization is required) 
+ 
+ 
+The RUN mXTENDTM antenna booster belongs to a new generation of antenna solutions based 
+on Virtual AntennaTM technology owned by Ignion. This technology enables replacing 
+conventional and custom antenna solutions by a new class of so-called antenna boosters, 
+delivered in the form of a new range of miniature and off-the-shelf chip antenna components. 
+These new chip antennas are by nature multiband and multipurpose, so they fit in a variety of 
+wireless platforms to provide a wireless link at many different communication services. By using 
+a Virtual AntennaTM component the design becomes more predictable compared to a custom 
+solution, making the whole process faster, cheaper and easier. 
+ 
+  
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 5 ====
+ 
+ 
+ 
+ 
+5 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+The fact of embedding the antenna in the P32 series modules from CAVLI implies significant 
+advantages for the IoT world. It simplifies design and manufacturing processes and allow IoT 
+designers to center their attention in their disruptive applications rather than in RF aspects.  
+ 
+Wireless data loggers or gateways are one of the most demanded IoT application nowadays. 
+Any parameter position, temperature, humidity, acceleration, flow, etc… can be monitored by a 
+super set of sensors present in any IoT device. All this huge quantity of data must be properly 
+collected, stored, and transmitted through this wireless data loggers or gateways and they can 
+apply to many different market segments, from smart factories with the control of logistics, smart 
+cities with street lightning, up to smart agriculture, smart parking, etc… 
+ 
+This application note is intended to provide design recommendation to integrate the P32 series 
+modules from CAVLI with the RUN mXTENDTM embedded antenna solution in the design of any 
+wireless data logger device or gateway. Three different representative sizes from commercially 
+available data loggers have been considered. The antenna performance is gathered for these 
+three different platform sizes as well as when regarding the standalone module. 
+ 
+ 
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 6 ====
+ 
+ 
+ 
+ 
+6 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+2. PRODUCT DESCRIPTION P32 SERIES MODULES 
+FROM CAVLI 
+ 
+The P32 series modules from CAVLI are connected computing modules that enable IoT 
+companies to mitigate the existing entry barriers to large scale deployment, and seamlessly 
+carry out product development to global scale-up. P-Series modules with power EDGE 
+computing capability supported state of the art Espressif ESP32 chipset and dual-core 
+processor that can be used to run user applications. They provide the perfect IoT product 
+development environment supporting ESP-IDF and Arduino programming console with WiFi and 
+BLE support. P-Series offers flexible programming consoles and are integrated with eSIMs and 
+preloaded with global connectivity.  
+  
+The P32 series modules integrates the ESP32-D2WD with 520KB RAM, and 2MB Flash. 
+Integrates a chip antenna, the RUN mXTEND™ (NN02-224) antenna booster for covering the 
+band 3, 5, 8 (824-960MHz and 1710-1880MHz). Integrate an eSIM with Global Data 
+Connectivity, with a programming Console with Arduino IDE and ESP-IDF. Presents a ultra-Low 
+power modes for a longer battery life, and alternate radio: WIFI 2.4Ghz/Bluetooth 4.2/BLE.  
+ 
+ 
+ 
+ 
+(a) 
+(b) 
+(c) 
+Figure 1- P32 series modules. (a) P32 C1-RS, (b) P32 C31-QM and (c) P32 C1-RM. 
+ 
+P32 C1-RS is the connected compute module from P-Series family supporting LTE CAT NB-IoT 
+connectivity (Figure 1a).  
+ 
+P32 C31-QM is the connected computed module from P-Series family supporting LTE CAT NB-
+IoT, CAT M1 with 2G fall back connectivity (Figure 1b). 
+ 
+P32 C1-RM is the connected compute module from P-Series family supporting LTE CAT NB-
+IoT with 2G fall back connectivity (Figure 1c). 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 7 ====
+ 
+ 
+ 
+ 
+7 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+Main CAVLI advantages are: 
+• 
+Integrated eSIM and global connectivity through Cavli Hubble 
+• 
+Intelligent/Automatic local eSIM provisioning 
+• 
+Advanced firmware installation/update over-the-air 
+• 
+PAYG global data subscription model 
+Each module presents different dimensions that must be considered during the integrations of 
+the P32 module in the final design (Figure 2).  
+ 
+ 
+ 
+ 
+ 
+(a) 
+(b) 
+(c) 
+Figure 2- P32 series modules dimensions. (a) P32 C1-RS module, (b) P32 C31-QM module 
+and (c) P32 C1-RM module. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 8 ====
+ 
+ 
+ 
+ 
+8 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+3.  P32-C1-RS Module 
+ 
+P32 C1-RS Module integrates the RUN mXTENDTM antenna booster to provide operation in 
+bands 3, 5, 8, supporting LTE CAT NB-IoT connectivity in the frequency region from 824 to 
+960MHz, and from 1710MHz to 1880MHz. The P32 C1-RS Module presents a very compact 
+size with a length of just 48.1mm and a width of 19.2mm. This section gathers the antenna 
+performance results and the recommended matching network design in the P32 C1-RS (Figure 
+3). 
+ 
+ 
+ 
+Measure 
+mm 
+A 
+19.2 
+B 
+48.1 
+C 
+10.0 
+D 
+7.0 
+Tolerance: ±0.2 mm 
+D: Distance 
+between the RUN 
+mXTENDTM antenna booster and the 
+ground plane. 
+Material: The module is built on FR4 
+substrate. Thickness is 1 mm. 
+Clearance Area: 10 mm x 19.2 mm 
+(C x A) 
+Figure 3 – P32 C1-RS Module integrates the RUN mXTENDTM, providing operation from 
+824MHz to 960MHz, and from 1710MHz to 1880MHz. Top view in the left and bottom view in 
+the right. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 9 ====
+ 
+ 
+ 
+ 
+9 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+3.1. MATCHING NETWORK 
+ 
+RUN mXTENDTM antenna booster needs a matching network to connect to the C1-RS Module. 
+This section describes the matching network used for RUN mXTENDTM (Figure 4) and the 
+resulting product specs when measured in the P32 C1-RS Module (Table 1 and Figure 5). To 
+ensure optimal results, the use of high-quality factor (Q) and tight tolerance components is highly 
+recommended (e.g., Murata components with part numbers as in Figure 4).  
+ 
+824 – 960 MHz & 1710 – 1880 MHz 
+ 
+ 
+ 
+Component 
+Value 
+Part Number 
+Z1 
+0Ω 
+- 
+Z2 
+7.0nH 
+LQW15AN7N0G80 
+Z3 
+1.9pF 
+GJM1555C1H1R9WB01 
+Z4 
+10nH 
+LQW15AN10NG80 
+Z5 
+- 
+- 
+Z6 
+4.3nH 
+LQW15AN4N3B80 
+Z7 
+0Ω 
+ 
+Figure 4 – Matching Network topology and components values implemented in the P32 C1-
+RS module (Figure 3) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 10 ====
+ 
+ 
+ 
+ 
+10 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+3.2. VSWR AND TOTAL EFFICIENCY 
+ 
+VSWR (Voltage Standing Wave Ratio) and Total Efficiency versus Frequency (GHz). 
+Figure 5 –VSWR and Antenna Efficiency in the C1-RS module, from 824MHz to 960MHz, 
+and from 1710MHz to 1880MHz (Figure 4). 
+ 
+3.3. QUICK REFERENCE GUIDE FOR ANTENNA 
+PERFORMANCE 
+ 
+Technical features 
+824 – 960 MHz 
+1710 – 1880 MHz 
+Average Efficiency 
+ 8.5 % 
+43.9 % 
+VSWR 
+< 4.4:1 
+< 3:1 
+Radiation Pattern 
+Omnidirectional 
+Polarization 
+Linear 
+Weight (approx.) 
+0.19 g 
+Temperature 
+-40 to +125 ºC 
+Impedance 
+50 Ω 
+Dimensions 
+(L x W x H) 
+12.0 mm x 3.0 mm x 2.4 mm 
+Table 1 – Technical Features. Measures from the P32 C1-RS module (Figure 3).  
+4. RECOMMENDED P32 C1-RS INTEGRATION 
+ 
+P32 C1-RS module will simplify IoT product development since it provides a compact integration 
+of all the required elements in a very small and reduced package.  
+ 
+Nevertheless, the antenna performance is always conditioned by its operating environment in 
+such a way that different devices with different printed circuit board sizes, components nearby 
+the antenna, LCD’s, batteries, covers, connectors, etc. may need a different matching network 
+to properly tune the operating frequencies. This section is intended to provide some guidelines 
+and design recommendations to the IoT developers to allow them to ensure the most 
+appropriate embedded cellular connectivity in their final products.  
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 11 ====
+ 
+ 
+ 
+ 
+11 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+4.1. DESIGN RECOMMENDATIONS TO INTEGRATE P32 
+SERIES MODULES 
+ 
+See below the design recommendations to integrate the P32 C1-RS module in your device. 
+ 
+1. Chose the optimum antenna placement: 
+ 
+Place the P32 C1-RS module aligned with the longest side of the PCB (Printed Circuit 
+Board) in such a way that the feeding line, i.e., the line connecting the antenna with the 
+RF module was also aligned with the longest side of the PCB. The RUN mXTENDTM 
+should be as close as possible to a PCB corner. 
+ 
+2. Enlarge the clearance area: 
+ 
+Enlarge the clearance area. Much better results are obtained if the clearance area is free 
+from any electronic components, conductive traces, and ground plane in any PCB layers.  
+It is important to maintain the recommended clearance in the main PCB where the P32 
+C1-RS is integrated (Figure 6).  
+ 
+3. Optimize PCB inner layers: 
+ 
+Ensure a continuous ground plane layer in at least one inner layer of your design. Avoid 
+any ground plane or trace layer underneath or over the pads area. Place them at a 
+distance larger than 1 mm with respect to pads. 
+ 
+4. Ground plane connection: 
+ 
+The P32 C1-RS ground layer must be properly connected to the ground plane layer of 
+the main PCB.  
+ 
+ 
+ 
+Figure 6 – On the left side, an example of the P32 C1-RS module integration in a particular 
+device, and in the right side, an example of the main board ground plane and the required 
+clearance area. 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 12 ====
+ 
+ 
+ 
+ 
+12 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+To follow these design recommendations will make the design experience and certification 
+process of the IoT device much smoother and easier. 
+ 
+Please note that different devices with different ground planes and different components nearby 
+the RUN mXTENDTM antenna booster may need a different matching network. To ensure 
+optimal results, the use of high Q and tight tolerance components is highly recommended 
+(Murata components).  
+ 
+If you need assistance to design your matching network beyond this application note or if you 
+need to tune the operating frequency bands to other NB-IoT and LTE-CAT-M regions, please 
+contact support@ignion.io, or try our free-of-charge1 Antenna Intelligence Cloud design service, 
+which will get you a chip antenna design including a custom matching network for your device 
+in 24h1. Other information related to Ingion’s range of R&D services is available at: 
+https://www.ignion.io/rdservices/ 
+ 
+4.2. PERFORMANCE IN DIFFERENT PCB SIZES  
+ 
+This section is intended to illustrate how the antenna performance varies according to the PCB 
+size and how the matching network could be tuned in each scenario. Three different 
+representative sizes from commercially available wireless data loggers or gateways have been 
+considered (Figure 7). The matching network has been designed in each case to provide 
+operation in bands 3, 5, 8, supporting NB-IoT and LTE CAT-M frequencies, from 824MHz to 
+960MHz, and from 1710MHz to 1880MHz. 
+ 
+Measure 
+mm 
+A 
+19.2 
+B 
+48.1 
+C 
+10.0 
+D 
+7.0 
+E 
+50 
+F 
+80 - 100 - 160 
+G 
+60 - 90 - 120 
+Tolerance: ±0.2 mm 
+D: Distance between the RUN 
+mXTENDTM antenna booster and 
+the ground plane. 
+Material: The P32 C1-RS on 
+FR4 substrate. Thickness is 1 
+mm. 
+Clearance Area: 10 mm x 50 
+mm (C x E) 
+Figure 7 – P32 C1-RS module integrated in a main board for providing operation from 
+824MHz to 960MHz, and from 1710MHz to 1880MHz. 
+ 
+ 
+1 See terms and conditions for a free Antenna Intelligence Cloud service in 24h at: https://www.ignion.io/antenna-intelligence/ 
+ 
+Main PCB
+Clearance Area 
+G
+F
+C
+E
+CAVLI 
+Module
+A
+B
+D
+NN02-224
+
+==== AN_NN02-224_CAVLI.pdf PAGE 13 ====
+ 
+ 
+ 
+ 
+13 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+The antenna performance degrades as long as the PCB size is reduced (Figure 8). In this case 
+the matching network used in all the cases is the same used in the P32 C1-RS module (Figure 
+4).  
+ 
+Figure 8 – Comparison VSWR  and antenna efficiency for different PCB sizes (Figure 7) 
+considering the same matching network considered in the C1-RS module in all the 
+platforms, from 824MHz to 960MHz, and from 1710MHz to 1880MHz (Figure 4). 
+ 
+ 
+LFR (824 – 960MHz) 
+HFR (1710 – 1880MHz) 
+F x G (mm) 
+ɳa 824MHz ɳa 960MHz Min Max Av. 
+ɳa 
+ɳa 1710MHz  ɳa 1880MHz  Min Max Av. 
+ɳa 
+80mm x 60mm  
+3.3 
+16.4 
+3.3 17.0 12.2 
+54.3 
+29.2 
+29.2 54.3 39.7 
+100mm x 90mm 
+7.5 
+30.8 
+7.5 33.0 24.5 
+61.4 
+41.4 
+41.4 61.4 51.2 
+160mm x 120mm 
+9.9 
+31.1 
+9.9 34.0 26.2 
+55.3 
+29.2 
+29.2 55.3 40.0 
+Table 2 – Antenna efficiency comparison regarding the same matching network considered 
+in the C1-RS module in all the PCB sizes (Figure 4). 
+The antenna performance can be improved by properly adjusting the matching network in each 
+case (Figure 9 and Figure 10).  
+ 
+Figure 9 – Comparison VSWR and Antenna Efficiency by changing the Main PCB 
+dimensions considering the optimized matching network for each platform, for 824MHz 
+to 960MHz, and from 1710MHz to 1880MHz (Figure 4). 
+ 
+ 
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 14 ====
+ 
+ 
+ 
+ 
+14 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+LFR (824 – 960MHz) 
+HFR (1710 – 1880MHz) 
+F x G (mm) 
+ɳa 824MHz ɳa 960MHz Min Max Av. 
+ɳa 
+ɳa 1710MHz  ɳa 1880MHz  Min Max Av. 
+ɳa 
+80mm x 60mm  
+28.7 
+29.0 
+28.7 39.6 35.3 
+53.6 
+59.4 
+53.6 68.1 61.4 
+100mm x 90mm 
+38.1 
+53.2 
+38.1 62.7 57.3 
+69.7 
+66.5 
+66.5 86.0 75.4 
+160mm x 120mm 
+43.2 
+57.6 
+43.2 62.6 58.3 
+63.9 
+68.5 
+63.9 78.2 71.5 
+Table 3 – Antenna efficiency comparison considering the optimized matching network for 
+each platform (Figure 10). 
+ 
+ 
+824 – 960 MHz & 1710 – 1880 MHz 
+ 
+ 
+ 
+ 
+Components 
+PCB Dimensions 
+Z1 
+Z2 
+Z3 
+Z4 
+Z5 
+Z6 
+Z7 
+MN for 
+60mm x 80mm 
+10nH 
+13nH 
+0.6pF 
+15nH 
+- 
+1.1pF 
+8.7nH 
+MN for 
+90mm x 100mm 
+4.3nH 
+15nH 
+0.5pF 
+15nH 
+- 
+0.8pF 
+17nH 
+MN for 
+120mm x 160mm 
+5.8nH 
+13nH 
+0.7pF 
+12nH 
+- 
+1.3pF 
+7.5nH 
+Figure 10 – Matching Network topology and the proposed matching network for each PCB 
+size (Figure 7) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 15 ====
+ 
+ 
+ 
+ 
+15 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+Value 
+Part Number 
+Z1 
+10 nH 
+LQW18AN10NG80 
+4.3 nH 
+LQW15AN4N3G80 
+5.8 nH 
+LQW15AN5N8G80 
+Z2 
+13 nH 
+LQW18AN13NG80 
+15 nH 
+LQW18AN15NG80 
+Z3 
+0.6 pF 
+GJM1555C1HR60WB01 
+0.5 pF 
+GJM1555C1HR50WB01 
+0.7 pF 
+GJM1555C1HR70WB01 
+Z4 
+15 nH 
+LQW18AN15NG80 
+12 nH 
+LQW18AN12NG80 
+Z6 
+1.1 pF 
+GJM1555C1H1R1WB01 
+0.8 pF 
+GJM1555C1HR80WB01 
+1.3 pF 
+GJM1555C1H1R3WB01 
+Z7 
+ 
+ 
+8.7 nH 
+LQW15AN8N7B80 
+17 nH 
+LQW18AN17NG80 
+7.5 nH 
+LQW18AN7N5G80 
+Table 4 – Values and part numbers of the components used for the matching networks for the 
+different PCB sizes analyzed in the integration of the C1-RS module in a main Board (Figure 
+10). 
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 16 ====
+ 
+ 
+ 
+ 
+16 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+Product Change Notification  
+This document is property of Ignion,  
+Not to disclose or copy without prior written consent 
+ 
+PCN Number: NN19100011 
+Notification Date: October 07th, 2019 
+ 
+Part Number identification: 
+Part Number changes, it will be applied in all the document of the company (User Manual, Data Sheet, …) 
+ 
+ 
+Previous Part Number 
+ 
+New Part Number 
+ 
+FR01-S4-224 
+ 
+NN02-224 
+ 
+Reason for change: 
+ 
+ Specs (electrical/mechanical) 
+ 
+Manufacturing location 
+ 
+User Manual/Data Sheet 
+ 
+Quality/Reliability 
+ 
+Material/Composition 
+ 
+Logistics 
+ 
+Processing/Manufacturing 
+X 
+Other: Part Number 
+ 
+Change description 
+ 
+1.- Part Number: From FR01-S4-224 FRACTUS to NN02-224 Ignion in the User Manual 
+ 
+OLD 
+ 
+NEW 
+ 
+ 
+ 
+ 
+ 
+Comments: 
+1.- Electrical and Mechanical specs remain the same 
+2.- Footprint in the PCB to solder the chip antenna remains the same 
+ 
+Identification method 
+1.- The part number on the antenna is different 
+ 
+User Manual 
+X 
+Available from: 
+ 
+ 
+January 2020 
+Samples 
+X 
+Available from: 
+ 
+ 
+January 2020 
+ 
+Ignion Contact: 
+ 
+ 
+Sales 
+ 
+ 
+Supply Chain 
+Name: 
+Josep Portabella 
+ 
+Albert Vidal 
+Email:  
+josep.portabella@ignion.io 
+ 
+albert.vidal@ignion.io 
+ 
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 17 ====
+ 
+ 
+ 
+ 
+17 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+Ignion products and solutions are protected by Ignion patents.  
+ 
+The RUN mXTENDTM antenna booster and other Ignion products based on its proprietary Virtual 
+AntennaTM technology are protected by one or more of the following Ignion patents. 
+All information contained within this document is property of Ignion and is subject to change 
+without prior notice. Information is provided “as is” and without warranties. It is prohibited to copy 
+or reproduce this information without prior approval. 
+Ignion is an ISO 9001:2015 certified company. All our antennas are lead-free and RoHS 
+compliant. 
+ 
+ 
+  
+ 
+ 
+ISO 9001: 2015 Certified 
+ 
+ 
+ 
+
+==== AN_NN02-224_CAVLI.pdf PAGE 18 ====
+ 
+ 
+ 
+ 
+18 
+Last Update: March 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+Contact: 
+support@ignion.io 
++34 935 660 710 
+Barcelona 
+ 
+Av. Alcalde Barnils, 64-68 Modul C, 3a pl. 
+Sant Cugat del Vallés 
+08174 Barcelona 
+Spain 
+Shanghai 
+ 
+Shanghai Bund Centre 
+18/F Bund Centre, 222 Yan’an Road East, 
+Huangpu District 
+Shanghai, 200002 
+China 
+New Dehli 
+ 
+New Delhi, Red Fort Capital Parsvnath Towers 
+Bhai Veer Singh Marg, Gole Market, 
+New Delhi, 110001 
+India 
+ 
+Tampa 
+ 
+8875 Hidden River Parkway 
+Suite 300  
+Tampa, FL 33637 
+USA 
+ 

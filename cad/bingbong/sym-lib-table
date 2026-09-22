@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Bingbong_library")(type "KiCad")(uri "${KIPRJMOD}/Bingbong_library.kicad_sym")(options "")(descr ""))
+)

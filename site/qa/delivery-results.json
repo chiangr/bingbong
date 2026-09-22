@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Live product starts without engagement",
+    "pass": true
+  },
+  {
+    "name": "Live scene ready within 3 s of script startup",
+    "pass": true,
+    "details": {
+      "milliseconds": 648.5
+    }
+  },
+  {
+    "name": "Offline reload and live scene",
+    "pass": true
+  },
+  {
+    "name": "Offline detailed assembly loads and runs",
+    "pass": true
+  },
+  {
+    "name": "All runtime requests stay local",
+    "pass": true,
+    "details": []
+  },
+  {
+    "name": "No offline browser errors",
+    "pass": true,
+    "details": []
+  },
+  {
+    "name": "Graphics warmup worker releases after startup",
+    "pass": true
+  },
+  {
+    "name": "Live assembly survives unsupported graphics warmup",
+    "pass": true,
+    "details": []
+  },
+  {
+    "name": "Live assembly survives blocked graphics warmup",
+    "pass": true,
+    "details": []
+  },
+  {
+    "name": "Single-file artifact runs from file URL",
+    "pass": true
+  },
+  {
+    "name": "Single-file detailed assembly runs locally",
+    "pass": true
+  },
+  {
+    "name": "Single-file artifact makes no network requests",
+    "pass": true,
+    "details": []
+  },
+  {
+    "name": "Single-file artifact has no exceptions",
+    "pass": true,
+    "details": []
+  },
+  {
+    "name": "Enter presses crown once",
+    "pass": true
+  },
+  {
+    "name": "Look up settles at about 1 s",
+    "pass": true
+  },
+  {
+    "name": "Keyboard boop reaches receiver",
+    "pass": true
+  },
+  {
+    "name": "Cold wake stretches",
+    "pass": true
+  },
+  {
+    "name": "Stretch ends after 6 s; arrival still pending",
+    "pass": true
+  },
+  {
+    "name": "Cold boop arrives at 90 s simulated time",
+    "pass": true
+  },
+  {
+    "name": "Creature alt and visual reset together",
+    "pass": true
+  }
+]

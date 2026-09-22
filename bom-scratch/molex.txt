@@ -1,0 +1,95 @@
+Part Number:                                              This document was generated on 09/07/2021
+
+Status:        PLEASE CHECK WWW.MOLEX.COM FOR LATEST PART INFORMATION
+
+Overview:     1054500101
+Description:  Active
+
+              USB Products and Solutions
+              Universal Serial Bus (USB) Shielded I/O Receptacle, Type C, Right-Angle, Top Mount,
+              Surface Mount, Gold (Au) Flash over 0.76µm Palladium Nickel Plating
+
+Documents:                                     Packaging Specification PK-105450-001-000 (PDF)
+3D Model                                       Datasheet (PDF)
+Drawing (PDF)                                  RoHS Certificate of Compliance (PDF)
+3D Model (PDF)
+Product Specification PS-105448-001-001 (PDF)                                                           Series image - Reference only
+
+General                                        I/O Connectors                                   EU ELV
+Product Family                                 105450                                           Not Relevant
+Series                                         Wire-to-Board
+Application                                    Nickel underplating                              EU RoHS              China RoHS
+Comments                                       Receptacle
+Component Type                                 USB Products and Solutions                       Compliant
+Overview                                       USB
+Product Name                                   USB 3.1                                          REACH SVHC
+Standard                                       C
+Type                                           889056497121                                     Not Contained Per -
+UPC
+                                               24                                               D(2021)4569-DC (8
+Physical                                       24
+Circuits (Loaded)                              Black                                            July 2021)
+Circuits (maximum)                             10000
+Color - Resin                                  Female                                           Halogen-Free
+Durability (mating cycles max)                 None
+Gender                                         Yes                                              Status
+Keying to Mating Part                          Copper Alloy
+Lock to Mating Part                            Gold over Palladium Nickel                       Low-Halogen
+Material - Metal                               Gold
+Material - Plating Mating                      High Temperature Thermoplastic                   For more information, please visit Contact US
+Material - Plating Termination                 Top-Mount
+Material - Resin                               0.539/g                                          China ROHS           Green Image
+Mounting Style                                 2                                                ELV                  Not Relevant
+Net Weight                                     Right Angle                                      RoHS Phthalates      Not Contained
+Number of Rows                                 Yes
+Orientation                                    Yes                                              Search Parts in this Series
+PCB Locator                                    0.70mm, 0.80mm                                   105450 Series
+PCB Retention                                  Embossed Tape on Reel
+PCB Thickness - Recommended                    Yes                                              Mates With
+Packaging Type                                 0.50mm                                           USB Type C Plug/Cable
+Panel Mount                                    0.50mm
+Pitch - Mating Interface                       0.051µm (Au), 0.762µm (PdNi)
+Pitch - Termination Interface                  0.051µm
+Plating min - Mating                           No
+Plating min - Termination                      Yes
+Polarized to Mating Part                       1
+Polarized to PCB                               Yes
+Ports                                          -30° to +85°C
+Surface Mount Compatible (SMC)                 Surface Mount
+Temperature Range - Operating                  No
+Termination Interface: Style
+Waterproof / Dustproof
+Electrical                     0.25A,1.25A,5.0A, See Product Specification
+Current - Maximum per Contact  None
+Grounding to Panel             Full Shield
+Shield Type                    Yes
+Shielded                       30V AC/DC
+Voltage - Maximum
+                               PK-105450-001-000
+Material Info                  PS-105448-001-001
+                               SD-105450-001-000
+Reference - Drawing Numbers
+Packaging Specification
+Product Specification
+Sales Drawing
+
+                                          This document was generated on 09/07/2021
+
+PLEASE CHECK WWW.MOLEX.COM FOR LATEST PART INFORMATION
+X-ON Electronics
+
+Largest Supplier of Electrical and Electronic Components
+
+Click to view similar products for USB Connectors category:
+
+Click to view products by Molex manufacturer:
+
+Other Similar products are found below :
+
+65-647-8-BK-BU 950 952 E8144-B01021-L A-USB A-LP-SMT-C MUSBA511N5 MUSBD11135 217450-1 CA 6 W LD KMBVX-TH-5S-
+B30 896-30-004-00-000000 KUSBVX-BS1N-W30 KUSBX-AP-KIT-SCBLK KUSBX-AS2N-W KUSBX-SMT2AP1S-W KUSBX-
+SMT2AP1S-W30 935 957 30-498-6 17-210051 1734082-1 30-1574 30-470 30-489 30-541 30-572-3 MAB 8 SN V A-USB A-2P-C
+MIKROE-1451 USBFTV2PEM2G USBFTVC6ZN KUSBX-AS2N-W30 KUSBX-SLAS1N-W KUSBX-SMT-AS1N-W30 4689-1 1-
+1734084-2 E8110-001-01 MUSBA81130 33UBARS1-04SW11 33UBAR-04SW11 USBF21ZNSCC USBBFTV6ZC 10135326-001LF
+M9177/3-1 USB-A-S-F-B-VT 925 4198 690-024-633-031 KUSBEX-BSFS1N-W USBFTVC6MRG
+

@@ -1,0 +1,1150 @@
+==== UM_NN02-224.pdf PAGE 1 ====
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RUN mXTENDTM 
+NN02-224 
+ 
+ 
+USER MANUAL 
+
+==== UM_NN02-224.pdf PAGE 2 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+RUN mXTEND™: Highly versatile and powerful. 
+ 
+The small, versatile RUN mXTEND™ (NN02-224) is the perfect solution for devices where 
+volume and cost are constrained but maximum performance is desired. 
+Thanks to its dimensions and tuneability, the antenna easily adapts to almost every wireless 
+device and to any radio technology within the 698-8000 MHz frequency range. 
+ 
+ 
+ 
+ 
+RUN mXTEND™ component (NN02-224) 
+ 
+ 
+ 
+ 
+ 
+Most used industries. 
+ 
+• 
+Asset Tracking & Logistics. 
+• 
+Smart Metering. 
+• 
+Fleet Management. 
+• 
+IoT Sensors and Modules. 
+• 
+Industrial IoT. 
+ 
+ 
+RUN mXTEND™ benefits. 
+ 
+• 
+Top performance: Top multiband IoT performance. 
+• 
+Ultra-compact form factor: 12.0 mm x 3.0 mm x 2.4 mm. 
+• 
+Global reach: Multiband performance compatible with global standards. 
+• 
+Fast time to market – build a digital prototype using Oxion™ platform. 
+• 
+Simple manufacturing: Off-the-Shelf standard component mounted with pick-and-place. 
+ 
+ 
+Operation bands summary. 
+ 
+LTE/LTE-M/NB-IoT, GSM, UMTS, 4G, 5G, GNSS, Bluetooth, Wi-Fi, and many more within the 
+frequency range of 698 MHz to 8000 MHz. 
+
+==== UM_NN02-224.pdf PAGE 3 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+CHAPTER INDEX 
+1 
+CONFIGURATION OVERVIEW 
+4 
+PURCHASE EVALUATION BOARD THROUGH DISTRIBUTOR 
+4 
+1.1. 
+CELLULAR IoT 
+5 
+1.2. 
+ISM 868/915 
+6 
+1.3. 
+GNSS 
+7 
+1.4. 
+BLUETOOTH 
+8 
+1.5. 
+Wi-Fi-DUAL BAND 
+9 
+1.6. 
+ISM 868/915 + BLUETOOTH 
+10 
+1.7. 
+ASSESS YOUR OWN DEVICE REQUIREMENTS 
+11 
+2 
+MECHANICAL SPECIFICATIONS 
+11 
+2.1 
+DIMENSIONS, TOLERANCES, AND RoHS 
+12 
+2.2 
+SPECIFICATIONS FOR THE INK 
+12 
+3 
+ASSEMBLY AND MANUFACTURING 
+13 
+4 
+PACKAGING 
+15 
+5 
+EASY DESIGN JOURNEY WITH VIRTUAL ANTENNA® TECHNOLOGY 
+16 
+6 
+PRODUCT CHANGE NOTIFICATION 
+18 
+7 
+ANNEX: LIST OF BANDS 
+19 
+
+==== UM_NN02-224.pdf PAGE 4 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+1 SOLUTION OVERVIEW 
+The RUN mXTEND™ is a versatile antenna component that can be easily tuned to operate at 
+any wireless frequency. Table 1 provides an overview of a few examples of configurations of the 
+RUN mXTEND™ component for popular wireless frequencies, including cellular LTE/LTE-M, NB- 
+IoT, ISM, Bluetooth, GNSS, and Wi-Fi dual band. 
+ 
+SOLUTION 
+Frequency range 
+Frequency 
+Regions 
+CELLULAR IoT 
+824 – 960 MHz & 1710 – 2690 MHz 
+2 
+ISM 
+863 – 928 MHz 
+1 
+ISM + BLUETOOTH 
+863 – 928 MHz & 2400 – 2500 MHz 
+2 
+GNSS 
+1561 MHz, 1575 MHz & 1598 – 1606 MHz 
+3 
+BLUETOOTH 
+2400 – 2500 MHz 
+1 
+Wi-Fi 
+2400 – 2500 MHz & 4900 – 5875 MHz 
+2 
+Table 1 - List of communication standards included in this user manual sorted by frequency 
+range. 
+The following table presents the technical specifications of the RUN mXTEND™ antenna booster, 
+including its radiation pattern, polarization, weight, temperature range, impedance, and 
+dimensions. These features make the RUN mXTEND™ antenna booster a highly versatile and 
+durable component that can be easily integrated into a wide range of wireless applications. 
+ 
+Technical Features 
+RUN mXTEND™ (NN02-224) 
+Radiation Pattern 
+Omnidirectional 
+Polarization 
+Linear 
+Weight (approx.) 
+0.19 g 
+Temperature 
+-40 to + 125 ºC 
+Impedance 
+50 Ω 
+Table 2 - Technical features for the RUN mXTEND™. 
+ 
+PURCHASE EVALUATION BOARD THROUGH DISTRIBUTOR 
+Any of the evaluation boards shown in this document can be purchased through our main 
+distributors, find them here: https://ignion.io/distributors/. 
+
+==== UM_NN02-224.pdf PAGE 5 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+1.1. CELLULAR IoT 
+RUN mXTEND™ is designed to cater to a wide range of wireless communication standards, 
+including LTE CAT 1, LTE CAT-M and NB-IoT. It provides reliable operation across multiple 
+frequency bands, ensuring a reliable path to passing cellular certification. 
+ 
+Technical Features 
+824 – 960 MHz 
+1710 – 2690 MHz 
+Average Efficiency 
+> 65 % 
+> 70 % 
+Peak Gain 
+1.8 dBi 
+1.9 dBi 
+VSWR 
+< 3:1 
+Table 3 - Performance of RUN mXTEND™ configured for Cellular IoT on evaluation board (131 
+mm x 60 mm x 1 mm). 
+EVALUATION BOARD FOR CELLULAR IoT 
+This Evaluation Board EB_NN02-224-1B-2RJ-1P integrates a UFL cable to connect the RUN 
+mXTENDTM antenna booster with the SMA connector. The RUN mXTENDTM is tuned for operation 
+in two frequency regions, from 824 MHz to 960 MHz and from 1710 MHz to 2690 MHz, through 
+a single input/output port. For further technical information, please check the links for the 
+application notes listed in Table 1. 
+A 
+F 
+B 
+ 
+E 
+C 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+D: Distance between the RUN mXTENDTM antenna booster 
+and the ground plane. 
+Material: The evaluation board is built on FR4 substrate. 
+Thickness is 1 mm. 
+Clearance Area: 60 mm x 11 mm (CxF). 
+ 
+Tolerance: ±0.2 mm 
+Figure 1 – EB_NN02-224-1B-2RJ-1P. Evaluation Board providing operation from 824 MHz to 
+960 MHz and from 1710 MHz to 2690MHz. 
+D 
+Measure 
+mm 
+A 
+131 
+B 
+120 
+C 
+60 
+D 
+8.0 
+E 
+5.0 
+F 
+11.0 
+
+==== UM_NN02-224.pdf PAGE 6 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+1.2. ISM 868/915 
+RUN mXTEND™ delivers exceptional performance in the ISM 868 and 915 bands. This 
+configuration ensures optimal performance, small form factor, and cost-effectiveness in devices 
+using wireless standards like LoRa, Sidewalk, ZigBee, Z-Wave, and Wi-SUN. 
+ 
+Technical features 
+863 – 870 MHz 
+902 – 928 MHz 
+863 – 928 MHz 
+Average Efficiency 
+> 85 % 
+> 85 % 
+> 85 % 
+Peak Gain 
+2.1 dBi 
+2.1 dBi 
+2.2 dBi 
+VSWR 
+< 2:1 
+< 2:1 
+< 2:1 
+Table 4 - Performance of RUN mXTENDTM configured for ISM on evaluation board (131 mm x 
+60 mm x 1 mm). 
+EVALUATION BOARD FOR ISM 868/915 
+This Evaluation Board EB_NN02-224-868-915 integrates a UFL cable to connect the RUN 
+mXTENDTM antenna booster with the SMA connector. The RUN mXTENDTM is tuned for 
+operation in the frequency region which covers from 863 MHz to 928 MHz, through a single 
+input/output port. For further technical information, please check the links for the application notes 
+listed in Table 1. 
+A 
+F 
+B 
+ 
+E 
+C 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+D: Distance between the RUN mXTENDTM antenna booster 
+and the ground plane. 
+Material: The evaluation board is built on FR4 substrate. 
+Thickness is 1 mm. 
+Clearance Area: 60 mm x 11 mm (CxF) 
+ 
+Tolerance: ±0.2 mm 
+Figure 2 – EB_NN02-224-868-915. Evaluation Board providing operation from 863 MHz to 928 
+MHz. 
+ 
+ 
+D 
+Measure 
+mm 
+A 
+131 
+B 
+120 
+C 
+60 
+D 
+8.0 
+E 
+5.0 
+F 
+11.0 
+
+==== UM_NN02-224.pdf PAGE 7 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+1.3. GNSS 
+The RUN mXTENDTM can easily be tuned for global navigation systems and the below 
+configuration provides operation in three GNSS frequency regions: 1561 MHz (BeiDou E1 band), 
+1575 MHz (GPS L1 band) and from 1598 MHz to 1606 MHz (GLONASS L1 band). 
+ 
+Technical features 
+1561 MHz 
+1575 MHz 
+1598 – 1606 MHz 
+Average Efficiency 
+> 75 % 
+> 75 % 
+> 80 % 
+Peak Gain 
+2.9 dBi 
+3.0 dBi 
+3.3 dBi 
+VSWR 
+< 1.5:1 
+Table 5 - Performance of RUN mXTENDTM configured for GNSS on evaluation board (126.5 
+mm x 60 mm x 1 mm). 
+EVALUATION BOARD FOR GNSS 
+This Evaluation Board EB_NN02-224-1561-1606 integrates a UFL cable to connect the RUN 
+mXTENDTM antenna booster with the SMA connector. The RUN mXTENDTM is tuned for operation 
+in three frequency regions, 1561MHz (BeiDou E1 band), 1575 MHz (GPS L1 band) and from 
+1598 MHz to 1606 MHz (GLONASS L1 band), through a single input/output port. For further 
+technical information, please check the links for the application notes listed in Table 1. 
+ 
+ 
+ 
+ 
+D: Distance between the RUN mXTENDTM antenna booster and the ground 
+plane. 
+Material: The evaluation board is built on FR4 substrate. Thickness is 1 mm. 
+Clearance Area: 6.5 mm x 60 mm (E x C). 
+Tolerance: ±0.2 mm 
+Figure 3 - EB_NN02-224-1561-1606. Evaluation Board providing GNSS operation at BeiDou 
+E1 band (1561 MHz), GPS L1 band (1575 MHz) and for GLONASS L1 band (from 1598 MHz 
+to 1606 MHz). 
+Measure 
+mm 
+A 
+126.5 
+B 
+120 
+C 
+60 
+D 
+3.5 
+E 
+6.5 
+
+==== UM_NN02-224.pdf PAGE 8 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+1.4. BLUETOOTH 
+Unleash high 2.4GHz performance by using the RUN mXTEND™ configured for standards like 
+Bluetooth, Zigbee, Thread and Wi-Fi single band. Designed for optimal signal strength and 
+range. 
+ 
+Technical features 
+2400 – 2500MHz 
+Average Efficiency 
+> 75% 
+Peak Gain 
+4.2 dBi 
+VSWR 
+< 1.5:1 
+Table 6 - Performance of RUN mXTENDTM configured for Bluetooth on evaluation board (126.5 
+mm x 60 mm x 1 mm). 
+EVALUATION BOARD FOR BLUETOOTH 
+This Evaluation Board EB_NN02-224-2400 integrates a UFL cable to connect the RUN 
+mXTENDTM antenna booster with the SMA connector. The RUN mXTENDTM is tuned for 
+operation in the frequency region which covers from 2.4 GHz to 2.5 GHz, through a single 
+input/output port. Further technical information, check the links for the App Notes listed in Table 
+1. 
+ 
+ 
+ 
+ 
+ 
+ 
+D: Distance between the RUN mXTENDTM antenna booster and the ground 
+plane. 
+Material: The evaluation board is built on FR4 substrate. Thickness is 1 mm. 
+Clearance Area: 6.5 mm x 60 mm (E x C). 
+Tolerance: ±0.2 mm 
+ 
+ 
+Figure 4 – EB_NN02-224-2400. Evaluation Board operation from 2.4 GHz to 2.5 GHz. 
+Measure 
+mm 
+A 
+126.5 
+B 
+120 
+C 
+60 
+D 
+3.5 
+E 
+6.5 
+
+==== UM_NN02-224.pdf PAGE 9 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+1.5. Wi-Fi 
+The RUN mXTEND™ can be configured for multiband operation, here maximizing performance 
+in any Wi-Fi standard for 2.4 GHz and 5 GHz. 
+ 
+Technical features 
+2400 – 2500 MHz 
+4900 – 5875 MHz 
+Average Efficiency 
+> 70 % 
+> 70 % 
+Peak Gain 
+2.9 dBi 
+3.1 dBi 
+VSWR 
+< 2.5:1 
+Table 7 - Performance of RUN mXTENDTM configured for Wi-Fi on evaluation board (126.5 mm 
+x 60 mm x 1 mm). 
+EVALUATION BOARD FOR WI-FI 
+This Evaluation Board EB_NN02-224-2,4-5 is made with a coplanar grounded transmission line 
+(trace on the PCB) to connect the RUN mXTENDTM antenna booster with the SMA connector. 
+The RUN mXTENDTM is tuned for operation in the frequency regions, from 2.4 GHz to 2.5 GHz 
+and from 4.9 GHz to 5.875 GHz, through a single input/output port. For further technical 
+information, check the links for the App Notes listed in Table 1. 
+ 
+ 
+ 
+ 
+ 
+D: Distance between the RUN mXTENDTM antenna booster and the 
+ground plane. 
+Material: The evaluation board is built on FR4 substrate. Thickness is 1 
+mm. 
+Clearance Area: 6.5 mm x 60 mm (E x C). 
+Tolerance: ±0.2 mm 
+ 
+Figure 5 – EB_NN02-224-2,4-5. Evaluation Board operation from 2.4 GHz to 2.5 GHz and from 
+4.9 GHz to 5.875 GHz. 
+Measure 
+mm 
+A 
+126.5 
+B 
+120 
+C 
+60 
+D 
+2.5 
+E 
+6.5 
+
+==== UM_NN02-224.pdf PAGE 10 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+ 
+1.6. ISM 868/915 + BLUETOOTH 
+Ensuring small size, cost-effective and high performance in industrial, smart home and smart city 
+applications, RUN mXTEND™ is configured to cover both 868/915 MHz and 2.4GHz in a single 
+antenna solution for standards like LoRa, Sidewalk, ZigBee, Z-Wave, Wi-SUN combined with 
+Bluetooth/Wi-Fi. 
+ 
+Technical features 
+863 – 870 MHz 
+902 – 928 MHz 
+863 – 928 MHz 
+Average Efficiency 
+> 75 % 
+> 75 % 
+> 75 % 
+Peak Gain 
+1.4 dBi 
+1.6 dBi 
+1.6 dBi 
+VSWR 
+< 2:1 
+< 2:1 
+< 2:1 
+Technical features 
+2400 – 2500MHz 
+Average Efficiency 
+> 80 % 
+Peak Gain 
+2.9 dBi 
+VSWR 
+< 2:1 
+Table 8 - Performance of RUN mXTENDTM configured for ISM+Bluetooth on evaluation board 
+(131 mm x 60 mm x 1 mm). 
+
+==== UM_NN02-224.pdf PAGE 11 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+EVALUATION BOARD FOR ISM 868/915 AND BLUETOOTH 
+This Evaluation Board EB_NN02-224-ISM-BT integrates a UFL cable to connect the RUN 
+mXTENDTM antenna booster with the SMA connector. The RUN mXTENDTM is tuned for operation 
+in the frequency region which covers from 863 MHz to 928 MHz and 2400 MHz to 2500 MHz, 
+through a single input/output port. For further technical information, please check the links for the 
+application notes listed in Table 1. 
+ 
+A 
+F 
+B 
+ 
+E 
+C 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+D: Distance between the RUN mXTENDTM antenna booster 
+and the ground plane. 
+Material: The evaluation board is built on FR4 substrate. 
+Thickness is 1 mm. 
+Clearance Area: 60 mm x 11 mm (CxF). 
+ 
+Tolerance: ±0.2 mm 
+ 
+Figure 6 – EB_NN02-224-ISM-BT. Evaluation Board providing operation from 863 MHz to 928 
+MHz and from 2400 MHz to 2500 MHz. 
+ 
+1.7. ASSESS YOUR OWN DEVICE REQUIREMENTS 
+If you are designing a device with a different size or operating frequency than shown above, you 
+can assess the performance of this configuration using our free-of-charge Oxion™ platform. This 
+platform provides a complete design report, including expected performance and tailored design 
+guide, within 24 hours. For additional information about Ignion's range of R&D services, please 
+visit: https://ignion.io/resources-support/technical-center/engineering-support/. If you require 
+further assistance, please contact support@ignion.io. 
+ 
+Purchase this or other evaluation boards through our main distributors by visiting the following 
+link: https://ignion.io/distributors/. 
+ 
+ 
+D 
+Measure 
+mm 
+A 
+131 
+B 
+120 
+C 
+60 
+D 
+8.0 
+E 
+5.0 
+F 
+11.0 
+
+==== UM_NN02-224.pdf PAGE 12 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+2 MECHANICAL SPECIFICATIONS 
+2.1 DIMENSIONS, TOLERANCES, AND RoHS 
+TOP 
+BOTTOM 
+SIDE 
+ 
+ 
+Figure 7 – RUN mXTEND™ antenna booster dimensions and tolerances. 
+ 
+The 2 mounting pads (bottom view) are fully symmetrical to mount it on the PCB. 
+ 
+The RUN mXTENDTM antenna booster NN02-224 is compliant with the restriction of the use of 
+hazardous substances (RoHS). 
+ 
+The RoHS certificate can be downloaded from https://ignion.io/files/RoHS_NN02-224.pdf. 
+ 
+2.2 SPECIFICATIONS FOR THE INK 
+The next figure shows the range of the colors in the RUN mXTENDTM antenna booster: 
+ 
+ 
+Figure 8 – Acceptable color range. 
+Dimension 
+mm 
+Dimension 
+mm 
+A 
+12.0 ± 0.2 
+B 
+3.0 ± 
+0.1 
+C 
+0.5 ± 0.1 
+D 
+2.0 ± 
+0.1 
+H (Height) 2.4 
++0.2 
+-0.1 
+
+==== UM_NN02-224.pdf PAGE 13 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+3 ASSEMBLY AND MANUFACTURING 
+Figure 18 shows the back and front view of the RUN mXTENDTM antenna booster NN02-224. 
+Due to the symmetry in the product configuration, the feeding pad can be any of the 2 pads. 
+ 
+Figure 9 – Pads of the RUN mXTEND™ antenna booster NN02-224. 
+ 
+As a surface mount device (SMD), the RUN mXTENDTM antenna booster is compatible with 
+industry standard soldering processes. The basic assembly procedure for the RUN mXTENDTM 
+antenna booster is as follows: 
+ 
+1. Apply a solder paste on the pads of the PCB. Place the RUN mXTENDTM antenna booster on 
+the board. 
+2. Perform a reflow process according to the temperature profile detailed in Table 9, Figure 11. 
+3. After soldering the RUN mXTENDTM antenna booster to the circuit board, perform a cleaning 
+process to remove any residual flux. Ignion recommends conducting a visual inspection after 
+the cleaning process to verify that all reflux has been removed. 
+ 
+The drawing below shows the soldering details obtained after a correct assembly process: 
+ 
+Figure 10 – Soldering Details. 
+NOTE(*): Solder paste thickness after the assembly process will depend on the thickness of the 
+soldering stencil mask. A stencil thickness equal or larger than 127 microns (5 mils) is required. 
+ 
+The RUN mXTENDTM antenna booster NN02-224 can be assembled following the Pb-free 
+assembly process. According to the Standard IPC/JEDEC J-STD-020C, the temperature profile 
+suggested is as follows: 
+
+==== UM_NN02-224.pdf PAGE 14 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+ 
+Phase 
+Profile features 
+Pb-Free Assembly (SnAgCu) 
+RAMP-UP 
+Avg. Ramp-up Rate (Tsmax to Tp) 
+3 ºC / second (max.) 
+PREHEAT 
+- Temperature Min (Tsmin) 
+- Temperature Max (Tsmax) 
+- Time (Tsmin to Tsmax) 
+150 ºC 
+200 ºC 
+60-180 seconds 
+REFLOW 
+- Temperature (TL) 
+- Total Time above TL (tL) 
+217 ºC 
+60-150 seconds 
+PEAK 
+- Temperature (Tp) 
+- Time (tp) 
+260 ºC 
+20-40 seconds 
+RAMP-DOWN 
+Rate 
+6 ºC/second max 
+Time from 25 ºC to Peak Temperature 
+8 minutes max 
+Table 9 - Performance of RUN mXTENDTM configured for ISM+Bluetooth on evaluation board 
+(131 mm x 60 mm x 1 mm). 
+ 
+Next graphic shows temperature profile (grey zone) for the RUN mXTENDTM antenna booster 
+assembly process in reflow ovens. 
+ 
+Figure 11 – Temperature profile. 
+
+==== UM_NN02-224.pdf PAGE 15 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+Measure 
+mm 
+Ao 
+3.3 ± 0.1 
+Bo 
+12.3 ± 0.1 
+Ko 
+2.8 ± 0.1 
+W 
+24.0 ± 0.3 
+P 
+8.0 ± 0.1 
+P0 
+4.0 ± 0.1 
+P2 
+2.0 ± 0.1 
+E 
+1.75 ± 0.1 
+F 
+11.5 ± 0.1 
+T 
+0.3 ± 0.05 
+ 
+4 PACKAGING 
+The RUN mXTENDTM (NN02-224) antenna booster is delivered in tape and reel packaging. 
+Ambient room conditions according to Moisture Sensitivity Level (MSL3): floor life is limited to 168 
+hours at ≤ 30 °C / 60% RH. If this limit is exceeded, components must be baked following the 
+JEDEC J-STD-033 standard before solder reflow to remove absorbed moisture. 
+ 
+Figure 12 - Tape dimensions and tolerances. 
+ 
+ 
+Figure 13 - Image of the tape. 
+ 
+Measure 
+mm 
+A 
+330 ± 1.0 
+G 
+25.5 ± 0.2 
+tMAX 
+29.5 ± 0.2 
+ 
+ 
+ 
+ 
+Reel Capacity: 2500 pcs 
+ 
+ 
+ 
+Figure 14 – Reel Dimensions and Capacity. 
+
+==== UM_NN02-224.pdf PAGE 16 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+5 EASY DESIGN JOURNEY WITH VIRTUAL ANTENNA® 
+TECHNOLOGY 
+This is the simple step by step design journey when designing with Virtual Antenna® technology. 
+You can either do it yourself or you can leverage Ignion’s comprehensive support. Our team of 
+experts is available throughout every step, from feasibility to certification and can help ensure 
+you get the antenna right. 
+ 
+Figure 15 – Virtual Antenna® design journey for a successful IoT solution. 
+ 
+Step 1 - Feasibility: The Oxion™ platform provides feasibility results on a bare PCB in terms of 
+reflection coefficient, total efficiency, and design recommendations such as antenna placement 
+and clearance area. 
+ 
+ 
+ 
+ 
+ 
+Step 2 - Build design file: Build the design files (Gerber files) with optimal antenna integration 
+based on Ignion templates and design recommendations received from the Oxion™ platform. 
+ 
+Step 3 - EM simulation: Validation of the design files with an Electro-Magnetic (EM) simulation 
+of the full device considering every component, ensuring project requirements are met. Further 
+allowing evaluation of design changes and their impact to the antenna performance. 
+ 
+Step 4 - Final Gerber design file sanity check: Check done by Ignion free of charge, ensuring 
+that the antenna, matching network layout and other design recommendations on the final Gerber 
+file follows the design guidelines before manufacturing. 
+
+==== UM_NN02-224.pdf PAGE 17 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+ 
+Step 5 - Produce prototype and test: Verify performance results are aligned with expectations, 
+easily fine-tune matching network if needed. 
+ 
+Step 6 - Certification pre-test: Perform OTA tests to ensure the device is meeting certification 
+requirements. 
+ 
+All information contained within this document is property of Ignion and is subject to change 
+without prior notice. Information is provided “as is” and without warranties. It is prohibited to copy 
+or reproduce this information without prior approval. 
+ 
+Ignion is an ISO 9001:2015 certified company. All our antennas are lead-free and RoHS 
+compliant. 
+ 
+ 
+ISO 9001: 2015 Certified 
+ 
+
+==== UM_NN02-224.pdf PAGE 18 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+Specs (electrical/mechanical) 
+Manufacturing location 
+User Manual/Data Sheet 
+Quality/Reliability 
+Material/Composition 
+Logistics 
+Processing/Manufacturing 
+X 
+Other: Part Number 
+ 
+6 PRODUCT CHANGE NOTIFICATION 
+This document is property of Ignion, 
+Not to disclose or copy without prior written consent. 
+ 
+PCN Number: NN19100011 
+Notification Date: October 07th, 2019 
+ 
+ 
+Part Number identification: 
+Part Number changes, it will be applied in all the document of the company (User Manual, Data Sheet, …) 
+ 
+Previous Part Number 
+New Part Number 
+FR01-S4-224 
+NN02-224 
+ 
+Reason for change: 
+ 
+ 
+Change description: 
+1.- Part Number: From FR01-S4-224 FRACTUS to NN02-224 Ignion in the User Manual 
+ 
+OLD 
+NEW 
+ 
+ 
+ 
+Comments: 
+1.- Electrical and Mechanical specs remain the same 
+2.- Footprint in the PCB to solder the chip antenna remains the same 
+ 
+Identification method 
+1.- The part number on the antenna is different 
+ 
+User Manual 
+X 
+Available from: 
+June 2020 
+Samples 
+X 
+Available from: 
+June 2020 
+ 
+Ignion Contact: 
+ 
+Supply Chain 
+Name: 
+Albert Vidal 
+Email: 
+albert.vidal@ignion.io 
+
+==== UM_NN02-224.pdf PAGE 19 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+ 
+7 ANNEX: LIST OF BANDS 
+7.1. Cellular IoT bands covered. 
+Bands 
+Uplink (MHz) 
+Downlink (MHz) 
+Region 
+1 
+1920 – 1980 
+2110 – 2170 
+GLOBAL 
+2 
+1850 – 1910 
+1930 – 1990 
+NA 
+3 
+1710 – 1785 
+1805 – 1880 
+GLOBAL 
+4 
+1710 – 1755 
+2110 – 2155 
+NA 
+5 
+824 – 849 
+869 – 894 
+NA 
+6 
+830 – 840 
+875 – 885 
+APAC 
+8 
+880 - 915 
+925 - 960 
+GLOBAL 
+9 
+1749.9 - 1784.9 
+1844.9 - 1879.9 
+APAC 
+10 
+1710 – 1770 
+2110 – 2170 
+APAC 
+15 
+1900 – 1920 
+2600 – 2620 
+- 
+18 
+815 – 830 
+860 – 875 
+JAPAN 
+19 
+830 – 845 
+875 – 890 
+JAPAN 
+20 
+832 – 862 
+791 – 821 
+EMEA 
+23 
+2000 – 2020 
+2180 – 2200 
+NA 
+25 
+1850 – 1915 
+1930 – 1995 
+NA 
+26 
+814 – 849 
+859 – 894 
+NA 
+27 
+807 – 824 
+852 – 869 
+NA 
+34 
+2010 – 2025 
+2010 – 2025 
+EMEA 
+37 
+1910 – 1930 
+1910 – 1930 
+NA 
+39 
+1880 – 1920 
+1880 – 1920 
+CHINA 
+65 
+1920 – 2010 
+2110 – 2200 
+GLOBAL 
+66 
+1710 – 1780 
+2110 – 2200 
+NA 
+70 
+1695 – 1710 
+1995 – 2020 
+NA 
+7.2. GNSS bands covered. 
+ 
+Bands 
+Frequency (MHz) 
+System 
+B1 
+1561.098 - 1591.7875 
+BeiDou 
+L1 
+1575.42 
+GPS 
+L1 
+1598.0625 - 1605.375 
+GLONASS 
+E1 
+1575.42 - 1602 
+Galileo 
+7.3. Bluetooth/Wi-Fi bands covered. 
+ 
+Comm. Standard 
+Frequency (MHz) 
+# band 
+Bluetooth/Wi-Fi 
+2400 - 2500 
+single band 
+Wi-Fi 4/5/6/6E/7 
+2400 – 2500 & 5150 - 7125 
+Multi band 
+7.4. ISM bands covered. 
+ 
+Bands 
+Protocol 
+Frequency (MHz) 
+ISM868 
+LoRa 
+Wireless M-Bus 
+Wize 
+863 - 870 
+Zigbee 
+Wireless Hart 
+Bands 
+Protocol 
+Frequency (MHz) 
+ISM915 
+LoRa 
+902 - 928 
+Wireless M-Bus 
+Z-Wave 
+Thread 
+Wi-SUN 
+ 
+
+==== UM_NN02-224.pdf PAGE 20 ====
+USER MANUAL 
+RUN mXTENDTM (NN02-224) 
+Last Update: December 2025 
+ 
+ 
+CHANGE LOG 
+ 
+Publication date 
+Change description 
+January 2024 
+Document rebranding 
+December 2025 
+Section 2.2 - SPECIFICATIONS FOR THE INK 
+Added 238R 0G 0B under the acceptable color range 
+ 
+Added a changelog section for traceability and version control. 
+ 
+
+==== UM_NN02-224.pdf PAGE 21 ====
+ 
+USER 
+MANUAL RUN mXTENDTM 
+(NN02-224) 
+ 
+ 
+ 
+ 
+ 
+Contact: 
+support@ignion.io 
++34 935 660 710 

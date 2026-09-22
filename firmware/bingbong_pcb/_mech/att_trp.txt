@@ -1,0 +1,332 @@
+ 
+ 
+ 
+AT&T Device Architecture IoT
+Radiated Performance Requirements version 1.8 
+AT&T Radiated Performance Requirements for 
+IoT Devices 
+ 
+For Public Release at www.att.com/iotdevices; TRP and TIS requirements for IoT devices. 
+Foreword 
+The tables below describe the TRP and TIS radiated performance requirements which must be met for devices 
+undergoing AT&T approval.  Not all bands listed in these tables are mandatory for IoT devices. However, devices 
+are required to meet the requirements for all bands supported by the wireless module and/or chipset being 
+used. 
+All testing must be performed in accordance with the current “CTIA Test Plan for Wireless Device Over-The-Air 
+Performance” as specified by the requirements defined in PTCRB. A copy of the CTIA test plan may be obtained 
+by following the instructions on the following CTIA web site: https://ctiacertification.org/test-plans/ 
+All Internet of Things (IoT) LTE devices are required to support LTE Bands 2, 4, and 12, bands 5, 14, 29, and 30 
+are highly desired. If a device is destined for FirstNet operation, then support of Band 14 is required (excluding 
+LTE-M devices where Band 14 must be disabled) 
+If 5G is supported then the 5G Bands, n2, n5, n66 are required, and n77 is highly desired.  Absence of any of 
+these bands will lead to the device being unable to receive certification and significant coverage gaps on the 
+network. For FR2 support is optional, where it is supported band n260 must be enabled. 
+Devices using a module supporting LTE bands beyond 2, 4 and 12 may, at the discretion of the device maker, 
+disable those additional bands for PTCRB and AT&T certification. Note that bands must be disabled in the device 
+and the certification records must reflect the active bands in the device for both PTCRB and AT&T. 
+5G Devices are required to support 4x4 MIMO by default. Under certain situations 2x2 MIMO can be supported, 
+talk to your BPC if you feel you need 2x2 MIMO. Single antenna implementations for NR FR1 are not permissible.  
+All requirements accurate according to 13340 v23.1 
+ 
+ 
+
+ 
+ 
+ 
+AT&T Device Architecture IoT
+Radiated Performance Requirements version 1.8 
+LTE Category 1 and Above Antenna Performance Requirements 
+Table 1: LTE Requirements Category 1 and higher: Free-Space 
+Band 
+Minimum TRP  
+Minimum C-TIS 
+Minimum TIS Primary12 
+2 
++20.0 dBm 
+-92.5 dBm/10 MHz 
+-89.5 dBm/10MHz 
+4 
++20.0 dBm 
+-92.5 dBm/10 MHz 
+-93 dBm/10MHz 
+5 
++18.0 dBm 
+-90.5 dBm/10 MHz 
+-89 dBm/10MHz 
+12 
++18.0 dBm 
+-92.5 dBm/5 MHz 
+-89 dBm/5MHz 
+14 
++17.0 dBm 
+-88.5 dBm/10 MHz 
+-87 dBm/10MHz 
+17 
++18.0 dBm 
+-89.5 dBm/10 MHz 
+-89 dBm/10MHz 
+29 
+-- 
+-89.5 dBm/10 MHz 
+-88 dBm/10MHz 
+30 
++19.0 dBm 
+-92.5 dBm/10MHz 
+-91 dBm/10MHz 
+66 
++20.0 dBm 
+-94.5 dBm/10 MHz 
+-93 dBm/10MHz 
+ 
+Note: Devices supporting Carrier Aggregation should reference 13340 Requirement CDR-LTE-797 for guidance 
+on bands and combinations to be tested. 
+Reference 13340 for details of MIMO antenna performance requirements. 
+ 
+Table 2: LTE Requirements, Cat1bis, Cat 1 and higher: Wearables (9) 
+Band 
+Minimum TRP  
+Minimum C-TIS 
+Minimum TIS Primary12 
+2 
++12.0 dBm 
+-84.5 dBm/10 MHz 
+-83 dBm/10 MHz 
+4 
++12.0 dBm 
+-84.5 dBm/10 MHz 
+-83 dBm/10 MHz 
+5 
++10.0 dBm 
+-82.5 dBm/10 MHz 
+-81 dBm/10 MHz 
+12 
++10.0 dBm 
+-84.5 dBm/5 MHz 
+-83 dBm/5 MHz 
+14 
++9.0 dBm 
+-80.5dBm/10MHz 
+-79dBm/10MHz 
+17 
++10.0 dBm 
+-81.5 dBm/10 MHz 
+-80 dBm/10 MHz 
+ 
+Low Power Wide Area (LPWA) Antenna Performance Requirements 
+Table 3: LTE-M Requirements: Free-Space (4) 
+Band 
+Minimum TRP  
+Power Class 3 
+Minimum TRP  
+Power Class 5 
+Minimum TIS  
+2 
++20.0 dBm 
++17.0 dBm 
+-96 dBm 
+4 
++20.0 dBm 
++17.0 dBm 
+-98 dBm 
+12 
++18.0 dBm 
++15.0 dBm 
+-93 dBm 
+ 
+
+ 
+ 
+ 
+AT&T Device Architecture IoT
+Radiated Performance Requirements version 1.8 
+Table 4: Small Form Factor (5) Devices: LTE-M and Wearable Requirements: Free-Space (6) 
+Band 
+Minimum TRP  
+Power Class 3 
+Minimum TRP  
+Power Class 5 
+Minimum TIS  
+2 
++12.0 dBm 
++9.0 dBm 
+-88 dBm 
+4 
++12.0 dBm 
++9.0 dBm 
+-90 dBm 
+12 
++10.0 dBm 
++7.0 dBm 
+-85 dBm 
+ 
+Table 5: NB-IoT Requirements: Free Space (10) 
+Band 
+Minimum TRP  
+Power Class 3 
+Minimum TRP  
+Power Class 5 
+Minimum TIS  
+2 
++20.0 dBm 
++17.0 dBm 
+-105 dBm 
+4 
++20.0 dBm 
++17.0 dBm 
+-105 dBm 
+12 
++18.0 dBm 
++15.0 dBm 
+-103 dBm 
+ 
+Table 6: Small Form Factor Devices: NB-IoT and Wearable Requirements: Free-Space(6,10) 
+Band 
+Minimum TRP  
+Power Class 3 
+Minimum TRP  
+Power Class 5 
+Minimum TIS  
+2 
++12.0 dBm 
++9.0 dBm 
+-97 dBm 
+4 
++12.0 dBm 
++9.0 dBm 
+-97 dBm 
+12 
++10.0 dBm 
++7.0 dBm 
+-95 dBm 
+ 
+5G NR FR1 and FR2 Antenna Performance Requirements 
+Table 7: 5G NR FR1 and FR2: Free-Space 
+Band 
+Minimum TRP  
+Power Class1 
+Minimum TRP  
+Power Class 1.513 
+Minimum TRP  
+Power Class 2 
+Minimum TRP  
+Power Class 3 
+Minimum C-TIS  
+n2 
+N/A 
+ 
++20.0 dBm 
++20.0 dBm 
+-95.5 dBm/5 MHz 
+-92.5 dBm/10 MHz 
+n5 
+N/A 
+ 
++20.0 dBm 
++18.0 dBm 
+-93.5 dBm/5 MHz 
+-90.5 dBm/10 MHz 
+n66 
+N/A 
+ 
++20.0 dBm 
++20.0 dBm 
+-97.5 dBm/5 MHz 
+-94.5 dBm/10 MHz 
+n30(11) 
+N/A 
+ 
+N/A 
++20 dBm 
+-92.5 dBm/5 MHz 
+-89.5 dBm/10 MHz 
+n77 
+N/A 
++29 dBm 
++20.0 dBm 
++17 dBm 
+-85.0 dBm/100MHz 
+n260 
++38.0 dBm 
+ 
+N/A 
++20.6 dBm 
+N/A 
+ 
+
+ 
+ 
+ 
+AT&T Device Architecture IoT
+Radiated Performance Requirements version 1.8 
+Notes 
+1. Secondary antenna branch TIS must be no more than 4 dB below primary antenna. 
+2. Secondary antenna branch is mandatory for LTE Category 1 and higher devices, review 20059 for further 
+details. 
+3. Devices supporting Carrier aggregation and Band 29, must test at least one CA band combination which 
+includes Band 29 (e.g., CA_2A-29A, CA_4A-29A, etc.). 
+4. TRP/TIS is applicable for all LTE-M devices with: (1) An embedded antenna or (2) An external antenna cabled 
+less than 20cm.  Testing shall be performed according to the requirements of CTIA Test Plan for Wireless Device 
+Over-The-Air Performance version 3.8 or later. Testing is required for AT&T certification even if it is not yet 
+mandatory for PTCRB. 
+5. Small Form Factor device is a device under 107mm in the longest direction. 
+6. LTE-M and NB-IoT Wearable Devices shall comply with the Small Form Factor radiated performance limits. 
+Wearable devices shall be tested using the wrist phantom for wrist worn devices, or the body phantom for all 
+other wearable device types. 
+7. Secondary antenna branch TIS must be no more than 5 dB below primary antenna. 
+8. Receive diversity is not required for wrist worn devices that do not support VoLTE. For wearables supporting 
+VoLTE, seek guidance from ATT SME concerning the Envelope Correlation Coefficient (ECC) requirements for 
+receive diversity primary and secondary antennas. 
+9. To be tested using the wrist phantom for wrist worn devices. 
+10. TRP/TIS applicable for all NB-IoT devices with an embedded antenna or external antenna cabled less than 
+20cm.  Testing shall be performed according to the requirements of CTIA Test Plan for Wireless Device Over-
+The-Air Performance version 3.9 or later. Testing is required for AT&T certification even if it is not yet mandatory 
+for PTCRB. 
+11. Only applicable to 5G Stand Alone (SA) devices 
+12. Cat1bis devices and single antenna channel devices shall use the Primary TIS requirements 
+13. Power class 1.5 for Band n77 SA mode TRP +29 dBm achieved via dual Tx (+2dB/-1dB) tolerance can be 
+applied for the total power. 
+ 
+ 
+ 
+
+ 
+ 
+ 
+AT&T Device Architecture IoT
+Radiated Performance Requirements version 1.8 
+Author and Contacts:   
+Robert Holden (rh848s@att.com)  
+Chirag Patel (cp4670@att.com) 
+Carl Martin (cm7623@att.com) 
+ 
+History 
+Version 
+Date 
+Summary of Changes 
+1.8 
+4/16/2023 
+Added 5G TRP TIS Requirements, corrected LTE B4 TIS, aligned to 13340 v23.1, TRP for 
+power class 1.5 for n77 
+1.7 
+ 
+Alignment with 13340 v20.1 
+1.6 
+ 
+Updated format. Updated to C-TIS 
+1.5 
+7/15/2019 
+Updated requirements on wearable device testing. Added Band 14 for wearables. Added 
+TRP & TIS requirements for NBIOT in table 4. Updated table 3 to add band 14 TRP and TIS 
+requirements. 
+1.4 
+9/27/2018 
+Clarified Cat M1 requirements. Added Band 29. Removed UMTS requirements. Clarified 
+Wearable requirements. 
+1.3 
+5/18/2018 
+Added small form factor. 
+1.2 
+12/8/2017 
+Initial public release 
+ 
+ 

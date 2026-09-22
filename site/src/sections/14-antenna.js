@@ -1,0 +1,6 @@
+import {partControls} from '../assembly-data.js';
+export default {id:'antenna',label:'The cap and antenna',eyebrow:'13 / A connection through the details',study:true,
+ title:'The cap carries<br><em>the connection.</em>',description:'A machined aluminium cap. An optical dividing ring. A gold contact you never see. Together, they complete the antenna assembly.',
+ alt:'Exploded aluminium antenna cap, optical-PC ring with sealed feed aperture, integral L-tab with plated underside land, and a vertical spring contact at the circuit-board edge.',
+ extra:partControls('antenna','cap')+'<button class="text-button interactive" data-feed-pulse>Trace the contact <span aria-hidden="true">↗</span></button><p class="assembly-caption">Cap turned to reveal the plated underside; board cropped to its RF edge. The highlight follows the electrical connection.<br>Antenna tuning and radiated performance require chamber validation.</p>',
+ annotation:'Board → spring finger → plated land → aluminium cap.'};

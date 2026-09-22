@@ -1,0 +1,327 @@
+{
+  "date": "2026-09-20T18:29:07.106Z",
+  "checks": [
+    {
+      "name": "Assembly code stays out of the first view 1440",
+      "pass": true
+    },
+    {
+      "name": "Every inside component reveals its manufacturing and fitting notes 1440",
+      "pass": true
+    },
+    {
+      "name": "Every crown component reveals its manufacturing and fitting notes 1440",
+      "pass": true
+    },
+    {
+      "name": "Every detents component reveals its manufacturing and fitting notes 1440",
+      "pass": true
+    },
+    {
+      "name": "Every antenna component reveals its manufacturing and fitting notes 1440",
+      "pass": true
+    },
+    {
+      "name": "Every assembly component reveals its manufacturing and fitting notes 1440",
+      "pass": true
+    },
+    {
+      "name": "Clicking the actual circuit-board mesh selects it 1440",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion detent advances exactly one click 1440",
+      "pass": true
+    },
+    {
+      "name": "Both race rotation and spring deflection animate between seats 1440",
+      "pass": true,
+      "details": {
+        "radialTravel": 0.11389172096075839,
+        "leafDelta": 0.1138918399810791,
+        "angles": [
+          0.2617993877991494,
+          0.37373452212008307,
+          0.5235987755982988
+        ]
+      }
+    },
+    {
+      "name": "Balls return to their seated radius and the sleeve stays fixed 1440",
+      "pass": true
+    },
+    {
+      "name": "Reverse detent returns to the preceding groove 1440",
+      "pass": true
+    },
+    {
+      "name": "Assembly controls pass axe checks 1440",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Electrical trace visits board, spring, land and cap in order 1440",
+      "pass": true,
+      "details": {
+        "board": {
+          "value": 0.6414687500121065,
+          "time": 418.3999999940388
+        },
+        "contact": {
+          "value": 0.6415703124878928,
+          "time": 1201.8999999940388
+        },
+        "feed": {
+          "value": 0.6415703125121068,
+          "time": 2018.3999999940388
+        },
+        "cap": {
+          "value": 0.6422812499878936,
+          "time": 2801.7999999940403
+        }
+      }
+    },
+    {
+      "name": "Assembly seats crown before electronics and rear door 1440",
+      "pass": true
+    },
+    {
+      "name": "Every exploded component returns to the assembled datums 1440",
+      "pass": true,
+      "details": {
+        "looseDoor": [
+          0,
+          -5,
+          -36
+        ],
+        "closedDoor": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Seated spring touches the land without penetrating it 1440",
+      "pass": true,
+      "details": {
+        "fingerTop": 3.200000047683716,
+        "landFace": 3.199999999627471
+      }
+    },
+    {
+      "name": "Assembly scrubber works from the keyboard 1440",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion reset restores the exploded layout 1440",
+      "pass": true
+    },
+    {
+      "name": "Build playback advances and pauses 1440",
+      "pass": true
+    },
+    {
+      "name": "Replaying a finished build rewinds smoothly 1440",
+      "pass": true,
+      "details": 88
+    },
+    {
+      "name": "Native scroll drives the assembly without touching the slider 1440",
+      "pass": true
+    },
+    {
+      "name": "Build controller remains visible and pointer-accessible during scroll 1440",
+      "pass": true,
+      "details": {
+        "top": 413.796875,
+        "bottom": 429.796875,
+        "hit": true
+      }
+    },
+    {
+      "name": "End of the assembly scroll finishes the object 1440",
+      "pass": true
+    },
+    {
+      "name": "Exploded assembly frame sample 1440",
+      "pass": true,
+      "details": {
+        "fps": 59.99999999999999,
+        "p95": 16.799999999999272
+      }
+    },
+    {
+      "name": "Assembly code stays out of the first view 390",
+      "pass": true
+    },
+    {
+      "name": "Every inside component reveals its manufacturing and fitting notes 390",
+      "pass": true
+    },
+    {
+      "name": "Every crown component reveals its manufacturing and fitting notes 390",
+      "pass": true
+    },
+    {
+      "name": "Every detents component reveals its manufacturing and fitting notes 390",
+      "pass": true
+    },
+    {
+      "name": "Every antenna component reveals its manufacturing and fitting notes 390",
+      "pass": true
+    },
+    {
+      "name": "Clicking the actual circuit-board mesh selects it 390",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion detent advances exactly one click 390",
+      "pass": true
+    },
+    {
+      "name": "Both race rotation and spring deflection animate between seats 390",
+      "pass": true,
+      "details": {
+        "radialTravel": 0.11339005270246094,
+        "leafDelta": 0.11339020729064941,
+        "angles": [
+          0.2617993877991494,
+          0.3729568054222213,
+          0.5235987755982988
+        ]
+      }
+    },
+    {
+      "name": "Balls return to their seated radius and the sleeve stays fixed 390",
+      "pass": true
+    },
+    {
+      "name": "Reverse detent returns to the preceding groove 390",
+      "pass": true
+    },
+    {
+      "name": "Assembly controls pass axe checks 390",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Electrical trace visits board, spring, land and cap in order 390",
+      "pass": true,
+      "details": {
+        "board": {
+          "value": 0.6427890625181615,
+          "time": 417.0999999880787
+        },
+        "contact": {
+          "value": 0.6428906250181601,
+          "time": 1216.9999999880783
+        },
+        "feed": {
+          "value": 0.6428906250181602,
+          "time": 2017.7999999880794
+        },
+        "cap": {
+          "value": 0.6427890625181615,
+          "time": 2817.0999999880787
+        }
+      }
+    },
+    {
+      "name": "Assembly seats crown before electronics and rear door 390",
+      "pass": true
+    },
+    {
+      "name": "Every exploded component returns to the assembled datums 390",
+      "pass": true,
+      "details": {
+        "looseDoor": [
+          0,
+          -5,
+          -36
+        ],
+        "closedDoor": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Seated spring touches the land without penetrating it 390",
+      "pass": true,
+      "details": {
+        "fingerTop": 3.200000047683716,
+        "landFace": 3.199999999627471
+      }
+    },
+    {
+      "name": "Assembly scrubber works from the keyboard 390",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion reset restores the exploded layout 390",
+      "pass": true
+    },
+    {
+      "name": "Build playback advances and pauses 390",
+      "pass": true
+    },
+    {
+      "name": "Replaying a finished build rewinds smoothly 390",
+      "pass": true,
+      "details": 89
+    },
+    {
+      "name": "Native scroll drives the assembly without touching the slider 390",
+      "pass": true
+    },
+    {
+      "name": "Build controller remains visible and pointer-accessible during scroll 390",
+      "pass": true,
+      "details": {
+        "top": 450.125,
+        "bottom": 466.125,
+        "hit": true
+      }
+    },
+    {
+      "name": "End of the assembly scroll finishes the object 390",
+      "pass": true
+    },
+    {
+      "name": "Exploded assembly frame sample 390",
+      "pass": true,
+      "details": {
+        "fps": 59.99100134979755,
+        "p95": 17.100000000002183
+      }
+    },
+    {
+      "name": "No-JS inside has a complete static illustration and component notes",
+      "pass": true
+    },
+    {
+      "name": "No-JS crown has a complete static illustration and component notes",
+      "pass": true
+    },
+    {
+      "name": "No-JS detents has a complete static illustration and component notes",
+      "pass": true
+    },
+    {
+      "name": "No-JS antenna has a complete static illustration and component notes",
+      "pass": true
+    },
+    {
+      "name": "No-JS assembly has a complete static illustration and component notes",
+      "pass": true
+    },
+    {
+      "name": "No assembly browser exceptions",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

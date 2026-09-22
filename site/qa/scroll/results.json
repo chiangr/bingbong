@@ -1,0 +1,212 @@
+{
+  "date": "2026-09-20T18:39:06.789Z",
+  "checks": [
+    {
+      "name": "All chapter crossings traversed in both directions 1440/no-preference",
+      "pass": true,
+      "details": 28
+    },
+    {
+      "name": "Rendered object never jumps between positions 1440/no-preference",
+      "pass": true,
+      "details": {
+        "position": 17.627974989072523,
+        "rotation": 0.02897043804631222,
+        "size": 0.04704291563337459,
+        "screen": 0.033805948939538366,
+        "halo": 0.01861012090443548,
+        "clip": 0,
+        "toolbar": 0,
+        "partTravel": 39.1275913428867
+      }
+    },
+    {
+      "name": "Exploded components follow a continuous path 1440/no-preference",
+      "pass": true,
+      "details": 39.1275913428867
+    },
+    {
+      "name": "Screen and halo fade through chapter boundaries 1440/no-preference",
+      "pass": true
+    },
+    {
+      "name": "Stopping partway retains an intermediate pose 1440/no-preference",
+      "pass": true,
+      "details": {
+        "cx": 0.495,
+        "cy": 0.26,
+        "scale": 0.675,
+        "rx": -0.255,
+        "progress": 0.5
+      }
+    },
+    {
+      "name": "Reversing retraces the same scroll path 1440/no-preference",
+      "pass": true
+    },
+    {
+      "name": "A wheel burst produces intermediate rendered positions 1440/no-preference",
+      "pass": true
+    },
+    {
+      "name": "Hero crown glides to the boop demo and completes it 1440/no-preference",
+      "pass": true
+    },
+    {
+      "name": "All chapter crossings traversed in both directions 1440/reduce",
+      "pass": true,
+      "details": 28
+    },
+    {
+      "name": "Rendered object never jumps between positions 1440/reduce",
+      "pass": true,
+      "details": {
+        "position": 17.495959073284745,
+        "rotation": 0.029788314337920063,
+        "size": 0.04692352891633488,
+        "screen": 0.020831882108767907,
+        "halo": 0.02083098904749653,
+        "clip": 0,
+        "toolbar": 0,
+        "partTravel": 38.8870956565535
+      }
+    },
+    {
+      "name": "Exploded components follow a continuous path 1440/reduce",
+      "pass": true,
+      "details": 38.8870956565535
+    },
+    {
+      "name": "Screen and halo fade through chapter boundaries 1440/reduce",
+      "pass": true
+    },
+    {
+      "name": "Stopping partway retains an intermediate pose 1440/reduce",
+      "pass": true,
+      "details": {
+        "cx": 0.495,
+        "cy": 0.26,
+        "scale": 0.675,
+        "rx": -0.255,
+        "progress": 0.5
+      }
+    },
+    {
+      "name": "Reversing retraces the same scroll path 1440/reduce",
+      "pass": true
+    },
+    {
+      "name": "Inspected rear view rejoins the path without a boundary reset",
+      "pass": true,
+      "details": 0.011013305614891555
+    },
+    {
+      "name": "All chapter crossings traversed in both directions 390/no-preference",
+      "pass": true,
+      "details": 28
+    },
+    {
+      "name": "Rendered object never jumps between positions 390/no-preference",
+      "pass": true,
+      "details": {
+        "position": 6.785870142225008,
+        "rotation": 0.03109569937197726,
+        "size": 0.052739016271604676,
+        "screen": 0.020064551159720723,
+        "halo": 0.016410833667776348,
+        "clip": 1.2252999999999972,
+        "toolbar": 13.225000000000023,
+        "partTravel": 14.105142900273298
+      }
+    },
+    {
+      "name": "Exploded components follow a continuous path 390/no-preference",
+      "pass": true,
+      "details": 14.105142900273298
+    },
+    {
+      "name": "Screen and halo fade through chapter boundaries 390/no-preference",
+      "pass": true
+    },
+    {
+      "name": "Mobile clipping and controls move continuously 390/no-preference",
+      "pass": true
+    },
+    {
+      "name": "Stopping partway retains an intermediate pose 390/no-preference",
+      "pass": true,
+      "details": {
+        "cx": 0.5,
+        "cy": 0.255,
+        "scale": 1,
+        "rx": -0.2347459010270145,
+        "progress": 0.6066005209104499
+      }
+    },
+    {
+      "name": "Reversing retraces the same scroll path 390/no-preference",
+      "pass": true
+    },
+    {
+      "name": "A wheel burst produces intermediate rendered positions 390/no-preference",
+      "pass": true
+    },
+    {
+      "name": "Hero crown glides to the boop demo and completes it 390/no-preference",
+      "pass": true
+    },
+    {
+      "name": "All chapter crossings traversed in both directions 390/reduce",
+      "pass": true,
+      "details": 28
+    },
+    {
+      "name": "Rendered object never jumps between positions 390/reduce",
+      "pass": true,
+      "details": {
+        "position": 6.749474615911566,
+        "rotation": 0.030465693250502857,
+        "size": 0.05248672455680322,
+        "screen": 0.020109288643908374,
+        "halo": 0.019039824666561733,
+        "clip": 1.2218000000000018,
+        "toolbar": 13.117000000000075,
+        "partTravel": 14.074837551984363
+      }
+    },
+    {
+      "name": "Exploded components follow a continuous path 390/reduce",
+      "pass": true,
+      "details": 14.074837551984363
+    },
+    {
+      "name": "Screen and halo fade through chapter boundaries 390/reduce",
+      "pass": true
+    },
+    {
+      "name": "Mobile clipping and controls move continuously 390/reduce",
+      "pass": true
+    },
+    {
+      "name": "Stopping partway retains an intermediate pose 390/reduce",
+      "pass": true,
+      "details": {
+        "cx": 0.5,
+        "cy": 0.255,
+        "scale": 1,
+        "rx": -0.2347459010270145,
+        "progress": 0.6066005209104499
+      }
+    },
+    {
+      "name": "Reversing retraces the same scroll path 390/reduce",
+      "pass": true
+    },
+    {
+      "name": "No browser errors during scroll, reverse or navigation",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

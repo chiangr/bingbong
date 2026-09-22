@@ -1,0 +1,954 @@
+==== UM_NN03-310.pdf PAGE 1 ====
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRIO mXTENDTM 
+NN03-310 
+ 
+ 
+USER MANUAL 
+
+==== UM_NN03-310.pdf PAGE 2 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+TRIO mXTEND™: The ultra slim, top performance 
+antenna 
+The power of 3. TRIO mXTEND™ can combine cellular connectivity, GNSS and Bluetooth in a 
+single chip antenna component. Leverage the possibilities of three independent radios in a 
+powerful, slimline configuration. 
+ 
+Thanks to its 1mm height, it can be integrated into nearly all wireless platforms. It also offers 
+worldwide coverage and works in multiple frequency regions thanks to its modular, multiband and 
+multiport configuration. 
+ 
+ 
+TRIO mXTEND™ component (NN03-310) 
+ 
+Most used industries. 
+ 
+• 
+Asset Tracking & Logistics. 
+• 
+Smart Metering. 
+• 
+Industrial IoT. 
+ 
+ 
+ 
+TRIO mXTEND™ benefits. 
+ 
+• 
+Top performance: Top multiband worldwide sub-6GHz cellular/IoT performance in a multi- 
+RAT and 3 independent port antenna components. 
+• 
+Multiband & Multiport: All cellular/ISM bands: 2G/3G/4G/5G and NB-IoT/LTE-M 
+applications with additional GNSS, Bluetooth, Wi-Fi 6E/7, UWB simultaneously. 
+• 
+Versatile: Triple radio architecture in a single, small, ultra-slim antenna package: 30 mm x 
+1.0 mm x 3.0 mm. 
+ 
+• 
+Global reach: Through multiband performance (worldwide standard compatible). 
+• 
+Reliability: Off-the-Shelf standard product, no antenna part customization (electronic 
+optimization). 
+• 
+Use cases: Best for top-performing compact tracking devices, IoT sensors, IoT cellular/ISM 
+modules, and mobile devices. 
+ 
+Operation bands summary. 
+ 
+GSM, UMTS, LTE, LTE-M, NB-IoT, 5G, GNSS, Bluetooth, and many more within the range of 
+400 MHz to 8000 MHz. 
+
+==== UM_NN03-310.pdf PAGE 3 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+CHAPTER INDEX 
+1 
+CONFIGURATION OVERVIEW 
+4 
+PURCHASE EVALUATION BOARD THROUGH DISTRIBUTOR 
+4 
+1.1. 
+TRIO mXTENDTM FOR CELLULAR LTE 
+5 
+EVALUATION BOARD FOR CELLULAR LTE 
+5 
+1.2. 
+TRIO mXTENDTM FOR 5G 
+6 
+EVALUATION BOARD FOR 5G 
+6 
+1.3. 
+TRIO mXTENDTM CELLULAR LTE + GNSS 
+7 
+EVALUATION BOARD FOR CELLULAR LTE + GNSS 
+7 
+1.4. 
+ASSESS YOUR OWN DEVICE REQUIREMENTS 
+8 
+2 
+MECHANICAL SPECIFICATIONS 
+9 
+2.1 
+DIMENSIONS, TOLERANCES, AND RoHS 
+9 
+2.2 
+SPECIFICATIONS FOR THE INK 
+9 
+3 
+ASSEMBLY AND MANUFACTURING 
+10 
+4 
+PACKAGING 
+12 
+5 
+EASY DESIGN JOURNEY WITH VIRTUAL ANTENNA® TECHNOLOGY 
+13 
+PRODUCT CHANGE NOTIFICATION 
+14 
+6 
+ANNEX: LIST OF BANDS 
+16 
+
+==== UM_NN03-310.pdf PAGE 4 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+1 CONFIGURATION OVERVIEW 
+The TRIO mXTEND™ chip antenna component is a versatile antenna component that can be 
+easily tuned to operate at any wireless frequency. Table 1 provides an overview of a few 
+examples of configurations of the TRIO mXTEND™ chip antenna component for popular wireless 
+frequencies, including cellular LTE, ISM, Bluetooth, GNSS, and Wi-Fi dual band. 
+ 
+Configuration 
+Frequency range 
+Frequency 
+Regions 
+CELLULAR LTE 
+698 – 960 MHz & 1710 – 2690 MHz 
+2 
+CELLULAR LTE + 5G 
+698 – 960 MHz, 1710 – 2690 MHz & 3400 
+– 3800 MHz 
+3 
+CELLULAR LTE + 
+GNSS 
+824 – 960 MHz, 1710 – 2170 MHz, 1561 
+MHz, 1575 MHz & 1598 – 1606 MHz 
+5 
+MOBILE + GNSS + 
+BLUETOOTH  
+824 – 960 MHz, 1710 – 1990 MHz, 1561 
+MHz, 1575 MHz, 1598 – 1606 MHz & 2400 
+– 2500MHz 
+6 
+ISM 
+863 – 928 MHz 
+2 
+Table 1 - List of communication standards included in this user manual sorted by frequency 
+range. 
+The following table presents the technical specifications of the TRIO mXTEND™ chip antenna 
+component, including its radiation pattern, polarization, weight, temperature range, impedance, 
+and dimensions. These features make the TRIO mXTEND™ a highly versatile and durable 
+component that can be easily integrated into a wide range of wireless applications. 
+ 
+Technical Features 
+TRIO mXTEND™ (NN03-310) 
+Radiation Pattern 
+Omnidirectional 
+Polarization 
+Linear 
+Weight (approx.) 
+0.25 g 
+Temperature 
+-40 to +125 ºC 
+Impedance 
+50 Ω 
+Table 2 - Technical features for the TRIO mXTEND™. 
+ 
+PURCHASE EVALUATION BOARD THROUGH DISTRIBUTOR 
+Any of the evaluation boards shown in this document can be purchased through our main 
+distributors, find them here: https://ignion.io/distributors/. 
+
+==== UM_NN03-310.pdf PAGE 5 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+1.1. TRIO mXTENDTM FOR CELLULAR LTE 
+TRIO mXTEND™ is designed to cater to a wide range of wireless communication standards, 
+including LTE CAT 1, LTE CAT-M, NB-IoT and more. It provides reliable operation across multiple 
+frequency bands, ensuring a reliable path to passing cellular certification. 
+ 
+Technical Features 
+698 – 960 MHz 
+1710 – 2690 MHz 
+Average Efficiency 
+> 55 % 
+> 65 % 
+Peak Gain 
+1.1 dBi 
+2.4 dBi 
+VSWR 
+< 3:1 
+Table 3 - Performance of TRIO mXTEND™ configured for Cellular IoT on evaluation board 
+(142 mm x 60 mm x 1 mm). 
+ 
+EVALUATION BOARD FOR CELLULAR LTE 
+This Evaluation Board (part number: EB_NN03-310-M) integrates one TRIO mXTENDTM chip 
+antenna component to provide operation in two frequency regions, from 698 MHz to 960 MHz 
+and from 1710 MHz to 2690 MHz. A UFL cable connects this single input/output port to the SMA 
+connector. 
+ 
+ 
+ 
+ 
+ 
+D: Distance between the TRIO mXTENDTM chip antenna 
+component and the ground plane. 
+Material: The Evaluation Boards are built on FR4 substrate. 
+Thickness is 1 mm. 
+Clearance Area: 40 mm x 12 mm (ExG). 
+ 
+ 
+Tolerance: ±0.2 mm 
+Figure 1 – EB_NN03-310-M. Evaluation Board for providing operation in 2 frequency ranges, 
+698 – 960 MHz and 1710 – 2690 MHz. 
+Measure 
+mm 
+A 
+142 
+B 
+130 
+C 
+60 
+D 
+9 
+E 
+40 
+F 
+20 
+G 
+12 
+
+==== UM_NN03-310.pdf PAGE 6 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+1.2. TRIO mXTENDTM FOR 5G 
+In this application, a design for 3G, 4G and 5G in three different frequency regions: 698-960 MHz, 
+1710-2690 MHz and 3400-3800 MHz will be analyzed. A two-port configuration will be utilized, 
+and three matching networks selected, allowing us to test, obtain, and analyze the VSWR, total 
+efficiency, transmission coefficient, radiation patterns and arrive to a recommended footprint for 
+this configuration. 
+ 
+Technical features 
+698 – 960 MHz 
+1710 – 2690 MHz 
+3400 – 3800 MHz 
+Average Efficiency 
+> 50 % 
+> 60 % 
+> 65 % 
+Peak Gain 
+1.5 dBi 
+2.7 dBi 
+3.8 dBi 
+VSWR 
+< 3:1 
+< 2:1 
+Table 4 - Performance of TRIO mXTENDTM configured for ISM on evaluation board (142 mm x 
+60 mm x 1 mm). 
+EVALUATION BOARD FOR 5G 
+This Evaluation Board (part number: EB_NN03-310-M-5G) integrates one TRIO mXTENDTM chip 
+antenna component to provide operation from 698 to 960 MHz, 1710 to 2690 MHz at port #1, and 
+3400 to 3800 MHz at port #2. Two UFL cable connects each input/output port to SMA connectors. 
+ 
+ 
+ 
+ 
+ 
+Material: The Evaluation Boards are built on FR4 substrate. 
+Thickness is 1 mm. 
+D: Distance between the TRIO mXTENDTM chip antenna 
+component and the ground plane. 
+Clearance Area: 40 mm x 12 mm (ExG) 
+ 
+ 
+Tolerance: ±0.2 mm 
+Figure 2 – EB_NN03-310-M-5G. Evaluation Board for providing operation at 698 – 960 MHz 
+(Port #1), 1710 – 2690 MHz and 3400 – 3800 MHz (Port #2). 
+Measure 
+mm 
+A 
+142 
+B 
+130 
+C 
+60 
+D 
+9 
+E 
+40 
+F 
+20 
+G 
+12 
+
+==== UM_NN03-310.pdf PAGE 7 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+1.3. TRIO mXTENDTM CELLULAR LTE + GNSS 
+The TRIO mXTEND™ chip antenna enables Mobile, GNSS and Bluetooth connection 
+simultaneosly through a single antenna component. Thanks to its modular, multiband and 
+multiport configuration this chip antenna works in multiple frequency regions. In this application 
+triple coverage in different frequency regions including 2G, GNSS and Bluetooth: 824-960 MHz, 
+1710-1990 MHz, 1561-1606 MHz and 2400-2500 MHz is obtained using the TRIO mXTEND™ 
+in three-port configuration. An example configuration on our Evaluation Board is seen as well as 
+different matching network configurations used and the resulting test and simulation values. 
+ 
+Technical features 
+Port 1 
+824-960 MHz 
+Port 1 
+1710-1990 MHz 
+Port 2 
+1561-1606 MHz 
+Port 3 
+2400-2500MHz 
+Average Efficiency 
+> 50% 
+> 60% 
+> 50% 
+> 75% 
+Peak Gain 
+0.4 dBi 
+1.9 dBi 
+0.9 dBi 
+2.4 dBi 
+VSWR 
+< 2.8:1 
+< 2.1:1 
+< 2.1:1 
+< 2.0:1 
+Table 5 - Performance of TRIO mXTENDTM configured for IoT Trackers (126.5 mm x 60 mm x 1 
+mm). 
+EVALUATION BOARD FOR CELLULAR LTE + GNSS 
+This Evaluation Board EB_NN03-310-2G-GNSS-BT integrates one TRIO mXTENDTM chip 
+antenna component to provide operation from 824 to 960 MHz, 1710 to 1990 MHz at port 1, from 
+1561 to 1606 MHz at port 2 and 2400 to 2500 MHz at port 3. 
+ 
+ 
+ 
+ 
+ 
+D: Distance between the TRIO mXTEND™ chip antenna component and the 
+ground plane. 
+Material: The Evaluation Board is built on FR4 substrate. Thickness is 1 mm. 
+Clearance Area: 40.0 mm x 12.0 mm (E x G) 
+ 
+Tolerance: ±0.2 mm 
+Figure 3 - EB_NN03-310-2G-GNSS-BT. Evaluation Board for providing operation at 824 – 960MHz 
+and 1710 – 1990MHz (Port 1), 1561 – 1606MHz (Port 2) and 2400 – 2500MHz (Port 3). 
+Measure 
+mm 
+A 
+142 
+B 
+130 
+C 
+60 
+D 
+9 
+E 
+40 
+F 
+20 
+G 
+12 
+
+==== UM_NN03-310.pdf PAGE 8 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+ 
+1.4. ASSESS YOUR OWN DEVICE REQUIREMENTS 
+If you are designing a device with a different size or operating frequency than shown above, you 
+can assess the performance of this configuration using our free-of-charge Oxion™ platform. This 
+platform provides a complete design report, including expected performance and tailored design 
+guide, within 24 hours. For additional information about Ignion's range of R&D services, please 
+visit: https://ignion.io/resources-support/technical-center/engineering-support/. If you require 
+further assistance, please contact support@ignion.io. 
+ 
+Purchase this or other evaluation boards through our main distributors by visiting the following 
+link: https://ignion.io/distributors/. 
+
+==== UM_NN03-310.pdf PAGE 9 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+2 MECHANICAL SPECIFICATIONS 
+2.1 DIMENSIONS, TOLERANCES, AND RoHS 
+TOP 
+BOTTOM 
+SIDE 
+ 
+ 
+Figure 4 – TRIO mXTENDTM chip antenna component dimensions and tolerances. 
+ 
+ 
+The TRIO mXTENDTM chip antenna component NN03-310 is compliant with the restriction of the 
+use of hazardous substances (RoHS). For more information, please contact support@ignion.io. 
+ 
+The RoHS certificate can be downloaded from www.ignion.io. 
+ 
+2.2 SPECIFICATIONS FOR THE INK 
+The next figure shows the range of the colors in the TRIO mXTENDTM antenna component: 
+ 
+ 
+Figure 5 – Acceptable color range. 
+Dimension 
+mm 
+Dimension 
+mm 
+A 
+3.0 ± 0.15 
+B 
+30.0 ± 
+0.20 
+C 
+0.5 ± 0.10 
+D (height) 
+1.0 ± 0.10 
+E 
+1.0 ± 0.05 
+F 
+2.0 ± 0.05 
+G 
+0.5 ± 0.05 
+H 
+8.5 ± 0.05 
+
+==== UM_NN03-310.pdf PAGE 10 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+3 ASSEMBLY AND MANUFACTURING 
+Figure 9 shows the back and front views of the TRIO mXTENDTM chip antenna component 
+(NN03-310). Due to the product configuration, the feeding pad can be the pad 1 and 7. 
+ 
+Figure 6 – Pads of the TRIO mXTENDTM chip antenna component (NN03-310). 
+ 
+ 
+As a surface mount device (SMD), the TRIO mXTENDTM chip antenna component is compatible 
+with industry standard soldering processes. The basic assembly procedure for the TRIO 
+mXTENDTM chip antenna component is as follows: 
+ 
+1. Apply a solder paste on the pads of the PCB. Place the TRIO mXTENDTM chip antenna 
+component on the board. 
+2. Perform a reflow process according to the temperature profile detailed in Table 6, Figure 8. 
+3. After soldering the TRIO mXTENDTM chip antenna component to the circuit board, perform a 
+cleaning process to remove any residual flux. Ignion recommends conducting a visual 
+inspection after the cleaning process to verify that all reflux has been removed. 
+ 
+The drawing below shows the soldering details obtained after a correct assembly process: 
+ 
+Figure 7 – Soldering Details. 
+NOTE(*): Solder paste thickness after the assembly process will depend on the thickness of the 
+soldering stencil mask. A stencil thickness equal or larger than 127 microns (5 mils) is required. 
+ 
+The TRIO mXTENDTM chip antenna component NN03-310 can be assembled following the Pb- 
+free assembly process. According to the Standard IPC/JEDEC J-STD-020C, the temperature 
+profile suggested is as follows: 
+
+==== UM_NN03-310.pdf PAGE 11 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+ 
+Phase 
+Profile features 
+Pb-Free Assembly (SnAgCu) 
+RAMP-UP 
+Avg. Ramp-up Rate (Tsmax to Tp) 
+3 ºC / second (max.) 
+PREHEAT 
+- Temperature Min (Tsmin) 
+- Temperature Max (Tsmax) 
+- Time (tsmin to tsmax) 
+150 ºC 
+200 ºC 
+60-180 seconds 
+REFLOW 
+- Temperature (TL) 
+- Total Time above TL (tL) 
+217 ºC 
+60-150 seconds 
+PEAK 
+- Temperature (Tp) 
+- Time (tp) 
+260 ºC 
+20-40 seconds 
+RAMP-DOWN 
+Rate 
+6 ºC/second max 
+Time from 25 ºC to Peak Temperature 
+8 minutes max 
+Table 6 - Recommended soldering temperatures. 
+ 
+Next graphic shows temperature profile (grey zone) for the TRIO mXTENDTM chip antenna 
+component assembly process reflows ovens. 
+ 
+Figure 8 – Temperature profile. 
+
+==== UM_NN03-310.pdf PAGE 12 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+Measure 
+mm 
+Ao 
+3.3 
+± 
+0.1 
+Bo 
+30.3 ± 
+0.1 
+Ko 
+2 
+± 
+0.1 
+W 
+44 
+± 
+0.3 
+D0 
+1.5 
+± 0.05 
+P1 
+8 
+± 
+0.1 
+P0 
+4 
+± 
+0.1 
+P2 
+2 
+± 
+0.1 
+E 
+1.75 ± 
+0.1 
+F 
+20.2 ± 
+0.1 
+S 
+40.4 ± 
+0.3 
+T 
+0.3 
+± 0.05 
+ 
+4 PACKAGING 
+The TRIO mXTENDTM chip (NN03-310) antenna booster is delivered in tape and reel 
+packaging. Ambient room conditions according to Moisture Sensitivity Level (MSL3): floor life is 
+limited to 168 hours at ≤ 30 °C / 60% RH. If this limit is exceeded, components must be baked 
+following the JEDEC J-STD-033 standard before solder reflow to remove absorbed moisture.   
+ 
+ 
+Figure 9 - Tape dimensions and tolerances. 
+ 
+ 
+Figure 10 - Image of the tape. 
+ 
+ 
+ 
+ 
+Measure 
+mm 
+A 
+330 
+± 
+2.0 
+G 
+44.4 ± 0.13 
+t MAX 
+48.4 ± 0.13 
+ 
+ 
+Reel Capacity: 3000 pcs 
+ 
+ 
+ 
+Figure 11 – Reel Dimensions and Capacity. 
+
+==== UM_NN03-310.pdf PAGE 13 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+5 EASY DESIGN JOURNEY WITH VIRTUAL ANTENNA® 
+TECHNOLOGY 
+This is the simple step by step design journey when designing with Virtual Antenna® technology. 
+You can either do it yourself or you can leverage Ignion’s comprehensive support. Our team of 
+experts is available throughout every step, from feasibility to certification and can help ensure 
+you get the antenna right. 
+ 
+Figure 12 – Virtual Antenna® design journey for a successful IoT configuration. 
+ 
+Step 1 - Feasibility: The Oxion™ platform provides feasibility results on a bare PCB in terms of 
+reflection coefficient, total efficiency, and design recommendations such as antenna placement 
+and clearance area. 
+ 
+ 
+ 
+ 
+ 
+Step 2 - Build design file: Build the design files (Gerber files) with optimal antenna integration 
+based on Ignion templates and design recommendations received from the Oxion™ platform. 
+ 
+Step 3 - EM simulation: Validation of the design files with an Electro-Magnetic (EM) simulation 
+of the full device considering every component, ensuring project requirements are met. Further 
+allowing evaluation of design changes and their impact to the antenna performance. 
+ 
+Step 4 - Final Gerber design file sanity check: Check done by Ignion free of charge, ensuring 
+that the antenna, matching network layout and other design recommendations on the final Gerber 
+file follows the design guidelines before manufacturing. 
+
+==== UM_NN03-310.pdf PAGE 14 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+Specs (electrical/mechanical) 
+Manufacturing location 
+User Manual/Data Sheet 
+Quality/Reliability 
+Material/Composition 
+Logistics 
+Processing/Manufacturing 
+X 
+Other: Part Number 
+ 
+ 
+Step 5 - Produce prototype and test: Verify performance results are aligned with expectations, 
+easily fine-tune matching network if needed. 
+ 
+Step 6 - Certification pre-test: Perform OTA tests to ensure the device is meeting certification 
+requirements. 
+PRODUCT CHANGE NOTIFICATION 
+This document is property of Ignion, 
+Not to disclose or copy without prior written consent 
+ 
+PCN Number: NN19100013 
+ 
+Part Number identification: 
+ 
+Notification Date: October 07th, 2019 
+Part Number changes, it will be applied in all the document of the company (User Manual, Data Sheet, …) 
+ 
+Previous Part Number 
+New Part Number 
+FR01-S4-210 
+NN03-310 
+Reason for change: 
+ 
+ 
+Change description 
+ 
+1.- Part Number: From FR01-S4-210 FRACTUS to NN03-310 Ignion in the User Manual 
+ 
+OLD 
+NEW 
+ 
+ 
+ 
+Comments: 
+1.- Electrical and Mechanical specs remain the same 
+2.- Footprint in the PCB to solder the chip antenna remains the same 
+ 
+Identification method 
+1.- The part number on the antenna is different 
+User Manual 
+X 
+Available from: 
+March 2020 
+Samples 
+X 
+Available from: 
+April 2020 
+ 
+Ignion Contact: 
+Supply Chain 
+Name: 
+Albert Vidal 
+Email: 
+albert.vidal@ignion.io 
+
+==== UM_NN03-310.pdf PAGE 15 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+ 
+All information contained within this document is property of Ignion and is subject to change 
+without prior notice. Information is provided “as is” and without warranties. It is prohibited to copy 
+or reproduce this information without prior approval. 
+ 
+Ignion is an ISO 9001:2015 certified company. All our antennas are lead-free and RoHS 
+compliant. 
+ 
+ISO 9001: 2015 Certified 
+ 
+
+==== UM_NN03-310.pdf PAGE 16 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+ 
+6 ANNEX: LIST OF BANDS 
+6.1 Cellular IoT bands covered 
+ 
+Bands 
+Uplink (MHz) 
+Downlink (MHz) 
+Region 
+1 
+1920 – 1980 
+2110 – 2170 
+GLOBAL 
+2 
+1850 – 1910 
+1930 – 1990 
+NA 
+3 
+1710 – 1785 
+1805 – 1880 
+GLOBAL 
+4 
+1710 – 1755 
+2110 – 2155 
+NA 
+5 
+824 – 849 
+869 – 894 
+NA 
+6 
+830 – 840 
+875 – 885 
+APAC 
+7 
+2500 - 2570 
+2620 - 2690 
+GLOBAL 
+8 
+880 - 915 
+925 - 960 
+GLOBAL 
+9 
+1749.9 - 1784.9 
+1844.9 - 1879.9 
+APAC 
+10 
+1710 – 1770 
+2110 – 2170 
+APAC 
+12 
+699 - 716 
+729 – 746 
+GLOBAL 
+13 
+777 – 787 
+746 - 7756 
+GLOBAL 
+14 
+788 - 798 
+758 – 768 
+GLOBAL 
+15 
+1900 – 1920 
+2600 – 2620 
+- 
+17 
+704 - 716 
+734 - 746 
+GLOBAL 
+18 
+815 – 830 
+860 – 875 
+JAPAN 
+19 
+830 – 845 
+875 – 890 
+JAPAN 
+20 
+832 – 862 
+791 – 821 
+EMEA 
+23 
+2000 – 2020 
+2180 – 2200 
+NA 
+25 
+1850 – 1915 
+1930 – 1995 
+NA 
+26 
+814 – 849 
+859 – 894 
+NA 
+27 
+807 – 824 
+852 – 869 
+NA 
+31 
+452.5 – 457.5 
+462.5 – 467.5 
+- 
+34 
+2010 – 2025 
+2010 – 2025 
+EMEA 
+37 
+1910 – 1930 
+1910 – 1930 
+NA 
+39 
+1880 – 1920 
+1880 – 1920 
+CHINA 
+65 
+1920 – 2010 
+2110 – 2200 
+GLOBAL 
+66 
+1710 – 1780 
+2110 – 2200 
+NA 
+70 
+1695 – 1710 
+1995 – 2020 
+NA 
+71 
+663 – 698 
+617 – 652 
+- 
+72 
+451 – 456 
+461 – 466 
+- 
+6.2 GNSS bands covered 
+ 
+Bands 
+Frequency (MHz) 
+System 
+B1 
+1561.098 - 1591.7875 
+BeiDou 
+L1 
+1575.42 
+GPS 
+L1 
+1598.0625 - 1605.375 
+GLONASS 
+E1 
+1575.42 - 1602 
+Galileo 
+ 
+6.1 Bluetooth/Wi-Fi bands covered. 
+ 
+Comm. Standard 
+Frequency (MHz) 
+# band 
+Bluetooth/Wi-Fi 
+2400 - 2500 
+single band 
+ 
+ 
+ 
+
+==== UM_NN03-310.pdf PAGE 17 ====
+USER MANUAL 
+TRIO mXTENDTM (NN03-310) 
+Last Update: December 2025 
+ 
+ 
+ 
+CHANGE LOG 
+ 
+Publication date 
+Change description 
+January 2024 
+Document rebranding 
+December 2025 
+Section 2.2 - SPECIFICATIONS FOR THE INK 
+Added 238R 0G 0B under the acceptable color range 
+ 
+Added a changelog section for traceability and version control. 
+ 
+
+==== UM_NN03-310.pdf PAGE 18 ====
+ 
+USER 
+MANUAL TRIO mXTENDTM 
+(NN03-310) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Contact: 
+support@ignion.io 
++34 935 660 710 

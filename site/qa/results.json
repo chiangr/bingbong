@@ -1,0 +1,2538 @@
+{
+  "date": "2026-09-20T18:29:08.693Z",
+  "base": "http://127.0.0.1:4173",
+  "screens": [
+    {
+      "file": "390-dark-no-preference-hello.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "390-dark-no-preference-pet.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "390-dark-no-preference-boop.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "390-dark-no-preference-hold.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "390-dark-no-preference-creature.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "390-dark-no-preference-halo.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "390-dark-no-preference-object.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "390-dark-no-preference-quiet.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "390-dark-no-preference-size.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "390-dark-no-preference-details.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "390-dark-no-preference-inside.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "390-dark-no-preference-crown.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "390-dark-no-preference-detents.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "390-dark-no-preference-antenna.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "390-dark-no-preference-assembly.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "390-dark-reduce-hello.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "390-dark-reduce-pet.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "390-dark-reduce-boop.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "390-dark-reduce-hold.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "390-dark-reduce-creature.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "390-dark-reduce-halo.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "390-dark-reduce-object.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "390-dark-reduce-quiet.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "390-dark-reduce-size.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "390-dark-reduce-details.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "390-dark-reduce-inside.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "390-dark-reduce-crown.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "390-dark-reduce-detents.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "390-dark-reduce-antenna.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "390-dark-reduce-assembly.png",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "390-light-no-preference-hello.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "390-light-no-preference-pet.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "390-light-no-preference-boop.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "390-light-no-preference-hold.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "390-light-no-preference-creature.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "390-light-no-preference-halo.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "390-light-no-preference-object.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "390-light-no-preference-quiet.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "390-light-no-preference-size.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "390-light-no-preference-details.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "390-light-no-preference-inside.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "390-light-no-preference-crown.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "390-light-no-preference-detents.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "390-light-no-preference-antenna.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "390-light-no-preference-assembly.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "390-light-reduce-hello.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "390-light-reduce-pet.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "390-light-reduce-boop.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "390-light-reduce-hold.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "390-light-reduce-creature.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "390-light-reduce-halo.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "390-light-reduce-object.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "390-light-reduce-quiet.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "390-light-reduce-size.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "390-light-reduce-details.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "390-light-reduce-inside.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "390-light-reduce-crown.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "390-light-reduce-detents.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "390-light-reduce-antenna.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "390-light-reduce-assembly.png",
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "820-dark-no-preference-hello.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "820-dark-no-preference-pet.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "820-dark-no-preference-boop.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "820-dark-no-preference-hold.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "820-dark-no-preference-creature.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "820-dark-no-preference-halo.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "820-dark-no-preference-object.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "820-dark-no-preference-quiet.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "820-dark-no-preference-size.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "820-dark-no-preference-details.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "820-dark-no-preference-inside.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "820-dark-no-preference-crown.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "820-dark-no-preference-detents.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "820-dark-no-preference-antenna.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "820-dark-no-preference-assembly.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "820-dark-reduce-hello.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "820-dark-reduce-pet.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "820-dark-reduce-boop.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "820-dark-reduce-hold.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "820-dark-reduce-creature.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "820-dark-reduce-halo.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "820-dark-reduce-object.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "820-dark-reduce-quiet.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "820-dark-reduce-size.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "820-dark-reduce-details.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "820-dark-reduce-inside.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "820-dark-reduce-crown.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "820-dark-reduce-detents.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "820-dark-reduce-antenna.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "820-dark-reduce-assembly.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "820-light-no-preference-hello.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "820-light-no-preference-pet.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "820-light-no-preference-boop.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "820-light-no-preference-hold.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "820-light-no-preference-creature.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "820-light-no-preference-halo.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "820-light-no-preference-object.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "820-light-no-preference-quiet.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "820-light-no-preference-size.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "820-light-no-preference-details.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "820-light-no-preference-inside.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "820-light-no-preference-crown.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "820-light-no-preference-detents.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "820-light-no-preference-antenna.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "820-light-no-preference-assembly.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "820-light-reduce-hello.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "820-light-reduce-pet.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "820-light-reduce-boop.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "820-light-reduce-hold.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "820-light-reduce-creature.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "820-light-reduce-halo.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "820-light-reduce-object.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "820-light-reduce-quiet.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "820-light-reduce-size.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "820-light-reduce-details.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "820-light-reduce-inside.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "820-light-reduce-crown.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "820-light-reduce-detents.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "820-light-reduce-antenna.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "820-light-reduce-assembly.png",
+      "width": 820,
+      "height": 1180,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "1440-dark-no-preference-hello.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "1440-dark-no-preference-pet.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "1440-dark-no-preference-boop.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "1440-dark-no-preference-hold.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "1440-dark-no-preference-creature.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "1440-dark-no-preference-halo.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "1440-dark-no-preference-object.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "1440-dark-no-preference-quiet.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "1440-dark-no-preference-size.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "1440-dark-no-preference-details.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "1440-dark-no-preference-inside.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "1440-dark-no-preference-crown.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "1440-dark-no-preference-detents.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "1440-dark-no-preference-antenna.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "1440-dark-no-preference-assembly.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "1440-dark-reduce-hello.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "1440-dark-reduce-pet.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "1440-dark-reduce-boop.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "1440-dark-reduce-hold.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "1440-dark-reduce-creature.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "1440-dark-reduce-halo.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "1440-dark-reduce-object.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "1440-dark-reduce-quiet.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "1440-dark-reduce-size.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "1440-dark-reduce-details.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "1440-dark-reduce-inside.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "1440-dark-reduce-crown.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "1440-dark-reduce-detents.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "1440-dark-reduce-antenna.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "1440-dark-reduce-assembly.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "1440-light-no-preference-hello.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "1440-light-no-preference-pet.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "1440-light-no-preference-boop.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "1440-light-no-preference-hold.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "1440-light-no-preference-creature.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "1440-light-no-preference-halo.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "1440-light-no-preference-object.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "1440-light-no-preference-quiet.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "1440-light-no-preference-size.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "1440-light-no-preference-details.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "1440-light-no-preference-inside.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "1440-light-no-preference-crown.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "1440-light-no-preference-detents.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "1440-light-no-preference-antenna.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "1440-light-no-preference-assembly.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "1440-light-reduce-hello.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "1440-light-reduce-pet.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "1440-light-reduce-boop.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "1440-light-reduce-hold.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "1440-light-reduce-creature.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "1440-light-reduce-halo.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "1440-light-reduce-object.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "1440-light-reduce-quiet.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "1440-light-reduce-size.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "1440-light-reduce-details.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "1440-light-reduce-inside.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "1440-light-reduce-crown.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "1440-light-reduce-detents.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "1440-light-reduce-antenna.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "1440-light-reduce-assembly.png",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "1920-dark-no-preference-hello.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "1920-dark-no-preference-pet.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "1920-dark-no-preference-boop.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "1920-dark-no-preference-hold.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "1920-dark-no-preference-creature.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "1920-dark-no-preference-halo.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "1920-dark-no-preference-object.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "1920-dark-no-preference-quiet.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "1920-dark-no-preference-size.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "1920-dark-no-preference-details.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "1920-dark-no-preference-inside.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "1920-dark-no-preference-crown.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "1920-dark-no-preference-detents.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "1920-dark-no-preference-antenna.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "1920-dark-no-preference-assembly.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "no-preference",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "1920-dark-reduce-hello.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "1920-dark-reduce-pet.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "1920-dark-reduce-boop.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "1920-dark-reduce-hold.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "1920-dark-reduce-creature.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "1920-dark-reduce-halo.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "1920-dark-reduce-object.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "1920-dark-reduce-quiet.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "1920-dark-reduce-size.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "1920-dark-reduce-details.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "1920-dark-reduce-inside.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "1920-dark-reduce-crown.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "1920-dark-reduce-detents.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "1920-dark-reduce-antenna.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "1920-dark-reduce-assembly.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "motion": "reduce",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "1920-light-no-preference-hello.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "1920-light-no-preference-pet.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "1920-light-no-preference-boop.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "1920-light-no-preference-hold.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "1920-light-no-preference-creature.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "1920-light-no-preference-halo.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "1920-light-no-preference-object.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "1920-light-no-preference-quiet.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "1920-light-no-preference-size.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "1920-light-no-preference-details.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "1920-light-no-preference-inside.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "1920-light-no-preference-crown.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "1920-light-no-preference-detents.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "1920-light-no-preference-antenna.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "1920-light-no-preference-assembly.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "no-preference",
+      "chapter": "assembly",
+      "active": "assembly"
+    },
+    {
+      "file": "1920-light-reduce-hello.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "hello",
+      "active": "hello"
+    },
+    {
+      "file": "1920-light-reduce-pet.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "pet",
+      "active": "pet"
+    },
+    {
+      "file": "1920-light-reduce-boop.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "boop",
+      "active": "boop"
+    },
+    {
+      "file": "1920-light-reduce-hold.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "hold",
+      "active": "hold"
+    },
+    {
+      "file": "1920-light-reduce-creature.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "creature",
+      "active": "creature"
+    },
+    {
+      "file": "1920-light-reduce-halo.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "halo",
+      "active": "halo"
+    },
+    {
+      "file": "1920-light-reduce-object.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "object",
+      "active": "object"
+    },
+    {
+      "file": "1920-light-reduce-quiet.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "quiet",
+      "active": "quiet"
+    },
+    {
+      "file": "1920-light-reduce-size.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "size",
+      "active": "size"
+    },
+    {
+      "file": "1920-light-reduce-details.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "details",
+      "active": "details"
+    },
+    {
+      "file": "1920-light-reduce-inside.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "inside",
+      "active": "inside"
+    },
+    {
+      "file": "1920-light-reduce-crown.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "crown",
+      "active": "crown"
+    },
+    {
+      "file": "1920-light-reduce-detents.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "detents",
+      "active": "detents"
+    },
+    {
+      "file": "1920-light-reduce-antenna.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "antenna",
+      "active": "antenna"
+    },
+    {
+      "file": "1920-light-reduce-assembly.png",
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "motion": "reduce",
+      "chapter": "assembly",
+      "active": "assembly"
+    }
+  ],
+  "checks": [
+    {
+      "name": "No horizontal overflow 390/dark/no-preference",
+      "pass": true,
+      "details": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "No horizontal overflow 390/dark/reduce",
+      "pass": true,
+      "details": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "axe 390/dark",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "axe halo 390/dark",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No horizontal overflow 390/light/no-preference",
+      "pass": true,
+      "details": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "No horizontal overflow 390/light/reduce",
+      "pass": true,
+      "details": {
+        "scroll": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "axe 390/light",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "axe halo 390/light",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No horizontal overflow 820/dark/no-preference",
+      "pass": true,
+      "details": {
+        "scroll": 820,
+        "viewport": 820
+      }
+    },
+    {
+      "name": "No horizontal overflow 820/dark/reduce",
+      "pass": true,
+      "details": {
+        "scroll": 820,
+        "viewport": 820
+      }
+    },
+    {
+      "name": "No horizontal overflow 820/light/no-preference",
+      "pass": true,
+      "details": {
+        "scroll": 820,
+        "viewport": 820
+      }
+    },
+    {
+      "name": "No horizontal overflow 820/light/reduce",
+      "pass": true,
+      "details": {
+        "scroll": 820,
+        "viewport": 820
+      }
+    },
+    {
+      "name": "No horizontal overflow 1440/dark/no-preference",
+      "pass": true,
+      "details": {
+        "scroll": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "No horizontal overflow 1440/dark/reduce",
+      "pass": true,
+      "details": {
+        "scroll": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "axe 1440/dark",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "axe halo 1440/dark",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No horizontal overflow 1440/light/no-preference",
+      "pass": true,
+      "details": {
+        "scroll": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "No horizontal overflow 1440/light/reduce",
+      "pass": true,
+      "details": {
+        "scroll": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "axe 1440/light",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "axe halo 1440/light",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No horizontal overflow 1920/dark/no-preference",
+      "pass": true,
+      "details": {
+        "scroll": 1920,
+        "viewport": 1920
+      }
+    },
+    {
+      "name": "No horizontal overflow 1920/dark/reduce",
+      "pass": true,
+      "details": {
+        "scroll": 1920,
+        "viewport": 1920
+      }
+    },
+    {
+      "name": "No horizontal overflow 1920/light/no-preference",
+      "pass": true,
+      "details": {
+        "scroll": 1920,
+        "viewport": 1920
+      }
+    },
+    {
+      "name": "No horizontal overflow 1920/light/reduce",
+      "pass": true,
+      "details": {
+        "scroll": 1920,
+        "viewport": 1920
+      }
+    },
+    {
+      "name": "Plus advances exactly 15 degrees",
+      "pass": true
+    },
+    {
+      "name": "Other device reacts to a turn",
+      "pass": true
+    },
+    {
+      "name": "Purr settles after stopping",
+      "pass": true
+    },
+    {
+      "name": "Keyboard crown detent",
+      "pass": true
+    },
+    {
+      "name": "Mouse drag moves crown by detents",
+      "pass": true
+    },
+    {
+      "name": "Crown does not coast",
+      "pass": true
+    },
+    {
+      "name": "Boop has not arrived at 500 ms",
+      "pass": true
+    },
+    {
+      "name": "Boop arrives after conversation delay",
+      "pass": true
+    },
+    {
+      "name": "Pending boop does not contaminate another chapter",
+      "pass": true
+    },
+    {
+      "name": "Keyboard hold leans in",
+      "pass": true
+    },
+    {
+      "name": "Releasing hold settles",
+      "pass": true
+    },
+    {
+      "name": "Away selector",
+      "pass": true
+    },
+    {
+      "name": "Acknowledging clears halo",
+      "pass": true
+    },
+    {
+      "name": "Rear view reveals charging pads",
+      "pass": true
+    },
+    {
+      "name": "Audio silent by default",
+      "pass": true
+    },
+    {
+      "name": "Sound needs explicit toggle",
+      "pass": true
+    },
+    {
+      "name": "Touch detent button",
+      "pass": true
+    },
+    {
+      "name": "Touch crown drag",
+      "pass": true
+    },
+    {
+      "name": "No-JS content 360",
+      "pass": true
+    },
+    {
+      "name": "No-JS no overflow 360",
+      "pass": true
+    },
+    {
+      "name": "No-JS content 390",
+      "pass": true
+    },
+    {
+      "name": "No-JS no overflow 390",
+      "pass": true
+    },
+    {
+      "name": "No-JS content 820",
+      "pass": true
+    },
+    {
+      "name": "No-JS no overflow 820",
+      "pass": true
+    },
+    {
+      "name": "No-JS content 1440",
+      "pass": true
+    },
+    {
+      "name": "No-JS no overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Scroll frame sample 1440",
+      "pass": true,
+      "details": {
+        "fps": 60.00403388463089,
+        "p95": 16.799999999999955,
+        "frames": 119
+      }
+    },
+    {
+      "name": "Scroll frame sample 390",
+      "pass": true,
+      "details": {
+        "fps": 59.99495840685657,
+        "p95": 17,
+        "frames": 119
+      }
+    },
+    {
+      "name": "No browser exceptions",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "a11y": [
+    {
+      "width": 390,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "chapter": "halo",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "chapter": "halo",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "chapter": "halo",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "chapter": "halo",
+      "violations": []
+    }
+  ],
+  "headings": [
+    "You turn it.They feel it.",
+    "A little turn.A little closer.",
+    "A boopsays enough.",
+    "Justhold on.",
+    "Your person.Pocket-sized.",
+    "A little light.Left for you.",
+    "Every parthas a part.",
+    "Close.Withoutkeeping score.",
+    "Room inyour pocket.",
+    "One for you.One for them.",
+    "A little world.Inside.",
+    "A good feeling.Built in.",
+    "Two tiny balls.Twenty-four clicks.",
+    "The cap carriesthe connection.",
+    "Every part.One little thing."
+  ],
+  "limitations": [
+    "Browser emulation is not a physical phone test.",
+    "A screen-reader user and owner must still validate experience and appearance."
+  ],
+  "captureRefreshes": [
+    {
+      "date": "2026-09-20T18:40:49.124Z",
+      "width": 390,
+      "reason": "Pair labels clear after instant reduced-motion navigation."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+/* Apply a state class to the corresponding group in states.svg. Durations < 2 s.
+   The 5.5 s blink scheduler is separate from the seamless breath loop.
+   For firmware use drawMascot() in src/components/mascot.js or these canonical stills. */
+.creature-body{transform-box:fill-box;transform-origin:50% 100%;animation:breathe 1.8s ease-in-out infinite}
+.away .creature-body{animation-duration:1.95s}
+.looking-up .creature-body{animation:look 1.2s ease-in-out infinite}
+.stretch .creature-body{animation:stretch 1.8s ease-in-out infinite}
+.boop .creature-body{animation:boop 1.2s ease-in-out infinite}
+.petted .creature-body{animation:purr .16s ease-in-out infinite}
+.leaning .creature-body{animation:lean 1.6s ease-in-out infinite}
+.sleeping .creature-body{animation:sleep 1.8s ease-in-out both}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.012,.982)}}
+@keyframes look{0%,100%{transform:translateY(0)}35%,65%{transform:translateY(-2px)}}
+@keyframes stretch{0%,100%{transform:scale(1)}50%{transform:scale(.95,1.06)}}
+@keyframes boop{0%,100%{transform:translateY(0) scale(1)}25%{transform:translateY(0) scale(1.035,.965)}60%{transform:translateY(-3px) scale(.99,1.01)}}
+@keyframes purr{0%,100%{transform:translateX(0)}25%{transform:translateX(-.7px)}75%{transform:translateX(.7px)}}
+@keyframes lean{0%,100%{transform:scale(1)}50%{transform:scale(1.025)}}
+@keyframes sleep{0%{transform:scale(1)}40%{transform:scale(.96,1.06)}100%{transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){.creature-body{animation:none!important;transform:none!important}}

@@ -1,0 +1,8 @@
+export default {
+  id:'details',label:'The details',eyebrow:'Made for two',
+  title:'One for you.<br><em>One for them.</em>',
+  description:'Sold as a bonded pair. Nothing to set up.',
+  alt:'The complete bingbong with its little creature awake, accompanied by target specifications and the reminder that the pair comes already bonded.',
+  extra:`<dl class="specs"><div><dt>Size</dt><dd>27 × 95 × 15 mm</dd></div><div><dt>Body</dt><dd>PC/ABS · 6061-T6 aluminium cap</dd></div><div><dt>Crown</dt><dd>Ø13 mm · 24 mechanical detents</dd></div><div><dt>Screen</dt><dd>1.1″ colour AMOLED · 126 × 294</dd></div><div><dt>Halo / haptics</dt><dd>1.5 mm optical PC · 170 Hz</dd></div><div><dt>Connection</dt><dd>LTE-M · built-in eSIM · bands 2/4/12</dd></div><div><dt>Battery</dt><dd>About three weeks <small>estimated</small></dd></div><div><dt>Charging</dt><dd>Magnetic dock · about 2.5 hours <small>target</small></dd></div></dl><details><summary>The fine print, plainly <span aria-hidden="true">+</span></summary><div class="detail-content"><p>Boop latency targets: about 2.6 seconds in conversation, up to about 90 seconds from cold. Pickup-to-screen wake: about 0.1–0.2 seconds, estimated. Cellular coverage is required.</p><p>Split shipping is planned: each half can go to a different address. Years of connectivity are intended to be included in the box price; the term and price are to confirm.</p><p>All are target specifications. Nothing measured or certified yet. Exact display vendor, finishes, crown selection, runtime and antenna performance remain to confirm.</p></div></details><a class="primary-link assembly-invitation" href="#inside">Take a look inside <span aria-hidden="true">↓</span></a>`,
+  annotation:'Two devices. One connection.'
+};

@@ -1,0 +1,843 @@
+==== AN_NN02-224_LengthClearance.pdf PAGE 1 ====
+     
+Maximize your 
+antenna 
+performance with 
+best design 
+practice 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+
+==== AN_NN02-224_LengthClearance.pdf PAGE 2 ====
+ 
+ 
+ 
+ 
+2 
+Last Update: January 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+RUN mXTENDTM – Clearance Length and Ground Plane 
+Length Experiments on 824-960 MHz and 1710-2690MHz 
+ 
+Ignion specializes in enabling effective mobile communications. Using Ignion technology, we 
+design and manufacture optimized antennas to make your wireless devices more competitive. 
+Our mission is to help our clients develop innovative products and accelerate their time to market 
+through our expertise in antenna design, testing and manufacturing.  
+ 
+ 
+ 
+ 
+ 
+ 
+RUN mXTENDTM antenna booster 
+NN02-224 
+ 
+Ignion products are protected by Ignion 
+patents. 
+ 
+All information contained within this 
+document is property of Ignion and is subject 
+to change without prior notice. Information is 
+provided “as is” and without warranties. It is 
+prohibited to copy or reproduce this 
+information without prior approval. 
+ 
+Ignion is an ISO 9001:2015 certified 
+company. All our antennas are lead-free and 
+RoHS compliant.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISO 9001: 2015 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN02-224_LengthClearance.pdf PAGE 3 ====
+ 
+ 
+ 
+ 
+3 
+Last Update: January 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+ 
+TABLE OF CONTENTS 
+ 
+ 
+1. 
+PRODUCT DESCRIPTION NN02-224 
+4 
+2. 
+CLEARANCE LENGTH EXPERIMENTS 
+5 
+2.1. 
+EVALUATION BOARD 
+5 
+2.2. 
+VSWR AND EFFICIENCY 
+5 
+2.3. 
+MATCHING NETWORK 
+6 
+3. 
+GROUND PLANE LENGTH EXPERIMENTS 
+8 
+3.1. 
+EVALUATION BOARD 
+8 
+3.2. 
+VSWR AND EFFICIENCY 
+8 
+3.3. 
+MATCHING NETWORK 
+9 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN02-224_LengthClearance.pdf PAGE 4 ====
+ 
+ 
+ 
+ 
+4 
+Last Update: January 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+1. PRODUCT DESCRIPTION NN02-224 
+ 
+The RUN mXTENDTM antenna booster (NN02-224) has been specifically designed for providing 
+multiband performance in wireless devices, enabling worldwide coverage by allowing operation 
+in the communication standards 2G, 3G, 4G, ISM, Zigbee, RFID, GPS, GLONASS, Bluetooth, 
+Wi-Fi, and WLAN. 
+ 
+TOP 
+BOTTOM 
+ 
+ 
+Material: The RUN mXTENDTM antenna booster is built on glass epoxy substrate. 
+ 
+ 
+APPLICATIONS 
+BENEFITS 
+ 
+• 
+Handsets and Smartphones 
+• 
+Tablets and PCs 
+• 
+Modules 
+• 
+Routers 
+• 
+Headsets 
+• 
+USB Dongles 
+• 
+Navigators 
+• 
+Digital Cameras and Smart Watches 
+• 
+Metering (Gas, Electricity, Water…) 
+• 
+RFID 
+• 
+Sensors (Parking, Speed Control, 
+Optics…) 
+ 
+• 
+High efficiency 
+• 
+Small size  
+• 
+Cost-effective 
+• 
+Easy-to-use (pick and place) 
+• 
+Multiband behaviour (worldwide 
+standards) 
+• 
+Off-the-Shelf Standard Product (no 
+customization is required) 
+ 
+ 
+The RUN mXTENDTM antenna booster belongs to a new generation of antenna solutions based 
+on the Virtual AntennaTM technology developed by Ignion. The technology is mainly focused on 
+replacing conventional antenna solutions by miniature and standard components. 
+ 
+ 
+This project has received funding from the European Union’s Horizon 2020 
+research and innovation programme under grant agreement Nº 674491 
+ 
+ 
+ 
+
+==== AN_NN02-224_LengthClearance.pdf PAGE 5 ====
+ 
+ 
+ 
+ 
+5 
+Last Update: January 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+2. 
+CLEARANCE LENGTH EXPERIMENTS 
+ 
+2.1. EVALUATION BOARD 
+ 
+This Evaluation Board EB_NN02-224-1B-2RJ-1P integrates a UFL cable to connect the RUN 
+mXTENDTM antenna booster with the SMA connector. The experiment consists of reducing the 
+clearance length, going from 60mm (original case) to 20mm. 
+ 
+ 
+ 
+ 
+ 
+ 
+Clearance Length: 60 mm 
+Clearance Length: 30 mm 
+Clearance Length: 20 mm 
+ 
+ 
+ 
+Measure 
+mm 
+A 
+131 
+B 
+120 
+C 
+60 
+D 
+8 
+E 
+5 
+F 
+60-20 
+ 
+Tolerance: ±0.2 mm 
+D: Distance between the RUN mXTENDTM antenna booster and 
+the ground plane. 
+Material: The evaluation board is built on FR4 substrate. 
+Thickness is 1 mm. 
+Figure 1 – Evaluation boards with different clearance lengths that provide operation from 824 MHz 
+to 960 MHz and from 1710 MHz to 2690 MHz. 
+ 
+ 
+2.2. VSWR AND EFFICIENCY 
+ 
+VSWR (Voltage Standing Wave Ratio) and Total Efficiency versus Frequency (GHz). 
+Figure 2 – VSWR and Total Efficiency for the 824 – 960 MHz frequency range and for the 1710 
+– 2690 MHz frequency range from the evaluation board (Figure 1). 
+
+==== AN_NN02-224_LengthClearance.pdf PAGE 6 ====
+ 
+ 
+ 
+ 
+6 
+Last Update: January 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+ 
+LFR (824 – 960 MHz) 
+HFR (1710 – 2690 MHz) 
+F 
+ɳa 824MHz ɳa 960MHz 
+Min 
+Max 
+Av. 
+ɳa 
+ɳa 1710MHz ɳa 2690MHz 
+Min 
+Max 
+Av. 
+ɳa 
+60mm 
+54.3 
+68.2 
+54.3 
+84.6 
+73.5 
+74.5 
+74.7 
+71.1 
+94.7 
+84.5 
+50mm 
+54.7 
+66.5 
+54.7 
+80.3 
+71.8 
+76.6 
+57.6 
+57.6 
+95.7 
+82.0 
+40mm 
+58.8 
+64.5 
+58.8 
+78.2 
+71.1 
+74.3 
+53.7 
+53.7 
+92.1 
+79.6 
+30mm 
+53.6 
+60.9 
+53.6 
+75.5 
+67.6 
+69.9 
+59.9 
+59.9 
+89.1 
+76.3 
+25mm 
+46.3 
+55.6 
+46.3 
+74.6 
+64.5 
+64.6 
+47.5 
+47.5 
+79.4 
+70.8 
+20mm 
+47.7 
+43.5 
+43.5 
+68.2 
+58.7 
+56.7 
+39.1 
+39.1 
+78.6 
+66.4 
+Table 1 – Antenna efficiency (%) comparison considering the different clearance lengths. 
+ 
+2.3. MATCHING NETWORK 
+ 
+The specs of a Ignion standard product are measured in their evaluation board, which is an ideal 
+case. In a real design, components nearby the antenna, LCD’s, batteries, covers, connectors, 
+etc. affect the antenna performance. This is the reason why it is highly recommended placing 
+pads compatible with 0402 and 0603 SMD components for a matching network as close as 
+possible to the feeding point. Do it in the ground plane area, not in the clearance area. This 
+provides a degree of freedom to tune the RUN mXTENDTM antenna booster once the design is 
+finished and taking into account all elements of the system (batteries, displays, covers, etc.). 
+ 
+Please notice that different devices with different ground planes and different components 
+nearby the RUN mXTENDTM antenna booster may need a different matching network. To ensure 
+optimal results, the use of high Q and tight tolerance components is highly recommended 
+(Murata components). Please, if you need assistance contact support@ignion.io for more 
+information related to the antenna booster matching service. 
+ 
+824 – 960 MHz and 1710 – 2690 MHz 
+ 
+Figure 3 – Topology of matching network mounted at the different solutions. 
+ 
+ 
+
+==== AN_NN02-224_LengthClearance.pdf PAGE 7 ====
+ 
+ 
+ 
+ 
+7 
+Last Update: January 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+F 
+Z1 
+Z2 
+Z3 
+Z4 
+Z5 
+Z6 
+Z7 
+60mm 
+4.3 nH 
+18 nH 
+0.9 pF 
+1.0 pF 
+13 nH 
+2.0 pF 
+4.5 nH 
+50mm 
+6.5 nH 
+18 nH 
+0.8 pF 
+1.0 pF 
+11 nH 
+1.8 pF 
+4.5 nH 
+40mm 
+6.5 nH 
+18 nH 
+0.7 pF 
+1.0 pF 
+10 nH 
+1.6 pF 
+5.1 nH 
+30mm 
+6.5 nH 
+18 nH 
+0.7 pF 
+0.9 pF 
+11 nH 
+1.6 pF 
+4.9 nH 
+25mm 
+6.1 nH 
+17 nH 
+0.8 pF 
+1.0 pF 
+11 nH 
+2.0 pF 
+4.5 nH 
+20mm 
+4.9 nH 
+18 nH 
+0.8 pF 
+1.0 pF 
+11 nH 
+1.8 pF 
+4.5 nH 
+Table 2 – Values of the components for each clearance length. 
+ 
+Value 
+Part Number 
+Z1 
+4.3 nH 
+LQW15AN4N3B80 
+6.5 nH 
+LQW15AN6N5G80D 
+6.1 nH 
+LQW15AN6N1B80D 
+4.9 nH 
+LQW15AN4N9B80 
+Z2 
+18 nH 
+LQW18AN18NG10 
+17 nH 
+LQW18AN17NG80D 
+Z3 
+0.9 pF 
+GJM1555C1HR90WB01 
+0.8 pF 
+GJM1555C1HR80WB01D 
+0.7 pF 
+GJM1555C1HR70WB01D 
+Z4 
+1.0 pF 
+GJM1555C1H1R0WB01 
+0.9 pF 
+GJM1555C1HR90WB01 
+Z5 
+13 nH 
+LQW15AN13NG00 
+11 nH 
+LQW15AN11NG80 
+10 nH 
+LQW15AN10NG80D 
+Z6 
+2.0 pF 
+GJM1555C1H2R0WB01 
+1.8 pF 
+GJM1555C1H1R8WB01 
+1.6 pF 
+GJM1555C1H1R6WB01 
+Z7 
+4.5 nH 
+LQW15AN4N5B80 
+5.1 nH 
+LQW15AN5N1B80D 
+4.9 nH 
+LQW15AN4N9B80 
+Table 3 – Values and part numbers of the components used for the matching networks for the 
+cases with clearance length equal to 60 mm, 50 mm, 40 mm, 30 mm, 25 mm and 20 mm. 
+ 
+For additional information, please visit www.ignion.io or contact info@ignion.io. 
+ 
+If you need assistance to design your matching network beyond this application note, please 
+contact support@ignion.io, or if you are designing a different device size or a different 
+frequency band, we can assist you in less than 24 hours. Please, try our free-of-charge1 
+Antenna Intelligence Cloud, which will get you a complete design report including a custom 
+matching network for your device in 24h1. Additional information related to Ignion’s range of 
+R&D services is available at: https://ignion.io/rdservices/ 
+ 
+ 
+1 See terms and conditions for a free Antenna Intelligence Cloud service in 24h at: https://www.ignion.io/antenna-intelligence/ 
+ 
+
+==== AN_NN02-224_LengthClearance.pdf PAGE 8 ====
+ 
+ 
+ 
+ 
+8 
+Last Update: January 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+3. GROUND PLANE LENGTH EXPERIMENTS 
+ 
+3.1. EVALUATION BOARD 
+ 
+This Evaluation Board EB_N002-224-1B-2RJ-1P integrates a UFL cable to connect the RUN 
+mXTENDTM antenna booster with the SMA connector. The experiment consists of reducing the 
+ground plane length, going from 120mm (original case) to 40mm. 
+ 
+ 
+ 
+ 
+Ground plane Length: 120 mm 
+Ground plane Length: 80 
+mm 
+Ground plane Length: 40 
+mm 
+Measure 
+mm 
+A 
+131 – 51 
+B 
+120 – 40 
+C 
+60 
+D 
+8 
+E 
+5 
+ 
+Tolerance: ±0.2 mm 
+D: Distance between the RUN mXTENDTM antenna 
+booster and the ground plane. 
+Material: The evaluation board is built on FR4 substrate. 
+Thickness is 1 mm. 
+Figure 4 – Evaluation boards with different ground plane lengths that provide operation from 
+824 MHz to 960 MHz and from 1710 MHz to 2690 MHz. 
+ 
+ 
+3.2. VSWR AND EFFICIENCY 
+ 
+VSWR (Voltage Standing Wave Ratio) and Total Efficiency versus Frequency (GHz). 
+Figure 5 – VSWR and Total Efficiency for the 824 – 960 MHz frequency range and for the 1710 
+– 2690 MHz frequency range from the evaluation board (Figure 4). 
+ 
+
+==== AN_NN02-224_LengthClearance.pdf PAGE 9 ====
+ 
+ 
+ 
+ 
+9 
+Last Update: January 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+LFR (824 – 960MHz) 
+HFR (1710 – 2690MHz) 
+B 
+ɳa 824MHz ɳa 960MHz 
+Min 
+Max 
+Av. 
+ɳa 
+ɳa 1710MHz  ɳa 2690MHz  Min 
+Max 
+Av. 
+ɳa 
+120mm 
+54.3 
+68.2 
+54.3 
+84.6 
+73.5 
+74.5 
+74.7 
+71.1 
+94.7 
+84.5 
+100mm 
+45.9 
+59.3 
+45.9 
+63.4 
+59.5 
+66.7 
+74.5 
+66.7 
+88.4 
+79.1 
+80mm 
+25.7 
+43.0 
+25.7 
+58.8 
+48.2 
+61.6 
+72.3 
+61.6 
+87.0 
+76.0 
+65mm 
+18.9 
+34.4 
+18.9 
+53.0 
+40.5 
+71.5 
+61.2 
+57.1 
+83.9 
+71.9 
+40mm 
+12.2 
+22.8 
+12.2 
+28.7 
+23.4 
+67.5 
+68.9 
+67.5 
+89.2 
+80.4 
+Table 4 – Antenna efficiency comparison considering the different ground plane lengths. 
+ 
+3.3. MATCHING NETWORK 
+ 
+The specs of a Ignion standard product are measured in their evaluation board, which is an ideal 
+case. In a real design, components nearby the antenna, LCD’s, batteries, covers, connectors, 
+etc. affect the antenna performance. This is the reason why it is highly recommended placing 
+pads compatible with 0402 and 0603 SMD components for a matching network as close as 
+possible to the feeding point. Do it in the ground plane area, not in the clearance area. This 
+provides a degree of freedom to tune the RUN mXTENDTM antenna booster once the design is 
+finished and taking into account all elements of the system (batteries, displays, covers, etc.). 
+ 
+Please notice that different devices with different ground planes and different components 
+nearby the RUN mXTENDTM antenna booster may need a different matching network. To ensure 
+optimal results, the use of high Q and tight tolerance components is highly recommended 
+(Murata components). Please, if you need assistance contact support@ignion.io for more 
+information related to the antenna booster matching service. 
+ 
+824 – 960 MHz and 1710 – 2690 MHz 
+ 
+Figure 6 – Topology of matching network mounted at the different solutions. 
+ 
+ 
+
+==== AN_NN02-224_LengthClearance.pdf PAGE 10 ====
+ 
+ 
+ 
+ 
+10 
+Last Update: January 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+B 
+Z1 
+Z2 
+Z3 
+Z4 
+Z5 
+Z6 
+Z7 
+120mm 
+4.3 nH 
+18 nH 
+0.9 pF 
+1.0 pF 
+13 nH 
+2.0 pF 
+4.5 nH 
+100mm 
+5.1 nH 
+18 nH 
+0.8 pF 
+1.0 pF 
+10 nH 
+2.0 pF 
+4.7 nH 
+80mm 
+4.5 nH 
+18 nH 
+0.8 pF 
+0.9 pF 
+14 nH 
+2.0 pF 
+4.9 nH 
+65mm 
+3.6 nH 
+18 nH 
+0.6 pF 
+0.4 pF 
+- 
+- 
+3.3 nH 
+40mm 
+4.3 nH 
+18 nH 
+0.9 pF 
+1.0 pF 
+13 nH 
+2.0 pF 
+4.5 nH 
+Table 5 – Values of the components for each ground plane length. 
+ 
+Value 
+Part Number 
+Z1 
+4.3 nH 
+LQW15AN4N3B80 
+5.1 nH 
+LQW15AN5N1B80D 
+4.5 nH 
+LQW15AN4N5B80D 
+3.6 nH 
+LQW15AN3N6B80D 
+Z2 
+18 nH 
+LQW18AN18NG10 
+Z3 
+0.9 pF 
+GJM1555C1HR90WB01 
+0.8 pF 
+GJM1555C1HR80WB01 
+0.6 pF 
+GJM1555C1HR60WB01 
+Z4 
+1.0 pF 
+GJM1555C1H1R0WB01 
+0.9 pF 
+GJM1555C1HR90WB01 
+0.4 pF 
+GJM1555C1HR40WB01 
+Z5 
+13 nH 
+LQW15AN13NG00 
+10 nH 
+LQW15AN10NG00 
+14 nH 
+LQW15AN14NG00 
+Z6 
+2.0 pF 
+GJM1555C1H2R0WB01 
+Z7 
+3.3 nH 
+LQW15AN3N3B80D 
+4.5 nH 
+LQW15AN4N5B80 
+4.7 nH 
+LQW15AN4N7B80 
+4.9 nH 
+LQW15AN4N9B80 
+Table 6 – Values and part numbers of the components used for the matching networks for the 
+cases with ground plane length equal to 120 mm, 100 mm, 80 mm, 65 mm and 40 mm. 
+ 
+For additional information, please visit www.ignion.io or contact info@ignion.io. 
+ 
+If you need assistance to design your matching network beyond this application note, please 
+contact support@ignion.io, or if you are designing a different device size or a different 
+frequency band, we can assist you in less than 24 hours. Please, try our free-of-charge1 
+Antenna Intelligence Cloud, which will get you a complete design report including a custom 
+matching network for your device in 24h2. Additional information related to Ignion’s range of 
+R&D services is available at: https://ignion.io/rdservices/ 
+ 
+ 
+ 
+ 
+2 See terms and conditions for a free Antenna Intelligence Cloud service in 24h at: https://www.ignion.io/antenna-intelligence/ 
+ 
+
+==== AN_NN02-224_LengthClearance.pdf PAGE 11 ====
+ 
+ 
+ 
+ 
+11 
+Last Update: January 2021 
+APPLICATION NOTE 
+RUN mXTENDTM (NN02-224) 
+ 
+ 
+Contact: 
+support@ignion.io 
++34 935 660 710 
+Barcelona 
+ 
+Av. Alcalde Barnils, 64-68 Modul C, 3a pl. 
+Sant Cugat del Vallés 
+08174 Barcelona 
+Spain 
+Shanghai 
+ 
+Shanghai Bund Centre 
+18/F Bund Centre, 222 Yan’an Road East, 
+Huangpu District 
+Shanghai, 200002 
+China 
+New Dehli 
+ 
+New Delhi, Red Fort Capital Parsvnath Towers 
+Bhai Veer Singh Marg, Gole Market, 
+New Delhi, 110001 
+India 
+ 
+Tampa 
+ 
+8875 Hidden River Parkway 
+Suite 300  
+Tampa, FL 33637 
+USA 
+ 

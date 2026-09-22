@@ -1,0 +1,156 @@
+[
+  {
+    "name": "WebGL starts without a click or scroll",
+    "pass": true
+  },
+  {
+    "name": "Normal experience displays a canvas, not a product still",
+    "pass": true
+  },
+  {
+    "name": "Live object moves at rest and renders different pixels",
+    "pass": true
+  },
+  {
+    "name": "Dragging the product rotates the actual model",
+    "pass": true
+  },
+  {
+    "name": "Reset returns to the chapter composition",
+    "pass": true
+  },
+  {
+    "name": "Keyboard can rotate the product",
+    "pass": true
+  },
+  {
+    "name": "Turn-over animates through intermediate geometry",
+    "pass": true,
+    "details": {
+      "before": -0.05303603597238373,
+      "midway": 1.8114136236583709,
+      "end": 2.908905151670414
+    }
+  },
+  {
+    "name": "Leaving a cold demo never strands a disabled control",
+    "pass": true
+  },
+  {
+    "name": "Context loss preserves a readable product fallback",
+    "pass": true
+  },
+  {
+    "name": "Context recovery restores the live scene",
+    "pass": true
+  },
+  {
+    "name": "Reduced motion completely stops ambient model movement",
+    "pass": true
+  },
+  {
+    "name": "Reduced motion retains manual rotation",
+    "pass": true
+  },
+  {
+    "name": "Mobile controls remain reachable below the canvas",
+    "pass": true
+  },
+  {
+    "name": "Horizontal touch drag rotates the product",
+    "pass": true
+  },
+  {
+    "name": "Vertical swiping the object still scrolls the page",
+    "pass": true
+  },
+  {
+    "name": "Instant reduced-motion navigation clears and restores pair labels",
+    "pass": true,
+    "details": [
+      {
+        "id": "pet",
+        "opacity": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": "hold",
+        "opacity": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "pet",
+        "opacity": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": "inside",
+        "opacity": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scale rule and viewport agree at 360",
+    "pass": true,
+    "details": {
+      "center": 180,
+      "expected": 180,
+      "width": 359.046875,
+      "overflow": false
+    }
+  },
+  {
+    "name": "Scale rule and viewport agree at 390",
+    "pass": true,
+    "details": {
+      "center": 195,
+      "expected": 195,
+      "width": 359.046875,
+      "overflow": false
+    }
+  },
+  {
+    "name": "Scale rule and viewport agree at 820",
+    "pass": true,
+    "details": {
+      "center": 574,
+      "expected": 574,
+      "width": 359.046875,
+      "overflow": false
+    }
+  },
+  {
+    "name": "Scale rule and viewport agree at 1440",
+    "pass": true,
+    "details": {
+      "center": 1008,
+      "expected": 1007.9999999999999,
+      "width": 359.046875,
+      "overflow": false
+    }
+  },
+  {
+    "name": "Scale rule and viewport agree at 1920",
+    "pass": true,
+    "details": {
+      "center": 1344,
+      "expected": 1344,
+      "width": 359.046875,
+      "overflow": false
+    }
+  },
+  {
+    "name": "No exceptions in live/drag/context/touch checks",
+    "pass": true,
+    "details": []
+  }
+]

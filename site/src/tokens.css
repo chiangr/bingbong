@@ -1,0 +1,3 @@
+@font-face{font-family:'Albert Sans';src:url('/fonts/albert-sans.woff2') format('woff2');font-style:normal;font-weight:100 900;font-display:swap}
+@font-face{font-family:'DM Mono';src:url('/fonts/dm-mono.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+:root{color-scheme:dark;--ground:#080b13;--surface:#111620;--text:#e1e6f0;--muted:#919bad;--accent:#b7adff;--signal:#a6efd2;--line:#ffffff17;--button-ink:#111321;--peach:#ff9e76;--display:'Albert Sans','Helvetica Neue',sans-serif;--body:'Albert Sans','Helvetica Neue',sans-serif;--mono:'DM Mono','Courier New',monospace;--gutter:clamp(24px,6vw,120px);--quick:180ms;--bloom:400ms;--settle:600ms}

@@ -1,53 +1,41 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C5 | ESP32-C6 | ESP32-C61 | ESP32-H2 | ESP32-P4 | ESP32-S2 | ESP32-S3 | Linux |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | --------- | -------- | -------- | -------- | -------- | ----- |
+# bingbong
 
-# Hello World Example
+The current interactive product site, engineering references, and hardware working files in one checkout. Start with [SESSION_HANDOFF.md](SESSION_HANDOFF.md) for the accepted design direction, source authority, verification results, and remaining work.
 
-Starts a FreeRTOS task to print "Hello World".
+This handoff branch is `codex/assembly-handoff-2026-09-22` in [chiangr/bingbong](https://github.com/chiangr/bingbong). It preserves the earlier `master` history and mirrors the local project layout: the former repository-root firmware now lives under `firmware/`.
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+## Run the site
 
-## How to use example
+Install Node.js 24 LTS (or 22.12+) and run:
 
-Follow detailed instructions provided specifically for this example.
-
-Select the instructions depending on Espressif chip installed on your development board:
-
-- [ESP32 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html)
-- [ESP32-S2 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/index.html)
-
-
-## Example folder contents
-
-The project **hello_world** contains one source file in C language [hello_world_main.c](main/hello_world_main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt` files that provide set of directives and instructions describing the project's source files and targets (executable, library, or both).
-
-Below is short explanation of remaining files in the project folder.
-
-```
-├── CMakeLists.txt
-├── pytest_hello_world.py      Python script used for automated testing
-├── main
-│   ├── CMakeLists.txt
-│   └── hello_world_main.c
-└── README.md                  This is the file you are currently reading
+```sh
+git clone --single-branch --branch codex/assembly-handoff-2026-09-22 https://github.com/chiangr/bingbong.git
+cd bingbong/site
+npm ci
+npm run dev
 ```
 
-For more information on structure and contents of ESP-IDF projects, please refer to Section [Build System](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html) of the ESP-IDF Programming Guide.
+Open http://localhost:5173/#inside for the exploded assembly study, or http://localhost:5173/ for the full fifteen-chapter experience. [The standalone HTML](site/artifact/bingbong.html) also opens directly in a browser without installing dependencies.
 
-## Troubleshooting
+For a production preview:
 
-* Program upload failure
+```sh
+npm run build
+npm run preview
+```
 
-    * Hardware connection is not correct: run `idf.py -p PORT monitor`, and reboot your board to see if there are any output logs.
-    * The baud rate for downloading is too high: lower your baud rate in the `menuconfig` menu, and try again.
+Open http://localhost:4173/#inside. Servers must be started on each laptop; no remote service is required.
 
-## Technical support and feedback
+## Project map
 
-Please use the following feedback channels:
+| Path | Contents |
+| --- | --- |
+| [site/](site/) | Current Three.js/Vite experience, all assets, source, scripts and documentation |
+| [site/qa/](site/qa/) | Saved tests, 240 layout captures, independent reviews, Lighthouse report and videos |
+| [DESIGN_MANUFACTURING_REPORT_2026-09-19.md](DESIGN_MANUFACTURING_REPORT_2026-09-19.md) | Latest engineering authority, including conflicts and open decisions |
+| [REDESIGN_DECISION_2026-09-12.md](REDESIGN_DECISION_2026-09-12.md) | Earlier engineering decisions; superseded where the September 19 report conflicts |
+| [firmware/](firmware/) | Existing ESP32-S2/BG95 bring-up code and current KiCad working files in `bingbong_pcb/` |
+| [cad/](cad/), [cad-v2/](cad-v2/) | Existing mechanical and PCB design exports; these are not final production CAD for the illustrated reference build |
+| [pcbway-fab/](pcbway-fab/), [datasheets/](datasheets/), [bom-scratch/](bom-scratch/) | Fabrication exports, component references and supporting analysis |
 
-* For technical queries, go to the [esp32.com](https://esp32.com/) forum
-* For a feature request or bug report, create a [GitHub issue](https://github.com/espressif/esp-idf/issues)
-
-We will get back to you as soon as possible.
+See [site/README.md](site/README.md) for interactions and verification commands. The website uses the engineering report's reference geometry; existing hardware files and firmware do not constitute a completed implementation of that design.

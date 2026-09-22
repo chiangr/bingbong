@@ -1,0 +1,1406 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="">
+<meta name="format-detection" content=""><meta name="author" content="">
+<meta name="description" content="Sorry, the page cannot be found.">
+<meta name="keywords" content="">
+<title>Sorry, the page cannot be found. | Nisshinbo Micro Devices</title>
+<link rel="stylesheet" type="text/css" href="/stylesheet.jsp?id=100154">
+<link rel="stylesheet" type="text/css" href="/stylesheet.jsp?id=100155">
+<link rel="stylesheet" type="text/css" href="/stylesheet.jsp?id=100156">
+<link rel="stylesheet" type="text/css" href="/stylesheet.jsp?id=100141">
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+
+
+
+<!-- Common script -->
+<script src="/common/js/jquery-3.6.0.min.js"></script>
+<script src="/cmn_edev_v2/js/jquery.matchHeight-min.js"></script>
+<script src="https://kit.fontawesome.com/3a568f249b.js" crossorigin="anonymous"></script>
+
+<script>
+window.dataLayer = window.dataLayer || []
+dataLayer.push({ 
+    'event': 'mynisd_member_access',
+    'hsid': ''
+});
+</script> 
+
+
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T58H4L5');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- /Common script -->
+
+
+<meta property="og:title" content="Sorry, the page cannot be found.">
+
+<meta property="og:image" content="https://www.nisshinbo-microdevices.co.jp/cmn_v2/img/og-image.gif">
+
+<meta property="og:type" content="article">
+<meta property="og:description" content="Sorry, the page cannot be found.">
+
+
+<meta property="og:url" content="https://www.nisshinbo-microdevices.co.jp/en/notfound.html">
+<link rel="canonical" href="https://www.nisshinbo-microdevices.co.jp/en/notfound.html">
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement":
+    [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item":
+            {
+                "@id": "https://www.nisshinbo-microdevices.co.jp/en/",
+                "name": "Home"
+            }
+        }
+,
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item":
+            {
+                "@id": "https://www.nisshinbo-microdevices.co.jp/en/notfound.html",
+                "name": "Sorry, the page cannot be found."
+            }
+        }
+    ]
+}
+</script>
+
+
+
+<link rel="alternate" hreflang="en" href="https://www.nisshinbo-microdevices.co.jp/en/notfound.html">
+<link rel="alternate" hreflang="zh" href="https://www.nisshinbo-microdevices.co.jp/zh/notfound.html">
+<link rel="alternate" hreflang="ko" href="https://www.nisshinbo-microdevices.co.jp/ko/notfound.html">
+<link rel="alternate" hreflang="x-default" href="https://www.nisshinbo-microdevices.co.jp/en/notfound.html">
+
+<script>
+function mynisd_parametric_tooltip () {
+    
+    var tip = `
+    <li>
+        <button class="c_button c_button--primary c_button--liquid jsShowModal nd_tooltip" type="button" id="">
+            <span class="c_button__icon">
+                <img src="/common/images/ico_save_505050.svg" alt="" class="c_button__icon--save">
+                <img src="/common/images/ico_save_990000.svg" alt="" class="c_button__icon--save">
+            </span>Save Search Conditions<span class="nd_tooltiptext">Login to Save</span>
+        </button>
+    </li>
+    `
+    $("#seriesInfo .jppi_tools").append(tip)
+    
+}
+</script></head>
+<body>
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T58H4L5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="l_container is_visible">
+    <header id="Header" class="l_header">
+  
+  <div class="l_header__content">
+    <div class="l_inner">
+      <div class="l_header__pc">
+        <div class="l_header__layer01 jsLayer01">
+          <div class="l_header__menuList">
+            <ul class="p_menuList">
+              <li><a class="p_menu" href="/en/about/info/">Newsroom</a></li>
+              <li>
+                <ul class="p_languageList">
+                  <li><a class="p_language" href="/">日本語</a></li>
+                  <li><a class="p_language is_current" href="#">English</a></li>
+                  <li><a class="p_language" href="/zh/notfound.html">中文</a></li>
+                  <li><a class="p_language" href="/ko/notfound.html">한국어</a></li>
+                </ul>
+              </li>
+              <li><a class="p_menu" href="/en/contact/">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="l_header__layer02 jsLayer02">
+          <div class="l_header__logo"> <a class="p_logo" href="/en/"> <img src="/en/common/images/ico_logo.svg" alt="Nisshinbo Micro Devices Inc."> </a> </div>
+          <div class="l_header__toolList">
+            <ul class="p_toolList">
+              <li>
+                <div class="p_tool">
+                  <form name="search" method="get" action="/qssearch.jsp" id="searchform" onsubmit="uppercase('#gl_nv_src_func_l')">
+                    <div class="p_searchContainer">
+                      <input class="p_search p_search--small" type="text" value="" name="search" id="gl_nv_src_func_l" placeholder="Site search">
+                      <button type="submit" class="p_search__icon"></button>
+                      <input type="hidden" name="limit" value="20">
+                      <input type="hidden" id="searchtype" name="searchtype" value="kw">
+                      <input type="hidden" id="sort" name="sort" value="Relevancy desc">
+                      <input type="hidden" name="indexname" value="en_all">
+
+                      <input type="hidden" name="prioritytitle" value="5"> 
+
+
+                      <input type="hidden" name="prioritycontent" value="5"> 
+
+
+                      <input type="hidden" name="prioritymedialibrary" value="4">
+
+
+
+
+
+
+
+
+                    </div>
+                  </form>
+                </div>
+              </li>
+              <li>
+                <div class="p_tool">
+                  
+                  <a class="c_button c_button--tertiary c_button--small c_button--liquid u_fsSS" href="/en/mynisd/login.html">Login / Register</a>
+                  
+                </div>
+              </li>
+              <li>
+                <div class="p_tool"> <a class="p_logo" href="https://www.nisshinbo.co.jp/english/" target="_blank" rel="noopener"> <img src="/common/images/pc/ico_logo_holdings.png" alt="Nisshinbo Holdings Inc."> </a> </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="l_header__globalNav">
+          <nav class="p_globalNav jsGlobalNav">
+            <ul class="p_globalNav__list">
+              <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="/en/products/">Products / Service</a>
+                <div class="p_globalNav__container jsContainer">
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy">
+					  <!--
+                    <div class="p_globalNav__search">
+                      <form method="GET" id="parametricSearch4">
+                        <div class="p_searchContainer">
+                          <input id="gl_nv_src_func_l2" class="p_search" type="text" placeholder="Product Search">
+                          <button type="submit" class="p_search__icon"></button>
+                          <input type="text" id="url_lineup" value="/en/products/lineup.html" style="display:none">
+                        </div>
+                      </form>
+                    </div>
+					  -->
+                    <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/products/">Products / Service TOP</a>
+                    <ul>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Electronic devices</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Electronic devices</a>
+                          <ul>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Operational Amplifiers &amp; Comparators</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Operational Amplifiers &amp; Comparators</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/operational-amplifier/introduction/">Operational Amplifiers</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/comparator/introduction/">Comparators</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/special-function-amplifier/">Special Function Amplifiers</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">AFE (Analog Front End) / <br>Data Converters</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">AFE (Analog Front End) / <br>Data Converters</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/afe/introduction/">Sensor measurement AFEs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/data-converter/">Data Converters</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Power Management ICs</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Power Management ICs</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/ldo-linear-regulator/introduction/">LDO Linear Regulators</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/dc-dc-switching-regulator/introduction/">DC/DC Switching Regulators</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/multi-channel-pmic/">PMICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/switching-driver-ic/introduction/">Switching Drivers</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/switch-ic/introduction/">Switch ICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/shunt-regulator/introduction/">Shunt Regulators</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/charge-pump/">Charge Pumps</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/ssfm-osc-ic/">Spread Spectrum Modulation(SSFM) Oscillator IC</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/led-driver-controller/">LED Driver/Controller</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/ddr-termination/spec/?product=njw4118">DDR Termination Regulator</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/for-ac-dc-converters/spec/?product=njw4790a">For AC/DC Converters</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Reset &amp; Watchdog Timer ICs</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Reset &amp; Watchdog Timer ICs</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/reset-voltage-detector/introduction/">Voltage Detectors (Reset ICs)</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/watchdog-timer/introduction/">Watchdog Timers</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/reset-timer-ic/">Reset Timer ICs</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Battery Management ICs</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Battery Management ICs</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/lithium-ion-battery-protection/introduction/">Li-ion Battery Protection ICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/analog-front-end/">Battery Management AFEs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/battery-charger-ic/">Battery Charger ICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/battery-back-up-ic/">Battery Back-up ICs</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Audio &amp; Video ICs</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Audio &amp; Video ICs</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/mems/">MEMS Microphone Elements</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/audio-amplifier/introduction/">Audio Amplifiers</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/audio-signal-processing/">Audio Signal Processing ICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/audio-switch/">Audio Switches</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/video-ic/">Video ICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/audio-video-misc/">Audio &amp; Video misc.</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">RF Device</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3 p_globalNav__title--link" href="/en/products/rf-device/">RF Device</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/rf-switch/introduction/">RF Switches</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/low-noise-amplifier/introduction/">Low Noise Amplifiers</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/low-noise-amplifier/introduction/">Front-End Modules</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/diodes/">Diodes</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/saw-filter/">SAW Filters</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/fm-if-demodulator-ic/">FM IF Demodulator ICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/amplifier-pll-ic/">Amplifier/PLL ICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/modulation-demodulation-mixer-ic/">Modulation/Demodulation/Mixer ICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/power-line-communication-ic/spec/?product=njm45001">Power Line Communication(PLC) ICs</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/optoelectronic-device/">Optoelectronic Devices</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/featured-products/nm2101.html">Acoustic Sensor</a></li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Motor ICs</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Motor ICs</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/stepper-motor-ic/">Stepper Motor Drivers</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/three-phase-bldc-motor-ic/">Three-Phase BLDC Motor Drivers</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/single-two-phase-bldc-motor-ic/">Single/Two-Phase BLDC Motor Drivers</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/actuator-driver/">Actuator/Gate Drivers</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Signal Conditioning Peripherals</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Signal Conditioning Peripherals</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/real-time-clock/introduction/">Real Time Clock (RTC)</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/quartz-crystal-oscillator-ic/">Quartz Crystal Oscillator ICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/ate-assp/">ATE(Automated Test Equipment) ASSPs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/lcd-driver/">LCD Drivers</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/ld-driver-ic/">LD Driver ICs</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/usb-type-c-power-delivery/">USB Power Delivery Controller IC (USB PD Controller IC)</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/analog-switch/">Analog Switches</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/io-port-expansion-ics-mpu/">IO Port Expansion ICs (MPU)</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/other-peripheral-ic/">Other Peripheral ICs</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Microwave Products</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2 p_globalNav__title--link" href="/en/products/micro/">Microwave Products</a>
+                          <ul>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">VSAT Components</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3 p_globalNav__title--link" href="/en/products/micro/vsat/">VSAT Components</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/vsat/#c-band_buc">C-band BUC</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/vsat/#c-band_lnb">C-band LNB/LNA</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/vsat/#ku-band_buc">Ku-band BUC</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/vsat/#ku-band_lnb">Ku-band LNB</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/vsat/#other">Others</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Radar Sensor Modules (WaveEyes)</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3 p_globalNav__title--link" href="/en/products/micro/sensor/">Radar Sensor Modules (WaveEyes)</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/sensor/#doppler">Motion Detectors (Doppler Modules)</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/sensor/#distance">Distance Measurement Modules</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Marine Radar Components</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3 p_globalNav__title--link" href="/en/products/micro/radar_marine/">Marine Radar Components</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/radar_marine/#magnetron">Magnetrons</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/radar_marine/#tr-tube_limiter">TR Limiters / Diode Limiters</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/radar_marine/#front_end">Front-End Modules</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/radar_marine/#circulator">Circulators</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/radar_marine/#unit">Microwave Unit</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/radar_government/">Weather &amp; Air Traffic Control Radar Components</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/linac/#electron_cathode">Electron Guns / Cathodes</a></li>
+                            <!--<li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Electron Guns / Cathodes</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3 p_globalNav__title--link" href="/en/products/micro/linac/">Electron Guns / Cathodes</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/linac/">Electron Guns / Cathodes</a></li>
+                                </ul>
+                              </div>
+                            </li>-->
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Foundry Service</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Foundry Service</a>
+                          <ul>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/foundry-service/cot/">Wafer Foundry</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/foundry-service/analog-master-slice/">Analog Master Slice</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="p_globalNav__search">
+                      <div class="u_mt50"> <a class="c_button c_button--primary c_button--liquid u_pt10 u_pb10" href="/en/MUSES/" target="_blank" rel="noopener"><img src="/common/images/logo_muses_b.svg" alt="MUSES" width="50"><span class="c_button__arrow c_button__arrow--primary u_pl10 u_fsS u_fwBold">MUSES Official Website</span></a></div>
+                    </div><p class="u_fsS"><a href="/en/cross-reference/" target="_blank" class="c_link c_link--primary ">Cross Reference</a></p>
+                  </div>
+                </div>
+              </li>
+              <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="/en/applications/">Applications</a>
+                <div class="p_globalNav__container jsContainer">
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/applications/">Applications TOP</a>
+                    <ul>
+                      <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level1 p_globalNav__subcategory--link jsSubcategory" href="/en/applications/quality-grade/">Quality Grade (Electronic devices)</a></li>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Products for Automotive</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Products for Automotive</a>
+                          <ul>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/applications/automotive/">Products for Automotive</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/applications/automotive/block/">Application Block Diagram (Automotive)</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Products for Industrial Equipment</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Products for Industrial Equipment</a>
+                          <ul>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/applications/industrial/">Products for Industrial Equipment</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/applications/industrial/block/">Application Block Diagram (Industrial)</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Products for Consumer Equipment</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Products for Consumer Equipment</a>
+                          <ul>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/applications/consumer/">Products for Consumer Equipment</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/applications/consumer/block/">Application Block Diagram (Consumer)</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Microwave Application</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Microwave Application</a>
+                          <ul>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/vsat/">VSAT Components</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/sensor/">Radar Sensor Modules (WaveEyes)</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/radar_marine/">Marine Radar Components</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/radar_government/">Weather &amp; Air Traffic Control Radar Components</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/linac/">Electron Guns / Cathodes</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="/en/design-support/">Design Support</a>
+                <div class="p_globalNav__container jsContainer">
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/design-support/">Design Support TOP</a>
+                    <ul>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Electronic devices</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Electronic devices</a>
+                          <ul>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Packages</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Packages</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/package/">Package List</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/package/information.html">Package Support Information</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Support your design</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Support your design</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/macromodel/">SPICE Model (Macromodel) Download</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/prime-designer/">Prime Designer</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/c-tool/">Calculation Support Tools</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/application-notes/">Application Manuals</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/faq/">FAQ</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/design-idea.html">Design Tips for Engineers</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/quick-reference.html">Product Features Quick Reference Sheet</a></li>  
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/solve/">[Example] Trouble Shooting</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/thermal/">Thermal Design Support</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/noise/top.html">How Does Noise Affect Analog Semiconductor Devices?</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Seminars / Learning</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Seminars / Learning</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/basic-opamp/">Operational Amplifier Basics</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/video/gallery.html">Videos</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/basic/">Power Management IC Basics</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="https://blog.nisshinbo-microdevices.co.jp/en" target="_blank">Blog+</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">For relieving EOL concerns</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">For relieving EOL concerns</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/plp/">Product Longevity Program</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/discon/">NRND/Discontinued Products</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/design-flow.html">Browse by design flow</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/mynisd/benefit.html">Use myNISD</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/cross-reference/">Cross Reference</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Microwave Products</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Microwave Products</a>
+                          <ul>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/micro/vsat/">VSAT Components</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/micro/sensor/">Radar Sensor Modules (WaveEyes)</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/micro/radar/">Radar / Electron Guns / Cathodes</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/products/micro/discontinued/">Discontinued Models</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="p_globalNav__recommended">
+                      <p class="u_mt30 u_fsS u_fwBold"><i class="fa-sharp fa-light fa-arrow-progress u_fcSecondary"></i> Browse by design flow (Electronic Devices)</p>
+                      <div class="u_mt5 u_mr40"> <a class="c_linkBox c_linkBox--primary" href="/en/design-support/design-flow.html">
+                        <div class="c_linkBox__title">
+                          <div class="c_linkBox__image"> <img alt="design process" src="/images/design-support/link_desgin_flow.png"> </div>
+                        </div>
+                        <p class="c_linkBox__text u_fsS">Design Support at Every Stage—At a Glance</p>
+                        </a> </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="/en/quality/">Quality &amp; Reliability</a>
+                <div class="p_globalNav__container jsContainer">
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/quality/">Quality &amp; Reliability TOP</a>
+                    <ul>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Quality Policy &amp; Quality management system</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Quality Policy &amp; Quality management system</a>
+                          <ul>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/quality-policy/">Quality Policy</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/quality-management-system/">Quality management system</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/about/sustainability/environment/ems.html#Section01">Environmental Policy</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/about/sustainability/environment/ems.html#Section03">Environment management system</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Electronic Products</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Electronic Products</a>
+                          <ul>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Quality Assurance</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Quality Assurance</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/quality-assurance-system/">Quality Assurance System</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/qc-flow-chart/">QC Flow Chart</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/failure-analysis-flow/">Failure Analysis Flow</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/customer-complaint/">Flowchart for Customer Complaint</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/quality-assurance-test/">Quality Assurance Test</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/applications/quality-grade/">Quality Grade</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Technical guide</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Technical guide</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/technicalguide-reliabilitytest/">Reliability Test Specifications</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/technicalguide-estimatedfailurerate/">Estimated Failure Rate (FIT / MTTF)</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/technicalguide-notes/">General Caution</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/technicalguide-environmentalprotection/">Environmental Protection</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/package/">Package List</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/design-support/package/information.html">Package Support Information</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Microwave Products</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Microwave Products</a>
+                          <ul>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">Quality Assurance</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Quality Assurance</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/micro/quality-flow.html">Quality Assurance System</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/micro/rma-flow.html">RMA Process</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/micro/rma-form.html">Request Form for RMA</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level2 jsSubcategory" href="javascript:void(0)">General Caution</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">General Caution</a>
+                                <ul>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/micro/notes-vsat.html">VSAT Components</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/micro/notes-sensor.html">Radar Sensor Modules (WaveEyes)</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/micro/notes-radar.html">Radar Components</a></li>
+                                  <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level3 p_globalNav__subcategory--link jsSubcategory" href="/en/quality/micro/notes-linac.html">Electron Guns / Cathodes</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="/en/buy/">Buy / Sample</a>
+                <div class="p_globalNav__container jsContainer">
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/buy/">Buy / Sample TOP</a>
+                    <ul>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Electronic devices</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Electronic devices</a>
+                          <ul>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/buy/disty-rep-ele/">Authorized Distributors (Electronic Devices)</a></li>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/buy/online/">Buy Online (Electronic Devices)</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__subcategory p_globalNav__subcategory--level1 jsSubcategory" href="javascript:void(0)">Microwave Products</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Microwave Products</a>
+                          <ul>
+                            <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level2 p_globalNav__subcategory--link jsSubcategory" href="/en/buy/disty-micro/vsat.html">Authorized Distributors (Microwave Products)</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="/en/about/">About Us</a>
+                <div class="p_globalNav__container jsContainer">
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy"> <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/about/">About Us TOP</a>
+                    <ul>
+                      <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level1 p_globalNav__subcategory--link jsSubcategory" href="/en/about/topmessage/">Top Message</a></li>
+                      <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level1 p_globalNav__subcategory--link jsSubcategory" href="/en/about/vision/">Corporate Philosophy</a></li>
+                      <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level1 p_globalNav__subcategory--link jsSubcategory" href="/en/about/profile/">Corporate Profile</a></li>
+                      <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level1 p_globalNav__subcategory--link jsSubcategory" href="/en/about/businessfield/">Business Field</a></li>
+                      <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level1 p_globalNav__subcategory--link jsSubcategory" href="/en/about/office/">Business Locations</a></li>
+                      <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level1 p_globalNav__subcategory--link jsSubcategory" href="/en/about/sustainability/">Sustainability</a></li>
+                      <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level1 p_globalNav__subcategory--link jsSubcategory" href="/en/about/csr/compliance/">Compliance Reporting Hotline</a></li>
+                      <li><a class="p_globalNav__subcategory p_globalNav__subcategory--level1 p_globalNav__subcategory--link jsSubcategory" href="/en/about/hayawakari/">At a Glance: Nisshinbo Micro Devices Inc.</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="l_header__sp">
+        <div class="l_header__layer01 jsLayer01">
+          <div class="l_header__logo"> <a class="p_logo" href="/en/"> <img src="/en/common/images/ico_logo.svg" alt="Nisshinbo Micro Devices Inc."> </a> </div>
+        </div>
+        <div class="l_header__layer02 jsLayer02">
+          <div class="l_header__toolList">
+            <ul class="p_toolList">
+              <li>
+                <div class="p_tool jsTool">
+                  <button class="p_tool__button jsToolButton" type="button"><img src="/common/images/ico_search_ffffff.svg" alt=""></button>
+                  <div class="p_tool__box jsToolBox"> <span class="p_tool__back jsToolBack"><img src="/common/images/ico_arrow_top_505050.svg" alt=""></span>
+                    <form name="search" method="get" action="/qssearch.jsp" id="searchform" onsubmit="uppercase('#gl_nv_src_func_l')">
+                      <div class="p_searchContainer">
+                        <input class="p_search p_search--small" type="text" value="" name="search" id="gl_nv_src_func_l" placeholder="Site search">
+                        <button type="submit" class="p_search__icon"></button>
+                        <input type="hidden" name="limit" value="20">
+                        <input type="hidden" id="searchtype" name="searchtype" value="kw">
+                        <input type="hidden" id="sort" name="sort" value="Relevancy desc">
+                        <input type="hidden" name="indexname" value="en_all">
+                      </div>
+                    </form>
+                        <p class="u_fsS u_pt10"><a href="/en/cross-reference/" target="_blank" class="c_link c_link--primary u_taCenter">Cross Reference</a></p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="p_tool jsTool">
+                  <button class="p_tool__button jsToolButton" type="button"><img src="/common/images/ico_language_ffffff.svg" alt=""></button>
+                  <div class="p_tool__box jsToolBox"> <span class="p_tool__back jsToolBack"><img src="/common/images/ico_arrow_top_505050.svg" alt=""></span>
+                    <ul class="p_languageList">
+                      <li><a class="p_language" href="/">日本語</a></li>
+                      <li><a class="p_language is_current" href="#">English</a></li>
+                      <li><a class="p_language" href="/zh/notfound.html">中文</a></li>
+                  <li><a class="p_language" href="/ko/notfound.html">한국어</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              
+              <li>
+                <div class="p_tool">
+                  <button class="p_tool__button" type="button"> <i class="p_icon p_icon--nav p_icon--favorite jsIcon"></i> </button>
+                  <span class="p_tooltip">Login to Bookmark Pages</span> </div>
+              </li>
+              <li>
+                <div class="p_tool">
+                  <button class="p_tool__button" type="button"> <i class="p_icon p_icon--nav p_icon--favoriteList jsIcon"></i> </button>
+                  <span class="p_tooltip">Login to Show Bookmarks</span> </div>
+              </li>
+              
+              <li>
+                <div class="p_tool jsTool">
+                  <button class="p_tool__button jsToolButton" type="button"><img src="/common/images/ico_login_ffffff.svg" alt=""></button>
+                  <div class="p_tool__box jsToolBox"> <span class="p_tool__back jsToolBack"><img src="/common/images/ico_arrow_top_505050.svg" alt=""></span> 
+                    <!--<a class="c_button c_button--tertiary c_button--small c_button--liquid" href="javascript:void(0)">会員ログイン</a>-->
+                    <div class="p_loginContainer">
+                      
+                      <a class="c_button c_button--tertiary c_button--small c_button--liquid" href="/en/mynisd/login.html">Login / Register</a>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="p_hamburger jsHamburger"> <span></span> </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="l_header__globalNav">
+          <nav class="p_globalNav jsGlobalNavSp">
+			  <!--
+            <div class="p_globalNav__search">
+              <form method="GET" id="parametricSearch5">
+                <div class="p_searchContainer">
+                  <input id="gl_nv_src_func_l3" class="p_search" type="text" placeholder="Product Search">
+                  <button type="submit" class="p_search__icon"></button>
+                  <input type="text" id="url_lineup" value="/en/products/xxxx.html" style="display:none">
+                </div>
+              </form>
+            </div>
+			  -->
+            <div class="p_globalNav__container jsContainer">
+              <ul class="p_globalNav__list">
+                <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="javascript:void(0)">Products / Service</a>
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy" style="top: 0px">
+                    <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                    <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/products/">Products / Service TOP</a>
+                    <ul>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Electronic devices</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Electronic devices</a>
+                          <ul>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Operational Amplifiers &amp; Comparators</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Operational Amplifiers &amp; Comparators</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/operational-amplifier/introduction/">Operational Amplifiers</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/comparator/introduction/">Comparators</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/special-function-amplifier/">Special Function Amplifiers</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">AFE (Analog Front End) / Data Converters</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">AFE (Analog Front End) / Data Converters</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/afe/introduction/">Sensor measurement AFEs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/data-converter/">Data Converters</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Power Management ICs</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Power Management ICs</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/ldo-linear-regulator/introduction/">LDO Linear Regulators</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/dc-dc-switching-regulator/introduction/">DC/DC Switching Regulators</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/multi-channel-pmic/">PMICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/switching-driver-ic/introduction/">Switching Drivers</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/switch-ic/introduction/">Switch ICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/shunt-regulator/introduction/">Shunt Regulators</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/charge-pump/">Charge Pumps</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/ssfm-osc-ic/">Spread Spectrum Modulation(SSFM) Oscillator IC</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/led-driver-controller/">LED Driver/Controller</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/ddr-termination/spec/?product=njw4118">DDR Termination Regulator</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/for-ac-dc-converters/spec/?product=njw4790a">For AC/DC Converters</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Reset &amp; Watchdog Timer ICs</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Reset &amp; Watchdog Timer ICs</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/reset-voltage-detector/introduction/">Voltage Detectors (Reset ICs)</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/watchdog-timer/introduction/">Watchdog Timers</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/reset-timer-ic/">Reset Timer ICs</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Battery Management ICs</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Battery Management ICs</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/lithium-ion-battery-protection/introduction/">Li-ion Battery Protection ICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/analog-front-end/">Battery Management AFEs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/battery-charger-ic/">Battery Charger ICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/battery-back-up-ic/">Battery Back-up ICs</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Audio &amp; Video ICs</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Audio &amp; Video ICs</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/mems/">MEMS Microphone Elements</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/audio-amplifier/introduction/">Audio Amplifiers</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/audio-signal-processing/">Audio Signal Processing ICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/audio-switch/">Audio Switches</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/video-ic/">Video ICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/audio-video-misc/">Audio &amp; Video misc.</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">RF Device</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3 p_globalNav__title--link" href="/en/products/rf-device/">RF Device</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/rf-switch/introduction/">RF Switches</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/low-noise-amplifier/introduction/">Low Noise Amplifiers</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/low-noise-amplifier/introduction/">Front-End Modules</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/diodes/">Diodes</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/saw-filter/">SAW Filters</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/fm-if-demodulator-ic/">FM IF Demodulator ICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/amplifier-pll-ic/">Amplifier/PLL ICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/modulation-demodulation-mixer-ic/">Modulation/Demodulation/Mixer ICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/power-line-communication-ic/spec/?product=njm45001">Power Line Communication(PLC) ICs</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                           <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/optoelectronic-device/">Optoelectronic Devices</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/featured-products/nm2101.html">Acoustic Sensor</a></li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Motor ICs</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Motor ICs</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/stepper-motor-ic/">Stepper Motor Drivers</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/three-phase-bldc-motor-ic/">Three-Phase BLDC Motor Drivers</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/single-two-phase-bldc-motor-ic/">Single/Two-Phase BLDC Motor Drivers</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/actuator-driver/">Actuator/Gate Drivers</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Signal Conditioning Peripherals</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Signal Conditioning Peripherals</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/real-time-clock/introduction/">Real Time Clock (RTC)</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/quartz-crystal-oscillator-ic/">Quartz Crystal Oscillator ICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/ate-assp/">ATE(Automated Test Equipment) ASSPs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/lcd-driver/">LCD Drivers</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/ld-driver-ic/">LD Driver ICs</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/usb-type-c-power-delivery/">USB Power Delivery Controller IC (USB PD Controller IC)</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/analog-switch/">Analog Switches</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/io-port-expansion-ics-mpu/">IO Port Expansion ICs (MPU)</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/other-peripheral-ic/">Other Peripheral ICs</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Microwave Products</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2 p_globalNav__title--link" href="/en/products/micro/">Microwave Products</a>
+                          <ul>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">VSAT Components</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">VSAT Components</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/vsat/#c-band_buc">C-band BUC</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/vsat/#c-band_lnb">C-band LNB/LNA</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/vsat/#ku-band_buc">Ku-band BUC</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/vsat/#ku-band_lnb">Ku-band LNB</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/vsat/#other">X-band BUC</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/vsat/#other">Others</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Radar Sensor Modules (WaveEyes)</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Radar Sensor Modules (WaveEyes)</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/sensor/#doppler">Motion Detectors (Doppler Modules)</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/sensor/#distance">Distance Measurement Modules</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Marine Radar Components</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Marine Radar Components</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/radar_marine/#magnetron">Magnetrons</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/radar_marine/#tr-tube_limiter">TR Limiters / Diode Limiters</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/radar_marine/#front_end">Front-End Modules</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/radar_marine/#circulator">Circulators</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/radar_marine/#unit">Microwave Unit</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/micro/radar_government/">Weather &amp; Air Traffic Control Radar Components</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/micro/linac/#electron_cathode">Electron Guns / Cathodes</a></li>
+                            <!--<li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Electron Guns / Cathodes</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Electron Guns / Cathodes</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/products/micro/linac/#electron_cathode">Electron Guns / Cathodes</a></li>
+                                </ul>
+                              </div>
+                            </li>-->
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Foundry Service</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Foundry Service</a>
+                          <ul>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/foundry-service/cot/">Wafer Foundry</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/foundry-service/analog-master-slice/">Analog Master Slice</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="javascript:void(0)">Applications</a>
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy" style="top: 0px">
+                    <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                    <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/applications/">Applications TOP</a>
+                    <ul>
+                      <li><a class="p_globalNav__category p_globalNav__category--level1 p_globalNav__category--link jsCatecory" href="/en/applications/quality-grade/">Quality Grade (Electronic devices)</a></li>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Products for Automotive</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Products for Automotive</a>
+                          <ul>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/applications/automotive/">Products for Automotive</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/applications/automotive/block/">Application Block Diagram (Automotive)</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Products for Industrial Equipment</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Products for Industrial Equipment</a>
+                          <ul>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/applications/industrial/">Products for Industrial Equipment</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/applications/industrial/block/">Application Block Diagram (Industrial)</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Products for Consumer Equipment</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Products for Consumer Equipment</a>
+                          <ul>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/applications/consumer/">Products for Consumer Equipment</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/applications/consumer/block/">Application Block Diagram (Consumer)</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Microwave Application</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Microwave Application</a>
+                          <ul>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/micro/vsat/">VSAT Components</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/micro/sensor/">Radar Sensor Modules (WaveEyes)</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/micro/radar_marine/">Marine Radar Components</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/micro/radar_government/">Weather &amp; Air Traffic Control Radar Components</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/micro/linac/">Electron Guns / Cathodes</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="javascript:void(0)">Design Support</a>
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy" style="top: 0px">
+                    <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                    <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/design-support/">Design Support TOP</a>
+                    <ul>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Electronic devices</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Electronic devices</a>
+                          <ul>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Packages</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Packages</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/package/">Package List</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/package/information.html">Package Support Information</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Support your design</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Support your design</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/macromodel/">SPICE Model (Macromodel) Download</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/prime-designer/">Prime Designer</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/c-tool/">Calculation Support Tools</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/application-notes/">Application Manuals</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/faq/">FAQ</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/design-idea.html">Design Tips for Engineers</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/quick-reference.html">Product Features Quick Reference Sheet</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/solve/">[Example] Trouble Shooting</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/thermal/">Thermal Design Support</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/noise/top.html">How Does Noise Affect Analog Semiconductor Devices?</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Seminars / Learning</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Seminars / Learning</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/basic-opamp/">Operational Amplifier Basics</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/video/gallery.html">Videos</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/basic/">Power Management IC Basics</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="https://blog.nisshinbo-microdevices.co.jp/en" target="_blank">Blog+</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">For relieving EOL concerns</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">For relieving EOL concerns</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/plp/">Product Longevity Program</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/design-support/discon/">NRND/Discontinued Products</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/design-support/design-flow.html">Browse by design flow</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/mynisd/benefit.html">Use myNISD</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/cross-reference/">Cross Reference</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Microwave Products</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Microwave Products</a>
+                          <ul>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/design-support/micro/vsat/">VSAT Components</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/design-support/micro/sensor/">Radar Sensor Modules (WaveEyes)</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/design-support/micro/radar/">Radar / Electron Guns / Cathodes</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/products/micro/discontinued/">Discontinued Models</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="javascript:void(0)">Quality &amp; Reliability</a>
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy" style="top: 0px">
+                    <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                    <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/quality/">Quality &amp; Reliability TOP</a>
+                    <ul>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Quality Policy &amp; Quality management system</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Quality Policy &amp; Quality management system</a>
+                          <ul>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/quality/quality-policy/">Quality Policy</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/quality/quality-management-system/">Quality management system</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/about/sustainability/environment/ems.html#Section01">Environmental Policy</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/about/sustainability/environment/ems.html#Section03">Environment management system</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Electronic devices</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Electronic devices</a>
+                          <ul>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Quality Assurance</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Quality Assurance</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/quality-assurance-system/">Quality Assurance System</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/qc-flow-chart/">QC Flow Chart</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/failure-analysis-flow/">Failure Analysis Flow</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/customer-complaint/">Flowchart for Customer Complaint</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/quality-assurance-test/">Quality Assurance Test</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/applications/quality-grade/">Quality Grade</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Technical guide</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Technical guide</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/technicalguide-reliabilitytest/">Reliability Test Specifications</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/technicalguide-estimatedfailurerate/">Estimated Failure Rate (FIT / MTTF)</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/technicalguide-notes/">General Caution</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/technicalguide-environmentalprotection/">Environmental Protection</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/package/">Package List</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/design-support/package/information.html">Package Support Information</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Microwave Products</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Microwave Products</a>
+                          <ul>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">Quality Assurance</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">Quality Assurance</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/micro/quality-flow.html">Quality Assurance System</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/micro/rma-flow.html">RMA Process</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/micro/rma-form.html">Request Form for RMA</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li> <a class="p_globalNav__category p_globalNav__category--level2 jsCatecory" href="javascript:void(0)">General Caution</a>
+                              <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level3 jsHierarchy">
+                                <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                                <a class="p_globalNav__title p_globalNav__title--level3" href="javascript:void(0)">General Caution</a>
+                                <ul>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/micro/notes-vsat.html">VSAT Components</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/micro/notes-sensor.html">Radar Sensor Modules (WaveEyes)</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/micro/notes-radar.html">Radar Components</a></li>
+                                  <li><a class="p_globalNav__category p_globalNav__category--level3 p_globalNav__category--link" href="/en/quality/micro/notes-linac.html">Electron Guns / Cathodes</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="javascript:void(0)">Buy / Sample</a>
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy" style="top: 0px">
+                    <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                    <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/buy/">Buy / Sample TOP</a>
+                    <ul>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Electronic devices</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Electronic devices</a>
+                          <ul>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/buy/disty-rep-ele/">Authorized Distributors (Erectronic Devices)</a></li>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/buy/online/">Buy Online (Erectronic Devices)</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li> <a class="p_globalNav__category p_globalNav__category--level1 jsCatecory" href="javascript:void(0)">Microwave Products</a>
+                        <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level2 jsHierarchy">
+                          <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                          <a class="p_globalNav__title p_globalNav__title--level2" href="javascript:void(0)">Microwave Products</a>
+                          <ul>
+                            <li><a class="p_globalNav__category p_globalNav__category--level2 p_globalNav__category--link" href="/en/buy/disty-micro/vsat.html">Authorized Distributors (Microwave Products)</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="p_globalNav__item"> <a class="p_globalNav__category jsCatecory" href="javascript:void(0)">About Us</a>
+                  <div class="p_globalNav__hierarchy p_globalNav__hierarchy--level1 jsHierarchy" style="top: 0px">
+                    <button class="p_globalNav__back jsBack" type="button">BACK</button>
+                    <a class="p_globalNav__title p_globalNav__title--level1 p_globalNav__title--link" href="/en/about/">About Us TOP</a>
+                    <ul>
+                      <li><a class="p_globalNav__category p_globalNav__category--level1 p_globalNav__category--link jsCatecory" href="/en/about/topmessage/">Top Message</a></li>
+                      <li><a class="p_globalNav__category p_globalNav__category--level1 p_globalNav__category--link jsCatecory" href="/en/about/vision/">Corporate Philosophy</a></li>
+                      <li><a class="p_globalNav__category p_globalNav__category--level1 p_globalNav__category--link jsCatecory" href="/en/about/profile/">Corporate Profile</a></li>
+                      <li><a class="p_globalNav__category p_globalNav__category--level1 p_globalNav__category--link jsCatecory" href="/en/about/businessfield/">Business Field</a></li>
+                      <li><a class="p_globalNav__category p_globalNav__category--level1 p_globalNav__category--link jsCatecory" href="/en/about/office/">Business Locations</a></li>
+                      <li><a class="p_globalNav__category p_globalNav__category--level1 p_globalNav__category--link jsCatecory" href="/en/about/sustainability/">Sustainability</a></li>
+                      <li><a class="p_globalNav__category p_globalNav__category--level1 p_globalNav__category--link jsCatecory" href="/en/about/csr/compliance/">Compliance Reporting Hotline</a></li>
+                      <li><a class="p_globalNav__category p_globalNav__category--level1 p_globalNav__category--link jsCatecory" href="/en/about/hayawakari/">At a Glance: Nisshinbo Micro Devices Inc.</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <ul class="p_menuList">
+              <li><a class="p_menu" href="/en/about/info/">Newsroom</a></li>
+              <li><a class="p_menu" href="/en/contact/">Contact Us</a></li>
+            </ul>
+            <div class="p_snsListContainer p_snsListContainer--header">
+              <ul class="p_snsList">
+                <li><a class="p_sns p_sns--x" href="https://twitter.com/Nisshinbo_Micro" target="_blank" rel="noopener"><img src="/common/images/ico_x.png" alt="X(Twitter)"></a></li>
+                <li><a class="p_sns p_sns--youtube" href="https://www.youtube.com/channel/UC8pI55UeEc154wCIkZiwrRw" target="_blank" rel="noopener"><img src="/common/images/ico_youtube.svg" alt="YouTube"></a></li>
+                <li><a class="p_sns p_sns--linkedin" href="https://www.linkedin.com/company/nisshinbo-micro-devices-inc" target="_blank" rel="noopener"><img src="/common/images/ico_linkedin.png" alt="Linkedin"></a></li>
+                <li><a class="p_sns p_sns--facebook" href="https://www.facebook.com/nisshinbomicrodevices.jp" target="_blank" rel="noopener"><img src="/common/images/ico_facebook.svg" alt="facebook"></a></li>
+                <li><a class="p_sns p_sns--mailto" href="https://info.nisshinbo-microdevices.co.jp/en/newsletter" target="_blank" rel="noopener"><img src="/common/images/ico_mailto.svg" alt="Newsletter"></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+    <main id="Main" class="l_main">
+        <div>
+            <div class="l_inner">
+  <div class="p_breadcrumbContainer u_isPc"> 
+    
+    <ul class="p_breadcrumb">
+<li><a href="/en/">Home</a></li>
+<li>Sorry, the page cannot be found.</li>
+</ul>
+
+    
+ </div>
+  <div class="p_snsListContainer p_snsListContainer--main">
+    <ul class="p_snsList">
+      <li><a class="p_sns p_sns--x" href="https://twitter.com/Nisshinbo_Micro" target="_blank" rel="noopener"><img src="/common/images/ico_x.png" alt="X(Twitter)"></a></li>
+      <li><a class="p_sns p_sns--youtube" href="https://www.youtube.com/channel/UC8pI55UeEc154wCIkZiwrRw" target="_blank" rel="noopener"><img src="/common/images/ico_youtube.svg" alt="Youtube"></a></li>
+      <li><a class="p_sns p_sns--linkedin" href="https://www.linkedin.com/company/nisshinbo-micro-devices-inc" target="_blank" rel="noopener"><img src="/common/images/ico_linkedin.png" alt="Linkedin"></a></li>
+      <li><a class="p_sns p_sns--facebook" href="https://www.facebook.com/nisshinbomicrodevices.jp" target="_blank" rel="noopener"><img src="/common/images/ico_facebook.svg" alt="facebook"></a></li>
+      <li><a class="p_sns p_sns--mailto" href="https://info.nisshinbo-microdevices.co.jp/en/newsletter" target="_blank" rel="noopener"><img src="/common/images/ico_mailto.svg" alt="Newsletter"></a></li>
+    </ul>
+  </div>
+</div>
+            <div class="contentW">
+                    <section class="l_section">
+      <h1 class="c_heading1 c_heading1--products">
+        <div class="l_inner">
+          <div class="c_heading1__content">Sorry, the page cannot be found.</div>
+        </div>
+      </h1>
+      <h2 class="c_heading2">
+        <div class="l_inner">
+          <div class="c_heading2__content">New Japan Radio Co., Ltd. and RICOH Electronic Devices Co., Ltd. merged together.</div>
+        </div>
+      </h2>
+      <div class="l_inner">
+        <p class="c_text">Please bookmark the new URL instead of the previous one if you have bookmarked us on the web.</p>
+        <div class="u_mt10">
+          <ul class="c_list c_list--line">
+            <li><a class="c_link u_fwBold" href="/en/">https://www.nisshinbo-microdevices.co.jp/en/</a></li>
+          </ul>
+        </div>
+        <div class="u_mt50">
+          <ul class="p_newsList p_newsList--type02">
+            <li><a class="p_news p_news--type02" href="/en/about/info/20220101.html" rel="noopener"><span class="u_fsS u_mr20">Jan. 1, 2022</span>Nisshinbo Micro Devices Inc. inaugurated</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="l_section">
+      <h2 class="c_heading2">
+        <div class="l_inner">
+          <div class="c_heading2__content">Site search</div>
+        </div>
+      </h2>
+      <div class="l_inner">
+        <p class="c_text">The page you are looking for may have been moved or deleted. Please use the site search or the links below to search for the page.</p>
+        <div class="u_mt30">
+          <h3>Site search</h3>
+          <form name="search" id="searchform" onsubmit="uppercase('#gl_nv_src_func_l')" action="/qssearch.jsp" method="get">
+            <div class="p_searchContainer p_searchContainer--w500 p_searchContainer--left">
+              <input name="search" class="p_search p_search--small" id="gl_nv_src_func_l" type="text" placeholder="Site search" value="">
+              <button class="p_search__icon" type="submit"></button>
+              <input name="limit" type="hidden" value="20">
+              <input name="searchtype" id="searchtype" type="hidden" value="kw">
+              <input name="sort" id="sort" type="hidden" value="Relevancy desc">
+              <input name="indexname" type="hidden" value="en_all">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="l_section">
+      <div class="l_inner">
+        <div class="i_about">
+          <div class="i_about__text">
+            <h2 class="i_about__title">About Nisshinbo Micro Devices Inc.</h2>
+            <p>Nisshinbo Micro Devices Inc. is the result of an integration former New Japan Radio Co., Ltd. and former RICOH Electronic Devices Co., Ltd. <br>
+              New Japan Radio Co., Ltd as famous as Op-amp supplier and RICOH Electronic Devices as known as Power management IC supplier  integrated. We further grow as an "Analog solution provider".</p>
+            <div class="i_about__button"> <a class="c_button c_button--primary c_button--liquid" href="/en/about/hayawakari/"><span class="c_button__arrow">At a Glance <br class="u_isSp">
+              Nisshinbo Micro Devices Inc.</span></a> </div>
+          </div>
+          <div class="i_about__image"> <img class="u_isPc" src="/en/images/pc/pic_about_01.jpg" alt="We contribute to realizing a smart society through [Connect Everything] technology that connect Humans to Humans, Things to Humans and Things to Things."> <img class="u_isSp" src="/en/images/sp/pic_about_01.jpg" alt="We contribute to realizing a smart society through [Connect Everything] technology that connect Humans to Humans, Things to Humans and Things to Things."> </div>
+        </div>
+      </div>
+    </section>
+                <div class="l_inner">
+                    <div class="p_breadcrumbContainer u_isSp">
+                        
+                        <ul class="p_breadcrumb">
+<li><a href="/en/">Home</a></li>
+<li>Sorry, the page cannot be found.</li>
+</ul>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main><!-- /main -->
+    <div class="p_iconContainer jsIconContainer s_active">
+    <ul class="p_iconList">
+        
+        <li>
+            <div class="p_tooltipContainer">
+                <a class="p_icon p_icon--favorite jsTooltip" href="#DUMMY"></a>
+                <span class="p_tooltip">Login to Bookmark Pages</span>
+            </div>
+        </li>
+        <li>
+            <div class="p_tooltipContainer">
+                <a class="p_icon p_icon--favoriteList jsTooltip" href="#DUMMY"></a>
+                <span class="p_tooltip">Login to Show Bookmarks</span>
+            </div>
+        </li>
+              
+    </ul>
+</div>
+<footer id="Footer" class="l_footer">
+    <div id="Pagetop" class="l_footer__pageTop"><a class="p_pageTop" href="#"><img src="/common/images/ico_page-top.svg" alt=""></a></div>
+    <div class="l_footer__content">
+        <div class="l_inner">
+            <div class="l_footer__layer01">
+                <ul class="l_footer__column">
+                    <li>
+                        <div class="l_footer__logo"><a class="p_logo" href="/en/"><img src="/en/common/images/ico_logo_ffffff.svg" alt="Nisshinbo Micro Devices Inc."></a></div>
+                        <ul class="l_footer__titleList u_mt50">
+                            <li>
+                                <a class="l_footer__title l_footer__title--link" href="/en/about/">About Us</a>
+                                <ul class="l_footer__linkList">
+                                    <li><a class="l_footer__link" href="/en/about/topmessage/">Top Message</a></li>
+                                    <li><a class="l_footer__link" href="/en/about/profile/">Corporate Profile/History</a></li>
+                                    <li><a class="l_footer__link" href="/en/about/businessfield/">Business Field</a></li>
+                                    <li><a class="l_footer__link" href="/en/about/office/">Business Locations</a></li>
+                                    <li><a class="l_footer__link" href="/en/about/sustainability/">Sustainability</a></li>
+                                    <li><a class="l_footer__link" href="/en/about/csr/compliance/">Compliance Reporting Hotline</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="l_footer__titleList">
+                            <li>
+                                <h3 class="l_footer__title">E-mail Newsletter</h3>
+                                <div>
+                                    <a class="l_footer__button l_footer__button--secondary" href="https://info.nisshinbo-microdevices.co.jp/en/newsletter">Subscribe Now</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="jsPadding" data-padding="54px 0 0 0,0 0 0 0">
+                            <a class="l_footer__button l_footer__button--primary" href="/en/contact/">Contact Us</a>
+                        </div>
+                        <ul class="l_footer__titleList u_mt50">
+                            <li class="u_mt50">
+                                <h3 class="l_footer__title">Quick Links</h3>
+                                  <ul class="l_footer__linkList">
+                                     <li><a class="l_footer__link" href="/en/quality/quality-management-system/">Quality Management System</a></li>
+                                    <li><a class="l_footer__link" href="/en/about/sustainability/environment/ems.html#Section03">Environment Management System</a></li>
+                                    <li><a class="l_footer__link" href="/en/design-support/package/">IC Packages</a></li>
+                                    <li><a class="l_footer__link" href="/en/cross-reference/">Cross Reference</a></li>
+                                    <li><a class="l_footer__link" href="/en/faq/">FAQ</a></li>
+                                    <li><a class="l_footer__link" href="/en/design-support/macromodel/">SPICE(Macromodel) Download</a></li>
+                                    <li><a class="l_footer__link" href="/en/design-support/plp/">Product Longevity Program</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="u_mt50">
+                            <a class="l_footer__muses" href="/en/MUSES/" target="_blank" rel="noopener">MUSES Official Website</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="u_mt50">
+                    <ul class="l_footer__snsList">
+                        <li><a class="l_footer__sns l_footer__sns--x" href="https://twitter.com/Nisshinbo_Micro" target="_blank" rel="noopener"><img src="/common/images/ico_x_ffffff.svg" alt="X(Twitter)"></a></li>
+                        <li><a class="l_footer__sns l_footer__sns--youtube" href="https://www.youtube.com/channel/UC8pI55UeEc154wCIkZiwrRw" target="_blank" rel="noopener"><img src="/common/images/ico_youtube_ffffff.svg" alt="YouTube"></a></li>
+                        <li><a class="l_footer__sns l_footer__sns--linkedin" href="https://www.linkedin.com/company/nisshinbo-micro-devices-inc" target="_blank" rel="noopener"><img src="/common/images/ico_linkedin_ffffff.png" alt="Linkedin"></a></li>
+                        <li><a class="l_footer__sns l_footer__sns--facebook" href="https://www.facebook.com/nisshinbomicrodevices.jp" target="_blank" rel="noopener"><img src="/common/images/ico_facebook_ffffff.svg" alt="facebook"></a></li>
+                                              <li><a class="l_footer__sns l_footer__sns--blog" href="https://blog.nisshinbo-microdevices.co.jp/en" target="_blank" rel="noopener"><img src="/common/images/ico_blog_ffffff.png" alt="Blog"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_footer__layer02">
+                <ul class="l_footer__menuList">
+                    <li><a class="l_footer__menu" href="/en/privacy/">Privacy</a></li>
+                    <li><a class="l_footer__menu" href="/en/terms_of_use/">Terms of Use</a></li>
+                    <li><a class="l_footer__menu" href="/en/privacy/cookiepolicy.html">Cookie Policy</a></li>
+                    <li><a class="l_footer__menu" href="/en/sitemap/">Sitemap</a></li>
+                    <li><a class="l_footer__menu" href="https://www.nisshinbo.co.jp/english/" target="_blank" rel="noopener">Nisshinbo Holdings Inc.</a></li>
+                </ul>
+                <p class="l_footer__copyright">Copyright ⓒ Nisshinbo Micro Devices Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer><!-- /footer -->
+</div>
+<!-- Common JavaScript -->
+<script src="/common/js/slick.min.js"></script>
+<script src="/common/js/scroll-hint.min.js"></script>
+<script src="/common/js/bundle.js"></script>
+<script src="/common/js/perfect-scrollbar.min.js"></script>
+<script src="/js/index.js"></script>
+<script src="/cmn_edev_v2/js/script.js"></script>
+<!-- /Common JavaScript -->
+<script src="/common/js/products.js"></script>
+<script src="/common/js/comparison.js"></script></body>
+</html>

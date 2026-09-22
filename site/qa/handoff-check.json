@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-22T16:06:08.514Z",
+  "base": "http://127.0.0.1:4181",
+  "node": "v24.16.0",
+  "lockfileSha256": "377ed989d2d455b0c9641c05adce719f82bb2f259bf013a1bb3b45866326e677",
+  "setup": [
+    "npm ci",
+    "npm run build",
+    "npm run artifact"
+  ],
+  "checks": [
+    {
+      "name": "Live model and fifteen chapters 1440",
+      "pass": true
+    },
+    {
+      "name": "Detailed assembly stays out of the hero 1440",
+      "pass": true
+    },
+    {
+      "name": "Twenty component groups load 1440",
+      "pass": true,
+      "details": {
+        "count": 20
+      }
+    },
+    {
+      "name": "Component selection updates model and notes 1440",
+      "pass": true
+    },
+    {
+      "name": "Ceramic detent advances 15 degrees 1440",
+      "pass": true
+    },
+    {
+      "name": "Assembly control reaches the complete build 1440",
+      "pass": true
+    },
+    {
+      "name": "No horizontal overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Live model and fifteen chapters 390",
+      "pass": true
+    },
+    {
+      "name": "Detailed assembly stays out of the hero 390",
+      "pass": true
+    },
+    {
+      "name": "Twenty component groups load 390",
+      "pass": true,
+      "details": {
+        "count": 20
+      }
+    },
+    {
+      "name": "Component selection updates model and notes 390",
+      "pass": true
+    },
+    {
+      "name": "Ceramic detent advances 15 degrees 390",
+      "pass": true
+    },
+    {
+      "name": "Assembly control reaches the complete build 390",
+      "pass": true
+    },
+    {
+      "name": "No horizontal overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Rebuilt standalone file runs its antenna assembly",
+      "pass": true
+    },
+    {
+      "name": "Standalone makes no network requests",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No browser exceptions",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

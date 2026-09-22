@@ -1,0 +1,182 @@
+[
+  {
+    "width": 1440,
+    "id": "hello",
+    "chapter": 0,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "id": "pet",
+    "chapter": 1,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "id": "boop",
+    "chapter": 2,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "id": "hold",
+    "chapter": 3,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "id": "creature",
+    "chapter": 4,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "id": "halo",
+    "chapter": 5,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "id": "object",
+    "chapter": 6,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "id": "quiet",
+    "chapter": 7,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "id": "size",
+    "chapter": 8,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "id": "details",
+    "chapter": 9,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "id": "hello",
+    "chapter": 0,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "id": "pet",
+    "chapter": 1,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "id": "boop",
+    "chapter": 2,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "id": "hold",
+    "chapter": 3,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "id": "creature",
+    "chapter": 4,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "id": "halo",
+    "chapter": 5,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "id": "object",
+    "chapter": 6,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "id": "quiet",
+    "chapter": 7,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "id": "size",
+    "chapter": 8,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "id": "details",
+    "chapter": 9,
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "id": "hello",
+    "chapter": 0,
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "id": "pet",
+    "chapter": 1,
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "id": "boop",
+    "chapter": 2,
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "id": "hold",
+    "chapter": 3,
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "id": "creature",
+    "chapter": 4,
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "id": "halo",
+    "chapter": 5,
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "id": "object",
+    "chapter": 6,
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "id": "quiet",
+    "chapter": 7,
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "id": "size",
+    "chapter": 8,
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "id": "details",
+    "chapter": 9,
+    "overflow": false
+  }
+]

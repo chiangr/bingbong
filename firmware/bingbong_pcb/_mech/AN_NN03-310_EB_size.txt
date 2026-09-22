@@ -1,0 +1,633 @@
+==== AN_NN03-310_EB_size.pdf PAGE 1 ====
+     
+Most integrated  
+antenna for any 
+IoT design 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+
+==== AN_NN03-310_EB_size.pdf PAGE 2 ====
+ 
+ 
+ 
+ 
+2 
+Last Update: April 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+TRIO mXTENDTM: THE ANTENNA DESIGNED TO FIT ALL IoT 
+SIZES 
+ 
+- 
+Product: TRIO mXTENDTM NN03-310  
+- 
+Dimensions : 30.0 mm x 3.0 mm x 1.0 mm 
+- 
+Frequency regions: 698-960 MHz and 1710-2690 MHz  
+ 
+ 
+ 
+The IoT world and its IoT devices are a priority now for many companies. This is not a concept 
+anymore, lots of devices become a reality and they need wireless connectivity at many 
+different frequency bands as quick as possible and in the easiest way.    
+ 
+Sometimes designers don’t know the size or form factor of the future device and moreover 
+they don’t even know the frequency bands to cover. So, which antenna is the right selection? 
+Do I need to wait till the last minute to choose the antenna? The answer is no, you don´t 
+need to wait if you use Virtual Antenna® technology, the technology where the component is 
+always the same regardless of the size or form factor of the printed circuit board. Having one 
+antenna component for all sizes gives you the freedom to start with the antenna from the 
+beginning, therefore optimizing the antenna to the limit, and if you need to change finally your 
+design, the component remains the same because you change the desired frequency bands by 
+only adjusting the matching network. 
+ 
+Within this application note you can check how the TRIO mXTEND™ chip antenna component, 
+the ultra slim, off the shelf component of only 1.0 mm height, can fit different board sizes by only 
+adjusting its matching network. It also works in multiple frequency regions at the same time 
+thanks to its modular, multiband and multi-port configuration.  
+ 
+Feel free to design your ideal new IoT platform, the antenna choice is only one.   
+
+==== AN_NN03-310_EB_size.pdf PAGE 3 ====
+ 
+ 
+ 
+ 
+3 
+Last Update: April 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+TABLE OF CONTENTS 
+ 
+1. 
+PRODUCT DESCRIPTION NN03-310 
+4 
+2. 
+ONE ANTENNA, MANY DEVICES 
+5 
+2.1. 
+PERFORMANCE IN DIFFERENT PCB SIZES 
+5 
+2.2. 
+VSWR AND EFFICIENCY 
+6 
+2.3. 
+MATCHING NETWORK 
+7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN03-310_EB_size.pdf PAGE 4 ====
+ 
+ 
+ 
+ 
+4 
+Last Update: April 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+1. PRODUCT DESCRIPTION NN03-310 
+ 
+The market for the Internet of Things demanding cellular connectivity continues to grow and the 
+expanding diversity of IoT devices means that product configurations are endless. For this 
+application note we have tested the TRIO mXTENDTM chip antenna component (NN03-310) 
+performance when mounted onto various sized ground planes. We show the impact of ground 
+plane size on performance in order to provide the most relevant results for those who design 
+IoT devices of various dimensions.  
+ 
+TOP 
+BOTTOM 
+ 
+ 
+ 
+ 
+Material: The TRIO mXTENDTM chip antenna component is built on glass epoxy substrate. 
+ 
+APPLICATIONS 
+ 
+BENEFITS 
+ 
+• 
+Handsets 
+• 
+Smartphones 
+• 
+Tablets 
+• 
+Laptop PCs 
+• 
+Smart Meters 
+• 
+Smart City/Building/Home 
+• 
+Trackers 
+• 
+Fleet management 
+• 
+IoT Devices 
+• 
+Modules 
+ 
+• 
+High efficiency 
+• 
+Small size  
+• 
+Cost-effective 
+• 
+Easy-to-use (pick and place) 
+• 
+Multiband behaviour (worldwide 
+standards) 
+• 
+Off-the-Shelf Standard Product (no 
+customization is required) 
+ 
+ 
+The TRIO mXTENDTM chip antenna component has been specifically designed for providing the 
+major level of flexibility to operate any required frequency band inside any wireless device. TRIO 
+mXTENDTM chip antenna component is capable of operating the main mobile communication 
+standards 2G, 3G, 4G (698-960MHz and 1710-2690MHz), the main short range wireless bands 
+such as Bluetooth and Wi-Fi (2400-2500MHz and 4900-5875MHz), as well as the Global 
+Navigation Satellite Systems (GNSS) such as GPS, Galileo, GLONASS, and Beidou (1561 MHz, 
+1575 MHz and 1598-1606 MHz), all through the same antenna component.  
+ 
+The TRIO mXTENDTM chip antenna component offers the flexibility to be tuned at the frequency 
+regions of interest through the proper adjustment of the matching network. This characteristic 
+provides an important benefit since removes the need of including different antenna parts inside 
+the same wireless device for operating different communication standards, thus reducing 
+considerably the integration complexity while saving costs. The results gathered herein presents 
+how the matching network should be configured for operating the main cellular communication 
+standards when regarding different Printed Circuit Board (PCB) sizes. 
+
+==== AN_NN03-310_EB_size.pdf PAGE 5 ====
+ 
+ 
+ 
+ 
+5 
+Last Update: April 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+2. 
+ONE ANTENNA, MANY DEVICES 
+ 
+2.1. PERFORMANCE IN DIFFERENT PCB SIZES 
+ 
+For demonstration purposes, the performance of the TRIO mXTENDTM chip antenna component 
+is measured in different evaluation boards within the 698-960 MHz and 1710-2690 MHz  
+frequency range, as used in many cellular IoT devices. Please note that the TRIO mXTENDTM 
+is able to cover a much wider range of communication standards such as GNSS and WiFi/BT 
+through the same antenna package.  
+ 
+If your IoT device needs to operate in some additional standard or in some particular bands 
+inside the 698MHz to 3800MHz frequency range you are welcome to contact support@ignion.io 
+for assistance. 
+ 
+Each PCB board in the following set-up integrates a UFL cable to connect the TRIO mXTENDTM 
+chip antenna component with a SMA connector so that VSWR and antenna efficiency can be 
+tested. The following results cover a wide scope of PCB sizes (length (A) and width (C)) (Figure 
+1), ranging from 142mm x 60mm down to 50mm x 50mm. 
+ 
+ 
+Figure 1 – Evaluation boards with different PCB dimensions that provide operation from 698 MHz to 
+960 MHz and from 1710 MHz to 2690 MHz. 
+ 
+Measure 
+mm 
+A 
+142 - 50 
+B 
+130 - 38 
+C 
+60 
+D 
+9 
+E 
+40 
+F 
+20 
+G 
+12 
+H 
+10 
+I 
+50 
+ 
+Tolerance: ±0.2 mm 
+ 
+D: Distance between the TRIO mXTENDTM chip antenna 
+component and the ground plane.  
+ 
+Material: The Evaluation Board is built on FR4 substrate. Thickness 
+is 1 mm. 
+ 
+Clearance area: 40mm x 12mm (ExG) 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN03-310_EB_size.pdf PAGE 6 ====
+ 
+ 
+ 
+ 
+6 
+Last Update: April 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+2.2. VSWR AND EFFICIENCY 
+ 
+VSWR (Voltage Standing Wave Ratio) and Total Efficiency versus Frequency (GHz). 
+ 
+ 
+ 
+Figure 2 – VSWR and Total Efficiency for the 698 – 960 MHz and 1710 – 2690 MHz 
+frequency range. Graph dimensions in the legend refer to BxC (Figure 1). 
+ 
+ 
+ 
+ 
+LFR (698 – 960 MHz) 
+HFR (1710 – 2690 MHz) 
+Ground Plane 
+dimensions (B x C) 
+ɳa 698 MHz ɳa 960 MHz 
+Min 
+Max Av. 
+ɳa 
+ɳa 1710 
+MHz 
+ɳa 2690 
+MHz 
+Min Max Av. 
+ɳa 
+130mm x 60mm 
+42.0 
+56.5 
+42.0 65.7 60.1 59.1 
+58.5 57.3 8.8 74.3 
+80mm x 60mm 
+24.2 
+25.5 
+24.2 37.9 31.2 63.0 
+38.0 38.0 72.7 62.5 
+60mm x 60mm 
+12.2 
+24.0 
+12.0 34.4 25.0 69.9 
+41.8 41.1 85.9 68.9 
+40mm x 60mm 
+9.6 
+22.1 
+9.6 
+25.1 17.8 69.2 
+59.6 45.7 74.9 58.8 
+38mm x 50mm 
+8.4 
+13.8 
+8.4 
+18.0 14.0 46.9 
+36.1 28.7 52.0 38.2 
+Table 1 – Total efficiency (%) comparison considering the different PCB sizes (Figure 1). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN03-310_EB_size.pdf PAGE 7 ====
+ 
+ 
+ 
+ 
+7 
+Last Update: April 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+2.3. MATCHING NETWORK 
+ 
+The matching network design and value components for each device and PCB size is provided 
+here. While the antenna component and matching network design and topology remains the 
+same, the value of the components will be adapted to every PCB size for an optimum 
+performance. The specs of a Ignion standard product are measured in a reference evaluation 
+board, to isolate the antenna performance from other system elements. However, when 
+incorporating into real designs, nearby components such as LCD’s, batteries, covers and 
+connectors may affect the antenna performance. For this reason, placing pads compatible with 
+0402 and 0603 SMD components for a matching network as close as possible to the feeding 
+point is highly recommended. The matching network should be implemented in the ground plane 
+area rather than the clearance area, this will provide a degree of freedom for tuning the TRIO 
+mXTENDTM chip antenna component once the design is finished, taking into account all 
+elements of the system (batteries, displays, covers, etc.).  
+ 
+Please notice that different devices with different ground planes and different components 
+nearby the TRIO mXTENDTM chip antenna component may require a fine tuning of the matching 
+networks. To ensure optimal results, the use of high Q and tight tolerance components is highly 
+recommended (Murata components).  
+ 
+If you need assistance to design your matching network beyond this application note, please 
+contact support@ignion.io, or if you are designing a different device size or a different 
+frequency band, we can assist you in less than 24 hours. Please, try our free-of-charge1 
+Antenna Intelligence Cloud, which will get you a complete design report including a custom 
+matching network for your device in 24h1. Additional information related to NN’s range of R&D 
+services is available at: https://ignion.io/rdservices/ 
+ 
+ 
+Figure 3 – Matching network distribution 
+ 
+ 
+ 
+ 
+1 See terms and conditions for a free Antenna Intelligence Cloud service in 24h at: https://www.ignion.io/antenna-intelligence/ 
+ 
+
+==== AN_NN03-310_EB_size.pdf PAGE 8 ====
+ 
+ 
+ 
+ 
+8 
+Last Update: April 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+698 – 960 MHz & 1710 – 2690 MHz 
+MN 
+Section a 
+ 
+MN 
+Section b 
+ 
+Figure 4 – Topology of matching network mounted for the different solutions. 
+ 
+Dimensions (B x C) 
+F1 
+F2 
+F3 
+F4 
+Z1 
+Z2 
+Z3 
+Z4 
+Z5 
+Z6 
+Z7 
+Z8 
+130 mm x 60 mm 
+15nH 
+0.3pF 
+Empty 
+Empty 
+2.2nH 
+8.6nH 
+2.2pF 
+1.0pF 
+0Ω 
+10nH 
+0.36pF 
+3.0nH 
+80 mm x 60 mm 
+13nH 
+0.4pF 
+0Ω 
+Empty 
+3.7nH 
+9.1nH 
+2.2pF 
+0.9pF 
+0Ω 
+13nH 
+0.36pF 
+1.8nH 
+60 mm x 60 mm 
+12nH 
+0.5pF 
+0Ω 
+Empty 
+2.2nH 
+8.4nH 
+2.2pF 
+1.0pF 
+0Ω 
+10nH 
+0.4pF 
+0Ω 
+40 mm x 60 mm 
+12nH 
+0.5pF 
+0Ω 
+Empty 
+2.2nH 
+8.4nH 
+2.2pF 
+0.7pF 
+0Ω 
+10nH 
+0.3pF 
+2.2nH 
+38 mm x 50 mm 
+12nH 
+0.5pF 
+0Ω 
+Empty 
+2.2nH 
+8.4nH 
+2.2pF 
+0.6pF 
+0Ω 
+10nH 
+0.3pF 
+0Ω 
+Table 2 – Values of the components for each different solution. 
+ 
+Value 
+Part Number 
+F1 
+15 nH  
+LQW18AN15NG80 
+13 nH 
+LQW18AN13NG80 
+12 nH 
+LQW18AN12NG10 
+F2 
+0.3 pF 
+GJM1555C1HR30WB01 
+0.4 pF 
+GJM1555C1HR40WB01 
+0.5 pF 
+GJM1555C1HR50WB01 
+F3 
+- 
+Empty 
+0 Ω 
+- 
+F4 
+- 
+Empty 
+Z1 
+2.2 nH 
+LQW18AN2N2C80 
+3.7 nH 
+LQW15AN3N7G80 
+2.2 nH 
+LQW15AN2N2G80 
+Z2 
+8.6 nH 
+LQW15AN8N6G80 
+9.1 nH 
+LQW18AN9N1G80 
+8.4 nH 
+LQW18AN8N4G80 
+Z3 
+2.2 pF 
+GJM1555C1H2R2WB01 
+Z4 
+1.0 pF 
+GJM1555C1H1R0WB01 
+0.9 pF 
+GJM1555C1HR90WB01 
+0.7 pF 
+GJM1555C1HR70WB01 
+0.6 pF 
+GJM1555C1HR60WB01 
+
+==== AN_NN03-310_EB_size.pdf PAGE 9 ====
+ 
+ 
+ 
+ 
+9 
+Last Update: April 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+Z5 
+0 Ω 
+- 
+Z6 
+10 nH 
+LQW18AN10NG80 
+13 nH 
+LQW18AN13NG80 
+Z7 
+0.36 pF 
+GJM1555C1HR36WB01 
+0.4 pF 
+GJM1555C1HR40WB01 
+0.3 pF 
+GJM1555C1HR30WB01 
+Z8 
+3.0 nH 
+LQW18AN3N0C80 
+1.8 nH 
+LQW15AN1N8C00 
+0 Ω 
+- 
+2.2 nH 
+LQW15AN2N2G80 
+Table 3 – Values and part numbers of the components used for the matching networks for the 
+cases with dimensions 130mm x 60mm, 80mm x 60mm, 60mm x 60mm, 40mm x 60mm and 
+38mm x 50mm.  
+ 
+ 
+
+==== AN_NN03-310_EB_size.pdf PAGE 10 ====
+ 
+ 
+ 
+ 
+10 
+Last Update: April 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+Ignion products are protected by Ignion patents. 
+  
+All information contained within this document is property of Ignion and is subject to change 
+without prior notice. Information is provided “as is” and without warranties. It is prohibited to copy 
+or reproduce this information without prior approval. 
+ 
+Ignion is an ISO 9001:2015 certified company. All our antennas are lead-free and RoHS 
+compliant. 
+ 
+ISO 9001: 2015 Certified 
+                
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+==== AN_NN03-310_EB_size.pdf PAGE 11 ====
+ 
+ 
+ 
+ 
+11 
+Last Update: April 2021 
+APPLICATION NOTE 
+TRIO mXTENDTM (NN03-310) 
+ 
+ 
+Contact: 
+support@ignion.io 
++34 935 660 710 
+Barcelona 
+ 
+Av. Alcalde Barnils, 64-68 Modul C, 3a pl. 
+Sant Cugat del Vallés 
+08174 Barcelona 
+Spain 
+Shanghai 
+ 
+Shanghai Bund Centre 
+18/F Bund Centre, 222 Yan’an Road East, 
+Huangpu District 
+Shanghai, 200002 
+China 
+New Dehli 
+ 
+New Delhi, Red Fort Capital Parsvnath Towers 
+Bhai Veer Singh Marg, Gole Market, 
+New Delhi, 110001 
+India 
+ 
+Tampa 
+ 
+8875 Hidden River Parkway 
+Suite 300  
+Tampa, FL 33637 
+USA 
+ 
