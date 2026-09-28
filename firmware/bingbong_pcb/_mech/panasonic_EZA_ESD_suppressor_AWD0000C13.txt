@@ -1,0 +1,439 @@
+ESD Suppressor
+    EZAEG 1N, 2N type
+        ■ Don't use these products in the engine room.
+        ■ Don't use these products in any driving applications or any other critial functions that may affect passenger's safety.
+          (e.g. Power train, ABS, Engine ECU, Air bag, and so on.)
+        ■ Don’t use these products in applications related to the autonomous driving equipment with system level 3 or higher.
+
+
+ Features
+● Good ESD withstanding (IEC61000-4-2 15 kV contact/air Discharge)
+● ESD protection of high-speed data lines
+● Low capacitance [0603 (0201) size : 0.04 pF, 1005(0402) size : 0.05 pF]
+● Good ESD suppression characteristics
+● RoHS compliant
+ Recommended applications
+● Smart phones, Mobile phones, RF Modules, NFC and GPS
+● ESD suppresion of high-speed differential data line such as Antena circuit, HDMI, SATA, USB, Display Port
+ Explanation of part numbers
+          1               2               3              4                5              6               7              8               9               10            11
+
+         E               Z              A               E               G               2               N               5               0               A             X
+
+
+ Product code                     Dimensions           Code     Design specification             Code    Voltage            Code     Feature            Code        Packaging            Part No.
+                        Code
+     ESD                          (mm) (inch)                                                     50      500 V              A      Standard                    Pressed carrier taping
+                                                                  ESD withstanding                                                                       C                               EZAEG1N
+  Suppressor              1      0603 (0201)                          15 kV,
+                                                                                                                                                               2 mm pitch, 15,000 pcs
+                                                         N
+                          2      1005 (0402)                       Rated voltage                                                                                Pressed carrier taping
+                                                                       30 V                                                                              X     2 mm pitch, 10,000 pcs
+                                                                                                                                                                                         EZAEG2N
+
+
+
+
+ Construction                                                                                                Circuit configuration
+              Protective coating                                           Gap electrode
+
+   Alumina substrate
+
+                                                                                   Electrode
+                                                                                   (Between)
+
+
+
+          ESD absorbent material                                        Electrode (Outer)
+
+
+ Dimensions (not to scale)
+
+                                                                                                              L
+                                                                                             a
+                                                                       W
+
+                                                                      T
+                                                                               b                                                                                                         Unit : mm
+
+
+             Part No.                                                                            Dimensions                                                                  Mass (Weight)
+           (inch size)                                                                                                                                                        (g/1000 pcs)
+                                             L                         W                              a                          b                           T
+      EZAEG1N (0201)                    0.60 ± 0.03                0.30 ± 0.03                   0.15 ± 0.10                0.15 ± 0.10                 0.23 ± 0.03                  0.12
+      EZAEG2N (0402)                    1.00 ± 0.10                0.50 ± 0.05                   0.20 ± 0.10                0.27 ± 0.10                 0.38 ± 0.05                  0.60
+
+
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                                          14-May-21
+                                                                                                                                                             EZAEG 1N, 2N type
+ Ratings
+                          Part number                         Capacitance *1 (pF)                                       Rated voltage                     Category temperature range
+                         EZAEG1N50AC                             0.04 +0.04
+                                                                        -0.03                                             30 V max.                            –55 ℃ to +125 ℃
+                         EZAEG2N50AX                             0.05 +0.05
+                                                                        -0.04
+*1: Capacitance = The capacitance value shall be measured under the conditions specified below.
+                                  Frequency：1 MHz ± 10 %，Voltage：1 Vrms ± 0.2 Vrms，Temperature：25 ℃± 2 ℃
+
+ Perfomance
+                                                          Performance
+                              Test item                                                                                              Test conditions
+                                                          requirements
+                          Peak voltage                     500 V max.                               IEC61000-4-2, contact discharge 8 kV, Peak voltage value
+                        Clamping voltage                   100 V max.                    IEC61000-4-2, contact discharge 8 kV, voltage at 30 ns after initiation of pulse
+                        Leakage current                    1 μA max.                                                      Current at rated voltage (DC 30 V)
+                        ESD withstanding                                                IEC61000-4-2, contact discharge 15 kV or air discharge 15 kV, +/– 50 times
+   Rapid change of temperature                                                                                 –55 ℃ (30 min.) /+125 ℃ (30 min.), 100 cycles
+                                                       Leakage current
+                       Load life in humidity                                                                   60 ℃, 90 % to 95 %RH, Rated voltage, 1000 h
+                                                         10 μA max.
+        Endurance at 85 ℃                                                                                                     85 ℃, Rated voltage, 1000 h
+    Resistance to soldering heat                                                                                                       270 ℃, 10 s
+
+ Frequency characteristics                                                                             ESD Suppression voltage waveform
+                          5                                                                                             400
+
+                          0                                                                                             350
+                                                                                                                        300
+                         -5
+
+
+
+    Attenuation (dB)
+                                                                                                                        250
+
+
+
+                                                                                                          Voltage (V)
+                        -10                                                                                             200
+                        -15                                                                                             150
+                                                                                                                        100
+                        -20
+                                                                                                                         50
+                        -25
+                                                                                                                          0
+                        -30                                                                                             -50
+                              1           10        100          1000        10000                                         -20   0   20        60     80 100 120 140 160 180 200
+                                                                                                                                          40
+                                               Frequency (MHz)                                                                                      Times (nSecs)
+
+
+ Typical circuits requiring protection
+    ● HDMI circuit                                                                                    ● Antenna circuit
+
+      HDMI Controller                                                                                                   Antenna
+
+
+
+
+                                                                   HDMI                                                                                            Ga/As-SW
+                                                                   Rx/Tx                                                                                              or
+                                                                                                                                                                     ASM
+
+
+
+
+ Recommended land pattern
+Recommended land pattern design for ESD Suppressor is shown below.
+                                                            ESD Suppressor
+
+
+                                                                 c                                                                                                                 Unit : mm
+
+                                                                                                                                                           Dimensions
+                                                                                                           Part number
+                                                a                                                                                              a                 b              c
+                                                b                                                              EZAEG1N                    0.3 to 0.4        0.8 to 0.9    0.25 to 0.35
+                                                                                                               EZAEG2N                    0.5 to 0.6        1.4 to 1.6    0.40 to 0.60
+
+    ■ As for packaging methods, soldering conditions and safety precautions, please see data files.
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                               14-May-21
+                                                                                                          ESD Suppressor・Array / Packaging methods
+ Packaging methods (Taping)
+●Standard quantity
+ Part number       Size (inch)                            Type                         Kind of taping                          Pitch (P1) (mm)                        Quantity (pcs / reel)
+EZAEG1N               0201                                                                                                                                                     15000
+                                                                                  Pressed carrier taping                                    2
+EZAEG2A,2N            0402                                                                                                                                                     10000
+                                                         Single
+EZAEG3A               0603                                                                                                                                                      5000
+EZAEG3W               0603                                                        Punched carrier taping                                    4                                   4000
+EZAEGCA               0805                                Array                                                                                                                 5000
+
+    ●Carrier taping
+
+                                            Pressed        Punched                              P1        P2      P0
+                                             carrier        carrier       øD0
+
+                                                                                                                                    E
+
+                                                                                                                                    F    W
+                                                                       B
+
+
+                                                T            T                A                      P1
+                                                                                                           (2 mm pitch)
+
+
+                                                                                                                                                                                              Unit : mm
+
+  Part number              Size(inch)            A               B                W              F              E              P1                P2              P0          øD0               T
+ EZAEG1N                     0201            0.38±0.05      0.68±0.05                                                                                                                    0.42±0.05
+                                                                                                                           2.00±0.10
+ EZAEG2A,2N                  0402            0.70±0.05      1.20±0.05                                                                                                                    0.60±0.05
+                                                                                                                                                                                  +0.1
+ EZAEG3A                     0603            1.10±0.10      1.90±0.10       8.00±0.20       3.50±0.05       1.75±0.10                       2.00±0.05      4.00±0.10        1.5
+                                                                                                                                                                                   0
+                                                                                                                                                                                         0.70±0.05
+ EZAEG3W                     0603            0.91±0.10      1.82±0.10                                                      4.00±0.10                                                     1.08±0.10
+ EZAEGCA                     0805            1.55±0.15      2.30±0.20                                                                                                                    0.85±0.05
+
+
+    ●Taping reel
+
+
+                                          øC                                                                                                      Dimensions
+                                                                                                                               øA                    øN                      øC
+                                                                  øN
+                                                                                                                                 0                           +1.0
+                                                                                                                          180.0 -1.5                60.0      0
+                                                                                                                                                                           13.0±0.2
+
+
+                                                                                                                                    Dimensions
+                                   øA                                     W1                                                   W1                       W2
+                                                                                W2                                          9.0
+                                                                                                                                     +1.0
+                                                                                                                                                      11.4±1.0
+                                                                                                                                      0                                           Unit : mm
+
+
+ Recommended soldering conditions
+Recommendations and precautions are described below
+
+    ● Recommended soldering conditions for reflow
+         ・ Reflow soldering shall be performed a maximum of two times.
+         ・ Please contact us for additional information when used in
+           conditions other than those specified.
+                                                                                                           For soldering (Example : Sn/Pb )
+         · Please measure the temperature of the terminals and study
+           every kind of solder and printed circuit board for solderability                                                                     Temperature                       Time
+           before actual use.                                                                                   Preheating                                                 60 s to 120 s
+                                                                                                                                            140 ℃ to 160 ℃
+                                                                                                               Main heating                  Above 200 ℃                    30 s to 40 s
+                                        Peak
+                                                                                                                    Peak                         235 ± 5 ℃                   max. 10 s
+
+                                  Preheating
+
+
+      Temperature
+                                                                                                           For lead-free soldering (Example : Sn/Ag/Cu )
+                                                                                                                                                Temperature                       Time
+                                                            Heating
+                                                                                                                Preheating                  150 ℃ to 180 ℃                 60 s to 120 s
+                                                                                                               Main heating                  Above 230 ℃                    30 s to 40 s
+                                                                                                                    Peak                        max. 260 ℃                   max. 10 s
+                                             Time
+
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                                          1-Apr-20
+                                                                           Safety and Legal Matters to Be Observed
+
+
+                      Safety and Legal Matters to Be Observed
+
+Product specifications and applications
+■ Please be advised that this product and product specifications are subject to change without notice for
+  improvement purposes. Therefore, please request and confirm the latest delivery specifications that explain
+  the specifications in detail before the final design, or purchase or use of the product, regardless of the
+  application. In addition, do not use this product in any way that deviates from the contents of the company's
+  delivery specifications.
+■ Unless otherwise specified in this catalog or the product specifications, this product is intended for use in
+  general electronic equipment (AV products, home appliances, commercial equipment, office equipment,
+  information and communication equipment, etc.).
+  When this product is used for the following special cases, the specification document suited to each application
+  shall be signed/sealed (with Panasonic Industry and the user) in advance..These include applications requiring
+  special quality and reliability, wherein their failures or malfunctions may directly threaten human life or cause harm
+  to the human body (e.g.: space/aircraft equipment, transportation/traffic equipment, combustion equipment,
+  medical equipment, disaster prevention/crime prevention equipment, safety equipment, etc.).
+
+Safety design and product evaluation
+■ Please ensure safety through protection circuits, redundant circuits, etc., in the customer's system design so
+  that a defect in our company's product will not endanger human life or cause other serious damage.
+■ This catalog shows the quality and performance of individual parts. The durability of parts varies depending on
+  the usage environment and conditions. Therefore, please ensure to evaluate and confirm the state of each part
+  after it has been mounted in your product in the actual operating environment before use.
+  If you have any doubts about the safety of this product, then please notify us immediately, and be sure to conduct
+  a technical review including the above protection circuits and redundant circuits at your company.
+
+Laws / Regulations / Intellectual property
+■ The transportation of dangerous goods as designated by UN numbers, UN classifications, etc., does not apply
+  to this product. In addition, when exporting products, product specifications, and technical information described
+  in this catalog, please comply with the laws and regulations of the countries to which the products are exported,
+  especially those concerning security export control.
+■ Each model of this product complies with the RoHS Directive (Restriction of the use of hazardous substances in
+  electrical and electronic equipment) (2011/65/EU and (EU) 2015/863). The date of compliance with the RoHS
+  Directive and REACH Regulation varies depending on the product model.
+  Further, if you are using product models in stock and are not sure whether or not they comply with the RoHS
+  Directive or REACH Regulation, please contact us by selecting "Sales Inquiry" from the inquiry form.
+■ During the manufacturing process of this product and any of its components and materials to be used,
+  Panasonic Industry does not intentionally use ozone-depleting substances stipulated in the Montreal Protocol
+  and specific bromine-based flame retardants such as PBBs (Poly-Brominated Biphenyls) / PBDEs
+  (Poly-Brominated Diphenyl Ethers). In addition, the materials used in this product are all listed as existing
+  chemical substances based on the Act on the Regulation of Manufacture and Evaluation of Chemical Substances.
+■ With regard to the disposal of this product, please confirm the disposal method in each country and region
+  where it is incorporated into your company's product and used.
+■ The technical information contained in this catalog is intended to show only typical operation and application
+  circuit examples of this product. This catalog does not guarantee that such information does not infringe upon
+  the intellectual property rights of Panasonic Industry or any third party, nor imply that the license of such rights
+  has been granted.
+■ Design, materials, or process related to technical owned by Panasonic Industry are subject to change without
+  notice.
+
+          Panasonic Industry will assume no liability whatsoever if the use of our company's
+          products deviates from the contents of this catalog or does not comply with the
+          precautions. Please be advised of these restrictions.
+
+                                                                                                                  10-May-24
+                                                                      Matters to Be Observed When Using This Product
+
+
+                     Matters to Be Observed When Using This Product
+                                                   (ESD Suppressor)
+
+Use environments and cleaning conditions
+■ This product is not designed for use in specific environments. Using this product in the following specific
+  environments or service conditions may affect the performance/reliability of this product. Avoid using it in such specific
+  environments. If you intend to use this product in such environments, checking the performance, reliability, etc., of the
+  product sufficiently is your own responsibility.
+  (1) Used in liquid, such as water, oil, chemicals, and organic solvents.
+  (2) Used in a place exposed to direct sunlight, an outdoor place with no shielding, or a dusty place.
+  (3) Used in a place where the product is heavily exposed to sea breeze or a corrosive gas, such as Cl2, H2S, NH3, SO2,
+     or NOX.
+  (4) Used in an environment where static electricity and electromagnetic waves are strong.
+  (5) Located close to a heating component or a flammable material, such as a vinyl cable placed near the product.
+  (6) Sealed or coated with a resin.
+  (7) Solder flux of this product soldered with no-clean type solder, etc., is cleansed with a solvent, water, or a water-soluble
+     cleaner, etc. (Water-soluble flux residues have a particularly large influence on this product.)
+  (8) Used in a place where dew concentrates on the product.
+  (9) Used in a contaminated state.
+     (Example: Touching this product mounted on a printed circuit board with sebum still attached. (improper handling))
+
+■ Sealing this product with a resin in a resin potting process, damp-proofing process, etc., applies excessive stress to
+  this product, which may cause the internal electrodes a connection problem. In such cases, the proper operation of
+  this product is not guaranteed. If you intend to use this product in such environments, checking the performance, reliability,
+  etc., of the product sufficiently is your own responsibility.
+
+■ Do not leave this product immersed in a solvent for a long time. When using this product immersed in a solvent, confirm
+  the operation of the product mounted on the board.
+
+■ When a cleaning solution or cleaning condition for cleaning the printed board or a drying condition for drying the printed
+  board after soldering this product is improper, it may have a negative effect on the performance/reliability of this product.
+  Confirming these conditions sufficiently is your own responsibility. Also examine the effects of soiled cleaning agent,
+  cleaning residues, and post-cleaning contaminations, and control for these effects properly.
+
+Response to anomalies and handling conditions
+■ When this product is heating abnormally or emitting a smell, stop using this product immediately, for example, turn off
+  the main power supply of the device.
+  Also, keep your face and hands away from the product as it may become hot and cause burns.
+
+■ This product is so thin that it may break easily when subjected to impact. Before putting this product in use, confirm that
+  this product has not been broken by impact that applied thereto when mounted on the printed board. Applying impact to
+  this product or pinching this product with a hard tool (pliers, tweezers, etc.) may chip this product, which affects its
+  performance. Be careful to avoid such cases.
+
+■ Do not reuse this product having been used on a printed board and removed therefrom. Do not touch this product with
+  your bare hands.
+
+■ Be careful not to drop this product on the floor, etc. This product is likely to suffer mechanical or electrical damage when
+  dropped on the floor. Avoid using said this product.
+
+■ It is guaranteed that this product not exposed to any stress will have its proper leakage current value. Any stress or pressure
+  applied to this product may cause its leakage current value to change. Examine and evaluate the characteristics of this
+  product sufficiently before using it.
+
+Reliability and product life
+A product conforming to "AEC-Q200" refers to a product having passed some or all of the evaluation test items defined
+in AEC-Q200. To know the detailed specifications of individual products or specific evaluation test scores, please contact us.
+We issue a delivery specification sheet for each product ordered. Please confirm with the sheet when you place an order
+with us.
+
+
+
+
+                                                                                                                            26-Mar-24
+                                                                      Matters to Be Observed When Using This Product
+
+Circuit design and circuit board design
+■ To prevent a case where an excessively large load the suppressor cannot handle, such as surge larger than
+  the ESD energy, is applied to the suppressor, make sure to evaluate and confirm the operation of the suppressor
+  when the suppressor is incorporated in your product. Applying a voltage larger than the rated voltage to the
+  suppressor may impair its performance and reliability. Make sure to use the product with a voltage equal to or
+  lower than the rated voltage. The product warranty does not cover usage where an excessively large load, such
+  as a surge or pulse current, is applied to the suppressor.
+
+■ Be careful that unusual stress caused by an excessive bend of the printed board is not applied to this product. Design the
+  circuit structure such that this product is not close to a perforated line for board splitting or on a line with sizable holes
+  bored on the board.
+
+■ When a different component is mounted on the board where this product has been soldered, be careful that the board
+  does not bend excessively. If necessary, provide the board with backup pins (support pins) to keep it straight.
+
+■ Avoid manual board splitting. Use a jig, etc., to break the board so that it does not bend excessively when split apart.
+
+Mounting conditions
+■ When the product is used under mounting conditions departing from mounting conditions specified in our specification
+  sheet, the product may be exposed to unexpected stress to fail. Be careful to avoid such a case. When mounting the
+  suppressor (except a high tolerance dose ESD suppressor) on a printed board, set the suppressor's front and back
+  surfaces in the direction indicated by the tape. Make sure to evaluate and confirm the operation of the suppressor
+  incorporated in your product and determine whether the suppressor is usable as a component of the product.
+
+■ Set soldering conditions for this product within the recommended soldering conditions specified by our company. Any time,
+  soldering condition departing from the specified soldering condition, such as a high peak temperature or a long heating
+  may impair the performance/reliability of this product. Note that the specified soldering conditions indicate conditions
+  under which degradation of this product characteristics does not occur but do not indicate conditions under which stable
+  soldering can be performed. Check and set individual conditions under which stable soldering can be performed.
+
+■ Heat this product in advance so that a difference between the soldering temperature and the temperature of this product
+  surface is reduced to 100 ℃ or lower. When dipping the soldered product in a solvent, etc., to cool this product rapidly,
+  ensure that the temperature difference between this product and the solvent is 100 ℃ or lower during the dipping.
+
+■ When soldering this product using a soldering iron, apply hot air, etc., to this product to heat it sufficiently in advance and
+  then solder this product without bringing the soldering iron tip into contact with the product. If the temperature of the
+  soldering iron tip is high, finish the soldering work quickly (within 3 seconds when the temperature of the soldering iron
+  tip is 350 ℃ or lower).
+
+■ Soldering this product with too much solder or too little solder results in the poor reliability of the solder connection of
+  this product. Use the proper volume of solder in the soldering process. Sufficiently check for the volume of solder used.
+
+■ Soldering with high bond strength or special property solder may affect the quality of this product. Do not use such solder.
+
+■ Use rosin-based solder flux. When using highly active solder flux made mainly of halogen (chlorine, bromine, etc.), flux
+  residues may affect the performance and reliability of this product. Check the effects of flux residues before using the solder
+  flux. Do not use highly acidic flux, water-soluble flux, or flux containing fluoride ions. When solder flux sticks to this product
+  after the soldering process, the activation energy of the flux may corrode this product and cause it to fail. Prevent solder flux
+  from sticking to this product.
+
+Storage conditions
+Keeping the product in the following environments or conditions may lead to degradation of its performance, solderability, etc.
+Do not keep the product in the following environments.
+  (1) Stored in a place where the product is heavily exposed to sea breeze or a corrosive gas, such as Cl2, H2S, NH3, SO2,
+     or NOX.
+  (2) Stored in a place where the product is exposed to direct sunlight.
+  (3) Stored in a place where a temperature condition of 5 ℃ to 35 ℃ and a relative humidity condition of 45% to 85% cannot
+     be maintained.
+  (4) Kept in storage for more than one year from the delivery date (when the product is kept in conditions excluding any of
+     the environments (1) to (3)).
+
+
+
+
+                                                                                                                             26-Mar-24
+

@@ -1,0 +1,76 @@
+                                                               Customer Information Sheet                     IF IN DOUBT - ASK         C     NOT TO SCALE           THIRD ANGLE PROJECTION            ALL DIMENSIONS IN mm
+
+                                                   8.00 TYP               2.00
+                                                                          TYP
+                    1.75                                                   4.00                     +0.10
+                                               Y                                                1.50
+                                                                           TYP                       0
+                                                                                              TYP                                                               SPECIFICATION:
+                                                                                                                                                                 MATERIAL = PHOSPHOR BRONZE, 0.15mm THICK
+                                                                                                                                                                 FINISH = GOLD FLASH OVER 1.25µm MIN NICKEL
+                                                                                                                                                                 ELECTRICAL:
+                                                                                                                                                                  CONTACT RESISTANCE = 50mΩ MAX
+                                                                                                                                                                  CURRENT RATING = 1A
+                                                                                                                                                                 MECHANICAL:
+                                                                                                                                                                  DURABILITY = 10,000 CYCLES
+             5.50                                                                                                                                                 MINIMUM FORCE AT WORKING HEIGHT = 0.49N
+                                                                                                                                                                 ENVIRONMENTAL:
+12.00 0.30                                                                                                                                                        OPERATING TEMPERATURE = -20°C TO +70°C
+
+
+
+                X                                                                                                        X
+
+
+
+
+                                               Y                                                                                        SECTION Y-Y
+
+
+
+                                                                                                                        2.55
+
+
+                                                                                         SECTION X-X
+                                                                                                                                    330                             REEL DETAILS
+                                                                                         RECOMMENDED PCB LAYOUT                                                                                 FINISHED REELING
+                                                                                            (TOLERANCE = ±0.05)                                                                                     DIRECTION
+                                                    COMPONENT DETAILS
+                                                    (TOLERANCE = ±0.15)                        3.30
+                           4.50
+                                                                                               0.35
+                                3.60                              0.80
+
+                                        1.70
+
+                                                                                  2.80
+
+   2.50
+
+                                                                                                                             13.0+0.5
+                                                                                                                                 -0.2
+                                                                                     PICK & PLACE AREA
+                                           1.00                                                  COMPONENT AT                                                                                           AY    5    01.05.24   34009
+⏥ 0.10                                                                                           WORKING HEIGHT
+                    3.15 0.10                                                                                                                                                                          NAME ISS.    DATE      CN/CO
+                                                                                                                                                                                                       APPROVED:     A.YEOMANS
+
+                           4.60                                                   1.90                                                                                                                 CHECKED:       A.BOXALL
+                                                                                                                                  NOTES:
+                                                                                  1.40                                            1. QUANTITY PER REEL = 2,500.                                        DRAWN:       M.CODLING
+                                 1.00                                                                                             2. THIS PRODUCT IS TAPED AND REELED IN GENERAL ACCORDANCE            ASSEMBLY DRG:
+                                                                                                                                     WITH EIA-481-2 (ELECTRONICS INDUSTRIES ASSOCIATION).
+                                                                                                                                                                   MATERIAL:         TITLE:
+                                                                                                                       TOLERANCES        THIS DRAWING AND ANY
+                                                                                                                                      INFORMATION OR DESCRIPTIVE                              SMT SPRING CONTACT
+2.30 0.10                                          1.55 0.10                                                            X. = 1mm      MATTER SET OUT HEREON ARE
+                                                                                                                                                                                                 (2.50mm HIGH)
+                                                                                                                      X.X = 0.50mm   CONFIDENTIAL AND COPYRIGHT
+                                                                                                                     X.XX = 0.20mm  PROPERTY   OF THE HARWIN GROUP
+                                                                                                                                      AND MUST NOT BE DISCLOSED,       SEE ABOVE               IN TAPE AND REEL
+                                                                                                                    X.XXX = 0.01mm    LOANED, COPIED OR USED FOR                     DRAWING NUMBER:                           SHT
+                                                                                         www.harwin.com               ANGLES = 5   MANUFACTURING, TENDERING OR FOR
+                                                                                                                                   ANY OTHER PURPOSE WITHOUT THEIR                               S7141-45R                     2
+                                                                                                                                                                                                                                OF
+                                                                                                                     UNLESS STATED        WRITTEN PERMISSION.                                                                     2
+

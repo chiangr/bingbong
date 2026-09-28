@@ -1,0 +1,188 @@
+Embedded format
+
+
+
+
+Hyper eUICC SIM
+
+
+hologram.io   SGP.32 Hyper SIM embedded format datasheet   01/05
+Hyper eUICC SIM – Embedded format
+
+Product overview                                                                                                                            Primary part number
+A secure, device-agnostic IoT embedded SIM card for global deployments built for M2M data, with                                             G3-R-DFN8
+easy activation, transparent pricing, and developer-friendly tools. Hologram’s Hyper SIMs use an
+eUICC OS to remotely update coverage over-the-air by adding or removing connectivity profiles,
+without requiring you to swap the SIM in your device. Network fallback functionality can dynamically
+switch profiles in the event that a profile loses connectivity.
+
+
+
+Network availability
+Works globally with Hologram's 2G through 5G network including LTE-M and NB-IoT where
+coverage is available. More information: https://www.hologram.io/pricing/coverage
+
+
+
+
+Mechanical specifications
+
+Bottom view                                              Top view
+
+
+  8                          1
+                                                                           M2M
+
+
+
+                                                                  8 9 1 3 1
+   3 0 0 0 0
+   9 8 7 6 5
+   43210
+  7                          2                                                                                                      Enabled profile ICCID
+
+                                                                                                                                    Laser etched
+                                  5MM                                                                                   5MM
+
+  6                          3
+
+
+
+
+  5                          4
+
+
+
+
+               6MM                                                                 6MM
+                                             0.6MM
+
+
+
+
+Physical characteristics
+
+Top view                                                                                                         Pin definitions
+
+VSS        1                       8    VCC                                                                         1         VSS       Voltage Source Supply
+
+NC         2                       7    RST                                                                         2         NC        No Connect
+                                                                                                                    3         I/O       Input/Output
+I/O        3                       6
+                                        CLK
+                                                                                                                    4         NC        No Connect
+NC         4                       5
+                                        NC
+                                                                                                                    5         NC        No Connect
+                                                                                                                    6         CLK       Clock
+Size                                                                                                                7         RST       Reset
+
+MFF2 (DFN8) Embedded SIM 6 × 5 × 0.82 mm                                                                            8         VCC       Input Voltage
+
+
+
+
+       g
+holo ram io    .                               G .32 Hyper SIM embedded format datasheet
+                                              S P                                                                                                               02/04
+Compliance
+
+                                                                     EAL 4+ PP-0084 (chipset)
+
+Chip
+                                                                     Certificate: BSI-DSZ-CC-1126-V2-2021
+
+                                                                     SGP.22 RSP Technical Specification v2.5
+
+                                                                     SGP.32 eSIM IoT Technical Specifications v1.2
+
+
+OS                                                                   eUICC Profile Package Interoperable Format Technical Specification v3.3.1
+
+
+                                                                     Card Specification Version 2.3.1
+
+                                                                     Card Specification Amendments A, B, D & E
+
+
+                                                                     Java Card 3 Platform, Classic Edition version 3.0.5
+Software
+                                                                     Release 16
+
+
+                                                                     SGP.22 RSP Technical Specification v2.5
+
+Remote SIM provisioning
+                                                                     SGP.32 eSIM IoT Technical Specifications v1.2
+
+                                                                     Manufactured according to the following standards:
+
+                                                                       RoHS 2015/863/EU
+
+                                                                       Reach certification
+
+Supplier’s Declaration of Conformity                                   GSMA SAS-UP
+
+                                                                       ISO 9001:2015
+
+                                                                       ISO 27001
+
+                                                                       ISO 14001
+
+
+
+
+Hardware features
+Hardware characteristics                                                      Chip type
+
+Grade                            Industrial                                   Supplier                          Infineon
+
+Operational temperature          −40°C to +105°C                              Chip code                         SLM17ECB800B
+
+Data retention                   20 years @ 25°C
+
+Write endurance                  >2M cycles
+
+Memory (NVM)                     800 kB
+
+Memory (SRAM)                    20 kB
+
+
+
+Hardware electrical characteristics
+
+Operating voltage                1.62V to 5.5V
+
+                                 ISO/IEC 7816, T=0 standard for Cards with contacts — USB electrical interface and operating procedures
+Interface standards
+                                 ETSI 3GPP TS 102 221 v16.0.0 - Smart Cards; UICC-Terminal interface; Physical and logical characteristics
+
+
+
+hologram.io                                   SGP.32 Hyper SIM embedded format datasheet                                                 03/04
+SIM features
+Profiles and fallback
+
+Available user memory   318,936 B
+
+Maximum profiles        10
+
+Applet version          v3 Recovery applet
+
+Default fallback mode   Cyclical, 24 hour recovery
+
+
+
+Part numbers
+Active part numbers     Past part numbers                Multipack labeling   Part numbers
+G3-R-DFN8               —                                Single SIM           G3-R-DFN8
+
+                                                         250-pack             G3-R-DFN8-250
+
+                                                         2500-pack            G3-R-DFN8-2500
+
+
+
+
+hologram.io                      SGP.32 Hyper SIM embedded format datasheet                    04/04
+

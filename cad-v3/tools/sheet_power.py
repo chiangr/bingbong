@@ -49,20 +49,20 @@ S.glabel(p_in, "VBUS_PAD", "left", shape="input")
 S.flag((30.48, y), "up", 2)
 S.junction((30.48, y))
 fb = S.place("Device:FerriteBead_Small", stock("Device", "FerriteBead_Small"), "FB101", "220R@100MHz 1.4A",
-             38.1, y, rot=90, footprint="Inductor_SMD:L_0603_1608Metric",
-             fields={"MPN": "BLM18PG221SN1 class [U]"}, ref_off=(0, -3), val_off=(0, 3.5))
+             38.1, y, rot=90, footprint="Bingbong_v3:Murata_BLM18P_0603",
+             fields={"MPN": "Murata BLM18PG221SN1D"}, ref_off=(0, -3), val_off=(0, 3.5))
 S.wire(p_in, fb.pin(1))
 n1 = (53.34, y)
 S.wire(fb.pin(2), n1)
-tvs = S.place("Device:D_TVS", stock("Device", "D_TVS"), "D101", "ESD 6V", 53.34, 71.12, rot=90,
-              footprint="Diode_SMD:D_SOD-523", fields={"MPN": "TPD1E10B06 class [U]"},
+tvs = S.place("Device:D_TVS", stock("Device", "D_TVS"), "D101", "TPD1E10B06", 53.34, 71.12, rot=270,
+              footprint="Bingbong_v3:TI_DYA0002A_SOD-523", fields={"MPN": "TPD1E10B06DYAR"},
               ref_off=(7, -1.3), val_off=(7, 1.3))
-S.wire(n1, tvs.pin(2))
+S.wire(n1, tvs.pin(1))                      # TI DYA: pin 1 = I/O, pin 2 = GND
 S.junction(n1)
-S.gnd(tvs.pin(1))
+S.gnd(tvs.pin(2))
 q = S.place("Transistor_FET:Q_PMOS_GSD", stock("Transistor_FET", "Q_PMOS_GSD"), "Q101", "P-FET -30V",
-            76.2, y + 2.54, rot=90, footprint="Package_TO_SOT_SMD:SOT-23",
-            fields={"MPN": "DMP3099L class [U]"}, ref_off=(-3, -8), val_off=(-3, -5.5))
+            76.2, y + 2.54, rot=90, footprint="Bingbong_v3:Diodes_SOT-23",
+            fields={"MPN": "DMP3099L-7"}, ref_off=(-3, -8), val_off=(-3, -5.5))
 S.wire(n1, q.pin(3))                        # D <- pad side
 g = q.pin(1)                                # gate (points down)
 gnode = (g[0], g[1] + 5.08)
@@ -72,7 +72,7 @@ S.wire(gnode, r101.pin(1))
 S.gnd(r101.pin(2))
 zx = 91.44
 z = S.place("Device:D_Zener", stock("Device", "D_Zener"), "D102", "12V", zx, y + 10.16, rot=270,
-            footprint="Diode_SMD:D_SOD-523", fields={"MPN": "BZX585-C12 class [U]"},
+            footprint="Bingbong_v3:Nexperia_SOD523", fields={"MPN": "Nexperia BZX585-C12"},
             ref_off=(6, -1.3), val_off=(6, 1.3))
 S.wire(q.pin(2), (zx, y))                   # S -> zener cathode column
 S.wire((zx, y), z.pin(1))
@@ -151,7 +151,7 @@ S.gnd(r106.pin(2))
 S.gnd(u3.pin("1"))
 sw = S.stub(u3.pin("7"), "right", 2)
 l1 = S.place("Device:L", L, "L101", "2.2uH", sw[0] + 6.35, sw[1], rot=90,
-             footprint="Bingbong_v3:L_Murata_DFE201210S", fields={"MPN": "DFE201210S-2R2M (1.0 mm tall)"},
+             footprint="Bingbong_v3:L_Murata_DFE201210U", fields={"MPN": "DFE201210U-2R2M=P2"},
              ref_off=(-2.5, -2.8), val_off=(-2.5, 3.2))
 S.wire(sw, l1.pin(1))
 vo = (l1.pin(2)[0] + 7.62, sw[1])
@@ -197,7 +197,7 @@ S.wire(tsn, r103.pin(1))
 S.gnd(r103.pin(2))
 q2 = S.place("Transistor_FET:Q_NMOS_GSD", stock("Transistor_FET", "Q_NMOS_GSD"), "Q102", "N-FET",
              111.76, ntc[1] + 5.08, footprint="Package_TO_SOT_SMD:SOT-523",
-             fields={"MPN": "Vth <= 1 V, IDSS <= 100 nA @ 2 V [U]"}, ref_off=(4.5, -1), val_off=(4.5, 1.5))
+             fields={"MPN": "DMG1012T-7 (IDSS 100 nA max, VGS +/-6 V)"}, ref_off=(4.5, -1), val_off=(4.5, 1.5))
 S.wire(tsn, q2.pin(3))
 S.junction(tsn)
 S.gnd(q2.pin(2))
@@ -228,7 +228,7 @@ S.text((19, 205), "J101: B+ / NTC / B-. The 10 k B3435 NTC is bonded to the cell
 # ================================================================== D. fuel gauge
 S.box((160, 135), (290, 255), "D · Fuel gauge — MAX17048  (I2C 0x36)")
 gx, gy = 228.6, 180.34
-u2 = custom("MAX17048", "U102", gx, gy, "MAX17048G+T10")
+u2 = custom("MAX17048", "U102", gx, gy, "MAX17048X+T10")
 vdd = S.stub(u2.pin("A3"), "left", 8)
 cel = S.stub(u2.pin("A2"), "left", 8)
 S.wire(cel, vdd)

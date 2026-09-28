@@ -1,0 +1,139 @@
+DRAWING No.: S1941-XXR
+                                            Customer Information Sheet                                               IF IN DOUBT - ASK             C                NOT TO SCALE             THIRD ANGLE PROJECTION                ALL DIMENSIONS IN mm
+
+
+                                                                                                                                    20.00 TYP                                  2.00 TYP
+  (3.49)                        4.60
+                                                                                                                                                                                                                             +0.10
+                                                                                                     1.75                                                                            4.00 TYP                         1.50         TYP
+                                                                                                                                                                                                                              0
+
+
+
+
+                                                     5.70
+
+                                                                                             11.50
+
+
+                                                                                 24.00 0.30
+                 RECOMMENDED PCB PAD LAYOUT
+
+
+
+
+NOTES:
+1. QUANTITY OF COMPONENTS PER REEL = 350.
+2. THIS PRODUCT IS TAPED AND REELED IN ACCORDANCE             SECTION    Y-Y
+   WITH EIA-481 (ELECTRONICS INDUSTRIES ASSOCIATION).
+
+                                                                                                                                                                                     3.50 PICK AND
+                                                                                                                                                                                   PLACE AREA
+
+
+                                       GOLD PLATING AREA
+                                        (42 FINISH ONLY)                                      7.70
+            3.50                                                   0.80
+
+                                                                          4.45
+                                                                                                                                   SECTION        X-X
+                                                                                                                                                                                                                                          FINISHED REELING
+                                                                                                                                                                                                                                              DIRECTION
+                                                                                                       ORDER CODE:
+         7.45
+         7.15                                                                                                     S1941-XXR
+                                                                                      5.53
+                                                                                                        FINISH:
+                                                   3.63                                                 42 - SELECTIVE GOLD & TIN
+                                                                                                                                                         +2.0
+                                                                                                        46 - 100% TIN ALL OVER                 24.4
+                                                                                                                                                          0
+                                                                                                                                                                                               330
+                         5.70           (0.15)        R1.00                           TIN PLATING AREA
+                                                        TYP                           (42 FINISH ONLY)
+                                                                        6.75
+
+
+                                                                                                                                                                                                                                    RTP      10   26.01.23   32250
+ 4 x R0.50                                                                                                                                                                                                                          NAME ISS.       DATE     CN/CO
+
+                                                     COMPONENT DETAILS                                                                           100 MIN                                                                            APPROVED:      R.PORTLOCK
+                                                                                                                                                                                                                                    CHECKED:        A.BOXALL
+
+                                            9.85                                                                                                                                                                                    DRAWN:          S.BENNETT
+                                            9.45                                                                                                                                                                                    CUSTOMER REF.:
+        4.60                       3.00
+
+                                                                                                                                                                                                                      +0.5          ASSEMBLY DRG:
+                                                                                                                                                                        REEL DETAILS                          13.0
+                                                                                                                                                                                                                      -0.2
+
+                                                                                                                                THIS DRAWING AND ANY            TOLERANCES     MATERIAL:                      TITLE:
+                                                                                                                            INFORMATION OR DESCRIPTIVE
+                                                                                                                             MATTER SET OUT HEREON ARE        X. =    1mm                                         MULTI-DIRECTIONAL SHIELD FINGER
+                                                                                                                            CONFIDENTIAL AND COPYRIGHT
+                                                                                                                                                             X.X =    0.50mm               SEE ABOVE                     IN TAPE AND REEL
+                1.50                      2.30                                                                                PROPERTY OF THE HARWIN
+                                                                                                                                                            X.XX =    0.20mm
+                                                                                                                               GROUP AND MUST NOT BE
+                                                                                                                             DISCLOSED, LOANED, COPIED     X.XXX =    0.01mm                                  DRAWING NUMBER:                                    SHT
+                                                                                           www.harwin.com                   OR USED FOR MANUFACTURING,                         FINISH:     SEE ABOVE
+                                2 x R0.75                                                                                                                    ANGLES =    5                                                                                      2
+                                                                                                                                                                                                                                  S1941-XXR
+                                                                                                                                TENDERING OR FOR ANY
+                                                                                        technical @harwin.com                  OTHER PURPOSE WITHOUT
+                                                                                                                             THEIR WRITTEN PERMISSION.      UNLESS STATED      S/AREA:                 mm²                                                        OF
+                                                                                                                                                                                                                                                                     3
+   Customer Information Sheet
+DRAWING No.: S1941-XXR                          IF IN DOUBT - ASK             C           NOT TO SCALE                THIRD ANGLE PROJECTION             ALL DIMENSIONS IN mm
+
+
+
+
+                                      S1941-46R                                                                               S1941-46R
+                                DEFLECTION FROM ABOVE                                                                   DEFLECTION FROM FRONT
+
+
+
+
+                         0.30
+                                                             0.80
+
+
+
+
+                                                                                                                                                         1.00
+                                                                                                         0.40
+   RECOMMENDED VERTICAL WORKING                                                               RECOMMENDED HORIZONTAL WORKING
+        DEFLECTION = 0.30mm,                    MAXIMUM RECOMMENDED                                 DEFLECTION = 0.40mm,                        MAXIMUM RECOMMENDED
+       MINIMUM FORCE OF 1.2N                    DEFLECTION = 0.80mm                                MINIMUM FORCE OF 1.2N                        DEFLECTION = 1.00mm
+
+
+                                             COMPONENT SPECIFICATION:
+                                              MATERIAL = BERYLLIUM COPPER                                                                                  RTP     10   26.01.23   32250
+                                              FINISH:                                                                                                     NAME ISS.       DATE     CN/CO
+                                               42 = 2µm NICKEL ALL OVER,                                                                                  APPROVED:      R.PORTLOCK
+                                                    0.15µm GOLD ON CONTACT AREA,
+                                                                                                                                                          CHECKED:        A.BOXALL
+                                                    3µm 100% TIN ON BASE
+                                               46 = 3µm 100% TIN OVER 2µm NICKEL                                                                          DRAWN:          S.BENNETT
+                                              ELECTRICAL:                                                                                                 CUSTOMER REF.:
+                                               CURRENT RATING = 9A MAX
+                                               CONTACT RESISTANCE = 20m    MAX
+                                              MECHANICAL:                                                                                                 ASSEMBLY DRG:
+                                               DURABILITY = 5000 CYCLES
+                                                           THIS DRAWING AND ANY       TOLERANCES        MATERIAL:                      TITLE:
+                                                       INFORMATION OR DESCRIPTIVE
+                                                        MATTER SET OUT HEREON ARE
+                                                       CONFIDENTIAL AND COPYRIGHT
+                                                                                       X. =    1mm                                         MULTI-DIRECTIONAL SHIELD FINGER
+                                                          PROPERTY OF THE HARWIN
+                                                                                      X.X =    0.50mm               SEE ABOVE                      IN TAPE AND REEL
+                                                          GROUP AND MUST NOT BE      X.XX =    0.20mm
+                                                        DISCLOSED, LOANED, COPIED   X.XXX =    0.01mm                                  DRAWING NUMBER:                                    SHT
+                  www.harwin.com                       OR USED FOR MANUFACTURING,                       FINISH:     SEE ABOVE
+                                                           TENDERING OR FOR ANY       ANGLES =    5                                                                                   3
+               technical @harwin.com                      OTHER PURPOSE WITHOUT
+                                                        THEIR WRITTEN PERMISSION.    UNLESS STATED      S/AREA:                 mm²                      S1941-XXR                        OF
+                                                                                                                                                                                            3
+

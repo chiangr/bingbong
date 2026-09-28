@@ -1,0 +1,806 @@
+                                                                           BM28 Series
+                                                                           0.35mm Pitch, 0.6mm Stacking Height,
+                                                                           FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+
+
+
+
+                                                                                                                   Feb. 2022
+                                                                           BM28 Series/0.35mm Pitch, 0.6mm Stacking Height, FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+                                                                           Features
+
+                                                                           1. 5A Rated Current
+                                                                           2 Power contacts up to 5A with 0. 2A contacts                                 Conventional
+                                                                           for signal, space- saving connector.                                             Product
+                                                                                                                                                        (0.35mm Pitch,
+                                                                                                                                                            20pos.)
+
+
+
+
+                                                                                                                                                         BM28-10pos.
+                                                                                                                                                          (+2pos. for
+                                                                                                                                                            power)
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                                                                     Power Lines are Concentrated into 2 Power Contacts
+                                                                                                                                                     Instead of Conventional Multiple Signal Contacts.
+
+
+
+
+                                                                           2. Highly Reliable Contact
+                                                                              Design                                                                      Power Contact :
+                                                                                                                                                          2-point Contact
+                                                                           2- point contact design for both power and signal
+                                                                           ensures a highly reliable contact.
+
+
+
+                                                                                                                                                          Signal Contact :
+                                                                                                                                                          2-point Contact
+
+
+
+
+                                                                           3. Superior Mating Operability
+                                                                           Guide ribs ensure 0. 3mm self- alignment. Clear
+                                                                           tactile click prevents partial mating, increases
+                                                                           mating operability.
+
+
+
+
+                                                                           4. Supports USB4 Gen. 2
+                                                                              ( 10Gbps) Transmission
+                                                                           Signal contacts support USB4 Gen. 2 ( 10Gbps)
+                                                                           transmission signals.
+
+
+
+
+                                                                           5. Environmental Compatibility
+                                                                           ・Halogen Free
+                                                                           Connector does not contain chlorine or bromine
+                                                                           exceeding the standard value.
+                                                                           * As defined by IEC 61249- 2- 21
+                                                                             Br : 900ppm max. , Cl : 900ppm max. , Br+ Cl : 1500ppm max.
+
+
+
+
+                                                                                                                                                2
+                                                                                                                                  BM28 Series/0.35mm Pitch, 0.6mm Stacking Height, FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+                                                                            Applications
+                                                                           Devices that require low- profile, compact design such as mobile phone, wearable terminals and tablet PCs.
+
+
+                                                                                                                              Earphone Jack
+                                                                                                     USB
+                                                                                             NFC
+                                                                                                                                       Camera
+                                                                                 Battery
+
+
+
+
+                                                                                                                                         LCD
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                                           Main Board
+                                                                                        Interface Connector
+
+
+
+
+                                                                            Product Specifications
+
+                                                                                                    40pos. or Less                   44pos. or More                   Operating Temperature (Note 2)                  -40 to +85℃
+                                                                            Rated Current
+                                                                            (Note 1)                Signal Contact : 0.3A            Signal Contact : 0.2A
+                                                                                                                                                                      Storage Temperature (Note 3)                    -10 to +60℃
+                                                                                                    Power Contact : 5A               Power Contact : 5A
+
+                                                                            Rated Voltage           30V AC/DC                                                         Operating Humidity Range                        20-80%
+
+                                                                                                                                                                      Storage Humidity Range (Note 3)                 40-70%
+
+                                                                           Note 1 : The total current capacity for connectors with 50 or more signal contacts is 10A for all contacts. (Signal contact only)
+                                                                           Note 2 : Includes temperature rise caused by current flow.
+                                                                           Note 3 : The term“storage”refers to products stored for long period of time prior to mounting and use.
+                                                                                    Operating Temperature and Humidity Range covers non-conducting condition of installed connectors in storage, shipment or during transportation.
+
+
+
+
+                                                                                     Items                                  Specifications                                                      Conditions
+
+                                                                                                        Signal contact : 100m Ω Max.
+                                                                            Contact Resistance                                                                        Measured at 20mV AC, 1kHz, and 1mA
+                                                                                                        Power contact : 30m Ω Max.
+
+                                                                            Insulation Resistance       1000M Ω Min.                                                  Measured at 100V DC
+
+                                                                            Withstanding Voltage        No flashover or dielectric breakdown                          150V AC for 1 min.
+
+                                                                                                        Contact resistance :
+                                                                            Mating Durability            Signal contact : 100m Ω Max.                                 10 cycles
+                                                                                                         Power contact : 30m Ω Max.
+
+                                                                                                                                                                      Frequency : 10 to 55Hz ; half amplitude of 0.75mm,
+                                                                            Vibration                   No electrical discontinuity for more than 1μ s.
+                                                                                                                                                                      10 cycles in each of 3 axis directions for 5 minutes/cycle
+
+                                                                                                                                                                      Acceleration : 450m/s2, duration : 11ms,
+                                                                            Shock Resistance            No electrical discontinuity of 1μ s or more.
+                                                                                                                                                                      3-axis half-sine wave in both directions, 3 cycles for each
+
+                                                                                                        Contact resistance :
+                                                                                                         Signal contact : 100m Ω Max.                                 96 hours at a temperature of 40 ± 2℃ and
+                                                                            Humidity Resistance
+                                                                                                         Power contact : 30m Ω Max.                                   a humidity range from 90 to 95%
+                                                                                                        Insulation resistance : 100M Ω Min.
+
+                                                                                                        Contact resistance :
+                                                                                                         Signal contact : 100m Ω Max.                                 -55 ± 3℃ : 30 minutes → +85 ± 2℃ : 30 minutes,
+                                                                            Temperature Cycle
+                                                                                                         Power contact : 30m Ω Max.                                   5 cycles
+                                                                                                        Insulation resistance : 100M Ω Min.
+
+                                                                                                                                                                      Reflow : Recommended temperature profile ;
+                                                                            Solder Heat                 No dissolution or resin melting that will affect
+                                                                                                                                                                      Hand solder : Solder iron temperature of 350℃ for 3
+                                                                            Resistance                  performance.
+                                                                                                                                                                      seconds Max.
+
+
+
+
+                                                                                                                                                         3
+                                                                           BM28 Series/0.35mm Pitch, 0.6mm Stacking Height, FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+                                                                            Materials / Finish
+
+                                                                                    Product                        Part                        Materials                      Finish              UL Standard
+
+                                                                                                                 Insulator                           LCP                      Black                  UL94V-0
+                                                                                   Header
+                                                                                                              Signal Contact                 Copper Alloy                 Gold Plated                   -
+                                                                                  Receptacle
+                                                                                                             Power Contact                   Copper Alloy                 Gold Plated                   -
+
+
+
+
+                                                                            Product Number Structure
+                                                                           Refer to the chart below when determining the product specifications from the product number.
+                                                                           Please select from the product numbers listed in this catalog when placing orders.
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                           ■ Header/Receptacle
+
+                                                                           BM28 B 0.6 - # DS / 2 - 0.35 V (##)
+                                                                                ❶              ❷       ❸    ❹        ❺         ❻      ❼      ❽
+
+                                                                           ❶ Series Name           BM28                                          ❺ Number of Power        2
+                                                                                                                                                       Contacts
+
+                                                                           ❷ Stacking Height       0.6mm                                         ❻ Contact Pitch          0.35mm
+
+
+                                                                           ❸ Number of Signal      6, 10, 16, 18, 20, 24, 30, 34,                ❼ Termination Type       V : Straight SMT
+                                                                               Contacts            36, 40, 44, 46, 50, 58, 60
+                                                                                                                                                 ❽ Gold Plated            (51) : Gold Plate Thickness 0.05μ m
+                                                                                                                                                       Specification             Embossed Tape Packaging
+                                                                           ❹ Connector Type        DP : Header
+                                                                                                                                                       and Packaging             (20,000pcs per reel)
+                                                                                                   DS : Receptacle
+                                                                                                                                                                          (53) : Gold Plate Thickness 0.05μ m
+                                                                                                                                                                                 Embossed Tape Packaging
+                                                                                                                                                                                 (1,000pcs per reel)
+
+
+
+
+                                                                                                                                                 4
+                                                                                                                                                  BM28 Series/0.35mm Pitch, 0.6mm Stacking Height, FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+                                                                               Header
+
+                                                                                                                                                                                                 A
+                                                                                                                                                                                                 B
+                                                                                                                                                                                       P=0.35
+
+                                                                                                                                                                  1.5
+                                                                                                                                                                  0.85
+
+                                                                                                                                                                                      0.12
+
+                                                                                                                                                                                                                              0.465
+
+
+
+                                                                                                                                                                       0.32                      C
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                           ■ Recommended PCB Layout
+                                                                           0.52±0.02                          D±0.02
+                                                                                                              B±0.02                                                                   E Min.
+
+                                                                                            0
+                                                                           1.8 +0.05   0.57-0.05
+                                                                                                                                                1.05 +0.05
+                                                                                                                                         0
+                                                                                                                                                                                       F Min.
+                                                                                                                                   0.25 -0.05
+                                                                                                        P=0.35±0.02
+                                                                                0
+                                                                                                                                                      0
+
+
+
+                                                                                                                                                                                                                 1.9 Min.
+
+                                                                                                        0.18±0.02                                                                                                      Insulation area
+                                                                                                                                                                                                                       (Pattern prohibited area)
+
+
+                                                                           ■ Recommended Metal Mask Dimensions
+                                                                             (Mask Thickness : 0.08mm)
+                                                                           0.52±0.01                            D±0.02
+
+                                                                                   1.8±0.01                     B±0.02
+                                                                                                                                            0.33±0.01
+                                                                                                          P=0.35±0.01
+                                                                                   0.57±0.01
+                                                                                                                                            0.97±0.01
+
+
+
+
+                                                                                                         0.18±0.01
+
+                                                                                                                                                                                                                                                        Unit : mm
+
+                                                                                                                                                     No. of                                                                           Purchase Unit Purchase Unit
+                                                                                                   Part No.              HRS No.                                   A           B             C        D      E                F
+                                                                                                                                                      Pos.                                                                             (##) : (51)   (##) : (53)
+
+                                                                                BM28B0.6-6DP/2-0.35V(##)              CL0673-5047-0-##                       6    2.97        0.70       1.56        1.36   3.85            3.17
+
+                                                                                BM28B0.6-10DP/2-0.35V(##)             CL0673-5043-0-##                       10   3.67        1.40       2.26        2.06   4.55            3.87
+
+                                                                                BM28B0.6-16DP/2-0.35V(##)             CL0673-5066-0-##                       16   4.72        2.45       3.31        3.11   5.60            4.92
+
+                                                                                BM28B0.6-18DP/2-0.35V(##)             CL0673-5093-0-##                       18   5.07        2.80       3.66        3.46   5.95            5.27
+
+                                                                                BM28B0.6-20DP/2-0.35V(##)             CL0673-5039-0-##                       20   5.42        3.15       4.01        3.81   6.30            5.62
+
+                                                                                BM28B0.6-24DP/2-0.35V(##)             CL0673-5024-0-##                       24   6.12        3.85       4.71        4.51   7.00            6.32
+
+                                                                                BM28B0.6-30DP/2-0.35V(##)             CL0673-5020-0-##                       30   7.17        4.90       5.76        5.56   8.05            7.37
+                                                                                                                                                                                                                                       20,000pcs     1,000pcs
+                                                                                BM28B0.6-34DP/2-0.35V(##)             CL0673-5064-0-##                       34   7.87        5.60       6.46        6.26   8.75            8.07
+                                                                                                                                                                                                                                        per reel      per reel
+                                                                                BM28B0.6-36DP/2-0.35V(##)             CL0673-5026-0-##                       36   8.22        5.95       6.81        6.61   9.10            8.42
+
+                                                                                BM28B0.6-40DP/2-0.35V(##)             CL0673-5018-0-##                       40   8.92        6.65       7.51        7.31   9.80            9.12
+
+                                                                                BM28B0.6-44DP/2-0.35V(##)             CL0673-5049-0-##                       44   9.62        7.35       8.21        8.01   10.50           9.82
+
+                                                                                BM28B0.6-46DP/2-0.35V(##)             CL0673-5097-0-##                       46   9.97        7.70       8.56        8.36   10.85           10.17
+
+                                                                                BM28B0.6-50DP/2-0.35V(##)             CL0480-0397-0-##                       50   10.67       8.40       9.26        9.06   11.55           10.87
+
+                                                                                BM28B0.6-58DP/2-0.35V(##)             CL0480-0378-0-##                       58   12.07       9.80      10.66    10.46      12.95           12.27
+
+                                                                                BM28B0.6-60DP/2-0.35V(##)             CL0673-5037-0-##                       60   12.42       10.15     11.01    10.81      13.30           12.62
+
+                                                                           Note : This connector has no polarity.
+
+
+
+                                                                                                                                                                               5
+                                                                           BM28 Series/0.35mm Pitch, 0.6mm Stacking Height, FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+                                                                             Receptacle
+                                                                                                                                                                                                  G
+                                                                                                                                                                                                  B
+                                                                                                                                                                       P=0.35
+
+
+                                                                                                                                                    1.7
+
+                                                                                                                                                                      0.12
+
+
+
+                                                                                                                                                                                                                         0.6
+                                                                                                                                                          0.28
+                                                                                                                                                                                                  H
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                           ■ Recommended PCB Layout                                                                   ■ Recommended Metal Mask Dimensions
+                                                                           Insulation area
+                                                                                                              H±0.02
+                                                                                                                                                                        (Mask Thickness : 0.08mm)
+                                                                                                                  B±0.02                                                                                          H±0.02
+
+
+                                                                            1.8 +0.05     1.18 -0.05                                   1.24 -0.05         1.9 +0.05
+                                                                                          0
+                                                                                                                                                                                                                  B±0.02
+                                                                                                                                       0
+                                                                                                                    0.53±0.02
+                                                                                  0                                                                             0
+
+
+
+
+                                                                                                                                                                       1.8±0.01       1.18±0.01                                                 1.24±0.01   1.9±0.01
+                                                                                                                                                                                                                       0.53±0.01
+
+
+
+
+                                                                                        0.35±0.02                               0.18±0.02
+
+
+
+
+                                                                                                                                                                                  P=0.35±0.01                                           0.18±0.01
+
+
+
+
+                                                                                                                                                                                                                                                            Unit : mm
+
+                                                                                                                                                                      No. of                                                   Purchase Unit   Purchase Unit
+                                                                                                       Part No.                       HRS No.                                                         B    G         H
+                                                                                                                                                                       Pos.                                                     (##) : (51)     (##) : (53)
+
+                                                                             BM28B0.6-6DS/2-0.35V(##)                           CL0673-5048-0-##                          6                       0.70    3.65      2.11
+
+                                                                             BM28B0.6-10DS/2-0.35V(##)                          CL0673-5044-0-##                        10                        1.40    4.35      2.81
+
+                                                                             BM28B0.6-16DS/2-0.35V(##)                          CL0673-5067-0-##                        16                        2.45    5.40      3.86
+
+                                                                             BM28B0.6-18DS/2-0.35V(##)                          CL0673-5092-0-##                        18                        2.80    5.75      4.21
+
+                                                                             BM28B0.6-20DS/2-0.35V(##)                          CL0673-5040-0-##                        20                        3.15    6.10      4.56
+
+                                                                             BM28B0.6-24DS/2-0.35V(##)                          CL0673-5025-0-##                        24                        3.85    6.80      5.26
+
+                                                                             BM28B0.6-30DS/2-0.35V(##)                          CL0673-5021-0-##                        30                        4.90    7.85      6.31
+                                                                                                                                                                                                                                 20,000pcs           1,000pcs
+                                                                             BM28B0.6-34DS/2-0.35V(##)                          CL0673-5065-0-##                        34                        5.60    8.55      7.01
+                                                                                                                                                                                                                                  per reel            per reel
+                                                                             BM28B0.6-36DS/2-0.35V(##)                          CL0673-5027-0-##                        36                        5.95    8.90      7.36
+
+                                                                             BM28B0.6-40DS/2-0.35V(##)                          CL0673-5019-0-##                        40                        6.65    9.60      8.06
+
+                                                                             BM28B0.6-44DS/2-0.35V(##)                          CL0673-5050-0-##                        44                        7.35    10.30     8.76
+
+                                                                             BM28B0.6-46DS/2-0.35V(##)                          CL0673-5098-0-##                        46                        7.70    10.65     9.11
+
+                                                                             BM28B0.6-50DS/2-0.35V(##)                          CL0480-0396-0-##                        50                        8.40    11.35     9.81
+
+                                                                             BM28B0.6-58DS/2-0.35V(##)                          CL0480-0377-0-##                        58                        9.80    12.75    11.21
+
+                                                                             BM28B0.6-60DS/2-0.35V(##)                          CL0673-5038-0-##                        60                    10.15       13.10    11.56
+
+                                                                           Note : This connector has no polarity.
+
+
+
+
+                                                                                                                                                                                  6
+                                                                                                                                         BM28 Series/0.35mm Pitch, 0.6mm Stacking Height, FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+                                                                           Embossed Tape Dimensions (Complies with IEC 60286-3, JIS C 0806)
+
+                                                                           ● Header                                                                            ● Reel Dimensions
+
+
+
+                                                                                       4±0.1       4±0.1    2±0.1         1.75±0.1                             Product label
+                                                                                                                      K                      K-K                                2±0.5
+                                                                           φ1.5 +0.1                                                                                                             2
+                                                                                                                                                                        ±0.             φ1
+                                                                                                                                                                      21                   3±
+                                                                                                                                                                     φ                       0.
+                                                                                                                                                                          8                      φ1.5 feed hole
+                                                                                                                                                                                                 diameter
+                                                                                                                          L±0.1
+
+
+
+
+                                                                                                                                                                                                               φ380±2 (Note)
+                                                                                                                                                                           0°
+                                                                                                                                                                                        12
+
+                                                                                                                                     M±0.3                                                                                     φ80±1
+                                                                                                                                                                          12
+                                                                                                                                                                                        0°
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                                                                   0.2±0.1                                                        N±0.5
+                                                                                                                      K
+                                                                                               J            J                                      0.65±0.15                                                      Q±1
+                                                                                                                                                                 Note : Speciﬁcation 53 is φ180±2.
+
+                                                                                                      J-J       Unreeling Direction
+
+
+
+                                                                                                                                                                                                                                              Unit : mm
+
+                                                                                                       Part No.                                                 No. of Pos.                  L            M                             N      Q
+
+                                                                            BM28B0.6-6DP/2-0.35V(##)                                                                  6                  5.5              12                           13.5   17.5
+
+                                                                            BM28B0.6-10DP/2-0.35V(##)                                                                10                  5.5              12                           13.5   17.5
+
+                                                                            BM28B0.6-16DP/2-0.35V(##)                                                                16                  7.5              16                           17.5   21.5
+
+                                                                            BM28B0.6-18DP/2-0.35V(##)                                                                18                  7.5              16                           17.5   21.5
+
+                                                                            BM28B0.6-20DP/2-0.35V(##)                                                                20                  7.5              16                           17.5   21.5
+
+                                                                            BM28B0.6-24DP/2-0.35V(##)                                                                24                  7.5              16                           17.5   21.5
+
+                                                                            BM28B0.6-30DP/2-0.35V(##)                                                                30                  7.5              16                           17.5   21.5
+
+                                                                            BM28B0.6-34DP/2-0.35V(##)                                                                34                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-36DP/2-0.35V(##)                                                                36                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-40DP/2-0.35V(##)                                                                40                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-44DP/2-0.35V(##)                                                                44                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-46DP/2-0.35V(##)                                                                46                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-50DP/2-0.35V(##)                                                                50                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-58DP/2-0.35V(##)                                                                58                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-60DP/2-0.35V(##)                                                                60                  11.5             24                           25.4   29.4
+
+
+
+
+                                                                                                                                                                 7
+                                                                           BM28 Series/0.35mm Pitch, 0.6mm Stacking Height, FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+                                                                           ● Receptacle                                                                   ● Reel Dimensions
+
+
+
+                                                                                                                         1.75±0.1
+                                                                                        4±0.1   4±0.1     2±0.1
+                                                                                                                     S                      S-S           Product label    2±0.5
+                                                                             φ1.5+0.1
+                                                                                  0                                                                                                         2
+                                                                                                                                                                   ±0.             φ1
+                                                                                                                                                                φ21                   3±
+                                                                                                                                                                                        0.
+                                                                                                                                                                     8                      φ1.5 feed hole
+                                                                                                                                                                                            diameter
+                                                                                                                         T±0.1
+
+
+
+
+                                                                                                                                                                                                          φ380±2 (Note)
+                                                                                                                                                                      0°
+                                                                                                                                                                                   12
+                                                                                                                                    U±0.3
+                                                                                                                                                                                                                          φ80±1
+                                                                                                                                                                     12
+                                                                                                                                                                                   0°
+
+
+
+
+                                                                                                                                              0.2±0.1
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                                                                                                                             V±0.5
+                                                                                                                     S                         0.8±0.15
+                                                                                                R          R                                                                                                 W±1
+                                                                                                                                                            Note : Speciﬁcation 53 is φ180±2.
+
+                                                                                                    R-R        Unreeling Direction
+
+
+
+                                                                                                                                                                                                                                         Unit : mm
+
+                                                                                                     Part No.                                             No. of Pos.                   T            U                             V      W
+
+                                                                            BM28B0.6-6DS/2-0.35V(##)                                                             6                  5.5              12                           13.5   17.5
+
+                                                                            BM28B0.6-10DS/2-0.35V(##)                                                           10                  7.5              16                           17.5   21.5
+
+                                                                            BM28B0.6-16DS/2-0.35V(##)                                                           16                  7.5              16                           17.5   21.5
+
+                                                                            BM28B0.6-18DS/2-0.35V(##)                                                           18                  7.5              16                           17.5   21.5
+
+                                                                            BM28B0.6-20DS/2-0.35V(##)                                                           20                  7.5              16                           17.5   21.5
+
+                                                                            BM28B0.6-24DS/2-0.35V(##)                                                           24                  7.5              16                           17.5   21.5
+
+                                                                            BM28B0.6-30DS/2-0.35V(##)                                                           30                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-34DS/2-0.35V(##)                                                           34                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-36DS/2-0.35V(##)                                                           36                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-40DS/2-0.35V(##)                                                           40                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-44DS/2-0.35V(##)                                                           44                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-46DS/2-0.35V(##)                                                           46                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-50DS/2-0.35V(##)                                                           50                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-58DS/2-0.35V(##)                                                           58                  11.5             24                           25.4   29.4
+
+                                                                            BM28B0.6-60DS/2-0.35V(##)                                                           60                  11.5             24                           25.4   29.4
+
+
+
+
+                                                                                                                                                            8
+                                                                                                                            BM28 Series/0.35mm Pitch, 0.6mm Stacking Height, FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+                                                                           Usage Precautions
+                                                                           Recommended
+                                                                                                                                                                     10sec Max.
+                                                                           Temperature Profile
+                                                                                                                                                                      250℃ Max.
+                                                                                                                      250
+
+
+                                                                                                                                              220℃
+                                                                                                                      200
+
+
+
+
+                                                                                                      Temperature
+                                                                                                                （℃）
+                                                                                                                                    180℃
+
+                                                                                                                      150
+
+
+
+                                                                                                                      100
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                                       50
+                                                                                                    Room                                                   Within 60
+                                                                                                                                 90 to 120 sec              seconds
+                                                                                                    temperature
+                                                                                                                                  Preheating               Soldering time
+                                                                                                                        0
+
+                                                                                                                                      Heating time (sec)
+
+                                                                                                    [Conditions]
+
+                                                                                                    1. Peak Temperature : Maximum of 250℃
+                                                                                                    2. Heating : 220℃ min. for 60 sec. max.
+                                                                                                    3. Preheating : 150 to 180℃ , 90 to 120 sec.
+                                                                                                    4. Number of Reflow Cycles : 2 cycles max.
+
+                                                                                                    Note : The temperature refers to the surface temperature of the board near the connector lead.
+                                                                                                            Reflow mounting in a nitrogen environment is recommended.
+
+                                                                           Recommended Manual       Soldering Iron Temperature : 340 ± 10℃ ;
+                                                                           Soldering Conditions     Soldering Time : within 3 seconds
+
+                                                                           Recommended              Thickness : 0.08mm
+                                                                           Metal Mask               Aperture Ratio : Header Side : (Signal Contact) 100%, (Power Contact) 80%, Receptacle Side : 100%
+                                                                           Thickness and
+                                                                           Open Area to
+                                                                           PCB Pattern Area Ratio
+
+                                                                           Board Warpage            Max. of 0.02mm at the center in reference to both ends of the connector
+
+                                                                           Cleaning                 Cleaning is not recommended.
+                                                                                                    If you clean this product, please evaluate its performance before using it.
+                                                                                                    (Cleaning may impair the mating/unmating properties and lower resistance to environmental factors)
+
+                                                                           Precautions              ・Be careful when mating/unmating the connector when it is not mounted on the
+                                                                                                     PCB as it may cause damage/deformation to contacts.
+                                                                                                    ・Avoid supporting the PCB only with the connectors.
+                                                                                                     Support it by other means such as bolts, screws, posts, etc.
+                                                                                                    ・Excessive prying during unmating/mating may result in damage.
+                                                                                                    ・In the case of hand soldering, please do not apply any flux which could cause flux wicking.
+                                                                                                    ・This product may have slight color differences due to production lot variability,
+                                                                                                     but this does not affect the performance.
+                                                                                                    ・Please refer to the following page for handling precautions when inserting and removing.
+                                                                                                    ・Because the product can disengage if dropped (or other impact), or by FPC routing,
+                                                                                                     it is advised to secure the mated connectors to the board with housings and cushioning materials.
+                                                                                                    ・Do not use the connector in non-recommended conditions
+                                                                                                     (i.e., rated current, rated voltage, PCB design and operating environment, etc.).
+                                                                                                     Such usage could lead to material outgassing, ignition, or short-circuit, etc.
+                                                                                                     Refer to the specifications and guidelines for board pattern dimensions,
+                                                                                                     board cautions, and connector treatment.
+                                                                                                     Please contact Hirose if connector usage in conditions other than those described in the
+                                                                                                     specifications and the guidelines is being considered.
+
+
+
+
+                                                                                                                                                 9
+                                                                           BM28 Series/0.35mm Pitch, 0.6mm Stacking Height, FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+                                                                            Connector Handling Precautions
+                                                                           Mating Method
+
+                                                                                BM28B0.6-#DP/2-0.35V
+
+
+
+
+                                                                                BM28B0.6-#DS/2-0.35V
+
+
+
+                                                                           1) When aligning, look for the guide port without applying excessive force. If excessive force is applied, the housing
+                                                                              may be damaged or shaved resulting in poor contact resistance, so please be careful.
+
+                                                                           Alignment method
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                            OK
+
+                                                                             ×
+                                                                           2) When fully aligned the connectors are parallel to each other with restricted longitudinal and lateral movement.
+                                                                              Mate them parallel to each other.
+
+                                                                           Fully Aligned
+
+
+
+
+                                                                           Mated
+
+
+
+
+                                                                                                                                                10
+                                                                                                                                            BM28 Series/0.35mm Pitch, 0.6mm Stacking Height, FPC-to-Board Connectors Supporting Up to 5A
+
+
+
+
+                                                                           Handling Precautions for Connector Removal
+
+                                                                           1) Pull out the connector parallel to each other.
+
+
+
+
+                                                                           OK
+
+                                                                           2) If the connector cannot be removed by pulling it out parallel to its mating partner, it can be removed by
+                                                                              extracting the connector diagonally in the direction of the pitch as shown in the below figure.
+                                                                              However, there is a risk that the connector may break if the FPC is not rigid. Please confirm the FPC rigidity
+                                                                              at the time of trial production.
+
+
+
+
+Aug.1.2023 Copyright 2023 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                           OK
+                                                                                                          Pitch Direction
+
+
+                                                                           3) Do not remove the connector by pulling from the FPC corner as shown below. Pulling from the FPC corner
+                                                                              may result in connector and contact damage.
+
+
+
+
+                                                                           ×
+                                                                                                    Corner Direction
+
+
+                                                                           4) Please provide a reinforcing plate for the FPC.
+                                                                              Insufficient FPC rigidity may result in connector breakage as shown in the below figure. Please check the repeated
+                                                                              mechanical operation of the FPC before use.
+                                                                              A reinforcing plate of 0. 3mm or thicker made of glass epoxy material is recommended, or 0. 2mm or thicker
+                                                                              stainless steel is recommended.
+
+
+
+
+                                                                             While Taking into Consideration
+                                                                           Specifications mentioned in this catalog are reference values.
+                                                                           When considering to order or use this product, please confirm the Drawing and Product Specifications sheets.
+                                                                           Use an appropriate cable when using the connector in combination with cables.
+                                                                           If considering usage of a non- specified cable, please contact your sales representative.
+                                                                           If assembly process is done by jigs & tools which are not identified by Hirose, assurance will not be given.
+                                                                           If considering usage for below mentioned applications, please contact your sales representative.
+                                                                           In cases where the application will demand a high level of reliability, such as automotive, medical instruments, public
+                                                                           infrastructure, aerospace/ defense etc. Hirose must review before assurance of reliability can be given.
+
+
+
+
+                                                                                                                                                                    2-6-3,Nakagawa Chuoh,Tsuzuki-Ku,Yokohama-Shi 224-8540,JAPAN
+                                                                                                                                                                    https://www.hirose.com
+
+
+                                                                           ※ The contents of this catalog are current as of date of 2/ 2022. Contents are subject to change without notice for the purpose of improvements.
+
+
+                                                                                                                                                                       11
+

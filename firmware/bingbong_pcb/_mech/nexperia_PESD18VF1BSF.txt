@@ -1,0 +1,622 @@
+                            PESD18VF1BSF
+                            Ultra low capacitance bidirectional ESD protection diode
+                            20 May 2015                                                       Product data sheet
+
+
+
+
+1. General description
+                       Ultra low capacitance bidirectional ElectroStatic Discharge (ESD) protection diode
+                       in a DSN0603-2 (SOD962-2) leadless ultra small Surface-Mounted Device (SMD)
+                       package designed to protect one signal line from the damage caused by ESD and other
+                       transients.
+
+
+2. Features and benefits
+                       •    Bidirectional ESD protection of one line
+                       •    Ultra low diode capacitance Cd = 0.28 pF
+                       •    High reverse standoff voltage VRWM = 18 V
+                       •    ESD protection up to ±10 kV according to IEC 61000-4-2
+
+
+3. Applications
+                       •    NFC antenna protection
+                       •    Protection of high-speed and standard data lines with high signal levels
+
+
+4. Quick reference data
+Table 1.   Quick reference data
+Symbol          Parameter               Conditions                                  Min       Typ      Max        Unit
+ Cd             diode capacitance       f = 1 MHz; VR = 0 V                          -        0.28         0.45   pF
+
+ VRWM           reverse standoff                                                     -        -            18     V
+                voltage
+
+
+
+5. Pinning information
+Table 2.   Pinning information
+Pin        Symbol Description                    Simplified outline          Graphic symbol
+ 1         K1       cathode (diode 1)
+                                                              1        2                  1                 2
+ 2         K2       cathode (diode 2)
+                                                                                                  sym045
+                                                              Transparent
+                                                                top view
+                                                     DSN0603-2 (SOD962-2)
+Nexperia                                                                                                                    PESD18VF1BSF
+                                                                         Ultra low capacitance bidirectional ESD protection diode
+
+
+
+
+6. Ordering information
+Table 3.       Ordering information
+Type number               Package
+                          Name               Description                                                                                         Version
+ PESD18VF1BSF              DSN0603-2          Leadless ultra small package; 2 terminals; body 0.6 x 0.3 x 0.3                                    SOD962-2
+                                              mm
+
+
+
+7. Marking
+Table 4.       Marking codes
+Type number                                                                         Marking code
+ PESD18VF1BSF                                                                       J
+
+
+
+8. Limiting values
+Table 5.   Limiting values
+In accordance with the Absolute Maximum Rating System (IEC 60134).
+Symbol             Parameter                                Conditions                                                           Min             Max            Unit
+ IPPM              peak pulse current                        tp = 8/20 µs                                                  [1]   -               1              A
+
+ Tj                junction temperature                                                                                          -45             125            °C
+
+ Tamb              ambient temperature                                                                                           -45             125            °C
+
+ Tstg              storage temperature                                                                                           -65             150            °C
+
+ ESD maximum ratings
+ VESD              electrostatic discharge voltage           IEC 61000-4-2; contact discharge                              [2]   -               10             kV
+                                                             IEC 61000-4-2; air discharge                                  [2]   -               15             kV
+                                                             MIL-STD-883; human body model;                                      -               10             kV
+                                                             HBM
+
+                          [1]   According to IEC 61000-4-5 and IEC 61643-321.
+                          [2]   Device stressed with ten non-repetitive ESD pulses.
+
+
+
+
+PESD18VF1BSF                                  All information provided in this document is subject to legal disclaimers.             © Nexperia B.V. 2017. All rights reserved
+
+
+Product data sheet                                                      20 May 2015                                                                                 2 / 11
+Nexperia                                                                                                                                                     PESD18VF1BSF
+                                                                                          Ultra low capacitance bidirectional ESD protection diode
+
+
+                                                                 001aaa630                                                                                                         001aaa631
+         120
+                                                                                                                        IPP
+
+                                  100 % IPP; 8 µs                                                                 100 %
+        IPP
+        (%)                                                                                                         90 %
+
+
+          80
+                                       e- t
+
+
+                                                    50 % IPP; 20 µs
+
+          40
+
+
+
+
+                                                                                                                    10 %
+
+              0
+                  0          10               20          30                 40                                                             tr = 0.6 ns to 1 ns                               t
+                                                                  t (µs)
+                                                                                                                                            30 ns
+                                                                                                                                                       60 ns
+Fig. 1.        8/20 µs pulse waveform according to
+               IEC 61000-4-5 and IEC 61643-321                                                       Fig. 2.          ESD pulse waveform according to
+                                                                                                                      IEC 61000-4-2
+
+
+
+9. Characteristics
+Table 6.              Characteristics
+Symbol                    Parameter                         Conditions                                                                                   Min      Typ             Max             Unit
+ VRWM                      reverse standoff                                                                                                              -        -               18              V
+                           voltage
+ Cd                        diode capacitance                   f = 1 MHz; VR = 0 V                                                                       -        0.28            0.45            pF
+
+ VBR                       breakdown voltage                   IR = 1 mA                                                                                 19       21              -               V
+
+ VCL                       clamping voltage                    IPPM = 1 A                                                                     [1]        -        -               16              V
+
+ Rdyn                      dynamic resistance                  IR = 5 A                                                                       [2]        -        0.6             -               Ω
+
+ IRM                       reverse leakage                     VR = 18 V                                                                                 -        1               30              nA
+                           current
+
+                                     [1]      According to IEC 61000-4-5 and IEC 61643-321.
+                                     [2]      Non-repetitive current pulse, Transmission Line Pulse (TLP) tp = 100 ns; square pulse; ANSI / ESD
+                                              STM5.5.1-2008.
+
+
+
+
+PESD18VF1BSF                                                   All information provided in this document is subject to legal disclaimers.                             © Nexperia B.V. 2017. All rights reserved
+
+
+Product data sheet                                                                       20 May 2015                                                                                                  3 / 11
+Nexperia                                                                                                                                PESD18VF1BSF
+                                                                               Ultra low capacitance bidirectional ESD protection diode
+
+
+                                                       aaa-013445                                                                IPPM
+          0.4
+                                                                                                                                  IPP
+       Cd
+      (pF)
+
+        0.35
+
+
+
+                                                                                                                                    IR
+        0.30                                                                                    -VCL -VBR -VRWM                   IRM
+                                                                                                                                         -IRM               VRWM VBR VCL
+                                                                                                                                         -IR
+
+
+        0.25
+                                                                                                                                                 -               +
+
+
+        0.20
+            -20         -10        0           10                 20                                                                     -IPP
+                                                       VR (V)
+                                                                                                                                         -IPPM                       006aab325
+               f = 1 MHz; VR = 0 V; Tamb = 25 °C
+                                                                                          Fig. 4.          V-I characteristics for a bidirectional ESD
+Fig. 3.        Diode capacitance as a function of reverse                                                  protection diode
+               voltage; typical values
+                                                                                                               aaa-013446
+                                           25
+                                          I
+                                         (A)
+                                           20
+
+
+
+                                           15
+
+
+
+                                           10
+
+
+
+                                               5
+
+
+
+                                               0
+                                                   0                      10                       20                       30
+                                                                                                            VCL (V)
+
+               tp = 100 ns; Transmission Line Pulse (TLP)
+Fig. 5.        Dynamic resistance
+
+
+
+
+PESD18VF1BSF                                        All information provided in this document is subject to legal disclaimers.                   © Nexperia B.V. 2017. All rights reserved
+
+
+Product data sheet                                                            20 May 2015                                                                                       4 / 11
+Nexperia                                                                                                                                           PESD18VF1BSF
+                                                                                      Ultra low capacitance bidirectional ESD protection diode
+
+
+
+                                 ESD TESTER                                                                                                             4 GHz DIGITAL
+                                                                                                 RG 223/U                                              OSCILLOSCOPE
+                                       Rd                                                        50 Ω coax
+                                                                                                                           40 dB
+                                                                                                                        ATTENUATOR
+                                  Cs                                                                                                                             50 Ω
+
+                                                                 DUT
+                                                               (DEVICE
+                        IEC 61000-4-2 ed.2                      UNDER
+                        Cs = 150 pF; Rd = 330 Ω                 TEST)
+
+
+
+
+                   10                                                                                           2
+
+
+                V                                                                                       V
+               (kV) 8                                                                                  (kV) 0
+
+
+                   6                                                                                          -2
+
+
+                   4                                                                                          -4
+
+
+                   2                                                                                          -6
+
+
+                   0                                                                                          -8
+
+
+                   -2                                                                                        -10
+                     -10     0      10      20   30    40         50       60        70                         -10         0       10       20   30    40     50       60      70
+                                                                t (ns)                                                                                       t (ns)
+
+                           unclamped +8 kV ESD pulse waveform                                                          unclamped -8 kV ESD pulse waveform
+                                 (IEC 61000-4-2 network)                                                                     (IEC 61000-4-2 network)
+                                                                                                                                                                      aaa-003952
+
+Fig. 6.        ESD clamping test setup and waveforms
+                                                            aaa-013447                                                                                                aaa-013448
+          80                                                                                                   10
+
+
+      VCL                                                                                                 VCL
+      (V)                                                                                                 (V)
+
+
+          50                                                                                                 -20
+
+
+
+
+          20                                                                                                 -50
+
+
+
+
+          -10                                                                                                -80
+             -10            10              30        50                 70                                     -10                     10        30           50                70
+                                                              t (ns)                                                                                                   t (ns)
+
+Fig. 7.        Clamped +8 kV pulse waveform (IEC 61000-4-2                                       Fig. 8.            Clamped -8 kV pulse waveform (IEC 61000-4-2
+               network)                                                                                             network)
+
+
+
+
+PESD18VF1BSF                                               All information provided in this document is subject to legal disclaimers.                         © Nexperia B.V. 2017. All rights reserved
+
+
+Product data sheet                                                                   20 May 2015                                                                                             5 / 11
+Nexperia                                                                                                                             PESD18VF1BSF
+                                                                        Ultra low capacitance bidirectional ESD protection diode
+
+
+
+
+10. Application information
+                            The device is designed for the protection of one bidirectional data line from surge pulses
+                            and ESD damage. The device is suitable on lines where the signal polarities are both
+                            positive and negative with respect to ground.
+
+                                                   line to be protected
+
+
+
+
+                                                                                 ESD protection diode
+
+
+
+
+                                                                                     GND
+
+                                                                                                 aaa-002737
+
+Fig. 9.        Application diagram
+
+                            Circuit board layout and protection device placement
+
+                            Circuit board layout is critical for the suppression of ESD, Electrical Fast Transient (EFT)
+                            and surge transients. The following guidelines are recommended:
+
+                            1. Place the device as close to the input terminal or connector as possible.
+                            2. Minimize the path length between the device and the protected line.
+                            3. Keep parallel signal paths to a minimum.
+                            4. Avoid running protected conductors in parallel with unprotected conductors.
+                            5. Minimize all Printed-Circuit Board (PCB) conductive loops including power and
+                               ground loops.
+                            6. Minimize the length of the transient return path to ground.
+                            7. Avoid using shared transient return paths to a common ground point.
+                            8. Use ground planes whenever possible. For multilayer PCBs, use ground vias.
+
+
+11. Package outline
+
+                                                               0.325                               0.32
+                                                               0.275                               0.28
+                                                                                                                      0.03
+                                                                    1                                                 max
+
+                                               0.15
+                                               0.13
+
+                                                                                                                   0.625
+                                                                                  0.4
+                                                                                                                   0.575
+
+
+
+
+                                                                    2
+                                                                0.25
+                                                                0.23
+                                       Dimensions in mm                                                                   14-12-03
+
+
+Fig. 10. Package outline DSN0603-2 (SOD962-2)
+
+
+
+PESD18VF1BSF                                 All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2017. All rights reserved
+
+
+Product data sheet                                                      20 May 2015                                                                                    6 / 11
+Nexperia                                                                                                                               PESD18VF1BSF
+                                                                            Ultra low capacitance bidirectional ESD protection diode
+
+
+
+
+12. Soldering
+  Footprint information for reflow soldering of leadless ultra small package; 2 terminals                                                                       SOD962-2
+
+
+
+
+                                                                                         0.85
+
+                                                                                          0.4
+                                                                                                                              R0.025 (8×)
+
+
+
+
+                                                    0.24
+                                           0.4
+                                                    (2×)
+
+
+
+
+                                                                           0.14
+                                                                           (2×)
+                                                                            0.2
+                                                                           (2×)
+
+
+
+           solder land               solder land plus solder paste
+
+
+           solder paste deposit      solder resist
+
+                                     Dimensions in mm                                                                                                          sod962-2_fr
+
+
+
+Fig. 11. Reflow soldering footprint for DSN0603-2 (SOD962-2)
+
+
+
+
+PESD18VF1BSF                                     All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2017. All rights reserved
+
+
+Product data sheet                                                         20 May 2015                                                                                     7 / 11
+Nexperia                                                                                                               PESD18VF1BSF
+                                                                     Ultra low capacitance bidirectional ESD protection diode
+
+
+
+
+13. Revision history
+Table 7.       Revision history
+Data sheet ID              Release date                 Data sheet status                              Change notice     Supersedes
+ PESD18VF1BSF v.1          20150520                      Product data sheet                             -                -
+
+
+
+
+PESD18VF1BSF                              All information provided in this document is subject to legal disclaimers.         © Nexperia B.V. 2017. All rights reserved
+
+
+Product data sheet                                                  20 May 2015                                                                             8 / 11
+Nexperia                                                                                                                                PESD18VF1BSF
+                                                                                   Ultra low capacitance bidirectional ESD protection diode
+
+
+                                                                                                In no event shall Nexperia be liable for any indirect, incidental,
+                                                                                                punitive, special or consequential damages (including - without limitation -
+14. Legal information                                                                           lost profits, lost savings, business interruption, costs related to the removal
+                                                                                                or replacement of any products or rework charges) whether or not such
+                                                                                                damages are based on tort (including negligence), warranty, breach of
+                                                                                                contract or any other legal theory.
+
+      14.1 Data sheet status                                                                    Notwithstanding any damages that customer might incur for any reason
+                                                                                                whatsoever, Nexperia’s aggregate and cumulative liability towards
+Document         Product          Definition                                                    customer for the products described herein shall be limited in accordance
+status [1][2]    status [3]                                                                     with the Terms and conditions of commercial sale of Nexperia.
+
+ Objective        Development This document contains data from                                  Right to make changes — Nexperia reserves the right to
+ [short] data                 the objective specification for product                           make changes to information published in this document, including without
+ sheet                        development.                                                      limitation specifications and product descriptions, at any time and without
+ Preliminary      Qualification   This document contains data from the                          notice. This document supersedes and replaces all information supplied prior
+ [short] data                     preliminary specification.                                    to the publication hereof.
+ sheet
+                                                                                                Suitability for use — Nexperia products are not designed,
+ Product          Production      This document contains the product                            authorized or warranted to be suitable for use in life support, life-critical or
+ [short] data                     specification.                                                safety-critical systems or equipment, nor in applications where failure or
+ sheet                                                                                          malfunction of a Nexperia product can reasonably be expected
+                                                                                                to result in personal injury, death or severe property or environmental
+[1]    Please consult the most recently issued document before initiating or                    damage. Nexperia and its suppliers accept no liability for
+       completing a design.                                                                     inclusion and/or use of Nexperia products in such equipment or
+[2]    The term 'short data sheet' is explained in section "Definitions".                       applications and therefore such inclusion and/or use is at the customer’s own
+[3]    The product status of device(s) described in this document may have                      risk.
+       changed since this document was published and may differ in case of
+       multiple devices. The latest product status information is available on                  Quick reference data — The Quick reference data is an extract of the
+       the Internet at URL http://www.nexperia.com.                                             product data given in the Limiting values and Characteristics sections of this
+                                                                                                document, and as such is not complete, exhaustive or legally binding.
+
+                                                                                                Applications — Applications that are described herein for any of these
+      14.2 Definitions                                                                          products are for illustrative purposes only. Nexperia makes no
+                                                                                                representation or warranty that such applications will be suitable for the
+Preview — The document is a preview version only. The document is still                         specified use without further testing or modification.
+subject to formal approval, which may result in modifications or additions.
+Nexperia does not give any representations or warranties as to                                  Customers are responsible for the design and operation of their
+the accuracy or completeness of information included herein and shall have                      applications and products using Nexperia products, and Nexperia
+no liability for the consequences of use of such information.                                   accepts no liability for any assistance with applications or
+                                                                                                customer product design. It is customer’s sole responsibility to determine
+Draft — The document is a draft version only. The content is still under                        whether the Nexperia product is suitable and fit for the
+internal review and subject to formal approval, which may result in                             customer’s applications and products planned, as well as for the planned
+modifications or additions. Nexperia does not give any                                          application and use of customer’s third party customer(s). Customers should
+representations or warranties as to the accuracy or completeness of                             provide appropriate design and operating safeguards to minimize the risks
+information included herein and shall have no liability for the consequences                    associated with their applications and products.
+of use of such information.
+                                                                                                Nexperia does not accept any liability related to any default,
+Short data sheet — A short data sheet is an extract from a full data sheet                      damage, costs or problem which is based on any weakness or default
+with the same product type number(s) and title. A short data sheet is                           in the customer’s applications or products, or the application or use by
+intended for quick reference only and should not be relied upon to contain                      customer’s third party customer(s). Customer is responsible for doing all
+detailed and full information. For detailed and full information see the                        necessary testing for the customer’s applications and products using Nexperia
+relevant full data sheet, which is available on request via the local Nexperia                  products in order to avoid a default of the applications
+sales office. In case of any inconsistency or conflict with the                                 and the products or of the application or use by customer’s third party
+short data sheet, the full data sheet shall prevail.                                            customer(s). Nexperia does not accept any liability in this respect.
+
+Product specification — The information and data provided in a Product                          Limiting values — Stress above one or more limiting values (as defined in
+data sheet shall define the specification of the product as agreed between                      the Absolute Maximum Ratings System of IEC 60134) will cause permanent
+Nexperia and its customer, unless Nexperia and                                                  damage to the device. Limiting values are stress ratings only and (proper)
+customer have explicitly agreed otherwise in writing. In no event however,                      operation of the device at these or any other conditions above those
+shall an agreement be valid in which the Nexperia product                                       given in the Recommended operating conditions section (if present) or the
+is deemed to offer functions and qualities beyond those described in the                        Characteristics sections of this document is not warranted. Constant or
+Product data sheet.                                                                             repeated exposure to limiting values will permanently and irreversibly affect
+                                                                                                the quality and reliability of the device.
+
+                                                                                                Terms and conditions of commercial sale — Nexperia
+      14.3 Disclaimers                                                                          products are sold subject to the general terms and conditions of commercial
+                                                                                                sale, as published at http://www.nexperia.com/profile/terms, unless otherwise
+Limited warranty and liability — Information in this document is believed                       agreed in a valid written individual agreement. In case an individual
+to be accurate and reliable. However, Nexperia does not give                                    agreement is concluded only the terms and conditions of the respective
+any representations or warranties, expressed or implied, as to the accuracy                     agreement shall apply. Nexperia hereby expressly objects to
+or completeness of such information and shall have no liability for the                         applying the customer’s general terms and conditions with regard to the
+consequences of use of such information. Nexperia takes no                                      purchase of Nexperia products by customer.
+responsibility for the content in this document if provided by an information
+source outside of Nexperia.
+                                                                                                No offer to sell or license — Nothing in this document may be interpreted
+                                                                                                or construed as an offer to sell products that is open for acceptance or the
+
+PESD18VF1BSF                                            All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2017. All rights reserved
+
+
+Product data sheet                                                                20 May 2015                                                                                     9 / 11
+Nexperia                                                                                                                            PESD18VF1BSF
+                                                                                  Ultra low capacitance bidirectional ESD protection diode
+
+
+grant, conveyance or implication of any license under any copyrights, patents
+or other industrial or intellectual property rights.
+
+Export control — This document as well as the item(s) described herein
+may be subject to export control regulations. Export might require a prior
+authorization from competent authorities.
+
+Non-automotive qualified products — Unless this data sheet expressly
+states that this specific Nexperia product is automotive qualified,
+the product is not suitable for automotive use. It is neither qualified nor
+tested in accordance with automotive testing or application requirements.
+Nexperia accepts no liability for inclusion and/or use of non-
+automotive qualified products in automotive equipment or applications.
+
+In the event that customer uses the product for design-in and use in
+automotive applications to automotive specifications and standards,
+customer (a) shall use the product without Nexperia’s warranty
+of the product for such automotive applications, use and specifications, and
+(b) whenever customer uses the product for automotive applications beyond
+Nexperia’s specifications such use shall be solely at customer’s
+own risk, and (c) customer fully indemnifies Nexperia for any
+liability, damages or failed product claims resulting from customer design and
+use of the product for automotive applications beyond Nexperia’s
+standard warranty and Nexperia’s product specifications.
+
+Translations — A non-English (translated) version of a document is for
+reference only. The English version shall prevail in case of any discrepancy
+between the translated and English versions.
+
+
+
+  14.4 Trademarks
+Notice: All referenced brands, product names, service names and
+trademarks are the property of their respective owners.
+
+
+
+
+PESD18VF1BSF                                           All information provided in this document is subject to legal disclaimers.      © Nexperia B.V. 2017. All rights reserved
+
+
+Product data sheet                                                               20 May 2015                                                                        10 / 11
+Nexperia                                                                                                                                  PESD18VF1BSF
+                                                                                        Ultra low capacitance bidirectional ESD protection diode
+
+
+
+
+15. Contents
+1         General description ............................................... 1
+2         Features and benefits ............................................1
+3         Applications ........................................................... 1
+4         Quick reference data ............................................. 1
+5         Pinning information ............................................... 1
+6         Ordering information ............................................. 2
+7         Marking ................................................................... 2
+8         Limiting values .......................................................2
+9         Characteristics ....................................................... 3
+10        Application information .........................................6
+11        Package outline ..................................................... 6
+12        Soldering ................................................................ 7
+13        Revision history ..................................................... 8
+14        Legal information ...................................................9
+14.1        Data sheet status ................................................. 9
+14.2        Definitions .............................................................9
+14.3        Disclaimers ...........................................................9
+14.4        Trademarks ........................................................ 10
+
+© Nexperia B.V. 2017. All rights reserved
+
+For more information, please visit: http://www.nexperia.com
+For sales office addresses, please send an email to: salesaddresses@nexperia.com
+Date of release: 20 May 2015
+
+
+
+
+PESD18VF1BSF                                                 All information provided in this document is subject to legal disclaimers.      © Nexperia B.V. 2017. All rights reserved
+
+
+Product data sheet                                                                     20 May 2015                                                                        11 / 11
+

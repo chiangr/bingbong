@@ -1,0 +1,181 @@
+  VIoT-Flex
+ MFF2 Datasheet
+ UICC | Multi-IMSI | Industrial Grade
+
+
+Product Overview
+The Velocity IoT UICC MFF2 embedded SIM is built for demanding IoT environments. Designed
+to withstand extreme temperatures and deliver high endurance, it combines secure hardware
+with advanced multi-IMSI technology to enable reliable global connectivity for industrial IoT
+deployments.
+
+Simplify deployments and eliminate the complexity of managing multiple carrier relationships
+with a single, scalable connectivity solution built for seamless integration and long-term
+flexibility.
+
+
+Highlights
+Powered by Velocity IoT’s intelligent SIM applet, these features ensure reliable, flexible, and
+secure multi-network connectivity—while reducing operational complexity.
+
+
+    Simplified Global Connectivity: Access multiple carriers through a single SIM SKU,
+    leveraging a global IMSI library to support seamless deployments while reducing cost and
+    complexity.
+
+    Autonomous Network Switching: Automatic failover if carrier or IMSI becomes
+    unavailable.
+
+
+    Local Breakout Performance: High throughput and low latency with local packet gateways
+
+
+
+    Remote SIM Control: Secure over-the-air (OTA) updates. Remotely update IMSI
+    configurations and SIM settings via SMS or HTTPS.
+
+
+
+    Built-in Flexibility: Supports 2G, 3G, 4G, LTE-M, NB-IoT, and 5G with the ability to upgrade
+    to emerging technologies like satellite NTN.
+
+
+
+Velocity IoT                   MFF2 UICC | Multi-IMSI SIM | Industrial Grade                       1
+Technical Specifications
+
+ Feature                                                       Specification
+
+ Form Factor                                                 MFF2 - 5.0 x 6.0 mm
+
+ Grade                                                            Industrial
+
+ Contact Layout                                     8-pin (C1-C8) ISO/IEC 7816 Layout +1
+
+
+ Hardware & Architecture                                           Detail
+
+ Secure Chipset                                           Infineon SLM17ECB800B
+
+ Operating System                                              Kigen EMu10.35
+
+ Memory Capacity                                    800KB Flash (User (405 KB)+ System)
+
+ Write Endurance                                              1.5M write cycles
+
+ Data Retention                                                    10 Years
+
+
+ Electrical & Environmental                                        Detail
+
+ Operating Temperature                                -40°C to +105°C (Industrial Grade)
+
+ Storage Temperature                                     -40°C to +105°C (chip level)
+
+ ESD Rating                                         HBM 4 kV (chip level), CDM supported
+
+ Operating Voltage                              1.62V to 5.5V (Support for Classes A, B, and C)
+
+ Communication                                               ISO/IEC 7816-3, T=0
+
+
+ Organization                                              Reference Standard
+
+ ISO/IEC                                                7816 Series (Parts 1, 2, and 3)
+
+ Oracle Java Card                                 Java Card 3 Platform Classic Edition v3.0.5
+
+ Global Platform                                        2.3.1 (Amendments A, B, D, E)
+
+ ETSI                                          TS 102 221 (Physical and Logical Characteristics)
+
+ 3GPP                                              Release 16 (5G Ready), TS 31.102 (USIM)
+
+ Security                                         Common Criteria EAL4+ (chipset certified)
+
+ Regulatory                                              RoHS and REACH Compliant
+
+
+
+Velocity IoT                  MFF2 UICC | Multi-IMSI SIM | Industrial Grade                        2
+Mechanical & Package Information
+
+Chip Pinout
+
+
+
+
+Package Outline
+
+
+
+
+Velocity IoT      MFF2 UICC | Multi-IMSI SIM | Industrial Grade   3
+Package Footprint
+
+
+
+
+Tape & Reel Packaging
+
+
+
+
+Velocity IoT            MFF2 UICC | Multi-IMSI SIM | Industrial Grade   4
+Sample Marking Pattern
+
+
+                                        The dot indicates pin 01 for the chip. The “lot code”
+                                        and “serial number” are defined and inserted during
+                                        fabrication.
+
+                                        The following table describes the sample marking
+                                        pattern:
+
+
+
+
+ Indicator                         Description
+
+                                   Engineering samples: “HE<YWW>”:
+
+                                      Halogen-free
+                                      Engineering Sample
+                                      <Y>: 2nd digit of production year
+                                      <WW>: production week (calendar week)
+
+                                   Qualified production parts: “H<YYWW>”:
+                                      Halogen-free
+                                      <YY>: production year
+                                      <WW>: production week (calendar week)
+
+                                   Lot code, defined and inserted during fabrication, issued by the
+ XXX                               packaging site
+
+
+
+
+Ordering Information
+
+ SKU                                                                  Description
+
+
+ VIOT-1SIM-MFF2-NA                                  Coverage North America (Available on Digi-Key)
+
+
+ VIOT-1SIM-MFF2-GL                                      Global Coverage (Available on Digi-Key)
+
+
+ VIOT-1SIM-MFF2                                                      Custom Order
+
+
+
+
+Sales: sales@velocityiot.com
+Support: support@velocityiot.com
+
+
+
+
+Velocity IoT               MFF2 UICC | Multi-IMSI SIM | Industrial Grade                              5
+

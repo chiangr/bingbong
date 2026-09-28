@@ -1,0 +1,162 @@
+SURFACE MOUNT
+ANTENNA,
+GROUNDING
+SINGLE PIECE CONNECTION
+
+
+
+
+ WWW . H A RW I N . C O M
+EZi CONNECTIONS
+                                                                                                                           FEATURES
+
+
+FROM HARWIN.
+                                                                                                                           ■ Simple and effective method
+                                                                                                                             for connecting pcbs
+
+                                                                                                                           ■ Compact and lightweight for
+                                                                                                                             wareables and hand-held devices
+
+                                                                                                                           ■ Surface mount, with pick/place
+
+SINGLE PIECE SMT SPRING CONTACTS                                                                                             zones, supplied tape and reeled
+                                                                                                                             for volume automation
+
+Single contact with inherent spring properties. Smaller and lighter PCB
+connections. Simple to assemble, easy to mate with generous tolerance to
+misalignment. Also called Shield Fingers, Antenna or Grounding Contacts.
+                                                                                                                           APPLICATIONS
+Spring Contact connectors maintain a positive force           Supplied on Tape and Reel with built-in pick and place
+                                                                                                                           ■ Industrial
+against a mating surface, are available in different widths   zones for automated vacuum pick-up.
+and offer a choice of spring contact forces.                                                                               ■ Communications
+                                                              Free heights range from a very-low profile 1.23mm, up to
+Contact interconnects suit a wide variety of applications     10.00mm – working heights cover 0.90mm to 9.50mm.            ■ Retail
+and markets, including antenna contacts in wearable and
+                                                              Multi-directional contacts work with either parallel or      ■ Instrumentation
+mobile applications, RFI screening, LED lamp connections,
+                                                              right-angle mating surfaces.
+RFID tags, vision systems, PCB grounding and board-to-                                                                     ■ Consumer
+board contact.
+                                                              The Development Kit includes a selection of 16 different
+                                                              spring contacts for testing and prototyping.
+
+
+
+                                                                                                                         V I E W F U L L S E R I E S & S P E C I F I C AT I O N S H E R E
+SPECIFICATIONS
+  MATERIALS                             ELECTRICAL        MECHANICAL                    ENVIRONMENTAL
+
+
+
+
+  Base material:
+  Copper Alloy
+
+
+                                                          Durability:                   Free height range:
+                                                          Up to 10,000 mating cycles    1.23mm to 10.00mm
+
+
+  Plating finish:
+  Gold, Tin or Selective Gold + Tin
+
+
+                                        Current rating:
+                                        Up to 14A
+
+
+  Packaging:
+  Tape and Reel
+
+
+                                                          Force at working height:      Working height range:
+                                                          0.39N to 2.00N                0.90mm to 9.50mm
+
+  Compliance:
+  RoHS Compliant
+  REACH / CMRT statements
+
+
+
+Specifications are subject to change.
+
+
+
+                                                                                       V I E W F U L L S E R I E S & S P E C I F I C AT I O N S H E R E
+PRODUCT CATEGORIES
+
+    C SHAPE                                ANTI-HOOK BOX
+    Basic shape gives simple and           Similar to C shape with additional feature
+    effective contact with metal           to prevent damage caused by accidental
+    shields or frames.                     snagging of the free end.
+
+    Range of free heights from 1.7mm       Range of free heights from 3.5mm to
+    to 5.6mm, working heights from         6mm, working heights from 3 to 4.5mm.
+    1.5mm to 4.6mm.
+
+
+
+
+    EXTENDED ANTENNA                       POSITIVE STOP
+    Extended C shape ideal for antenna     Incorporates multiple advantages from
+    contacts in mobile devices. Suitable   the other styles – suitable for wiping and
+    for wiping and sliding actions.        sliding, avoids accidental snagging and
+                                           damage. The positive stop prevents
+                                           over-deflection and permanent set
+    Range extends from 2mm to 5mm
+                                           over time.
+    free heights, with working heights
+    from 1.4mm to 4.4mm.
+                                           Lowest profile options from 1.23mm to 2mm free
+                                           height, and 0.90 to 1.70mm working heights.
+
+Specifications are subject to change.
+
+
+
+                                                                                  V I E W F U L L S E R I E S & S P E C I F I C AT I O N S H E R E
+PRODUCT CATEGORIES
+
+    MULTI-DIRECTIONAL                                                      DEVELOPMENT KIT
+    Contacts designed for both horizontal and vertical compression – use   Selection box containing 16 different designs of SMT spring contact.
+    with mating surfaces in either parallel or right-angle orientation.    Free refills, assists with design, development, and prototyping.
+    Elevated pick and place zone for automated assembly.
+
+
+
+
+Specifications are subject to change.
+
+
+
+                                                                                                                V I E W F U L L S E R I E S & S P E C I F I C AT I O N S H E R E
+DOWNLOADS
+
+    TECHNICAL DOCUMENTS                   TEST REPORTS
+    Component Specification               HT077 – Mini Multi-Directional Spring Contacts –
+                                          General Testing
+
+
+
+
+    PRODUCT TRAINING
+    Product Training Module (PTM)
+
+    SMT Spring Contact comparison chart
+
+
+
+
+Specifications are subject to change.
+
+
+
+                                                                               V I E W F U L L S E R I E S & S P E C I F I C AT I O N S H E R E
+FOR FURTHER INFORMATION PLEASE CONTACT:
+SUPPORT@HARWIN.COM
+
+
+WWW . H A RW I N . C O M
+

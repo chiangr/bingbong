@@ -237,4 +237,103 @@ for i in range(6):
 f.land("13", 0, 0, 1.21, 2.02, 0.05, paste=(1.0, 1.75), paste_r=0.1)
 made.append(f.write(pin1=(-2.1, -1.125)))
 
+# ---- Kingbright APTF1616SEEZGQBDC RGB (D501) — DSAJ8681 rev V.14B p.1 "Recommended soldering pattern" (tol +/-0.1):
+# 4 pads 0.85 x 0.5; 2.6 overall with 0.9 gap -> x = +/-0.875; 1.5 overall with 0.5 gap -> y = +/-0.5.
+# Top view (p.1): 1 anode bottom-right, 2 red K bottom-left, 3 green K top-left, 4 blue K top-right.
+# Body 1.6 x 1.6 x 0.7. Mask +0.05, paste = copper.
+f = FP("LED_Kingbright_APTF1616", "Kingbright APTF1616 1.6x1.6 RGB common anode", 1.6, 1.6,
+       "Kingbright APTF1616SEEZGQBDC DSAJ8681 V.14B p.1")
+for n, (x, y) in {1: (0.875, 0.5), 2: (-0.875, 0.5), 3: (-0.875, -0.5), 4: (0.875, -0.5)}.items():
+    f.smd(str(n), x, y, 0.85, 0.5, mask=0.05)
+made.append(f.write(pin1=(1.55, 0.95)))
+
+# ---- MFF2 eUICC (U202) — Velocity IoT VIOT-1SIM-MFF2 datasheet p.4 "Package Footprint" (read on the render),
+# package per ETSI TS 102 671 V17 Table 6.3 (body 5.0 x 6.0). Drawing: 8 pads 0.4 x 0.8 at 1.27 pitch, rows 5.7
+# apart; pin 1 bottom-left, 1-4 left->right along the bottom, 5-8 right->left along the top (8 = VCC opposite
+# 1 = GND). Drawn here rotated 90 deg CW (no mirror) so pin 1 is top-left: 1-4 down the left column
+# (x = -2.85, y = -1.905..+1.905), 5-8 up the right (x = +2.85). Centre pad 3.4 x 4.2, NO net (ETSI Annex A:
+# not electrically connected); stencil 3x3 windows 1.2 long, 0.8/1.2/0.8 wide, 0.25 gaps. Mask +0.05.
+import fpgen as _fg
+f = FP("MFF2_DFN-8_5x6", "MFF2 eUICC DFN-8 5x6 (ETSI TS 102 671), centre pad unconnected", 6.0, 5.0,
+       "Velocity IoT VIOT-1SIM-MFF2 p.4 + ETSI TS 102 671 V17 Table 6.3")
+for i, y in enumerate((-1.905, -0.635, 0.635, 1.905)):
+    f.smd(str(1 + i), -2.85, y, 0.8, 0.4, mask=0.05)
+    f.smd(str(8 - i), 2.85, y, 0.8, 0.4, mask=0.05)
+f.items.append(_fg._pad("", "rect", 0, 0, 3.4, 4.2, '"F.Cu" "F.Mask"', mask=0.05))
+for y in (-1.45, 0, 1.45):
+    for x, w in ((-1.25, 0.8), (0, 1.2), (1.25, 0.8)):
+        f.items.append(_fg._pad("", "rect", x, y, w, 1.2, '"F.Paste"'))
+made.append(f.write(pin1=(-3.45, -1.905)))
+
+# ---- Murata MM8130-2600 (J301) — catalog O30E (Dec 22 2025) p.7 "Standard Pattern Dimensions" + p.8 stencil.
+# Signal axis along Y. GND lands 0.75 x 0.80: x edges 1.30 / 2.80 overall, y edges 1.10 / 2.70 -> (+/-1.025, +/-0.95).
+# Signal lands 0.50 x 0.58: y edges 1.74 / 2.90 -> (0, +/-1.16). Stencil 0.12 mm: GND 0.59 x 0.80 (x 1.30 / 2.48),
+# signal 0.28 x 0.28 (y 2.14 / 2.70). Pads named for the KiCad CoaxialSwitch_Testpoint symbol: C = Murata
+# "inner terminal (C)" = IN = SiP side (p.5: probe in -> C connects to probe, R cut off), A = R = antenna side,
+# G = 4 GND. The land is symmetric: place the part with its C terminal on pad C (silk dot). Our board keeps
+# only these lands; the ANT trace is our own 50-ohm CPWG (Murata's resist-covered electrode is its test board).
+import fpgen as _fg
+f = FP("Murata_MM8130-2600", "Murata MM8130-2600 RF switch connector 2.5x2.5, C = SiP side", 2.5, 2.5,
+       "Murata O30E pp.5,7,8")
+for sx in (-1, 1):
+    for sy in (-1, 1):
+        f.land("G", sx * 1.025, sy * 0.95, 0.75, 0.80, 0.05)
+        f.items.append(_fg._pad("", "rect", sx * 0.945, sy * 0.95, 0.59, 0.80, '"F.Paste"'))
+for n, sy in (("C", -1), ("A", 1)):
+    f.land(n, 0, sy * 1.16, 0.50, 0.58, 0.05)
+    f.items.append(_fg._pad("", "rect", 0, sy * 1.21, 0.28, 0.28, '"F.Paste"'))
+made.append(f.write(pin1=(0, -1.85)))
+
+# ---- Panasonic EZAEG1N50AC antenna ESD suppressor (D301), 0201 — AWD0000C13 p.2 "Recommended land pattern":
+# a (gap) 0.3-0.4, b (overall) 0.8-0.9, c (width) 0.25-0.35 -> nominal pads 0.25 x 0.30 at x = +/-0.30.
+# Non-polar ceramic suppressor. Mask +0.05, paste = copper.
+f = FP("Panasonic_EZAEG1N_0201", "Panasonic EZAEG1N 0201 ESD suppressor, 0.04 pF", 0.6, 0.3,
+       "Panasonic AWD0000C13 p.2")
+for n, x in ((1, -0.30), (2, 0.30)):
+    f.smd(str(n), x, 0, 0.25, 0.30, mask=0.05)
+made.append(f.write())
+
+# ---- MAX17048X+T10 WLP-8 (U102) — Maxim outline 21-0555 rev E (W80B1+1) + AN1891 (2021) Tables 1-2.
+# 2 x 4 bumps, e 0.40, D1 0.40, E1 1.20, ball 0.27; body E 1.670 x D 0.930. Top view: pin-1 (A1) top-left,
+# row A on top (y = -0.2), row B below (y = +0.2), columns 1-4 left->right (x = -0.6..+0.6).
+# NSMD land: AN1891 acceptable 0.20-0.26 at 0.4 pitch (0.25 recommended); 0.23 used (as BQ25188/TPS22916) so the
+# +0.05 mask keeps a 0.07 web. Stencil 4 mil, 0.25 aperture (AN1891 Table 2), square R0.05.
+f = FP("MAX_WLP-8_0.9x1.7", "MAX17048X WLP-8 2x4 0.4 mm (W80B1+1)", 1.67, 0.93, "Maxim 21-0555E + AN1891 (2021)")
+for ri, row in enumerate("AB"):
+    for ci in range(4):
+        f.bga(f"{row}{ci + 1}", -0.6 + 0.4 * ci, -0.2 + 0.4 * ri, 0.23, 0.05, paste_sq=0.25, paste_rr=0.05)
+made.append(f.write(pin1=(-1.0, -0.62)))
+
+# ---- Murata DFE201210U (L101, 2.2 uH) — spec J(E)TE243A-0029D-01 p.1 (2.0 +/-0.2 x 1.2 +/-0.2 x 1.0 max) and p.5
+# pattern: two 0.8 x 1.4 pads, 0.8 gap, 2.4 overall -> x = +/-0.8. Murata: no vias/copper under the body.
+f = FP("L_Murata_DFE201210U", "Murata DFE201210U 2012 metal-alloy inductor, 1.0 mm max", 2.0, 1.2,
+       "Murata J(E)TE243A-0029D-01 pp.1,5")
+for n, x in ((1, -0.8), (2, 0.8)):
+    f.smd(str(n), x, 0, 0.8, 1.4, mask=0.05)
+f.bw, f.bh = 2.2, 1.4
+made.append(f.write())
+
+# ---- Diodes SOT-23 (Q101 DMP3099L-7) — DS36081 Rev 5-2 p.5 "Suggested Pad Layout": X 0.8, Y 0.9, C 2.0 (row
+# spacing), X1 1.35 (centreline to the outer pad edge -> pad centres x = +/-0.95), Y1 2.9. Pinout (p.1 top view):
+# G bottom-left = 1, S bottom-right = 2, D top = 3 (matches Q_PMOS_GSD). Body 2.9 x 1.3 (E1), leads to 2.4 (E).
+f = FP("Diodes_SOT-23", "SOT-23 per Diodes Inc suggested pad layout", 2.9, 1.3, "Diodes DS36081 Rev 5-2 p.5")
+for n, (x, y) in {1: (-0.95, 1.0), 2: (0.95, 1.0), 3: (0, -1.0)}.items():
+    f.smd(str(n), x, y, 0.8, 0.9, mask=0.05)
+f.bw, f.bh = 2.9, 2.4
+made.append(f.write(pin1=(-1.6, 1.0)))
+
+# ---- Nexperia SOD523 (D102 BZX585-C12) — BZX585 series Rev 9 (11 Sep 2026) p.11 Fig.12 sod523_fr: lands 0.5 x 0.6
+# at 1.4 pitch (x = +/-0.7), paste 0.4 x 0.5, occupied area 2.15 x 1.2. Pin 1 = cathode (Table 2) on the left.
+f = FP("Nexperia_SOD523", "SOD523 per Nexperia sod523_fr, pin 1 = cathode", 1.2, 0.8, "Nexperia BZX585 Rev 9 p.11")
+for n, x in ((1, -0.7), (2, 0.7)):
+    f.land(str(n), x, 0, 0.5, 0.6, 0.05, paste=(0.4, 0.5), paste_r=0.05)
+made.append(f.write(pin1=(-1.15, 0)))
+
+# ---- Murata BLM18P 0603 ferrite (FB101 BLM18PG221SN1D) — JENF243A_0003AN-01 p.10 §12.1 reflow: a 0.7 (gap),
+# b 2.0 (overall), c 0.7 (width); d = 0.7 for 0.5-1.5 A at 18/35 um. -> pads 0.65 x 0.7 at x = +/-0.675.
+f = FP("Murata_BLM18P_0603", "Murata BLM18P 0603 ferrite, reflow land", 1.6, 0.8, "Murata JENF243A_0003AN-01 p.10")
+for n, x in ((1, -0.675), (2, 0.675)):
+    f.smd(str(n), x, 0, 0.65, 0.7, mask=0.05)
+made.append(f.write())
+
 print("wrote:", ", ".join(made))

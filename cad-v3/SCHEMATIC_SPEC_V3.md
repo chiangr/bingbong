@@ -354,3 +354,27 @@ Rule: a footprint is added only when every copper, mask and paste number comes f
   - **Pin maps:** MT6701 symbol vs the MagnTek list, all 16 agree, and pin "EP" is a no-connect. AS5600L symbol vs the ams Figure 6 ball table, all 15 agree.
   - **Renders:** pin 1 / A1 is top-left on both.
   - **ERC:** both satellite variants regenerate with 0 errors.
+
+## 12. Part selections 2026-09-28 (4 research agents; land patterns re-read by hand on PDFKit renders)
+
+| Ref | Part | Footprint (source) | Notes |
+|---|---|---|---|
+| U102 | **MAX17048X+T10** (WLP; the old MPN G+T10 is the TDFN) | `MAX_WLP-8_0.9x1.7` (Maxim 21-0555E + AN1891 via archive.org) | Ø0.23 NSMD (AN1891 range 0.20-0.26), 0.25 stencil; bump map matches the symbol |
+| L101 | **Murata DFE201210U-2R2M=P2** (DFE201210S is NRND, spec withdrawn) | `L_Murata_DFE201210U` (spec 0029D p.5) | Isat 2.0 A vs TPS62840 1.4 A limit; DCR 228 mΩ (was 155) |
+| Q101 | **Diodes DMP3099L-7** | `Diodes_SOT-23` (DS36081 p.5) | −30 V, ±20 V VGS |
+| Q102 | **Diodes DMG1012T-7** | stock SOT-523 (= Diodes pattern) | IDSS 100 nA max @ 20 V; **VGS ±6 V vs TACT_HI 4.35 V (1.65 V margin)** |
+| D101 | **TI TPD1E10B06DYAR** | `TI_DYA0002A_SOD-523` | now pin 1 = I/O, pin 2 = GND (TI orientation) |
+| D102 | **Nexperia BZX585-C12** | `Nexperia_SOD523` (Rev 9 p.11) | pin 1 = cathode → VBUS_IN |
+| FB101 | **Murata BLM18PG221SN1D** | `Murata_BLM18P_0603` (JENF243A p.10) | |
+| D501 | **Kingbright APTF1616SEEZGQBDC**, symbol now `LED_ARGB` (1 A, 2 R, 3 G, 4 B) | `LED_Kingbright_APTF1616` (DSAJ8681 p.1) | 4.3-8 mA over VSYS 3.45-4.2 V; **top-emitting — report wants +X into the ring (open)** |
+| Q501-503, Q601 | **Diodes DMN26D0UT-7** | stock SOT-523 | Vth 0.5-1.0 V, Ciss 14 pF |
+| J301 | **Murata MM8130-2600RA2** (RB2 does not exist) | `Murata_MM8130-2600` (O30E pp.5,7,8) | pad C = SiP side, A = antenna side |
+| D301 | **Panasonic EZAEG1N50AC** | `Panasonic_EZAEG1N_0201` (AWD0000C13 p.2) | 0.04 pF, 30 V, ±15 kV; clamp up to 500 V peak → V-11 must watch ANT |
+| U202 | footprint only: `MFF2_DFN-8_5x6` (Velocity IoT p.4 + ETSI TS 102 671 Table 6.3) | centre pad no net | symbol pinout verified vs ETSI Table 6.1. Candidate **Hologram G3-R-DFN8 (SGP.32)**; alt Kigen SGP.32. Supply-shutdown support still unconfirmed (P0-10) |
+
+**Still open (need a decision or a drawing):**
+- **J302 spring finger:** Harwin S7141-45R (working 1.4-1.9 mm → cap land at z ≈ 1.65) or S7131-45R (1.0-1.4 → land at ≈ 1.2); same footprint. Both phosphor bronze, ≤ 50 mΩ, −20…70 °C (departures from the report's finger spec).
+- **J601 dock:** best fit is Hirose BM28B0.6-6DS/2-0.35V (8 contacts incl. 2 × 5 A power, 0.35 pitch, 0.6 mm mated) → symbol goes 5 → 8 pins; get Hirose CAD before the footprint.
+- **J101 cell:** waits on the cell vendor; only Panasonic R35K (AXF5K0412) fits the 3 mm strip.
+- **E501 grip contact** (Würth WE-SECF top-pressed vs Harwin S1941-42R side-pressed; main vs satellite board) and **J502 LRA pads** (no Vybronics pad spec; ask about an FPC-lead variant).
+- **J401** OSPTEK mating connector.

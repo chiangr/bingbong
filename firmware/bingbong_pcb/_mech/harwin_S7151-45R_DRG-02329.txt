@@ -1,0 +1,78 @@
+         All dimensions in mm                    If in doubt - ask                                                                                                                                                                                   C
+
+                                                                                            Customer Information Sheet
+                                                                Tape Details           Scale 6:1
+             Recommended PCB Layout                             Tolerance = ±0.10                                         8.00 TYP                    2.00 TYP
+                (Tolerance = ±0.05)                                         (Unless Otherwise Stated)
+                                                                                                                                                                  4.00 TYP                        ⌀1.50+0.10 TYP
+                                                                                                                    Y                                                                                   0
+                                                                             1.75
+                  0.35
+                                            Pick & Place
+                                            Area
+
+
+      2.80
+
+                                                                                     5.50
+
+                                                                     12.00±0.30
+                    3.30
+
+                                                                                         X                                                                                                                         X
+
+
+  Component Details:
+  Tolerance = ±0.15
+             (Unless Otherwise Stated)
+
+                                                                                                                    Y                                                                                                               Section Y-Y
+
+
+                                                                                                                                                                                                                   3.20
+                            4.50
+
+                             3.60
+                                                                            (0.9)
+                                                                                                                                                    Section X-X
+                                             1.70
+                                                                                                                                                                                                     Specification:
+                                                                                                                                                                                                      Material = Phosphor Bronze, 0.15mm Thick
+                                                                                                                                             Reel Details                                             Finish = Gold flash over Nickel
+    3.00                                                                                                                                                                                              Electrical:
+                                                                                                                 ⌀330                                                                                  Contact Resistance = 50mΩ Max
+                                          1.50                                                                                                                                                         Current Rating = 1A
+                                                                                                                                                                                                      Mechanical:
+                                                                                                                                                                              Finished Reeling         Durability = 10,000 Cycles
+                                                                                                                                                                                     Direction         Minimum Force at Working Height = 0.49N
+                  3.15±0.10                                                                                                                                                                           Environmental:
+                                                                     2.40
+                                                                                    Component at                                                                                                       Operating Temperature = -20°C to + 70°C
+                                                                                    Working Height
+                                                                     1.90
+
+                           4.60
+
+
+                                                                                                                                                   ⌀13.0+0.5
+                                                                                                                                                        -0.2
+2.30±0.10                                    1.70±0.10                                                                  Scale 3:20                                                                                       RA        6     15.12.25 37154
+                                                                                                                                                                                      Scale 4:5                        Initials   Rev.     Date    CO
+                                                                                                                                                                                                                         SB        1     20.08.15 -----
+                                                                                                                                                  Third angle                                      Title:
+                                                                                                                                TOLERANCES         projection     MATERIAL:
+                                                                                            This drawing and any information
+                                                                                              or descriptive matter set out
+                                                                                               hereon are confidential and       X. = ±0.50mm
+                                                                                            copyright property of the Harwin     X.X = ±0.30mm                                See above
+                                                                                                                                                                                                   SMT Spring Contact (3.00mm High) in Tape
+ Notes:                                                                                                                                                                                                            and Reel
+ 1. Quantity per reel = 2,000.                                                              group and must not be disclosed,    X.XX = ±0.10mm
+ 2. This product is taped and reeled in general accordance
+                                                                www.harwin.com                  loaned, copied or used for     X.XXX = ±0.01mm
+                                                                                             manufacturing, tendering or for      Angles = ±5°                                                     Drawing number:
+    with EIA-481 (Electronics Industries Association).                                       any other purpose without their                     Sheet scale: 2:1 FINISH:                                                                           SHT
+                                                                                                    written permission.                            Do not scale                                                                                     2
+                                                                                                                                 Unless stated    Sheet size: A3              See above                            S7151-45R                         OF
+                                                                                                                                                                                                                                                       2
+

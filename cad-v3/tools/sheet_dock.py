@@ -92,7 +92,7 @@ r302 = res("R602", "220R", 241.3, y, rot=90)
 S.wire((233.68, y), r302.pin(1))
 q = S.place("Transistor_FET:Q_NMOS_GSD", stock("Transistor_FET", "Q_NMOS_GSD"), "Q601", "N-FET", 274.32, y - 2.54,
             rot=270, mirror=True, footprint="Package_TO_SOT_SMD:SOT-523",
-            fields={"MPN": "DMG1012T class: Vth <= 1 V, Ciss low [U]"}, ref_off=(-3, 7), val_off=(-3, 9.5))
+            fields={"MPN": "DMN26D0UT-7 (Vth 0.5-1.0 V, Ciss 14 pF)"}, ref_off=(-3, 7), val_off=(-3, 9.5))
 S.wire(r302.pin(2), q.pin(3))
 S.rail(q.pin(1), "V3", "up", 2)
 nn = (297.18, y)

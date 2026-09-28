@@ -1,0 +1,742 @@
+         Narrow pitch connectors
+         【For board-to-FPC】
+
+         A35S
+         ( 0.35 mm pitch )
+
+
+         Product Catalog
+
+
+
+
+2022.4
+Narrow pitch connectors For board-to-FPC
+
+
+A35S (0.35 mm pitch)
+Contributes to device miniaturization and advanced functionality with 2.5 mm width, 0.35 mm pitch and 0.8 mm mated height!
+                                                                                             FEATURES
+                                                                                              0.35 mm terminal pitch, 2.5 mm width and 0.8 mm
+                                                                                              mated height
+                                                                                              Low profile type with up to 100 pins.
+                                                                                              “TOUGH CONTACT” construction provides high
+                                                                                              resistance to various environmental.
+                                                                                              Simple lock structure provides tactile feedback to
+                                                                                              ensure excellent mating/unmating operation feel.
+                                                                                              Connectors for inspection available
+
+                                            2mm
+          2.5mm
+
+                                 Socket                          Header                      TYPICAL APPLICATIONS
+                                                                                              Smartphones, tablet PC and other mobile devices
+
+
+
+
+ DETAILS FEATURES
+
+  0.35 mm terminal pitch, 2.5 mm width and 0.8 mm                                              High resistance to various environments! “TOUGH
+   mated height                                                                                  CONTACT” construction provides high contact
+  When mated, the footprint is reduced by approx. 10% from                                       reliability
+  A4S (60 pins), contributing to the functionality enhancement
+  and size reduction of end equipment.                                                        Ni barrier construction                Bellows contact construction
+                                                                                              (Tough against solder                  (Tough against shock impact!)
+                                                                                              rise!)
+           Soldering terminals at four corners
+
+         Suction face                           Soldering terminals at four corners                                                                Porosity treatment
+         0.7 mm                                                                                                                                    (Tough against
+                                                  Suction face                                                                                     corrosive gases!)
+                                                  0.7 mm
+
+                           12.85mm (60 pins)
+                           A4S 14.5mm (60 pins)
+ 2.5mm                                                       12.15mm (60 pins)
+                                                             A4S 13.8mm (60 pins)
+                                          2mm                                                     V notch and Double contact constructions
+                        Socket                                    Header                          (Tough against exposure to foreign particles and solder flux!)
+
+
+ ORDERING INFORMATION (PART NO.)
+
+                                 AXE                       1 2
+
+          7: Socket      Number of pins         Mated height           2: (Fixed)     Surface treatment (Contact portion / Terminal portion)
+          8: Header      (2 digits)             (Socket/Header)                       (Socket)
+                                                1: 0.8 mm                             7: Base: Ni plating, Surface: Au plating/Base: Ni plating, Surface: Au plating
+                                                                                      (Header)
+                                                                                      4: Base: Ni plating, Surface: Au plating/Base: Ni plating, Surface: Au plating
+
+
+
+
+Panasonic Industry Co., Ltd. Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/                                                        ー1ー                      Panasonic Industry Co., Ltd. 2022         ACCTB2E 202204
+Narrow pitch connectors A35S (0.35 mm pitch)
+
+  PRODUCT TYPES
+
+                                                                                  Part No.                                                    Standard packing
+     Mated height            Number of pins
+                                                               Socket                                Header                     Inner carton (1-reel)        Outer carton
+                                    10                      AXE710127                              AXE810124
+                                    12                      AXE712127                              AXE812124
+                                    16                      AXE716127                              AXE816124
+                                    20                      AXE720127                              AXE820124
+                                    24                      AXE724127                              AXE824124
+                                    30                      AXE730127                              AXE830124
+                                    34                      AXE734127                              AXE834124
+                                    40                      AXE740127                              AXE840124
+        0.8 mm                                                                                                                       5,000 pcs.              10,000 pcs.
+                                    44                      AXE744127                              AXE844124
+                                    50                      AXE750127                              AXE850124
+                                    54                      AXE754127                              AXE854124
+                                    60                      AXE760127                              AXE860124
+                                    64                      AXE764127                              AXE864124
+                                    70                      AXE770127                              AXE870124
+                                    80                      AXE780127                              AXE880124
+                                   100                      AXE700127                              AXE800124
+Notes: 1. Order unit: For volume production: 1-inner carton (1-reel) units. For samples, please contact our sales representative.
+        2. Please contact our sales representative for connectors having a number of pins other than those listed above.
+
+
+  SPECIFICATIONS
+
+   Characteristics
+                      Item                                                 Specifications                                                     Conditions
+                     Rated current                 0.25 A/pin contact (Max. 4 A at total pin contacts)
+                     Rated voltage                 60 V AC/DC
+                                                                                                                      No short-circuiting or damage at a detection current of
+ Electrical          Dielectric strength           150 V AC for 1 min.
+                                                                                                                      1 mA when the specified voltage is applied for one minute.
+ characteristics
+                     Insulation resistance         Min. 1,000 MΩ (initial)                                            Using 250 V DC megger (applied for 1 min.)
+                                                                                                                      Based on the contact resistance measurement method
+                     Contact resistance            Max. 100 mΩ
+                                                                                                                      specified by JIS C 5402.
+                     Composite insertion
+                                                   Max. 0.981 N/pin contact × pin contacts (initial)
+ Mechanical          force
+ characteristics     Composite removal
+                                                   Min. 0.165 N/pin contact × pin contacts
+                     force
+                     Ambient temperature           –55 to +85°C                                                       No icing. No condensation.
+                                                                                                                      Reflow soldering:
+                                                                                                                      Peak temperature: 260°C or less
+                     Soldering heat                The initial specification must be satisfied electrically
+                                                                                                                      (on the surface of the PC board around the connector
+                     resistance                    and mechanically.
+                                                                                                                      terminals) Soldering iron: 300°C within 5 sec. 350°C
+                                                                                                                      within 3 sec.
+                                                   –55 to +85°C (product only)
+                     Storage temperature                                                                              No icing. No condensation.
+                                                   –40 to +50°C (emboss packing)
+
+                                                                                                                             Conformed to MIL-STD-202F, method 107G
+                                                                                                                             Order Temperature (℃) Time (minutes)
+                     Thermal shock
+                                                   5 cycles,                                                                   1         ｰ55ｰ03           30
+                     resistance
+                                                   insulation resistance Min. 100 MΩ,                                          2            ～            Max. 5
+ Environmental       (header and socket
+                                                   contact resistance Max. 100 mΩ                                              3          85 +30          30
+ characteristics     mated)
+                                                                                                                               4            ～            Max. 5
+                                                                                                                                         ｰ55ｰ3 0
+
+
+
+
+                     Humidity resistance           120 hours,
+                                                                                                                      Conformed to IEC60068-2-78
+                     (header and socket            insulation resistance Min. 100 MΩ,
+                                                                                                                      Temperature 40±2°C, humidity 90 to 95% RH
+                     mated)                        contact resistance Max. 100 mΩ
+
+                     Saltwater spray
+                                                   24 hours,
+                     resistance                                                                                       Conformed to IEC60068-2-11
+                                                   insulation resistance Min. 100 MΩ,
+                     (header and socket                                                                               Temperature 35±2°C, saltwater concentration 5±1%
+                                                   contact resistance Max. 100 mΩ
+                     mated)
+
+                     H2S resistance (header 48 hours,                                                                 Temperature 40±2°C, gas concentration 3±1 ppm,
+                     and socket mated)      contact resistance Max. 100 mΩ                                            humidity 75 to 80% RH
+
+ Lifetime            Insertion and removal                                                                            Repeated insertion and removal speed of Max. 200
+                                                   30 times
+ characteristics     life                                                                                             times/hours
+ Unit weight                                       60 pins Socket: 0.03 g Header: 0.02 g
+
+
+Panasonic Industry Co., Ltd. Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/                                                         ー2ー                          Panasonic Industry Co., Ltd. 2022      ACCTB2E 202204
+                                                                                                                            Narrow pitch connectors A35S (0.35 mm pitch)
+  Material and surface treatment
+         Part name                                           Material                                                                  Surface treatment
+       Molded portion                          LCP resin (UL94V-0)                                                                             —
+                                                                                    Contact portion: Base: Ni plating, Surface: Au plating
+                                                                                    Terminal portion: Base: Ni plating, Surface: Au plating (except the terminal tips)
+      Contact and Post                                     Copper alloy
+                                                                                                       The socket terminals close to the portion to be soldered have nickel barriers
+                                                                                                       (exposed nickel portions).
+
+                                                                                    Socket:
+                                                                                     Base: Ni plating, Surface: Pd + Au flash plating (except the terminal tips)
+     Soldering terminals                                   Copper alloy
+                                                                                    Header:
+                                                                                     Base: Ni plating, Surface: Au plating (except the terminal tips)
+
+
+
+ DIMENSIONS                CAD The CAD data of the products with a “CAD” mark can be downloaded from our Website.                                                                              Unit: mm
+
+  Socket (Mated height: 0.8 mm)
+ CAD                                                                          External dimensions
+                                                                                                                              Terminal coplanarity
+                                                                           A                                    0.77
+                                                                                                                                      0.08              Dimension table
+                                                                        B±0.1
+                                                                                                                                                                Dimensions
+                              0.70
+                                                                   0.35±0.05                                                  (Contact and soldering
+                                                                                                                              terminals)                Number                A         B          C
+                                                                   0.12±0.03                                                                            of pins
+                              (Suction face)                                                                                                                    10           4.10      1.40       3.00
+                                                                                                                                                               12            4.45      1.75       3.35
+                                                                                                  2.20                         2.50                            16            5.15      2.45       4.05
+                                                                                                                                                               20            5.85      3.15       4.75
+                                                                                                                                                               24            6.55      3.85       5.45
+                                                                                                                                                               30            7.60      4.90       6.50
+                                                                                                                                                               34            8.30      5.60       7.20
+
+                                                                                     (0.90)
+                                                                                                                                                               40            9.35      6.65       8.25
+                                               Y※
+                                                                                                                                                               44            10.05     7.35       8.95
+                                                                                                                                                               50            11.10     8.40      10.00
+                                                                                                         2.50                                                  54            11.80     9.10      10.70
+                                                                                                                                                               60            12.85     10.15      11.75
+                                               Z※
+                                                               0.30±0.03                          1.06                                                         64            13.55     10.85     12.45
+                                                                        C±0.1                                             General tolerance: ±0.2              70            14.60     11.90     13.50
+                                                                                                                                                               80            16.35     13.65     15.25
+                                      ※Because the soldering terminal Y and Z are the unified structure,
+                                           they are connected electrically.                                                                                   100            19.85     17.15     18.75
+
+
+
+  Header (Mated height: 0.8 mm)
+ CAD                                                                         External dimensions                                                        Dimension table
+                                                                                                                             Terminal coplanarity               Dimensions
+                                                                            A                                   0.65                                    Number                A         B          C
+                                                                                                                                      0.08              of pins
+                                          0.70
+                                                                          B±0.1
+                                                                    0.35±0.05                                                (Post and soldering                10           3.40      1.40       2.80
+                                                                    0.12±0.03                                                terminals)
+                                          (Suction face)
+                                                                                                                                                               12            3.75      1.75       3.15
+                                                                                                                                                               16            4.45      2.45       3.85
+                                                                                                    1.42                     2.00                              20            5.15      3.15       4.55
+                                                                                                                                                               24            5.85      3.85       5.25
+                                                                                                                                                               30            6.90      4.90       6.30
+                                                                                                                                                               34            7.60      5.60       7.00
+                                                                                                                                                               40            8.65      6.65       8.05
+                                                                                                                                                               44            9.35      7.35       8.75
+                                                            Soldering terminals                                                                                50            10.40     8.40       9.80
+                                                                                                                                                               54            11.10     9.10      10.50
+                                                                                                                                                               60            12.15     10.15      11.55
+                                                                                                              0.84
+
+                                                                                               （0.31）
+                                                                                                                                                               64            12.85     10.85     12.25
+                                                                                                              1.46
+                                                                0.12±0.03                                                                                      70            13.90     11.90     13.30
+                                                                            C±0.1                       (Soldering
+                                                                                                        terminals-part)                                        80            15.65     13.65     15.05
+                                                                                                                                                              100            19.15     17.15     18.55
+                                                                                                                    General tolerance: ±0.2
+
+
+
+
+Panasonic Industry Co., Ltd. Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/                                                                    ー3ー                                 Panasonic Industry Co., Ltd. 2022             ACCTB2E 202204
+Narrow pitch connectors A35S (0.35 mm pitch)
+                                Socket and Header are mated
+
+
+
+                                                                                                                              Header      0.80±0.1
+
+
+                                                                                                                              Socket
+
+
+
+                   EMBOSSED TAPE DIMENSIONS                                                                                                                                                                            Unit: mm
+
+                                Specifications for taping                                                                                   Specifications for the plastic reel
+                                In accordance with JIS C 0806-3:1999. However, not applied                                                  In accordance with EIAJ ET-7200B.
+                                to the mounting-hole pitch of some connectors.
+                                                                                                                                                     D±1           Label
+                                            Tape I                                         Tape Il                                                                                   Top cover tape
+                                            （A +0.3
+                                               ｰ0.1 ）                                      （A±0.3）
+                                                  （C）                                       （B）                                                                                                     Embossed carrier tape
+                                                   （1.75）
+                                                                                                                                                 φ380
+                                                                                                     （C）
+                                                                                                      （1.75）
+
+                                                            （4.0）
+
+
+
+
+Leading direction after packaging
+                                                                                                               （4.0）
+                                                                                                                                                                                                      Embossed mounting-hole
+
+                                                                                                                                                                                  Taping reel
+
+
+
+
+                                                            （8.0） （2.0）                                        （8.0） （2.0）
+
+
+
+
+                                                                    φ1.5+0.1
+                                                                         0                                              φ1.5+0.1
+                                                                                                                             0
+
+
+
+
+                                Dimension table
+                                    Type/Mated height                     Number of pins      Type of taping                        A                       B               C                   D            Quantity per reel
+
+                           Common for sockets and                            10 to 24                Tape I                        16.0                    —                7.5             17.4                   5,000
+                                headers                                      30 to 80                Tape I                        24.0                    —               11.5             25.4                   5,000
+                                 0.8 mm                                        100                Tape II                          32.0                    28.4            14.2             33.4                   5,000
+
+                                Connector orientation with respect to embossed tape feeding direction
+                                There is no indication on this product regarding top-bottom or left-right orientation.
+                                                Type                                                                                 Common for A35S
+ Direction
+ of tape progress                                                                           Socket                                                                                     Header
+
+
+
+
+Panasonic Industry Co., Ltd. Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/                                                                                               ー4ー                                Panasonic Industry Co., Ltd. 2022           ACCTB2E 202204
+                                                                                                       Narrow pitch connectors A35S (0.35 mm pitch)
+
+Narrow pitch connectors For board-to-FPC
+
+
+A35S (0.35 mm pitch) Connectors for inspection usage
+3,000 mating and unmating cycles Connectors for inspection usage
+                                                                                             FEATURES
+                                                                                              3,000 mating and unmating cycles
+                                                                                              Same external dimensions and foot pattern as
+                                                                                              standard type.
+                                                                                              Improved mating
+                                                                                              Insertion and removal easy due to a reduction in
+                                                                                              mating retention force. This is made possible by a
+                                                                                              simple locking structure design.
+                                                                                              (Mating retention force cannot be warranted.)
+                                                                                              Please avoid using for applications other than
+           2.5mm                Socket           2mm               Header                     inspection.
+
+                                                                                             TYPICAL APPLICATIONS
+                                                                                              Ideal for module unit inspection and equipment
+                                                                                              assembly inspection
+
+
+
+
+  TABLE OF PRODUCT TYPES
+☆: Available for sale
+ Product name                                                                              Number of pins
+       A35S             10        12        16         20        24        30        34     40        44        50       54       60       64        70      80    100
+  for inspection        ☆         ☆         ☆          ☆         ☆         ☆         ☆      ☆         ☆         ☆        ☆        ☆        ☆         ☆       ☆     ☆
+Notes: 1. Please contact our sales representative about availability and number of pins other than those shown above.
+        2. Please keep the minimum order quantities no less than 50 pieces per lot.
+
+
+  PRODUCT TYPES
+
+                                       Part No.
+                 Socket                                      Header
+               AXE7E**26                                    AXE8E**26
+Note: When placing an order, substitute the “ * ” (asterisk) in the above part number
+      with the number of pins for the specific connector.
+
+
+
+
+Panasonic Industry Co., Ltd. Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/                                                           ー5ー                     Panasonic Industry Co., Ltd. 2022        ACCTB2E 202204
+Narrow pitch connectors A35S (0.35 mm pitch)
+
+ NOTES                                                                                                                                  Unit: mm
+
+  Design of PC board patterns
+  Conduct the recommended foot pattern design, in order to
+  preserve the mechanical strength of terminal solder areas.
+  Recommended PC board and metal mask patterns
+  Connectors are mounted with high pitch density, intervals of               The figures are recommended patterns. Please use them as a
+  0.35 mm, 0.4 mm or 0.5 mm. In order to reduce solder and                   reference.
+  flux rise, solder bridges and other issues make sure the proper
+  levels of solder is used.
+
+  Socket (Mated height: 0.8 mm)                                              Header (Mated height: 0.8 mm)
+  Recommended PC board pattern                                               Recommended PC board pattern
+  (TOP VIEW)                                                                 (TOP VIEW)
+
+         2.90±0.03                                                                    1.66±0.03      0.35±0.03              (0.65)
+                          0.35±0.03             (0.50)
+         1.06±0.03       0.20±0.03                                                    0.60±0.03     0.20±0.03               1.10±0.03
+                                               0.20±0.03
+          (0.92)                                                                       (0.53)                               2.40±0.03
+                                               1.90±0.03
+
+
+
+
+                                                  Ｃ0.3                                             0.45±0.03
+                        0.90±0.03                                                                   0.70±0.03
+                        1.35±0.03               : Insulation area
+
+
+  Recommended metal mask pattern                                             Recommended metal mask pattern
+  Metal mask thickness: When 120 μm                                          Metal mask thickness: When 120 μm
+  (Terminal opening ratio: 70%)                                              (Terminal opening ratio: 70%)
+  (Metal-part opening ratio: 70%)                                            (Metal-part opening ratio: 100%)
+
+            2.90±0.01                             (0.39)                              1.66±0.01      0.35±0.01              (0.50)
+                           0.35±0.01
+            1.60±0.01      0.18±0.01              2.02±0.01                           0.60±0.01      0.18±0.01              1.30±0.01
+            (0.65)                                2.80±0.01                           (0.53)                                2.30±0.01
+
+
+
+
+                                                                                                   0.45±0.01
+                          0.90±0.01                   Ｃ0.30
+                                                                                                    0.70±0.01
+                           1.35±0.01
+
+
+
+
+                                                                                    Please refer to "the latest product specifications"
+                                                                                    when designing your product.
+                                                                                    •Requests to customers:
+                                                                                     https://industrial.panasonic.com/ac/e/salespolicies/
+
+
+
+
+Panasonic Industry Co., Ltd. Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/                                         ー6ー              Panasonic Industry Co., Ltd. 2022      ACCTB2E 202204
+    For board-to-board/board-to-FPC
+    Notes on Using Narrow pitch RF Connectors/Narrow pitch Connectors/High Current Connectors
+
+ About safety remarks
+
+Observe the following safety remarks to prevent accidents
+and injuries.
+• Do not use these connectors beyond the speciﬁcation                        • Panasonic Industry Co., Ltd. is consistently striving to
+  sheets. The usage outside of speciﬁed rated current,                         improve quality and reliability. However, the fact remains
+  dielectric strength, and environmental conditions and                        that electrical components and devices generally cause
+  so on may cause circuitry damage via abnormal heating,                       failures at a given statistical probability. Furthermore, their
+  smoke, and ﬁre.                                                              durability varies with use environments or use conditions.
+• In order to avoid accidents, your thorough speciﬁcation                      In this respect, please check for actual electrical
+  review is appreciated. Please contact our sales                              components and devices under actual conditions before
+  representative if your usage is out of the speciﬁcations.                    use. Continued usage in a state of degraded condition
+  Otherwise, Panasonic Industry Co., Ltd. cannot guarantee                     may cause the deteriorated insulation, thus result in
+  the quality and reliability.                                                 abnormal heat, smoke or ﬁring. Please carry out safety
+                                                                               design and periodic maintenance including redundancy
+                                                                               design, design for ﬁre spread prevention, and design for
+                                                                               malfunction prevention so that no accidents resulting in
+                                                                               injury or death, ﬁre accidents, or social damage will be
+                                                                               caused as a result of failure of the products or ending life
+                                                                               of the products.
+
+
+ Regarding the design of devices and PC board patterns
+
+• When using board to board connectors, a pair of board                      • When mounting connectors on a FPC
+  shaII NOT be connected with multiple connectors.                             • When the connector soldered to FPC is mated or
+  Otherwise, misaligned connector positions may cause                            unmated, solder detachment may occur by the force to
+  mating failure or product breakage. Panasonic Industry                         the terminals.
+  Co., Ltd. does not guarantee the failures caused by using                      Connector handling is recommended in the condition
+  the multiple connectors.                                                       when the reinforcing plate is attached to the backside
+• With mounting equipment, there may be up to a 0.2                              of FPC where the connector is mounted. The external
+  to 0.3 mm error in positioning. Be sure to design PC                           dimension of the reinforcing plate is recommended
+  boards and patterns while taking into consideration the                        to be larger than the dimension of     Recommended
+  performance and abilities of the required equipment.                           PC board pattern     ( extended dimension of one side
+• Some connectors have tabs embossed on the body to aid                          is approximately 0.5 to 1.0 mm ). The materials and
+  in positioning. When using these connectors, make sure                         thickness of the reinforcing plate are glass epoxy or
+  that the PC board is designed with positioning holes to                        polyimide ( thickness 0.2 to 0.3 mm ) or SUS ( thickness
+  match these tabs.                                                              0.1 to 0.2 mm ).
+• To ensure the required mechanical strength when                              • As this connector has temporary locking structure, the
+  soldering the connector terminals, make sure the PC                            connector mating may be separated by the dropping
+  board meets recommended PC board pattern design                                impact depend on the size, weight or bending force
+  dimensions given.                                                              of the FPC. Please consider the measures at usage to
+• PC board                                                                       prevent the mating separation.
+  Control the thicknesses of the cover lay and adhesive to                   • The narrow pitch connector series is designed to be
+  prevent poor soldering. This connector has no stand-oﬀ.                      compact and thin. Although ease of handling has
+  Therefore, minimize the thickness of the cover lay, etc. so                  been taken into account, take care when mating the
+  as to prevent the occurrence of poor soldering.                              connectors, as displacement or angled mating could
+• For all connectors of the narrow pitch series, to prevent                    damage or deform the connector.
+  the PC board from coming oﬀ during vibrations or
+  impacts, and to prevent loads from falling directly on the
+  soldered portions, be sure to design some means to ﬁx
+  the PC board in place.
+  Example ) Secure in place with screws
+                                           Screw
+    ↓                                     ↓
+
+
+         Spacer               Connector       PC board
+                               Spacer
+
+
+
+   When connecting PC boards, take appropriate measures
+   to prevent the connector from coming oﬀ.
+
+
+Panasonic Industry Co., Ltd. Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/                                             ー7ー             Panasonic Industry Co., Ltd. 2023   ACCTB48E 202301
+Notes on Using Narrow pitch RF Connectors/Narrow pitch Connectors/High Current Connectors
+
+ Regarding the selection of the connector placement machine and the mounting procedures
+
+• Select the placement machine taking into consideration                     • The positioning bosses give an approximate alignment
+  the connector height, required positioning accuracy, and                     for positioning on the PC board. For accurate positioning
+  packaging conditions.                                                        of the connector when mounting it to the PC board, we
+• Be aware that if the chucking force of the placement                         recommend using an automatic positioning machine.
+  machine is too great, it may deform the shape of the                       • In case of dry condition, please note the occurrence of
+  connector body or connector terminals.                                       static electricity. The product may be adhered to the
+• Be aware that during mounting, external forces may be                        embossed carrier tape or the cover tape in dry condition.
+  applied to the connector contact surfaces and terminals                      Recommended humidity is from 40 to 60% RH and please
+  and cause deformations.                                                      remove static electricity by ionizer in manufacturing
+• Depending on the size of the connector being used, self                      process.
+  alignment may not be possible. In such cases, be sure to
+  carefully position the terminal with the PC board pattern.
+
+
+ Regarding soldering
+
+■ Reflow soldering
+   • Measure the recommended proﬁle temperature for                              • Do not use resin-containing solder. Otherwise, the
+     reﬂow soldering by placing a sensor on the PC board                           contacts might be ﬁrmly ﬁxed.
+     near the connector surface or terminals. ( Please refer                     • Soldering conditions
+     to the speciﬁcation for detail because the temperature                        Please use the reﬂow temperature proﬁle conditions
+     setting diﬀers by products. )                                                 recommended below for reﬂow soldering. Please
+   • As for cream solder printing, screen printing is                              contact our sales representative before using a
+     recommended.                                                                  temperature proﬁle other than that described below.
+   • When setting the screen opening area and PC board                              Temperature
+                                                                                                Peak temperature
+     foot pattern area, refer the recommended PC board                                    260℃
+                                                                                          230℃                           220℃
+                                                                                                      Preheating         200℃
+     pattern and window size of metal mask on the                                         180℃                                     Upper limited
+                                                                                          150℃                           25 sec.   (Solder heat resistance)
+     speciﬁcation sheet, and make sure that the size of                                                60 to 120 sec.              Lower limited
+                                                                                                                         70 sec.   (Solder wettability)
+     board pattern and metal mask at the base of the
+                                                                                                                        Time
+     terminals are not increased.
+   • Please pay attentions not to provide too much solder. It                      For products other than the ones above, please refer to
+     makes miss mating because of interference at soldering                        the latest product speciﬁcations.
+     portion when mating.                                                        • The temperature proﬁles given in this catalog are values
+                Terminal                                                           measured when using the connector on a resin-based
+                                    Paste solder                                   PC board. When performed reﬂow soldering on a
+                                    PC board foot pattern                          metal board ( iron, aluminum, etc. ) or a metal table to
+                                                                                   mount on a FPC, make sure there is no deformation or
+   • When mounting on both sides of the PC board and the                           discoloration of the connector before mounting.
+     connector is mounting on the underside, use adhesives                       • Please contact our sales representative when using a
+     or other means to ensure the connector is properly                            screen-printing thickness other than that recommended.
+     ﬁxed to the PC board. ( Double reﬂow soldering on the
+     same side is possible. )
+   • The condition of solder or ﬂux rise and wettability varies
+     depending on the type of solder and ﬂux. Solder and
+     ﬂux characteristics should be taken into consideration
+     and also set the reﬂow temperature and oxygen level.
+
+
+
+
+Panasonic Industry Co., Ltd. Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/                                             ー8ー                 Panasonic Industry Co., Ltd. 2023   ACCTB48E 202301
+Notes on Using Narrow pitch RF Connectors/Narrow pitch Connectors/High Current Connectors
+
+■ Hand soldering
+   • Set the soldering iron so that the tip temperature is less                  • Be aware that soldering while applying a load on the
+     than that given in the table below.                                           connector terminals may cause improper operation of
+     Table A                                                                       the connector.
+               Product name                 Soldering iron temperature           • Thoroughly clean the soldering iron.
+                                                    300℃ within 5 sec.           • Flux from the solder wire may get on the contact
+      SMD type connectors all products
+                                                    350℃ within 3 sec.             surfaces during soldering operations. After soldering,
+   • Do not allow ﬂux to spread onto the connector leads                           carefully check the contact surfaces and clean oﬀ any
+     or PC board. This may lead to ﬂux rising up to the                            solder before use.
+     connector inside.                                                           • These connector is low proﬁle type. If too much solder
+   • Touch the soldering iron to the foot pattern. After the                       is supplied for hand soldering, It makes miss mating
+     foot pattern and connector terminal are heated, apply                         because of interference at soldering portion. Please pay
+     the solder wire so it melts at the end of the connector                       attentions.
+     terminals.
+
+                    Apply the solder      S
+                                       iro old
+                    wire here             n eri
+                                               ng
+
+        Terminal                                    Small angle as
+                                                    possible up to
+                                                    45 degrees
+
+
+                                       PC board
+
+                      Pattern
+
+
+
+
+■ Solder reworking
+   • Finish reworking in one operation.
+   • In case of soldering rework of bridges. Do not use
+     supplementary solder ﬂux. Doing so may cause contact
+     problems by ﬂux.
+   • Keep the soldering iron tip temperature below the
+     temperature given in Table A.
+
+
+ Handling single components
+
+• Make sure not to drop or allow parts to fall from work                     • Do not insert or remove the connector when it is not
+  bench.                                                                       soldered. Forcibly applied external pressure on the
+• Excessive force applied to the terminals could cause                         terminals can weaken the adherence of the terminals
+  warping, come out, or weaken the adhesive strength of                        to the molded part or cause the terminals to lose their
+  the solder. Handle with care.                                                evenness.
+
+
+ Precautions for mating
+
+This product is designed with ease of handling. However,                     Press-ﬁtting while the mating
+                                                                             inlets of the socket and      Strongly pressed and
+in order to prevent the deformation or damage of contacts                    header are not matched.       twisted              Tilted mating
+and molding, take care and do not mate the connectors as
+shown right.
+Our products are symmetrical structure. Please avoid reverse
+insertion of connector. Inserting a connector in a circuit
+direction opposite to that you intended may cause circuitry
+damage via abnormal heating, smoke, and ﬁre.
+
+
+ Cleaning ﬂux from PC board
+
+There is no need to clean this product.                                      • Keep the cleaning solvent clean and prevent the
+If cleaning it, pay attention to the following points to                       connector contacts from contamination.
+prevent the negative eﬀect to the product.                                   • Some cleaning solvents are strong and they may dissolve
+                                                                               the molded part and characters, so pure water passed
+                                                                               liquid solvent is recommended.
+
+
+
+
+Panasonic Industry Co., Ltd. Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/                                             ー9ー                   Panasonic Industry Co., Ltd. 2023              ACCTB48E 202301
+Notes on Using Narrow pitch RF Connectors/Narrow pitch Connectors/High Current Connectors
+
+ Handling the PC board
+
+■ Handling the PC board after mounting the
+                                                                                           The soldered areas should not be subjected to force.
+  connector
+   When cutting or bending the PC board after mounting
+   the connector, be careful that the soldered sections are
+   subjected to excessive force.
+
+
+ Storage of connectors
+
+• To prevent problems from voids or air pockets due to                     • When storing the connectors with the PC boards
+  heat of reﬂow soldering, avoid storing the connectors in                   assembled and components already set, be careful not
+  areas of high humidity.                                                    to stack them up so the connectors are subjected to
+• Depending on the connector type, the color of the                          excessive forces.
+  connector may vary from connector to connector                           • Avoid storing the connectors in locations with excessive
+  depending on when it is produced. Some connectors may                      dust. The dust may accumulate and cause improper
+  change color slightly if subjected to ultraviolet rays during              connections at the contact surfaces.
+  storage. This is normal and will not aﬀect the operation
+  of the connector.
+
+
+ Other Notes
+
+• Do not remove or insert the electriﬁed connector ( in the                • When coating the PC board after soldering the connector
+  state of carrying current or applying voltage ).                           to prevent the deterioration of insulation, perform the
+• Dropping of the products or rough mishandling may                          coating in such a way so that the coating does not get on
+  bend or damage the terminals and possibly hinder proper                    the connector.
+  reﬂow soldering.                                                         • There may be variations in the colors of products from
+• Before soldering, try not to insert or remove the                          diﬀerent production lots. This is normal.
+  connector more than absolutely necessary.                                • The connectors are not meant to be used for switching.
+                                                                           • Product failures due to condensation are not covered by
+                                                                             warranty.
+
+
+ Regarding sample orders to conﬁrm proper mounting
+
+When ordering samples to conﬁrm proper mounting
+with the placement machine, connectors are delivered in
+50-piece units in the condition given right. Consult a sale
+representative for ordering sample units.
+
+
+              Condition when delivered from manufacturing
+
+
+                                                                                                             Reel
+                                    Required number                                            Delivery can also be made on
+               Embossed tape
+                                     of products for                                           a reel by customer request.
+               amount required     sample production
+               for the mounting       ( Unit 50 pcs. )
+
+
+
+
+                                                                                 Please refer to "the latest product speciﬁcations"
+                                                                                 when designing your product.
+                                                                                 •Requests to customers:
+                                                                                 https://industrial.panasonic.com/ac/e/salespolicies/
+
+
+
+
+Panasonic Industry Co., Ltd. Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/                                         ー 10 ー           Panasonic Industry Co., Ltd. 2023         ACCTB48E 202301
+                                     Electromechanical Control Business Division
+                                      1006, Oaza Kadoma, Kadoma-shi, Osaka 571-8506, Japan
+                                     industral.panasonic.com/ac/e/
+
+
+
+
+                                     Specifications are subject to change without notice.
+©Panasonic Industry Co., Ltd. 2022                                                          2022.4
+                                                                     ACCTB2E 202204
+

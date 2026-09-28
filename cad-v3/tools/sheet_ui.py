@@ -126,11 +126,11 @@ S.text((154, 112), "NRST low = shutdown (105 nA) - R507 keeps it off until firmw
 
 # ============================================================ C. halo
 S.box((300, 20), (405, 128), "C · Halo RGB (common anode to VSYS)")
-led = S.place("Device:LED_RAGB", stock("Device", "LED_RAGB"), "D501", "RGB PLCC-4", 322.58, 55.88, mirror=True,
-              footprint="Bingbong_v3:LED_RGB_PLCC4_1.6x1.6", fields={"MPN": "1.6x1.6 PLCC-4 common-anode RGB [U]"},
+led = S.place("Device:LED_ARGB", stock("Device", "LED_ARGB"), "D501", "APTF1616SEEZGQBDC", 322.58, 55.88, mirror=True,
+              footprint="Bingbong_v3:LED_Kingbright_APTF1616", fields={"MPN": "Kingbright APTF1616SEEZGQBDC"},
               ref_off=(-3, -9.5), val_off=(-3, 9.5))
-S.rail(S.stub(led.pin("2"), "left", 3), "VSYS", "up", 2)
-for pin, net in (("1", "LED_RK"), ("3", "LED_GK"), ("4", "LED_BK")):   # LED_RAGB: 1 RK, 3 GK, 4 BK, 2 A
+S.rail(S.stub(led.pin("1"), "left", 3), "VSYS", "up", 2)
+for pin, net in (("2", "LED_RK"), ("3", "LED_GK"), ("4", "LED_BK")):   # LED_ARGB = Kingbright p.1: 1 A, 2 RK, 3 GK, 4 BK
     S.net(led.pin(pin), net, "right", 4)
 cap_group("LED_RK", (("C510", "10nF", C0402),), 358.14, 50.8)
 cap_group("LED_GK", (("C511", "10nF", C0402),), 373.38, 50.8)
@@ -141,7 +141,7 @@ for i, (col, rv, lab) in enumerate((("R", "330R", "LED_RK"), ("G", "150R", "LED_
     S.net(rr.pin(1), lab, "up", 2)
     q = S.place("Transistor_FET:Q_NMOS_GSD", stock("Transistor_FET", "Q_NMOS_GSD"), f"Q50{1 + i}", "N-FET",
                 x, rr.pin(2)[1] + 5.08 + 2.54, footprint="Package_TO_SOT_SMD:SOT-523",
-                fields={"MPN": "DMG1012T class [U]"}, ref_off=(4.5, -1), val_off=(4.5, 1.5))
+                fields={"MPN": "DMN26D0UT-7"}, ref_off=(4.5, -1), val_off=(4.5, 1.5))
     S.wire(rr.pin(2), q.pin(3))
     S.gnd(q.pin(2))
     gn = S.stub(q.pin(1), "left", 2)
@@ -154,7 +154,7 @@ for i, (col, rv, lab) in enumerate((("R", "330R", "LED_RK"), ("G", "150R", "LED_
     S.glabel(gl, f"LED_{col}", "left", shape="input")
 S.text((304, 27), "Fires into the polymer split ring (the light guide). Three GPIO-driven FETs,\n"
                   "hardware PWM, zero standby current (no LED driver IC).", NOTE)
-S.text((304, 112), "R values = ~5 mA at VSYS 3.7 V (red Vf ~2.0, green/blue ~3.0) [U]: set after the LED MPN.\n"
+S.text((304, 112), "R values: 4.3-4.8 mA at VSYS 3.45 V, ~6 mA at 3.7 V, ~8 mA at 4.2 V (APTF1616 Vf curves, p.3).\n"
                    "Green/blue have little headroom at 3.45 V - firmware scales PWM by battery voltage.\n"
                    "C510-512 10 nF at the LED pins keep RF off the halo lines (the LED sits next to the\n"
                    "antenna feed). R520-522 hold the gates"

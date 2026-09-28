@@ -44,7 +44,7 @@ S.wire(c301.pin(2), n0)
 S.label(n0, "RF_SIP", "up")
 j = S.place("Connector:CoaxialSwitch_Testpoint", stock("Connector", "CoaxialSwitch_Testpoint"), "J301", "MM8130-2600",
             66.04, y + 1.27, footprint="Bingbong_v3:Murata_MM8130-2600",
-            fields={"MPN": "Murata MM8130-2600RB2"}, ref_off=(-3, -5), val_off=(-3, 6.5))
+            fields={"MPN": "Murata MM8130-2600RA2"}, ref_off=(-3, -5), val_off=(-3, 6.5))
 S.wire(n0, j.pin("C"))
 S.gnd(S.stub(j.pin("G"), "right", 1), "down", 1)
 r301 = series("R", "R301", "0R", 83.82, y, mpn="series spare: 0R now, L or C when tuning")
@@ -91,8 +91,8 @@ S.wire((185.42, y), n4)
 S.label((198.12, y), "RF_FEED", "up")
 l301 = shunt("L", "L301", "22nH", n4, mpn="LQW15AN22NG class, rated for ESD residue")
 S.junction(n4)
-tv = S.place("Device:D_TVS", stock("Device", "D_TVS"), "D301", "ESD <=0.3pF", 226.06, y + 7.62, rot=90,
-             footprint="Bingbong_v3:ESD_0201_antenna_TBD", fields={"MPN": "antenna-grade ESD <= 0.3 pF (Murata LXES / Nexperia PESD class) [U]"},
+tv = S.place("Device:D_TVS", stock("Device", "D_TVS"), "D301", "EZAEG1N50AC", 226.06, y + 7.62, rot=90,
+             footprint="Bingbong_v3:Panasonic_EZAEG1N_0201", fields={"MPN": "Panasonic EZAEG1N50AC (0.04 pF, 30 V)"},
              ref_off=(10, -1.3), val_off=(11, 1.3))
 S.wire(n4, (226.06, y), tv.pin(2))
 S.gnd(tv.pin(1))

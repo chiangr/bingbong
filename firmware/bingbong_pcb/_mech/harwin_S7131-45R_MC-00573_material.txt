@@ -1,0 +1,30 @@
+                                                                                                                          Material Declaration for S7131-45R
+                                                                                     ®
+
+
+ K   O   A   S   P   E   E   R   E   L   E   C   T   R   O   N   I   C   S   ,   I   N   C   .
+
+
+
+
+Product Information                                                                                                         Homogeneous Material Location           Weight (g)       Tolerance      Substance Name          CAS #
+Part Number:                                                                                           S7131-45R                    Contact - Phosphor Bronze         0.0168              2%               Copper          7440-50-8
+Part Description:                                                                                Antenna Spring Contact                                               0.00187             1%                 Tin           7440-31-5
+Part Weight (g):                                                                                         0.0191                                                      0.000035            0.5%           Phosphorus         7723-14-0
+                                                                                                                                                                         0          0.000037g max   Zinc (impurity only)   7440-66-6
+Process Data                                                                                                                                                             0          0.000019g max   Iron (impurity only)   7439-89-6
+Peak Reflow (Deg. C)                                                                              260°C for 10 seconds                                                   0          0.000004g max   Lead (impurity only)   7439-92-1
+Termination Finish                                                                                  Gold over Nickel                                                     0          0.000093g max     Other Impurities
+RoHS Compliant? (Y/N)                                                                                     Yes                            Contact - Plating           0.000367            10%               Nickel          7440-02-0
+                                                                                                                                                                     0.000064            20%                Gold           7440-57-5
+
+
+                                             Prepared by:                                                                  Martin J Perry, BSc(Eng) MSc CEng MIET   On behalf of:
+                                                                                                                           Compliance Specialist
+                                                                                                                           ComplianceTeam@harwin.co.uk
+
+
+
+
+     Prepared 17-07-2019                                                                                                                                                                                                    Page 1
+
