@@ -102,8 +102,8 @@ tp = S.place("Connector:TestPoint", stock("Connector", "TestPoint"), "TP301", "D
 S.wire((226.06, y), (241.3, y))
 S.junction((241.3, y))
 fin = S.place("Connector_Generic:Conn_01x01", stock("Connector_Generic", "Conn_01x01"), "J302", "FEED FINGER",
-              264.16, y, rot=180, footprint="Bingbong_v3:SpringFinger_2.0mm_TBD",
-              fields={"MPN": "SMT BeCu spring finger, 2.0 mm free height, Au [U]"}, ref_off=(0, -3), val_off=(0, 3.5))
+              264.16, y, rot=180, footprint="Bingbong_v3:Harwin_S7141-45R",
+              fields={"MPN": "Harwin S7141-45R (2.5 mm free, 1.4-1.9 working; cap land z = 1.65)"}, ref_off=(0, -3), val_off=(0, 3.5))
 S.wire((241.3, y), fin.pin(1))
 S.text((272, 77), "-> finger -> gold land on the cap's\n   feed tab -> 6061 END CAP (antenna)", NOTE)
 

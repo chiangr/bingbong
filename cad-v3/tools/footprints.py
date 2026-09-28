@@ -336,4 +336,18 @@ for n, x in ((1, -0.675), (2, 0.675)):
     f.smd(str(n), x, 0, 0.65, 0.7, mask=0.05)
 made.append(f.write())
 
+# ---- Harwin S7141-45R SMT spring finger (J302) — Customer Information Sheet S7141-45R iss.5 (01.05.24),
+# "Recommended PCB layout" (+/-0.05): one pad 3.30 x 2.80; the part's 4.60 x 2.30 base starts 0.35 inside the pad's
+# left edge, so it overhangs the right edge by 1.65 (overall 4.95). Contact apex under the pick & place circle,
+# ~3.95 from the pad's left edge [inferred from the drawing, not dimensioned]. Working height 1.40-1.90, free 2.50.
+# Origin = centre of the pad + overhang (4.95 x 2.80). Same land for S7131-45R (2.0 mm free height).
+import fpgen as _fg
+f = FP("Harwin_S7141-45R", "Harwin S7141/S7131 SMT spring finger, 3.3 x 2.8 pad", 4.95, 2.80,
+       "Harwin S7141-45R CIS iss.5 recommended PCB layout")
+f.smd("1", -0.825, 0, 3.30, 2.80, mask=0.05)
+f.items.append(_fg._rect((-2.475 + 0.35, -1.15), (2.475, 1.15), "F.Fab", 0.05))
+f.items.append(_fg._line((1.475 - 0.3, 0), (1.475 + 0.3, 0), "F.Fab", 0.05))
+f.items.append(_fg._line((1.475, -0.3), (1.475, 0.3), "F.Fab", 0.05))
+made.append(f.write())
+
 print("wrote:", ", ".join(made))
