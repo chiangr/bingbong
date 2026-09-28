@@ -1,0 +1,1355 @@
+Datasheet for Chipsemi CHSC6417
+
+Datasheet for Chipsemi
+CHSC6417EU24
+DS-CHSC6417
+Ver 1.3.0
+
+Brief:
+This data sheet is dedicated for the self-capacitive touch
+panel controller IC CHSC6417EU24 developed by
+Chipsemi.
+In this data sheet, key features, operation mode, main
+modules and reference design of the CHSC6417EU24
+are introduced.
+
+CHIPSEMI SEMICONDUCTOR
+
+Keyword:
+Features; Benefits; Operation modes; CDSP; MCU;
+Clock; Timer; Watchdog; Interface; Interrupt; Memory;
+ADC; Electrical specifications; Applications.
+
+Datasheet for Chipsemi CHSC6417
+
+Published by Chipsemi(Ning Bo) Co., Ltd.
+475 Ye Shan RD, Yu Yao Zhejiang , China
+© Chipsemi Semiconductor All Right Reserved
+Legal Disclaimer
+Chipsemi(Ning Bo) Co., Ltd. (Chipsemi) reserves the right to make changes without
+further notice to any products herein to improve reliability, function or design.
+Chipsemi disclaims any and all liability for any errors, inaccuracies or
+incompleteness contained herein or in any other disclosure relating to any product.
+Chipsemi does not assume any liability arising out of the application or use of any
+product or circuit described herein; neither does it convey any license under its patent
+rights, nor the rights of others
+The products shown herein are not designed for use in medical, life-saving, or lifesustaining applications. Customers using or selling Chipsemi products not expressly
+indicated for use in such applications do so entirely at their own risk and agree to
+fully indemnify Chipsemi for any damages arising or resulting from such use or sale.
+
+Information:
+For further information on the technology, product and business term, please contact
+Chipsemi Company (www.Chipsemicorp.com).
+For sales or technical support, please send email to the address of:
+sales@chipsemicorp.com
+support@chipsemicorp.com
+
+Revision History
+DS-CHSC6417
+
+Ver 1.3.0
+
+Datasheet for Chipsemi CHSC6417
+
+Version
+
+Major Changes
+
+Date
+
+Author
+
+1.0.0
+
+Initial release
+
+2019/02
+
+YG.zhang
+
+1.2.0
+
+Add power reset sequence
+
+2019/03
+
+YG.zhang
+
+1.3.0
+
+Add I2c attention
+
+2020/04
+
+YG.zhang
+
+1.3.1
+
+Power consumption update
+
+2022/06
+
+YF.sang
+
+DS-CHSC6417
+
+Ver 1.3.0
+
+Datasheet for Chipsemi CHSC6417
+
+1 Table of contents
+1
+
+Introduction ........................................................................................................ 6
+1.1 General description ...................................................................................... 1
+1.2 Key features.................................................................................................. 1
+1.3 Key benefits.................................................................................................. 2
+1.4 Typical application ....................................................................................... 3
+1.5 Ordering information.................................................................................... 3
+1.6 Package......................................................................................................... 4
+1.7 Pin layout...................................................................................................... 6
+2 Function Overview.............................................................................................. 7
+2.1 Block diagram .............................................................................................. 7
+2.1.1 Memory ................................................................................................. 7
+2.1.2 Interface ................................................................................................ 7
+2.1.3 Digital part ............................................................................................ 7
+2.1.4 Analog part............................................................................................ 7
+2.2 CTP operation modes ................................................................................... 8
+2.2.1 Normal mode ........................................................................................ 8
+2.2.2 Low-power mode .................................................................................. 8
+2.2.3 Suspend mode ....................................................................................... 8
+3 CDSP................................................................................................................... 8
+4 MCU ................................................................................................................... 9
+4.1 Description ................................................................................................... 9
+4.2 Clock ............................................................................................................ 9
+4.2.1 System clock ......................................................................................... 9
+4.2.2 ADC clock ............................................................................................ 9
+4.3 Reset, Wakeup and Power down enabling ................................................... 9
+5 Timers ................................................................................................................. 9
+5.1 Mode0 (System Clock Mode) ...................................................................... 9
+5.2 Mode1 (GPIO Trigger Mode) .................................................................... 10
+5.3 Mode2 (GPIO Pulse Width Mode) ............................................................... 10
+5.4 Mode3 (Tick Mode) ................................................................................... 10
+5.5 No-wrap mode ............................................................................................ 10
+5.6 Watchdog ................................................................................................... 11
+6
+Interface .......................................................................................................... 11
+6.1 I2C .............................................................................................................. 12
+7
+Interrupt system .............................................................................................. 12
+7.1 Enable interrupt sources and priority ......................................................... 13
+7.2 Interrupt source indication ......................................................................... 13
+7.3 Clear IRQ source ........................................................................................ 13
+8 Power on reset sequence ................................................................................... 13
+9 Memory configuration ...................................................................................... 16
+10 SAR ADC ......................................................................................................................16
+10.1 Clock ........................................................................................................ 16
+DS-CHSC6417
+
+Ver 1.3.0
+
+Datasheet for Chipsemi CHSC6417
+
+10.2 Resolution................................................................................................. 16
+10.3 Reference voltage and sampling period ................................................... 16
+10.4 Input mode and channel selection ............................................................ 16
+10.5 Reset and power down ............................................................................. 17
+11 Key Electrical Specifications .....................................................................................19
+11.1 Absolute maximum ratings ...................................................................... 19
+11.2 Recommended operating condition .......................................................... 17
+11.3 DC characteristics .................................................................................... 18
+11.4 AC characteristics .................................................................................... 18
+
+DS-CHSC6417
+
+Ver 1.3.0
+
+Datasheet for Chipsemi CHSC6417
+
+2 Table of Figures
+Figure 1-1
+Figure 1-2
+Figure 2-1
+Figure 6-1
+Figure 6-2
+Figure 8-1
+Figure 8-2
+Figure 8-3
+Figure 8-4
+
+DS-CHSC6417
+
+Package dimension for the CHSC6417 ............................................ 5
+Pin assignment for the CHSC6417 .................................................. 6
+Block diagr ....................................................................................... 7
+Schematic diagram for interface .................................................... 11
+Connection schematic between I2C and AIF_CTL module ........... 12
+power on time................................................................................. 13
+Power Cycle requirement ............................................................... 13
+Power on Sequence ........................................................................ 13
+Reset Sequence............................................................................... 14
+
+Ver 1.3.0
+
+Datasheet for Chipsemi CHSC6417
+
+3 Table of Tables
+Table 1-1 Key features of CHSC6417 ............................................................... 1
+Table 1-2 Ordering information of the CHSC6417 ........................................... 4
+Table 1-3 Pin functions for the CHSC6417 ....................................................... 7
+Table 8-1 Power on/Reset Sequence Parameters ............................................. 16
+Table 10-1 Absolute Maximum Ratings .......................................................... 17
+Table 10-2 Recommended operation condition ............................................... 17
+Table 10-3 DC characteristics .......................................................................... 17
+Table 10-4 AC Characteristics ......................................................................... 17
+
+DS-CHSC6417
+
+Ver 1.3.0
+
+Datasheet for Chipsemi CHSC6417
+
+1 Introduction
+1.1
+
+General description
+
+CHSC6417, latest generation single-chip self-capacitive touch panel controller SoC
+developed by Chipsemi, is designed to work with self-capacitance type sensor, and
+supports user-friendly gesture control and up to two-point touch with a capacitive touch
+panel. Single-chip CHSC6417EU24 supports up to 3’’ touch panel.
+With built-in 32-bit RISC processor and CDSP module, the CHSC6417EU24 is
+featured with outstanding noise immunity, fast response, low power consumption,
+excellent accuracy and linearity, as well as perfect waterproof performance.
+CHSC6417, which operates in the -40℃~+125℃ industrial temperature range, can be
+applied to a diverse group of portable devices, such as watch,bracelet.
+CHSC6417EU24 offers high-volume-assembly and high integration level. Only one
+external capacitors are needed to satisfy customers’ ultra-low cost requirement. The I
+It’s completely RoHS-compliant and 100% lead (Pb)-free.
+
+1.2
+
+Key features
+Table 1-1 Key features of CHSC6417
+Features
+
+Package
+
+CHSC6417
+UQFN-24, 3x3x0.55mm
+
+G/G, G/F, P/F, OGS, Ultra-thin G/F
+Touch sensor
+(Support ITO traces; support direct bonding; support
+frame-less TP)
+ITO pattern
+single layer self-capacitance
+Touch panel size
+<3’’
+Power-on time: <75ms; Latency time for first touch: <12ms.
+Response time
+Scanning speed: up to 200Hz
+Operating voltage
+2.6V~3.6V
+Operating temperature -40℃~+125℃
+Supported channel
+17
+number
+Supported channel
+<100kΩ
+driving resistance
+Supported single
+Up to 400pF
+channel capacitance
+Active/80Hz/2.8V，I<1.1mA，P<3.08mW(Typ)
+Power consumption
+Idle/20Hz/2.8V，I<20uA，P<56uW(Typ)
+sleep mode: 6uA (Typ)
+DS-CHSC6417
+
+1
+
+Ver 1.4.0
+
+Datasheet for Chipsemi CHSC6417
+
+Features
+ESD
+Multi-point touch
+Glove mode
+Anti-interference
+performance
+
+CHSC6417
+HBM 6000V (min.), MM 300V (min.), CDM 500V (min.),
+Air Discharge +/-10 kV (min.)
+Up to 2 points
+Support
+Immune to noise from RF, LCD and power supply
+
+1.3 Key benefits
+(1) Anti-Interference and excellent noise-cancellation performance:Immune to RF
+interference, robust operation in noisy RF environment;Insensitive to capacitance and
+environmental variety via auto calibration function;Chipsemi’s innovative adaptivenoise-cancellation technology and specially designed data processing unit can detect
+and silence the two noise sources which capacitive touch screen usually suffers from:
+display noise and charger noise. With the powerful 32bit MCU and specific built-in
+hardware, both the periodic and broadband noise can be eliminated to obtain
+unmatched noise immunity.
+(2) Fast response time:The power-on time for the CHSC6417EU24 is less than 75ms;
+When it is powered up, the latency time for first touch is less than 12ms;Scanning rate
+up to 200Hz makes fast response available, which is especially useful for the highly
+demanding applications for the responding speed, such as handwriting and game.
+(3)Low power consumption:The average current in typical case is 1.1mA at active state,
+and 6uA in suspend mode.
+(4)Excellent waterproof performance:Water mist even droplets on the surface will not
+influence normal operation of touch panel based on the CHSC6417.When water mist
+or droplets are wiped off, the touch screen can also be operated normally without extra
+delays.No malfunction or dummy points will be reported during water spurting and
+wiping process.
+
+DS-CHSC6417
+
+2
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+1.4
+
+Typical application
+
+The CHSC6417EU24 is dedicated for self-capacitive touch panel; its typical
+applications are listed as follows:
+ Smart watch
+ Smart bracelet
+ Digital camera
+ GPS navigator
+ Portable media player
+ Game consoles.
+
+1.5 Ordering information
+Table 1-2 Ordering information of the CHSC6417
+Product
+Series
+
+Package
+Type
+
+Temperature
+Range
+
+Product Part No.
+
+Packing
+Method
+
+Ordering
+Number
+
+Minimum Order
+Quantity
+
+CHSC6417
+
+24-pin
+3x3x0.55m
+m UQFN
+
+-40℃~+125℃
+
+CHSC6417EU24
+
+TR
+
+CHSC6417E
+U24R
+
+3000
+
+*Note: Packing method “TR” means tape and reel.
+
+DS-CHSC6417
+
+3
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+1.6 Package
+Package dimension for the CHSC6417EU24 is shown as Figure 1-1.
+
+DS-CHSC6417
+
+4
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+Figure 1-1 Package dimension for the CHSC6417EU24
+
+DS-CHSC6417
+
+5
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+1.7 Pin layout
+VDDIO
+
+RSTN
+
+VDDD
+
+21
+
+20
+
+19
+
+S13
+
+S12
+
+13
+
+12
+
+S14
+
+S11
+
+14
+11
+
+S15
+
+S10
+
+15
+
+10
+
+S16
+
+S9
+
+6
+
+16
+
+9
+
+S6
+
+S17
+
+S8
+
+5
+
+17
+
+8
+
+S5
+
+VDDA
+
+S7
+
+4
+
+CHSC6417EU24
+
+18
+
+7
+
+S4
+
+22
+
+3
+
+SCL
+
+S3
+
+23
+
+2
+
+SDA
+
+S2
+
+24
+
+1
+
+INT
+
+S1
+
+Figure 1-2 Pin assignment for the CHSC6417EU24
+Functions of 24 pins for the CHSC6417EU24 (CHSC6417EU24) are described in
+Table 1-3
+Table 1-3 Pin functions for the CHSC6417
+Pin Name
+
+Pin No.
+
+Type
+
+S1~S17
+VDDA
+VDDD
+RSTN
+
+1~17
+18
+19
+20
+21
+22
+23
+24
+
+I
+PWR
+PWR
+I
+PWR
+I/O
+I/O
+I/O
+
+VDDIO
+SCL
+SDA
+INT
+
+Description
+
+sense input
+Analog power input
+Digital LDO output
+Capacitor to ground is required.
+I/O power supply
+I2C clock input
+I2C data input and output
+External interrupt to the host
+
+*Note: Pins with bold typeface can be used as GPIOs.
+
+DS-CHSC6417
+
+6
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+2 Function Overview
+2.1 Block diagram
+The overall system block diagram of the CHSC6417 is shown as Figure 2-1.
+8KB SRAM/
+128kB Flash
+
+Sense pins
+
+Timer/
+Watchdog
+
+I2C
+
+RISC 32bit MCU
+
+24MHz/
+32KHz Oscillator
+
+SWS
+Temperature
+sensor
+CDSP
+
+12bit
+ADC
+CTP driver &
+sense module
+
+GPIO
+
+Figure 2-1 Block diagram
+2.1.1 Memory
+ 128KB Flash;
+ SRAM: 8KB SRAM for system use; 2KB SRAM for CDSP use;
+2.1.2 Interface
+ CHSC6417: 17 CTP sense pins; I2C.
+2.1.3 Digital part
+ A 32-bit RISC processor with a 32×32 multiplier and a 32/32 divider;
+ Embeds CDSP module to obtain accurate coordinate of touch points via
+firmware; the CDSP supports totally up to 24 sensing lines for the CHSC6417;
+ Timer: Integrates 3 timers and there are four modes available for each timer;
+Timer2 can be configured as a watchdog so as to reset chip from unexpected
+hang up or malfunction.
+2.1.4 Analog part
+ CTP driver & sense module: The sensing circuit adopts the patented charger
+fast detection technology for efficiency.
+ Embeds a temperature sensor which serves to measure ambient environment
+temperature so as to implement temperature compensation via firmware.
+ ADC: The 12-bit ADC serves to take samples of temperature sensor/integrator
+DS-CHSC6417
+
+7
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+output, conduct analog-to-digital signal conversion, and send digital signal after
+conversion to the CDSP module.
+ Clock: Embeds a 24MHz RC oscillator
+ Regulator: Embeds a LDO (Low Dropout) regulator to provide power for
+internal clock. Also embeds a DIG_LDO and a LC_LDO to provide power for
+digital parts in normal working mode and low current mode, respectively.
+ Band gap: Provides voltage reference value.
+ Embeds a 32KHz RC oscillator which serves to generate a clock for suspend
+mode wake up.
+
+2.2 CTP operation modes
+For the CHSC6417, there are three operation modes available as follows: normal mode,
+low-power mode and suspend mode.
+2.2.1 Normal mode
+In normal mode, the CHSC6417EU24 scans the touch screen panel with certain
+scanning rate, such as the default scanning rate: 60 frames per second.Users can also
+speed up or slow down the scanning rate via configuration.
+2.2.2 Low-power mode
+In low-power mode, the CHSC6417EU24 scans the touch screen panel with a relatively
+lower rate. The default scanning rate for this mode is 10 frames per second.
+Users can also speed up or slow down the scanning rate via configuration.
+When in this mode, touch detection is feasible for the CHSC6417, and the chip will
+enter the normal mode if a touch is detected.
+2.2.3 Suspend mode
+In suspend mode, the CHSC6417EU24 is in standby state and will only respond to
+external “WAKEUP” signal. Very little current is consumed in this mode, so that the
+standby time for portable devices can be prolonged.
+
+3 CDSP
+The CHSC6417EU24 embeds CDSP and supports up to 24 sensing lines which are
+configurable. Calculation for accurate touch point coordinate information is
+implemented via firmware.
+The CDSP configures analog front-end parameters, control analog-to-digital
+conversion and channel switch for flexible scanning time and sensor usage. The
+collected sampling data from ADC will be stored into internal SRAM and will be
+translated into accurate touch position information using advanced algorithms.
+DS-CHSC6417
+
+8
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+4 MCU
+4.1
+
+Description
+
+The CHSC6417EU24 integrates a powerful 32-bit MCU developed by Chipsemi. The
+digital core is based on 32-bit RISC, and the length of instructions is 16 bits; four
+hardware breakpoints are supported.
+
+4.2
+
+Clock
+
+4.2.1 System clock
+System clock can be configured through registers.
+
+4.2.2 ADC clock
+ADC clock can be configured through registers.
+
+4.3
+
+Reset, Wake up and Power down enabling
+
+Except for power on reset, it is also feasible to carry out software reset for some
+modules via registers: if some bit is set to logic “1”, corresponding module is reset.
+
+5 Timers
+The CHSC6417EU24 supports three timers: Timer0 ~ Timer2. The three timers all
+support four modes: Mode 0 (System Clock Mode), Mode 1 (GPIO Trigger Mode),
+Mode 2 (GPIO Pulse Width Mode) and Mode 3 (Tick Mode). Timer 2 can also be
+configured as “watchdog” to monitor firmware running.
+
+5.1 Mode0 (System Clock Mode)
+In Mode 0, system clock is employed as clock source.
+After Timer is enabled, Timer Tick (i.e. counting value) is increased by 1 on each
+positive edge of system clock from preset initial Tick value. Generally the initial Tick
+DS-CHSC6417
+
+9
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+value is set to 0.Once current Timer Tick value matches the preset Timer Capture (i.e.
+timing value), an interrupt is generated, Tick value is cleared to 0 automatically and
+Timer status is updated.
+
+5.2 Mode1 (GPIO Trigger Mode)
+In Mode 1, GPIO is employed as clock source. After Timer is enabled, Timer Tick (i.e.
+counting value) is increased by 1 on each positive edge of GPIO from preset initial
+Tick value. Generally the initial Tick value is set to 0. Once current Timer Tick value
+matches the preset Timer Capture (i.e. timing value), an interrupt is generated and Tick
+value is cleared to 0 automatically.
+
+5.3 Mode2 (GPIO Pulse Width Mode)
+In Mode 2, system clock is employed as the unit to measure the width of GPIO pulse.
+After Timer is enabled, Timer Tick is triggered by a positive edge of GPIO pulse. Then
+Timer Tick (i.e. counting value) is increased by 1 on each positive edge of system clock
+from preset initial Tick value. Generally the initial Tick value is set to 0.
+While a negative edge of GPIO pulse is detected, an interrupt is generated. The GPIO
+pulse width could be calculated in terms of tick count and period of system clock.
+
+5.4 Mode3 (Tick Mode)
+In Mode 3, system clock is employed. After Timer is enabled, Timer Tick starts
+counting upward, and Timer Tick value is increased by 1 on each positive edge of
+system clock. This mode could be used as time indicator. There will be no interrupt
+generated. Timer Tick keeps rolling loop from 0 to 0xffffffff. When Timer tick
+overflows, it returns to 0 and starts counting upward again.
+
+5.5 No-wrap mode
+When in Mode0 or Mode1, Timer works normally with auto reload feature as described
+in section 5.2 or section 5.3. In this mode, when Timer tick value reaches preset capture
+value, an interrupt is generated, and Timer tick value is cleared to 0 automatically.
+Timer tick value starts rolling from 0 to the capture value again.
+
+DS-CHSC6417
+
+10
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+5.6 Watchdog
+Programmable watchdog could reset chip from unexpected hang up or malfunction.
+Only Timer2 supports Watchdog.
+
+6 Interface
+The CHSC6417EU24 integrates interfaces as follows:
+➢ 17 CTP sense pins: S1~S17;
+As shown in Figure 6-1, the interface between a host processor and the
+CHSC6417EU24 consists of I2C interface and an interrupt signal interface. Host gets
+data and sends “SUSPEND” command to the CHSC6417; while the CHSC6417EU24
+reminds Host of reading data.
+
+TX
+
+TP
+RX
+
+I2C
+
+CHSC
+6417
+
+HOST
+INT
+
+Figure 6-1 Schematic diagram for interface
+
+DS-CHSC6417
+
+11
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+6.1 I2C
+I2C module of the CHSC6417EU24 acts as slave. Its related registers are as follows:
+Be default, I2C Master can read any internal register and RAM space of the
+CHSC6417EU24 via I2C.
+
+CHSC6417
+I2C
+Master
+
+I2C bus
+
+System
+bus
+remap
+address
+
+I2C module
+
+AIF_CTL
+module
+I2C
+signals
+irq
+
+Figure 6-2 Connection schematic between I2C and AIF_CTL module
+The AIF_CTL module embedded in the CHSC6417EU24 serves to implement I2C
+address mapping, and provide cmd register to generate interrupt signal for I2C
+communication.
+Attention： I2C Pin （SDA and SCL） will drink current if no power supply for
+this device; So if I2C lines is share with other slavers and during the master is
+communicating with them, make sure CHSC6448EU56 is power on (normal mode,
+suspend mode or sleep mode); otherwise, the I2C communication may be disturbed.
+
+7 Interrupt system
+The interrupting function is applied to manage dynamic program sequencing based on
+real-time events triggered by timers, pins and etc.
+The CHSC6417EU24 supports 24 interrupt sources and two priority levels.
+When CPU receives an interrupt request (IRQ) from some interrupt source, it will
+decide whether to respond to the IRQ. If CPU decides to respond, it pauses current
+routine and starts to execute interrupt service subroutine. Program will jump to certain
+DS-CHSC6417
+
+12
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+code address and execute IRQ commands. After finishing interrupt service subroutine,
+CPU returns to the break point and continues to execute main function.
+
+7.1 Enable interrupt sources and priority
+Various interrupt sources can be enabled and set as Low Priority via registers.Any
+interrupt source could be enabled and set as High priority via registers. When more
+than one interrupt sources assert interrupt requests meanwhile, CPU will respond
+depending on respective interrupt priority level. If there’s interrupt source enabled with
+high priority, CPU should respond to it first.
+
+7.2 Interrupt source indication
+Three bytes in register table serve to indicate interrupt sources that have asserted IRQ
+(Interrupt Request). Once IRQ occurs from certain source, corresponding flag bit will
+be raised to “High”.
+
+7.3 Clear IRQ source
+When handling edge-triggered type interrupt, the corresponding IRQ source flag needs
+to be cleared registers.As for level-type interrupt, IRQ interrupt source status needs to
+be cleared via setting corresponding module status register.
+
+8 Power on reset sequence
+Reset should be pulled down to be low before powering on and powering down. I2C
+shouldn’t be used by other devices during Reset time after VDD powering on (Trtp).
+INT signal will be sent to the host after ini-tializing all parameters and then start to
+report points to the host. If Power is down, the voltage of supply must be below 0.3V
+and Tpdt is more than 1ms.
+
+DS-CHSC6417
+
+13
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+https://note.youdao.com/md/?defaultMode=view&fileId=WEBd31444b95d948f54b
+ac040baa2fa6a2c - figure-xx-xx-power-on-timeFigure 8-1 power on time
+
+Tp dt
+Pow er
+
+0.3V
+
+https://note.youdao.com/md/?defaultMode=view&fileId=WEBd31444b95d948f54b
+ac040baa2fa6a2c - figure-xx-xx-power-cycle-requirementFigure 8-2 Power Cycle
+requirement
+
+Trtp
+
+Tvdr
+Tvdr
+Tpon
+
+VDD
+
+R e se t
+INT
+
+I2c
+
+https://note.youdao.com/md/?defaultMode=view&fileId=WEBd31444b95d948f54b
+ac040baa2fa6a2c - figure-xxx-xx-power-on-sequenceFigure 8-3 Power on Sequence
+Reset time must be enough to guarantee reliable reset, the time of starting to report
+point after resetting approach to the time of starting to report point after powering on.
+
+DS-CHSC6417
+
+14
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+Trst
+
+Trst
+
+Power
+
+RESET
+
+INT
+
+I2c
+
+https://note.youdao.com/md/?defaultMode=view&fileId=WEBd31444b95d948f54b
+ac040baa2fa6a2c - figure-xx-xx-reset-sequenceFigure 8-4 Reset Sequence
+
+https://note.youdao.com/md/?defaultMode=view&fileId=WEBd31444b95d948f54b
+ac040baa2fa6a2c - table-xx-x-power-onreset-sequence-parametersTable 8-1 Power
+on/Reset Sequence Parameters
+Max
+
+Unit
+s
+
+--
+
+5
+
+ms
+
+Time of the voltage of supply being
+below 0.3V
+
+2
+
+--
+
+ms
+
+Trtp
+
+Time of resetting to be low before
+powering on
+
+100
+
+--
+
+μs
+
+Tpon
+
+Time of starting to report point after
+powering on
+
+--
+
+200
+
+ms
+
+Tvdr
+
+Reset time after VDD powering on
+
+1
+
+--
+
+ms
+
+Trsi
+
+Time of starting to report point after
+resetting
+
+--
+
+200
+
+ms
+
+Trst
+
+Reset time
+
+500
+
+--
+
+us
+
+Parameter
+
+Description
+
+Tris
+
+Rise time from 0.1VDD to 0.9VDD
+
+Tpdt
+
+DS-CHSC6417
+
+Min
+
+15
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+9 Memory configuration
+The CHSC6417EU24 embeds 128KB program memory (Flash), 8KB data memory
+(SRAM) for system use, as well as 2KB SRAM for CDSP use.
+
+10 SAR ADC
+The CHSC6417EU24 integrates one SAR ADC module, which can be used to sample
+CTP module output and internal test point.
+
+10.1 Clock
+As for SAR ADC clock configuration, please refer to Section 4.2.2
+
+ADC clock.
+
+10.2 Resolution
+The resolution is selectable via registers.ADC data format is always 12bits no matter
+the conversion bit is set. For example, 7 bits conversion will have higher 7 bits as valid
+bits and the rest bits are to be “1”.
+
+10.3 Reference voltage and sampling period
+The reference voltage (VREF) is selectable via registers: VDDA.The sampling
+frequency can be up to 1MHz with operating frequency of 24M for VDDA as reference;
+Beware of the ADC clock selection and set correct ADC clock divider value. Sampling
+period is determined by SAR ADC clock period * (sampling clock cycle + conversion
+bit + 1).
+
+10.4 Input mode and channel selection
+The SAR ADC for the CHSC6417EU24 supports single-end or differential input mode
+which is selectable via registers.
+
+DS-CHSC6417
+
+16
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+10.5 Reset and power down
+ADC_DATA, ADC_DATA1 and all SAR ADC configuration registers can be cleared
+to default value after reset.
+
+11 Key Electrical Specifications
+11.1
+
+Absolute maximum ratings
+Table 10-1 Absolute Maximum Ratings
+Characteristics
+
+Supply Voltage
+
+Sym.
+
+Min.
+
+Max
+
+Unit
+
+VDD
+A
+
+-0.3
+
+3.6
+
+V
+
+Voltage on Input Pin
+
+VIn
+
+-0.3
+
+Output Voltage
+
+VOut
+
+-0.3
+
+TStr
+
+-65
+
+Storage
+temperature
+Range
+Soldering Temperature
+
+VDDA+0.
+3
+Max 3.6
+VDDA+0.
+3
+Max 3.6
+
+TSld
+
+Test Condition
+
+V
+
+V
+
+150
+
+o
+
+260
+
+o
+
+C
+C
+
+CAUTION: Stresses above those listed in “Absolute Maximum Ratings” may cause
+permanent damage to the device. This is a stress only rating and operation of the device at these
+or any other conditions above those indicated in the operational sections of this specification
+is not implied.
+
+11.2 Recommended operating condition
+Table 10-2 Recommended operation condition
+Item
+Power-supply voltage
+Operating Temperature
+Range
+DS-CHSC6417
+
+Sym.
+VDD
+A
+
+Min
+
+Typ.
+
+Max
+
+Unit
+
+2.6
+
+2.8
+
+3.6
+
+V
+
+TOpr
+
+-40
+
+125
+
+o
+
+17
+
+Condition
+
+C
+
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+11.3 DC characteristics
+Table 10-3 DC characteristics
+Item
+Power Consumption
+Suspend Current
+
+Sym.
+
+Typ.
+
+Max
+
+Unit
+
+Condition
+
+mA
+uA
+6
+*Note: All tests above are done at room temperature (T=25℃).
+
+11.4
+
+Idd
+ISusp
+
+Min
+
+1.1
+
+AC characteristics
+Table 10-4 AC Characteristics
+Parameter
+
+Sym.
+
+Input high voltage
+
+VIH
+
+Input low voltage
+
+VIL
+
+Output high voltage
+
+VOH
+
+Output low voltage
+
+VOL
+
+Differential
+nonlinearity
+Integral nonlinearity
+Effective number of
+bits
+Signal-to-noise
+and
+distortion
+ratio
+(fin=1kHz, fS=16kHz)
+Spurious free dynamic
+range
+(fin=1kHz,
+fS=16kHz)
+Sampling frequency
+
+Min
+Typ.
+Max
+Digital inputs/outputs
+0.7VDDD
+VDDD
+0.3VDD
+VSS
+D
+VDDDVDDD
+0.3
+VSS
+0.3
+ADC
+
+Unit
+
+DNL
+
+0.6
+
+LSB
+
+INL
+
+2
+
+LSB
+
+ENOB
+
+10.5
+
+bit
+
+SINAD
+
+65
+
+dB
+
+SFDR
+
+84
+
+dB
+
+Nominal frequency
+Frequency tolerance
+
+fNOM
+fTOL
+
+Nominal frequency
+
+fNOM
+
+DS-CHSC6417
+
+2
+1
+
+FS
+24MHz RC oscillator
+24
+1
+32kHz RC oscillator
+32
+18
+
+Condition
+
+V
+V
+V
+V
+
+MHz VDDA reference
+MHz Vbg reference
+MHz
+%
+On chip calibration
+kHz
+Ver 1.2.0
+
+Datasheet for Chipsemi CHSC6417
+
+Parameter
+Frequency tolerance
+
+DS-CHSC6417
+
+Sym.
+fTOL
+
+Min
+
+Typ.
+0.5
+
+19
+
+Max
+
+Unit
+%
+
+Condition
+On chip calibration
+
+Ver 1.2.0
+
+

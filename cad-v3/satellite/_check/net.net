@@ -1,0 +1,1776 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/ryan/Desktop/bingbong/cad-v3/satellite/satellite_v3.kicad_sch")
+		(date "2026-09-24T14:06:15")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "satellite_v3 — root")
+				(company "bingbong")
+				(rev "v3-A0")
+				(date)
+				(source "satellite_v3.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "2")
+			(name "/satellite/")
+			(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			(title_block
+				(title "Crown satellite — variant A (MT6701 angle sensor)")
+				(company "bingbong")
+				(rev "v3-A1")
+				(date "2026-09-23")
+				(source "satellite.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "95cbe6c2-fe17-4c62-9ef9-26c15dfe36f9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "9066da26-f131-419b-b78a-6b45db95fe4c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "f7c0a426-835d-447a-9772-61ba55d00e48")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "6V DNP")
+			(footprint "Diode_SMD:D_SOD-523")
+			(fields
+				(field
+					(name "MPN") "6 V TVS, MagnTek 'recommended' [U]")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-523")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "D_TVS")
+				(description "Bidirectional transient-voltage-suppression diode")
+			)
+			(property
+				(name "MPN")
+				(value "6 V TVS, MagnTek 'recommended' [U]")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode TVS thyrector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "d86b66ea-9cdf-49fc-9b70-0967f70bf7a8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "TPD1E05U06")
+			(footprint "Bingbong_v3:TI_DYA0002A_SOD-523")
+			(fields
+				(field
+					(name "MPN") "TPD1E05U06DYAR")
+				(field
+					(name "Footprint") "Bingbong_v3:TI_DYA0002A_SOD-523")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "D_Zener")
+				(description "Zener diode")
+			)
+			(property
+				(name "MPN")
+				(value "TPD1E05U06DYAR")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "8708cc9a-af2a-4c07-8af5-75bf0bea1d66")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "E1")
+			(value "CROWN LEAF")
+			(footprint "Bingbong_v3:BeCu_leaf_pad_TBD")
+			(fields
+				(field
+					(name "MPN") "BeCu leaf in the sleeve, touches the crown [U]")
+				(field
+					(name "Footprint") "Bingbong_v3:BeCu_leaf_pad_TBD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x01")
+				(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "BeCu leaf in the sleeve, touches the crown [U]")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "d7d4bb74-8deb-458a-a2b4-93c8ac21f0a4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "FH12-12S-0.5SH")
+			(footprint "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal")
+			(fields
+				(field
+					(name "MPN") "Hirose FH12-12S-0.5SH(55)")
+				(field
+					(name "Footprint") "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector_Generic_MountingPin")
+				(part "Conn_01x12_MountingPin")
+				(description "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "Hirose FH12-12S-0.5SH(55)")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??-1MP*")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "9260d684-a693-48fc-997d-c341cef03cbc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "MP")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "1M")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "30c68f36-936e-44f9-8a2b-e1b9079f0148")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "TACT")
+			(footprint "Bingbong_v3:SW_Panasonic_EVPBB_TBD")
+			(fields
+				(field
+					(name "MPN") "SMD tact >= 1.6 N, >= 300k cycles [U]")
+				(field
+					(name "Footprint") "Bingbong_v3:SW_Panasonic_EVPBB_TBD")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "MPN")
+				(value "SMD tact >= 1.6 N, >= 300k cycles [U]")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "9b3556d0-46a9-4d9e-a335-6b7f869ed7a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "MT6701QT-STD")
+			(footprint "Bingbong_v3:QFN-16_3x3_MT6701")
+			(fields
+				(field
+					(name "MPN") "MT6701QT-STD")
+				(field
+					(name "Footprint") "Bingbong_v3:QFN-16_3x3_MT6701")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Bingbong_v3")
+				(part "MT6701QT")
+				(description "14-bit magnetic angle sensor, I2C 0x06, VDD 3.0-5.5 V")
+			)
+			(property
+				(name "MPN")
+				(value "MT6701QT-STD")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "4a085f71-2c6c-475e-91d0-33401be50ad5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "EP")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "DRV5032DUDMRR")
+			(footprint "Bingbong_v3:TI_DMR0004_X2SON-4")
+			(fields
+				(field
+					(name "MPN") "DRV5032DUDMRR")
+				(field
+					(name "Footprint") "Bingbong_v3:TI_DMR0004_X2SON-4")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Bingbong_v3")
+				(part "DRV5032DU")
+				(description "Dual-unipolar Hall latch, 3.9 mT, 20 Hz, push-pull, 1.6 uA")
+			)
+			(property
+				(name "MPN")
+				(value "DRV5032DUDMRR")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "e5f1ac75-9e91-4bba-9af9-2610beb0905c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "DRV5032DUDMRR")
+			(footprint "Bingbong_v3:TI_DMR0004_X2SON-4")
+			(fields
+				(field
+					(name "MPN") "DRV5032DUDMRR")
+				(field
+					(name "Footprint") "Bingbong_v3:TI_DMR0004_X2SON-4")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Bingbong_v3")
+				(part "DRV5032DU")
+				(description "Dual-unipolar Hall latch, 3.9 mT, 20 Hz, push-pull, 1.6 uA")
+			)
+			(property
+				(name "MPN")
+				(value "DRV5032DUDMRR")
+			)
+			(property
+				(name "Sheetname")
+				(value "satellite")
+			)
+			(property
+				(name "Sheetfile")
+				(value "satellite.kicad_sch")
+			)
+			(sheetpath
+				(names "/satellite/")
+				(tstamps "/c8f44138-d1e2-4d7c-a616-b02684d9804f/")
+			)
+			(tstamps "9370bbad-b0d1-4c21-9e33-e817a3d61c5d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Bingbong_v3")
+			(part "DRV5032DU")
+			(description "Dual-unipolar Hall latch, 3.9 mT, 20 Hz, push-pull, 1.6 uA")
+			(docs "https://www.ti.com/lit/ds/symlink/drv5032.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "DRV5032DU")
+				(field
+					(name "Footprint") "Bingbong_v3:TI_DMR0004_X2SON-4")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/drv5032.pdf")
+				(field
+					(name "Description") "Dual-unipolar Hall latch, 3.9 mT, 20 Hz, push-pull, 1.6 uA")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "OUT2_S")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "OUT1_N")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "PAD")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Bingbong_v3")
+			(part "MT6701QT")
+			(description "14-bit magnetic angle sensor, I2C 0x06, VDD 3.0-5.5 V")
+			(docs "MagnTek MT6701 Rev.1.5 (firmware/bingbong_pcb/_mech/mt6701.pdf)")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MT6701QT")
+				(field
+					(name "Footprint") "Bingbong_v3:QFN-16_3x3_MT6701")
+				(field
+					(name "Datasheet") "MagnTek MT6701 Rev.1.5 (firmware/bingbong_pcb/_mech/mt6701.pdf)")
+				(field
+					(name "Description") "14-bit magnetic angle sensor, I2C 0x06, VDD 3.0-5.5 V")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "2")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "3")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "PUSH")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "A/SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "B/SCL")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "Z/CSN")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "W/-Z")
+					(type "output")
+				)
+				(pin
+					(num "10")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "11")
+					(name "U/-A")
+					(type "output")
+				)
+				(pin
+					(num "12")
+					(name "V/-B")
+					(type "output")
+				)
+				(pin
+					(num "13")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "MODE")
+					(type "input")
+				)
+				(pin
+					(num "15")
+					(name "OUT")
+					(type "output")
+				)
+				(pin
+					(num "16")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "EP")
+					(name "EP")
+					(type "no_connect")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x01")
+			(description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x01")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic_MountingPin")
+			(part "Conn_01x12_MountingPin")
+			(description "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??-1MP*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x12_MountingPin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "Pin_11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "Pin_12")
+					(type "passive")
+				)
+				(pin
+					(num "MP")
+					(name "MountPin")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D_TVS")
+			(description "Bidirectional transient-voltage-suppression diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_TVS")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Bidirectional transient-voltage-suppression diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D_Zener")
+			(description "Zener diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Zener")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Zener diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_Push")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Bingbong_v3")
+			(uri "${KIPRJMOD}/../lib/Bingbong_v3.kicad_sym")
+		)
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "Connector_Generic_MountingPin")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic_MountingPin.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/satellite/HA1")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "OUT1_N_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "2")
+			(name "/satellite/HA2")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "OUT2_S_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "3")
+			(name "/satellite/HB1")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "OUT1_N_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "4")
+			(name "/satellite/HB2")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "OUT2_S_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "5")
+			(name "/satellite/SENS_SCL")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "B/SCL_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "6")
+			(name "/satellite/SENS_SDA")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "A/SDA_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "7")
+			(name "/satellite/TACT_HI")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/satellite/TACT_SRC")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "A1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "MP")
+				(pinfunction "MountPin_MP")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "GND_16")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "PAD_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "PAD_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "Net-(D2-K)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "E1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "SENS_VDD")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "VDD_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "MODE_14")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "Z/CSN_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "V3")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "VCC_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "VCC_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(U1-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "14")
+			(name "unconnected-(U1-NC-Pad2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "NC_2")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "15")
+			(name "unconnected-(U1-NC-Pad3)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "NC_3")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "16")
+			(name "unconnected-(U1-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "17")
+			(name "unconnected-(U1-NC-Pad10)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "NC_10")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(U1-OUT-Pad15)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "OUT_15")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(U1-PUSH-Pad5)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "PUSH_5")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(U1-PadEP)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "EP")
+				(pinfunction "EP_EP")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(U1-U{slash}-A-Pad11)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "U/-A_11")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(U1-V{slash}-B-Pad12)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "V/-B_12")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(U1-W{slash}-Z-Pad9)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "W/-Z_9")
+				(pintype "output+no_connect")
+			)
+		)
+	)
+)

@@ -1,0 +1,679 @@
+    5                           4                         3                        2                                      1
+
+
+
+
+D                                                                                                                                                      D
+
+
+
+
+         nRF9151 Connect Kit                                  Revision History
+
+
+         Function Description         Page                    Rev.      Changes                            Date
+
+         Title Sheet                    1                     Rev A   The initial public release         Dec-25-2024
+
+
+         Power Supply                   2
+
+
+         Interface MCU                  3
+
+
+C        nRF9151 Module                 4                                                                                                              C
+
+
+         NanoSIM and eSIM               5
+
+
+         Pinout                         6
+
+
+         LEDs and Buttons               7
+
+
+
+
+B                                                                                                                                                      B
+
+
+
+
+A       This design document is licensed by Makerdiary                                                                        https://makerdiary.com   A
+        under the terms of the Creative Commons
+                                                                               Title
+        Attribution Share-Alike License (ver. 4).                                      Title Sheet
+
+        https://creativecommons.org/licenses/by-sa/4.0/                        Size    Document Number                                         Rev
+                                                                                 A4    NCK9151SCH                                                A
+
+                                                                               Date:    Dec-25-2024               Sheet       1     of     7
+    5                           4                         3                        2                                      1
+                  5                                                                                         4                                         3                                                                      2                                                        1
+
+
+
+
+                                                                                                                                                                                                                                                                                  J2
+    J1                                 VBUS                                                                     TP1 TP2                                               VBUS                                                            VSYS                        VBAT    TP3     MX1.25-2P-SLIM
+D   USB TYPE C 16PIN                                                                                                                                                                                                                                                                                               D
+               A4B9                                                                                                                                                                                                                                                                           4
+        VBUS B4A9                                                                                                                                                                                                                                                                         1
+        VBUS A7                                                                                                                                                                                                                                                                           2
+          DN1 B7             USB_C_DM                                                                 R1 33R_0402         USB_DM                             C1                                                                           C2                         C3
+          DN2 A6             USB_C_DP                                                                 R2 33R_0402         USB_DP                             4.7uF_16V_0603                                                               10uF_0603                  1.0uF_0402               3
+          DP1 B6                                                                                                                                                                           U1
+          DP2 A8                                                                                                                                                                A2                                 B2
+         SBU1 B8                                                                                                                                                                       IN               SYS
+
+
+
+
+                                                            D1 TVS DIODE      D2 ESD DIODE   D3 EDS DIODE
+         SBU2 A5                                                                                                                                                                                                   C2
+          CC1 B5                                                                                                                                                                A1                      BAT
+          CC2 A1B12                                                                                                                                                                    INT                         D1                     TS/MR
+          GND B1A12                                                                                                                                 VDD_GPIO                  B1                       TS/MR
+
+
+
+
+                              R3 5.1K_0402   R4 5.1K_0402
+          GND S1                                                                                                                                                              C1       SCL                         D2                                 3           Q1
+      SHIELD1 S2                                                                                                                                                                       SDA              GND                             R5                        DMN2990UFA
+                                                                                                                                                                                                                                                D
+      SHIELD2 S3                                                                                                                                                                                                                        10K_0402
+      SHIELD3 S4                                                                                                                                                                           BQ25180YBGT
+                                                                                                                                                                                                                                                            G 1          HW_RST
+      SHIELD4                                                                                                                                 R6       R7
+                                                                                                                                              10K_0402 10K_0402                                                                                   S
+                                                                                                                                                                                                                                                      2              R8
+C                                                                                                                            I2C_INT                                                                                                                                 1M_0402                                       C
+                                                                                                                             I2C_SCL
+                                                                                                                             I2C_SDA
+
+
+
+
+                                                                                                                                                                                                L1
+                                                                           VIO_EN                                                                                                               2.2uH_2016
+                       4,6             SYS_EN
+
+                                                                           USB_DM                                                                         VSYS                                                                               VDD_GPIO
+                        3              IF_USB_DM
+                                                                           USB_DP                                                                                                 A1                           D1
+                        3              IF_USB_DP
+                                                                                                                                                                           U2
+                                                                           VSEL
+                        3              IF_VSEL
+                                                                                                                                                C4                                   LX1                           LX2                                C5
+                                                                           HW_RST                                                            10uF_0603                A2                                                         C2                   22uF_0603
+                        3              IF_HW_RST                                                                                                                             VIN                                    VOUT         D2
+                                                                           I2C_INT                                                                                                                                  VOUT
+                        3              IF_I2C_INT                          I2C_SCL                                                                                                         TPS63901YCJR
+                        3              IF_I2C_SCL                          I2C_SDA                                                           VIO_EN
+B                                                                                                                                                                     A3                                                         B2                                                                                B
+                        3              IF_I2C_SDA                                                                                                                            EN                                     CFG1         C3
+                                                                                                                                             VSEL                     B3                                            CFG2         D3
+                                                                                                                                                                             SEL                                    CFG3
+                                                                                                                                                                                                 GND    GND
+                                                                                                                                                                                                                                             R10             R11
+                                                                                                                    Note:
+                                                                                                                    VIO_EN is pulled up by the                   R9                                                                          16.2K_0402      0R_0402
+                                                                                                                                                                 1M_0402                        B1     C1
+                                                                                                                    resister around nRF9151 EN pin.
+
+
+
+
+                                                                                                                                                                                           SEL              VOUT
+                                                                                                                                                                                           Low              3.3V
+                                                                                                                                                                                           High             1.8V
+
+
+
+
+A                                                                                                                                                                                                                                                                                         https://makerdiary.com   A
+
+
+                                                                                                                                                                                                                         Title
+                                                                                                                                                                                                                                      Power Supply
+
+                                                                                                                                                                                                                         Size         Document Number                                                      Rev
+                                                                                                                                                                                                                           A4         NCK9151SCH                                                             A
+
+                                                                                                                                                                                                                         Date:        Dec-25-2024                          Sheet          2       of   7
+                  5                                                                                         4                                         3                                                                      2                                                        1
+                5                                         4                                          3                                                 2                                                 1
+
+
+
+
+D                                                                                                                                                                                                                                     D
+                                                                                                                                    DEC4_6
+
+                                                                                                                                  C6           C7
+                                                                                                                                  1.0uF_0402   47nF_0402
+                                                                                                                  L2
+                                                                                                            15nH_0402
+
+                                                                                                    VDD_GPIO
+
+
+                                                                                                                         P0.02/AIN0                                                            C8      12pF_0402
+                                                                                               C9                 L3     P0.03/AIN1
+                                                                                                                         P0.28
+                                                                                         1.0uF_0402         10uH_0603    P0.30                             VDD_GPIO
+                         NRF_USB_DM                                                                                      P0.29                                                             1
+     2    IF_USB_DM
+                         NRF_USB_DP                                                                                      P0.08                                                                                   2
+     2    IF_USB_DP
+                           R13    33R_0402   P0.00/XL1                                                                                               C10                           Y1
+    4,6   NRF91_SWDCLK
+                           R12    33R_0402   P0.01/XL2                                  DEC1                      41
+                                                                                                                  40
+                                                                                                                  39                           100nF_0402                          32MHz                         4
+    4,6   NRF91_SWDIO
+                                                                                                                  38
+                                                                                                             U3
+                                                                                                                  37
+                                                                                                                  36
+                                                                                                                  35
+                                                                                                                  34
+                           R14    33R_0402   RESET                                                                                                                                         3
+                                                                                                                  33
+                                                                                                                  32
+                                                                                                                  31
+    4,6   NRF91_RESET
+C                                                                                C11                                    VSS                                                                                                           C
+                                                                                                                        VDD
+                           R16    33R_0402   P0.04/AIN2                    100nF_0402                                   DCC
+    4,6   NRF91_TXD                                                                                                    DEC4
+                           R15    33R_0402   P0.05/AIN3                                                                 VSS                                              C13 100pF_0402
+    4,6   NRF91_RXD                                                                                               P0.02/AIN0
+                                                                                                                  P0.03/AIN1
+                                                                                                                       P0.28
+                                                                                                                       P0.30                                                                   C12     12pF_0402
+                          P0.28                                                                      1                 P0.29                      30
+     2    IF_I2C_INT                                                                                       DEC1        P0.08             VDD
+                          P0.02/AIN0                                             P0.00/XL1           2                                            29       XC2           C14 DNP_0402
+     2    IF_I2C_SDA                                                                                       P0.00/XL1                     XC2
+                          P0.03/AIN1                                             P0.01/XL2           3                                            28       XC1
+     2    IF_I2C_SCL                                                                                       P0.01/XL2                     XC1
+                                                                                 P0.04/AIN2          4                                            27       DEC3
+                          P0.16                                                  P0.05/AIN3          5     P0.04/AIN2                   DEC3      26       DEC4_6
+     7    IF_LED_PWR                                                                                       P0.05/AIN3                   DEC6
+                          P0.20                                       VDD_GPIO                       6                  nRF52820-QDAA             25
+     7    IF_LED_RED                                                                                       P0.06                      VSS_PA
+                          P0.15                                                  RESET               7                                            24
+     7    IF_LED_GREEN                                                                                     P0.07                         ANT
+                          P0.14                                                                      8                                            23       P0.17
+     7    IF_LED_BLUE                                                                                      VDD                          P0.17
+                                                                                                     9                                            22       P0.16
+                          P0.30                                     C15     VBUS R17                10     VDDH    DECUSB
+                                                                                                                   D-                   P0.16     21       DEC5
+     7    IF_MODE_DFU                                                                                      VBUS    D+                   DEC5
+                                                              4.7uF_0402         2.2R_0402                         P0.14
+                          P0.08                                                                                    P0.15                                            C16
+     2    IF_VSEL                                                                                                  P0.18/RESET
+                                                                                                                   P0.20                                            DNP_0402
+                                                                                                                   VDD
+                          P0.17                                                                                    SWDIO
+     2    IF_HW_RST                                                                                                SWDCLK
+                                                                                                  C17
+                          P0.29                                                                   4.7uF_16V_0603
+     5    SIM_DET
+                                                                                                                   11
+                                                                                                                   12
+                                                                                                                   13
+                                                                                                                   14
+                                                                                                                   15
+                                                                                                                   16
+                                                                                                                   17
+B                                                                                                                                                                                                                                     B
+                                                                                                                   18
+                                                                                                                   19
+                                                                                                                   20
+                                                                                                                    NRF_USB_DM
+                                                                                                            DECUSB  NRF_USB_DP
+                                                                                                                    P0.14
+                                                                                                    C18             P0.15           SWDIO
+                                                                                                                    P0.18/RESET
+                                                                                                                                    SWDCLK
+                                                                                              4.7uF_0402
+                                                                                                                    P0.20
+
+
+                                                                                                                         VDD_GPIO
+
+
+
+                                                                                 P0.18/RESET                                      C19
+                                                                     TP4
+                                                                                 SWDCLK                                           100nF_0402
+                                                                     TP5
+                                                                                 SWDIO
+                                                                     TP6
+
+
+
+A                                                                                                                                                                                                            https://makerdiary.com   A
+
+
+                                                                                                                                                  Title
+                                                                                                                                                              Interface MCU - NRF52820
+
+                                                                                                                                                  Size        Document Number                                                 Rev
+                                                                                                                                                    A4        NCK9151SCH                                                        A
+
+                                                                                                                                                  Date:       Dec-25-2024                      Sheet         3       of   7
+                5                                         4                                          3                                                 2                                                 1
+                         5                                                      4                                                                             3                                                                   2                                                                                1
+
+
+
+                                                                                                                                                                                                      VSYS
+
+                                                                                                                                                                                                                          U4                        VDD_LNA
+                                                                                                                                                                                                                          TPS7A0228PYCHR
+                                                                                                                                                                                                                  A1                    A2
+                                                                                                                                                                                                         C20               IN      OUT
+                                                                                                                                                                                                         1.0uF_0402                                      C21
+                                                                                                                                                                                                                                                         1.0uF_0402
+
+                                                                                                                                                                                            COEX0                 B1                           B2
+                                                                                                                                                                                                                           EN          GND
+
+D                                                                                                                                                                                                                         NOTE:                                                                                                                      D
+                             ENABLE                                                                                                                                                                                       EN features an internal pulldown resistor,
+    2,6   SYS_EN                                                                                                                                                                                                          which is disconnected when EN is driven
+                                                                                                                                                                                                                          high externally and the device has started up.
+                             P0.00                                              L4
+      6   P0.00
+                             P0.01         VSYS                                 22R@100M/6A                                                                                                 L5
+      6   P0.01                                                                                                           M1A
+                             P0.02                                                                                                                                                          0R_0402
+      6   P0.02                                                                                                                                                   GNSS_RFOUT                            GNSS_RFOUT_0
+                             P0.03                                                                                   14                                      42
+      6   P0.03                                                                                                           VDD                       GPS
+                             P0.04                                                                                                                                                                                                                                                                        J3
+      6   P0.04
+                             P0.05              C22            C23           C25                 C24                                                                                   C26                                                                                                                U.FL-R-SMT-1
+      6   P0.05
+                             P0.06              1.0uF_0402     1.0uF_0402    10uF_0603           10uF_0603    R18                                                                      DNP_0402                                                                         L6
+      6   P0.06                                                                                                                                                                                                            U5                                                                                          3
+                             P0.07                                                                            10K_0402                                       37                                                                                                         0R_0402
+      6   P0.07                                                                                                                                      AUX                                                                                              GNSS_RFIN_0                    GNSS_RFIN
+                             P0.08                                                                                                                                                                                    3                         5                                                              1
+      6   P0.08                                                                                                                                                                                                            RFOUT        RFIN
+                             P0.09
+      6   P0.09
+                             P0.10                                                                                   10                                                                                                                                                                                                2
+      6   P0.10                                                                                                           ENABLE
+                             P0.11                                                                                                                           35         VDD_LNA    L7
+    3,6   P0.11                                                                                                                                      ANT
+                             P0.12                                                             ENABLE                                                                              100nH_0402                                                                                                      D4
+    3,6   P0.12
+                             P0.13/AIN0                                                                                                                                                                               2                                                                            DNP_DFN1006
+      6   P0.13/AIN0                                                                                                                                                                                                       VCC
+                             P0.14/AIN1                                         VDD_GPIO
+      6   P0.14/AIN1
+                             P0.15/AIN2                                                                                                                                                               C27             6
+      6   P0.15/AIN2                                                                                                                                                                                                       EN
+                             P0.16/AIN3                                                                              65                                                                               1nF_0402
+      6   P0.16/AIN3                                                                                                      VDD_GPIO
+                             P0.17/AIN4                                                                                                                                                                               1
+      6   P0.17/AIN4                                                                                                                                                                                                       GND
+                             P0.18/AIN5                                                  C28              C29                                                                                                         4
+      6   P0.18/AIN5                                                                                                                                                                                                       GND
+                             P0.19/AIN6                                                  100nF_0402       4.7uF_0402
+      6   P0.19/AIN6
+                             P0.20/AIN7                                                                                                                                                                                    GPS LNA - L1
+      6   P0.20/AIN7
+                             P0.21                                                                                                                                                                                                                                                                        J4
+      6   P0.21
+                             P0.22                                                                                                                                                                                                                                                                        U.FL-R-SMT-1
+      6   P0.22
+                             P0.23                                                                                   24                                                                                                                                                R19
+      6   P0.23                                                                                                           DEC0                                                                                                                                                                                         3
+                             P0.24                                                                                                                                                                                                                                     0R_0402
+      6   P0.24                                                                                                                                                                                              LTE_ANT_0                                                             LTE_ANT
+C                            P0.25                                                                            C30        nRF9151-LACA                                                                                                                                                                          1                                     C
+      7   P0.25
+                             P0.26                                                                            4.7uF_0402
+      6   P0.26
+                             P0.27                                                                                                                                                                                                                               C31              C32                                  2
+      6   P0.27
+                             P0.28                                                                                                                                                                                                                               DNP_0402         DNP_0402
+      6   P0.28
+                             P0.29                                                                                                                                                                                                                                                                 D5
+      6   P0.29
+                             P0.30                                                                                                                                                                                                                                                                 DNP_DFN1006
+      6   P0.30
+                             P0.31
+      6   P0.31
+
+                             P0.25
+     7    NRF91_USR
+                             RESET                                                                                                                                                            M1E
+    3,6   NRF91_RESET
+                             SWDIO                                                                                                                                                      1                                        60
+    3,6   NRF91_SWDIO                                                                                                                                                                       GND                           GND
+                             SWDCLK                                                                                                                                                     7                                        66
+    3,6   NRF91_SWDCLK                                                                                                                                                                      GND                           GND
+                                                                                                                                                                                       13                                        71
+                             P0.12                                                                                                                                                     15   GND                           GND    76
+    3,6   NRF91_RXD                                                                                                                                                                         GND                           GND
+                             P0.11                                                                                                                                                     20                                        105
+    3,6   NRF91_TXD                                                                                                                                                                         GND                           GND
+                                                                                                                                                                                       25                                        106
+                                                                                                                                                                                       30   GND                           GND    107
+                             SIM_RST                                                                                                                                                   34   GND                           GND    108
+     5    SIM_RST            SIM_CLK                                                                                                                                                        GND                           GND
+                                                                                                                                                                                       36                                        109
+     5    SIM_CLK            SIM_IO                                                                                                                                                         GND                           GND
+                                                                                                                                                                                       38                                        110
+     5    SIM_IO                                                                                                                                                                            GND                           GND
+                                                                                                                                                                                       39                                        111                                                                VDD_GPIO
+                                                              M1B                                                                                  M1C                                 40   GND                           GND    112
+                                          P0.00          56                                                   R20          SWDIO              4                                        41   GND                           GND    113
+                                          P0.01          57   P0.00                                           1K_0402      SWDCLK             3    SWDIO                               43   GND                           GND
+                                          P0.02          58   P0.01                            nRESET                                         9    SWDCLK                              46   GND                                                                                                               R21
+                                          P0.03          59   P0.02                                                                                nRESET                              51   GND                                                                                                               10K_0402
+                                          P0.04          61   P0.03                                                              C33                                                   55   GND                                                                                              R22
+B                                         P0.05          62   P0.04                                                              100nF_0402                                                 GND                                                                                              100K_0402                                               B
+                                          P0.06          63   P0.05                                                                                                                                                                                                                                                             R23
+                                                              P0.06                                                                                                                           nRF9151-LACA
+                                          P0.07          64                                                                                                                                                                                                                                                                     DNP_0402
+                                          P0.08          67   P0.07                                          MIPI_SDATA                       27                                                                                                                                                      2
+                                                              P0.08                            TP8           MIPI_SCLK                             SDATA                                                                                                                                                  S
+                                          P0.09          68                                                                                   28
+                                                              P0.09                            TP9                                                 SCLK
+                                          P0.10          69                                                  MIPI_VIO                         29                                                                                                                                             1 G               Q2                   nRESET
+                                                              P0.10                            TP10                                                VIO
+                                          P0.11          70                                                                                                                                                                                                                                                    DMP22D4UFA
+                                          P0.12          72   P0.11                                          MAGPIO0                          21                                                                                                                                                                       3
+                                                              P0.12                            TP11                                                MAGPIO0                                                                                                                                                D
+                                          P0.13/AIN0     73                                                  MAGPIO1                          22                                                                                                                                                                            D
+                                                              P0.13                            TP12                                                MAGPIO1
+                                          P0.14/AIN1     74                                                  MAGPIO2                          23                                                                                                                                                      3                          Q3
+                                                              P0.14                            TP13                                                MAGPIO2
+                                          P0.15/AIN2     75                                                                                                                                                                                                      RESET                                             1 G           DMN2990UFA
+                                          P0.16/AIN3     77   P0.15                                          COEX0                            52
+                                                              P0.16                            TP14                                                COEX0                                                                                                                                              3                     S
+                                          P0.17/AIN4     78                                                  COEX1                            53
+                                                              P0.17                            TP15                                                COEX1
+                                          P0.18/AIN5     79                                                  COEX2                            54                                                                                                                                                          D             2
+                                                              P0.18                            TP16                                                COEX2
+                                          P0.19/AIN6     80                                                                                                                                                                                                                                                    Q4
+                                          P0.20/AIN7      2   P0.19                                                                           26                                        M1D                                                                                                  1 G               DMN2990UFA
+                                          P0.21           5   P0.20                            R24           R25           SIM_RST            16   SIM_DET                        31                                                   90
+                                          P0.22           6   P0.21                            DNP_0402      1M_0402       SIM_CLK            18   SIM_RST                        32   RESERVED0                 RESERVED12            91                                                                 S
+                                          P0.23           8   P0.22                                                        SIM_IO             17   SIM_CLK                        33   RESERVED1                 RESERVED13            92                                                             2
+                                          P0.24          11   P0.23                                                                           19   SIM_IO                         81   RESERVED2                 RESERVED14            93
+                                                              P0.24                                                        SIM_1V8                 SIM_1V8                             RESERVED3                 RESERVED15
+                                          P0.25          12                                                                                                                       82                                                   94
+                                          P0.26          44   P0.25                                                                                                               83   RESERVED4                 RESERVED16            95
+                                                              P0.26                                                                                nRF9151-LACA                        RESERVED5                 RESERVED17
+                                          P0.27          45                                                                                                                       84                                                   96
+                                          P0.28          47   P0.27                            COEX0 can be pulled down by                                                        85   RESERVED6                 RESERVED18            97
+                                          P0.29          48   P0.28                            the GNSS LNA LDO's internal                                                        86   RESERVED7                 RESERVED19            98
+                                          P0.30          49   P0.29                            pulldown resistor.                                                                 87   RESERVED8                 RESERVED20            99
+                                          P0.31          50   P0.30                                                                                                               88   RESERVED9                 RESERVED21            100
+                                                              P0.31                                                                                                               89   RESERVED10                RESERVED22            101
+                                                                                                                                                                                       RESERVED11                RESERVED23            102
+A                                                             nRF9151-LACA                                                                                                                                       RESERVED24                                                                                                                          A
+                                                                                                                                                                                                                                       103
+                                                                                                                                                                                                                 RESERVED25            104
+                                                                                                                                                                                                                 RESERVED26
+                                                                                                                                                                                        nRF9151-LACA
+                                                                                                                                                                                                                                                                                                                            https://makerdiary.com
+                                                                                                                                                                                                                                                               Title
+                                                                                                                                                                                                                                                                           nRF9151 Module
+
+                                                                                                                                                                                                                                                               Size        Document Number                                                     Rev
+                                                                                                                                                                                                                                                                 A3        NCK9151SCH                                                            A
+
+                                                                                                                                                                                                                                                               Date:       Dec-25-2024                             Sheet    4       of     7
+                         5                                                      4                                                                             3                                                                   2                                                                                1
+              5             4                                               3                                            2                                   1
+
+
+
+
+D                                                                                                                                                                                         D
+
+
+
+
+                                                                                                       SIM_1V8
+
+
+
+                                    SIM_1V8                                                       C34
+                                                                                                  10nF_0402
+
+                                                                                                                             J5
+                  SIM_DET                          U6                                                               C1
+    3   SIM_DET                                                                                                               VSIM
+                                SIM_RST       8                             1              RST                      C2
+                  SIM_RST       SIM_CLK       7   DATA1_IN     DATA1_OUT    2              CLK                      C3        SIMRST
+    4   SIM_RST                                   CLK_IN         CLK_OUT                                                      SIMCLK
+                  SIM_CLK       SIM_IO        6                             3              DATA                     C7
+    4   SIM_CLK                                   DATA2_IN     DATA2_OUT                                                      SIMDATA
+                  SIM_IO                      5                             4                        R26            C6
+    4   SIM_IO                                    VCC                 NC                                                      SIMVPP
+                                                                            9                        1K_0402
+                                                                     GND                   SIM_DET             CD   CD
+C                                                                                                                                                                                         C
+                                                                                                                    C5        SIMDET
+                                                   TPD3F303DPVR                                                               GND
+                                                                                                                    S1
+                                                                                                                    S2        SHIELD
+                                                                                                                    S3        SHIELD
+                                                                                                                    S4        SHIELD
+                                                                                                                              SHIELD
+                                                         SIM_1V8                                                              NANO-SIM-CON
+
+
+
+                                                  C35
+                                                  100nF_0402
+                                                                           U7
+                                                                     8                     2
+                                                    SIM_RST          7   SIMVCC     NC1    4
+                                                    SIM_CLK          6   SIMRST     NC2    5
+                                                    SIM_IO           3   SIMCLK     NC3    1
+                                                                         SIMDATA    GND
+B                                                                                                                                                                                         B
+                                                                           MFFx_M2M_UICC
+
+
+
+
+A                                                                                                                                                                https://makerdiary.com   A
+
+
+                                                                                                                    Title
+                                                                                                                                  NanoSIM and eSIM
+
+                                                                                                                    Size          Document Number                                 Rev
+                                                                                                                      A4          NCK9151SCH                                        A
+
+                                                                                                                    Date:         Dec-25-2024        Sheet       5     of     7
+              5             4                                               3                                            2                                   1
+    5                                 4   3                                          2                             1
+
+
+
+
+D                                                                                                                                               D
+
+
+
+
+                         ENABLE
+    2,4   SYS_EN
+                         P0.00
+      4   P0.00
+                         P0.01
+      4   P0.01
+                         P0.02
+      4   P0.02
+                         P0.03
+      4   P0.03
+                         P0.04
+      4   P0.04
+                         P0.05
+      4   P0.05
+                         P0.06
+      4   P0.06
+                         P0.07            VSYS     VBUS        J6            VDD_GPIO
+      4   P0.07
+                         P0.08                                 CON40B
+      4   P0.08
+C                        P0.09                             1            40                                                                      C
+      4   P0.09
+                         P0.10                             2            39
+      4   P0.10
+                         P0.11                             3            38        RESET
+    3,4   P0.11
+                         P0.12            ENABLE           4            37        SWDCLK
+    3,4   P0.12
+                         P0.13/AIN0       P0.09            5            36        SWDIO
+      4   P0.13/AIN0
+                         P0.14/AIN1       P0.08            6            35        P0.12
+      4   P0.14/AIN1
+                         P0.15/AIN2       P0.07            7            34        P0.11
+      4   P0.15/AIN2
+                         P0.16/AIN3       P0.06            8            33        P0.10
+      4   P0.16/AIN3
+                         P0.17/AIN4       P0.05            9            32        P0.24
+      4   P0.17/AIN4
+                         P0.18/AIN5       P0.04           10            31        P0.23
+      4   P0.18/AIN5
+                         P0.19/AIN6       P0.03           11            30        P0.22
+      4   P0.19/AIN6
+                         P0.20/AIN7       P0.02           12            29        P0.21
+      4   P0.20/AIN7
+                         P0.21            P0.01           13            28        P0.20/AIN7
+      4   P0.21
+                         P0.22            P0.00           14            27        P0.19/AIN6
+      4   P0.22
+                         P0.23            P0.31           15            26        P0.18/AIN5
+      4   P0.23
+                         P0.24            P0.30           16            25        P0.17/AIN4
+      4   P0.24
+                         P0.25            P0.29           17            24        P0.16/AIN3
+    4,7   P0.25
+                         P0.26            P0.28           18            23        P0.15/AIN2
+      4   P0.26
+                         P0.27            P0.27           19            22        P0.14/AIN1
+      4   P0.27
+                         P0.28            P0.26           20            21        P0.13/AIN0
+      4   P0.28
+B                        P0.29                                                                                                                  B
+      4   P0.29
+                         P0.30
+      4   P0.30
+                         P0.31
+      4   P0.31
+
+                         RESET
+    3,4   NRF91_RESET
+                         SWDIO
+    3,4   NRF91_SWDIO
+                         SWDCLK
+    3,4   NRF91_SWDCLK
+
+
+
+
+A                                                                                                                      https://makerdiary.com   A
+
+
+                                                                                 Title
+                                                                                         Pinout
+
+                                                                                 Size    Document Number                                Rev
+                                                                                   A4    NCK9151SCH                                       A
+
+                                                                                 Date:    Dec-25-2024      Sheet       6     of     7
+    5                                 4   3                                          2                             1
+               5                   4                                                     3                                   2                                          1
+
+
+
+
+                                                                          LED_R
+
+D                                                               3                                                                                                                                    D
+                                                                    D
+                                                                         Q5
+                                       LED_RED       1 G                 DMN2990UFA                                              D6          VSYS
+                                                                                                                                 RGB LED
+                                                                    S
+                                                            2                                         LED_B   R27 2K_0402                B
+                                                   R29 1M_0402
+                                                                                                      LED_G   R28 2K_0402                G
+
+                                                                          LED_G                       LED_R   R30 2K_0402                R
+
+                                                                3
+                                                                    D
+                                                                         Q6
+                                       LED_GREEN     1 G                 DMN2990UFA
+
+                                                                    S
+                                                            2
+                                                   R31 1M_0402
+C                      USR                                                                                                                                                                           C
+    4   NRF91_USR
+                                                                          LED_B
+                       DFU
+    3   IF_MODE_DFU                                             3
+                                                                    D
+                       LED_PWR                                           Q7
+    3   IF_LED_PWR
+                       LED_RED         LED_BLUE      1 G                 DMN2990UFA                                               SW1
+    3   IF_LED_RED     LED_GREEN                                                                                                  Tact Switch - Vertical Push
+    3   IF_LED_GREEN   LED_BLUE                                     S                                          R33                4            1
+    3   IF_LED_BLUE
+                                                            2                                                  1K_0402
+                                                   R32 1M_0402                                        USR
+
+
+                                                                                                                                   3            2
+
+
+
+                                                                    R34              D7        VSYS                               SW2
+                                                                    2K_0402          Green_0603                                   Tact Switch - Vertical Push
+B                                                                                                              R35                4            1                                                     B
+                                                                                                               1K_0402
+                                                           3                                          DFU
+                                                                D
+                                                                        Q8
+                                       LED_PWR     1 G                  DMN2990UFA                                                 3            2
+
+                                                                S
+                                                           2
+                                                  R36 1M_0402
+
+
+
+
+A                                                                                                                                                                           https://makerdiary.com   A
+
+
+                                                                                                                         Title
+                                                                                                                                       LEDs and Buttons
+
+                                                                                                                         Size          Document Number                                       Rev
+                                                                                                                           A4          NCK9151SCH                                              A
+
+                                                                                                                         Date:         Dec-25-2024              Sheet       7     of     7
+               5                   4                                                     3                                   2                                          1
+

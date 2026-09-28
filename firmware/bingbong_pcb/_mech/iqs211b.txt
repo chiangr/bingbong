@@ -1,0 +1,2394 @@
+                                                    IQ Switch®
+                                                ProxSense® Series
+
+
+                                 IQS211A/B DATASHEET
+           Single Channel Capacitive Proximity/Touch Controller With Movement Detection
+
+
+
+1     Device Overview
+
+The IQS211A/B ProxSense® IC is a self-capacitance controller designed for applications where an
+awake/activate on proximity/touch function is required. The IQS211A/B is an ultra-low power solu-
+tion that uses movement detection for applications that require long term detection. The IQS211A/B
+operates standalone or I2 C and can be configured via OTP (One Time Programmable) bits.
+
+IQS211B offers alternate hardware with identical firmware to the IQS211A. IQS211B hardware offers
+improved temperature response and low temperature range.
+
+1.1    Main Features
+    > Pin compatible with IQS127D/ 128/ 227AS/ 228AS/
+      231A (output types may differ).
+    > Automatic Tuning Implementation (ATI).
+    > On-chip movement detection algorithm.
+    > Forced activation when movement detected.
+    > Minimal external components.
+    > Up to 60 pF sensor load (with effective movement de-
+      tection).
+    > Up to 120 pF sensor load for touch application.
+    > Multiple One-Time-Programmable (OTP) options.
+    > Standalone direct outputs:
+         • Primary output (configurable):
+              ∗ Default: ACTIVATION
+         • Secondary output (configurable):
+              ∗ Default: MOVEMENT
+    > 1-Wire streaming interface:                                          TSOT23-6 Package
+         • 1-Wire and event CLK signal.
+         • Valuable for debugging.
+    > Various I2 C configurations:
+         • Normal polling.
+         • Polling with RDY interrupt on SCL.
+         • Runtime switch to standalone mode.
+    > Separate MOVEMENT output selection:
+         • Pulse Frequency Modulation (PFM, default), Pulse Width
+           Modulation (PWM), Latched, or PWM only active in activa-
+           tion.
+    > Low power consumption:
+         • 80 µA (50 Hz response).
+         • 20 µA (20 Hz response).
+         • Sub-2 µA (LP mode, optional zoom to scanning mode with
+           wake-up).
+                                                                           WLCSP-8 Package
+    > Low power options:
+         • Low power without activation.
+         • Low power within activation.
+         • Low power standby modes with proximity wake-up / reset
+           wake-up.
+    > Internal Capacitor Implementation (ICI).
+    > Supply voltage 1.8 V (-2%) to 3.6 V.
+
+Copyright © Azoteq 2025                         IQS211A/B Datasheet                    Page 1 of 52
+All Rights Reserved                               Revision v2.8.1                        July 2025
+                                             IQ Switch®
+                                         ProxSense® Series
+
+
+                                       Available Packages
+
+                                    TA            DFN-6     TSOT23-6     WLCSP-8
+                     IQS211A   -20 C to 85◦ C
+                                  ◦                 -        NRFND        NRFND
+                     IQS211B   -40◦ C to 85◦ C      ✓          ✓            ✓
+
+
+1.2   Applications
+   > Wearable devices
+   > Movement detection devices (fitness, anti-theft)
+   > White goods and appliances
+   > Human Interface Devices
+   > Proximity activated backlighting
+   > Applications with long-term activation
+
+1.3   Block Diagram
+
+
+
+
+                                  Figure 1.3: Functional Block Diagram
+
+
+
+The IQS211A/B supports relative capacitance measurements for detecting capacitance changes.
+
+Basic features of the IQS211A/B include:
+
+   > Charge-transfer capacitance measurement technology (Analog ProxSense® Engine).
+   > Finite state machine to automate detection and environmental compensation without MCU in-
+     teraction (integrated microprocessor).
+   > Self-capacitance measurements.
+
+Copyright © Azoteq 2025                    IQS211A/B Datasheet                      Page 2 of 52
+All Rights Reserved                          Revision v2.8.1                          July 2025
+                                            IQ Switch®
+                                        ProxSense® Series
+
+
+   > Signal conditioning to provide signal gain (Analog – Capacitive offset calibration).
+   > Signal conditioning to provide offset compensation for parasitic capacitance (Analog – Capaci-
+     tive offset calibration).
+   > Integrated calibration capacitors (Analog – Capacitive offset calibration).
+   > Integrated timer for timer triggered conversions.
+   > Integrated LDO regulator for increased immunity to power supply noise.
+   > Integrated oscillator.
+   > Processing logic to perform measurement filtering, environmental compensation, threshold de-
+     tection and movement detection.
+
+
+
+
+Copyright © Azoteq 2025                 IQS211A/B Datasheet                             Page 3 of 52
+All Rights Reserved                       Revision v2.8.1                                 July 2025
+                                               IQ Switch®
+                                           ProxSense® Series
+
+
+Contents
+
+1 Device Overview                                                                                         1
+  1.1   Main Features . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     1
+  1.2   Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    2
+  1.3   Block Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       2
+
+2 Packaging and Pin-Out                                                                                   6
+  2.1  TSOT23-6 Package . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           6
+  2.2  WLCSP-8 Package . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          8
+  2.3  DFN-6 Package . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       10
+  2.4  Recommended Capacitor Values . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            11
+  2.5  Exception to Recommended Capacitor Values . . . . . . . . . . . . . . . . . . . . . .             11
+
+3 Configurable Options                                                                                   12
+  3.1   User Selectable OTP Options . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        13
+  3.2   I2 C Registers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   14
+        3.2.1    00H Product Number . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        14
+        3.2.2    01H Version number . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        14
+        3.2.3    10H SYSFLAGS0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           15
+        3.2.4    41H Movement Value . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          15
+        3.2.5    42H & 43H Counts (Immediate Filtered Capacitance) . . . . . . . . . . . . .             15
+        3.2.6    83H & 84H Long Term Average (LTA) . . . . . . . . . . . . . . . . . . . . .             15
+        3.2.7    90H & 91H Touch Threshold Value . . . . . . . . . . . . . . . . . . . . . .             15
+        3.2.8    C4H MULTIPLIERS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           16
+        3.2.9    C5H COMPENSATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              16
+        3.2.10 C6H PROX_SETTINGS0 . . . . . . . . . . . . . . . . . . . . . . . . . . . .                16
+        3.2.11 C7H PROX_SETTINGS1 . . . . . . . . . . . . . . . . . . . . . . . . . . . .                16
+        3.2.12 C8H PROX_SETTINGS2 . . . . . . . . . . . . . . . . . . . . . . . . . . . .                16
+        3.2.13 C9H ATI_TARGET . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            17
+        3.2.14 CAH LP_PERIOD . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             17
+        3.2.15 CBH PROX_THRESHOLD . . . . . . . . . . . . . . . . . . . . . . . . . . .                  17
+        3.2.16 CCH TOUCH_THRESHOLD . . . . . . . . . . . . . . . . . . . . . . . . . .                   17
+        3.2.17 CDH MOVEMENT_THRESHOLD . . . . . . . . . . . . . . . . . . . . . . .                      17
+        3.2.18 CEH AUTO_RESEED_LIMIT . . . . . . . . . . . . . . . . . . . . . . . . . .                 17
+
+4 Overview                                                                                               19
+  4.1   Device Characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     19
+        4.1.1   Normal Threshold Operation . . . . . . . . . . . . . . . . . . . . . . . . . .           19
+        4.1.2   Output Forced by Movement . . . . . . . . . . . . . . . . . . . . . . . . . .            20
+        4.1.3   Long Term Recovery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         20
+        4.1.4   Choosing a User Interface . . . . . . . . . . . . . . . . . . . . . . . . . . . .        21
+        4.1.5   Integrated Features . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        24
+        4.1.6   Communications Protocols . . . . . . . . . . . . . . . . . . . . . . . . . . .           24
+        4.1.7   Automatic Calibration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        25
+        4.1.8   Capacitive Sensing Method . . . . . . . . . . . . . . . . . . . . . . . . . . .          25
+  4.2   Operation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    25
+        4.2.1   Device Setup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       25
+        4.2.2   Movement Filter Response . . . . . . . . . . . . . . . . . . . . . . . . . . .           25
+        4.2.3   External Control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       25
+        4.2.4   Low Power Options . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        26
+  4.3   ProxSense® Sensitivity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     27
+
+Copyright © Azoteq 2025                     IQS211A/B Datasheet                                 Page 4 of 52
+All Rights Reserved                           Revision v2.8.1                                     July 2025
+                                                 IQ Switch®
+                                             ProxSense® Series
+
+
+   4.4     Applicability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   28
+
+5 Details on User Configurable Options                                                                       29
+  5.1   Bank 0: Sensitivity and Scan Time Adjustments . . . . . . . . . . . . . . . . . . . . .              29
+  5.2   Bank 1: Threshold Adjustments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            30
+  5.3   Bank 2: Timer, Output Type and User Interface Adjustment . . . . . . . . . . . . . .                 31
+  5.4   Bank 3: VREG Damping, Sample Filter, Input Control and Output PWM . . . . . . .                      32
+  5.5   Bank 4: Partial ATI, ATI Target and Power-on Detection . . . . . . . . . . . . . . . . .             33
+
+6 I2 C Interface                                                                                             35
+  6.1     I2 C Address . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     35
+  6.2     I2 C Read . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      35
+  6.3     I2 C Write . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   36
+  6.4     I2 C Operation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     36
+          6.4.1     Normal I2 C Polling (101) . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      36
+          6.4.2     I2 C Polling with Reset Indication & RDY (110) . . . . . . . . . . . . . . . . .         37
+          6.4.3     I2 C Polling with RDY on Clock and Wake-up on Pin Change (111) . . . . .                 38
+  6.5     I2 C Flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    38
+          6.5.1     I2 C Usage from Start-up . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       38
+          6.5.2     When to Redo ATI in I2 C mode . . . . . . . . . . . . . . . . . . . . . . . . .          39
+
+7 Specifications                                                                                             40
+  7.1   Absolute Maximum Ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             40
+
+8 Packaging Information                                                                                      42
+  8.1  TSOT23-6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          42
+  8.2  WLCSP-8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           43
+  8.3  DFN-6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         44
+  8.4  MSL Level . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         45
+
+9 Ordering and Part-number Information                                                                       46
+  9.1   Ordering Information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         46
+  9.2   Device Marking - Top . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         47
+        9.2.1   TSOT23-6 Package Markings . . . . . . . . . . . . . . . . . . . . . . . . . .                47
+        9.2.2   WLCSP-8 Package Markings . . . . . . . . . . . . . . . . . . . . . . . . . .                 48
+        9.2.3   DFN-6 Package Markings . . . . . . . . . . . . . . . . . . . . . . . . . . . .               48
+  9.3   Device Marking - Bottom . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          49
+  9.4   Tape and Reel Specification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          50
+
+10 Revision History                                                                                          51
+
+
+
+
+Copyright © Azoteq 2025                       IQS211A/B Datasheet                                   Page 5 of 52
+All Rights Reserved                             Revision v2.8.1                                       July 2025
+                                                  IQ Switch®
+                                              ProxSense® Series
+
+
+2     Packaging and Pin-Out
+
+The IQS211A/B is available in a TSOT23-6 or WLCSP-8 package.
+The IQS211B is available in a DFN-6 package.
+
+2.1     TSOT23-6 Package
+
+
+
+
+                                      Figure 2.1: IQS211A/B TSOT23-6 Pin-out
+
+
+                                      Table 2.1: TSOT23-6 Pin-out Description
+
+                                          IQS211A/B in TSOT23-6
+        Pin     Name                 Type                 Function
+                                                          Multifunction IO1 (open-drain outputi )
+          1     PRIMARY I/O          Digital Input/Output SCL (I2 C Clock signal)/
+                                                          1-WIRE (data streaming)
+          2     VSS                  Ground               GND Reference
+                                                          Multifunction IO2 (open drain outputi )
+                                                          SDA (I2 C Data output)
+          3     SECONDARY I/O        Digital Input/Output EVENT
+                                                          VREG Damping (Requires OTP Bank
+                                                          3, bit 3 selected)
+          4     VREG                 Regulator Output     Requires external capacitor
+          5     VDDHI                Supply Input         Supply: 1.764 V – 3.6 V
+                                                          Connect to conductive area intended
+          6     Cx                   Sense electrode
+                                                          for sensor
+
+
+
+
+                                Figure 2.2: IQS211A/B TSOT23-6 Reference Schematic
+i
+    Pull-up resistor required
+
+Copyright © Azoteq 2025                        IQS211A/B Datasheet                          Page 6 of 52
+All Rights Reserved                              Revision v2.8.1                              July 2025
+                                                IQ Switch®
+                                            ProxSense® Series
+
+
+
+
+     Figure 2.3: IQS211A/B Reference Schematic for Ultra-low Power (ULP) Modes with VREG Damping Through
+                                        IO2 Selected (OTP Bank3: bit3)
+
+
+
+Figures 2.2 and 2.3 show the reference schematics for the TSOT packages.
+
+Please take note of the following:
+
+   > The 1 µF capacitors on VDDHI and VREG, C3 and C1, are for default power mode. Please see
+     Table 2.4 to select the correct capacitors for low power modes.
+   > C5 = Example load of 10 pF. This value may vary to adjust sensitivity. 1 pF for higher sensitivity
+     and up to 60 pF for proximity detection use. A total load of 120 pF is allowed by the sensing
+     system.
+   > R1 = 470 Ω 0603 for added ESD protection.
+   > R2: Place a 40 Ω resistor in the VDDHI supply line to prevent a potential ESD induced latch-up.
+     Maximum supply current should be limited to 80 mA on the IQS211A/B VDDHI pin to prevent
+     latch-up.
+
+
+
+
+Copyright © Azoteq 2025                     IQS211A/B Datasheet                                   Page 7 of 52
+All Rights Reserved                           Revision v2.8.1                                       July 2025
+                                              IQ Switch®
+                                          ProxSense® Series
+
+
+2.2      WLCSP-8 Package
+
+
+
+
+                                  Figure 2.4: IQS211A/B WLCSP-8 Pin-out
+
+
+                                  Table 2.2: WLCSP-8 Pin-out Description
+
+                                         IQS211A/B WLCSP-8
+         Pin    Name             Type                 Function
+                                                      Connect to conductive area intended
+          1     Cx               Sense electrode
+                                                      for sensor
+                                                      Multifunction IO1 (open-drain outputii )
+          2     PRIMARY I/O      Digital Input/Output SCL (I2 C Clock signal)
+                                                      1-WIRE
+          3     VREG             Regulator output     Requires external capacitor
+          4     VSS              Ground               GND Reference
+                                                      Floating input during runtime.
+                                                      Recommended: Connect to IO2
+          5     NC / DAMP        Digital Input/Output VREG Damping: Connect to GND
+                                                      through 680R resistor. (Requires OTP
+                                                      Bank 3, bit 3 selected)
+                                                      Multifunction IO2 (open drain outputii )
+          6     SECONDARY I/O    Digital Input/Output SDA (I2 C Data output)
+                                                      EVENT
+          7     VDDHI            Supply Input         Supply: 1.764 V – 3.6 V
+                                                      Connection for OTP programming.
+                                                      Floating input during runtime.
+                                                      Recommended: Connect to IO1/SCL
+                                                      pin.
+          8     PGM              Configuration pin
+                                                      Programming can still be performed
+                                                      using this pin, provided a diode is used.
+                                                      (See
+                                                      AZD026 -- Configuration
+                                                      AZD026     Configuration Tools
+                                                                                Tools Overview
+                                                                                      Overview)
+
+
+
+
+ii
+     Requires pull-up resistor
+
+Copyright © Azoteq 2025                   IQS211A/B Datasheet                            Page 8 of 52
+All Rights Reserved                         Revision v2.8.1                                July 2025
+                                               IQ Switch®
+                                           ProxSense® Series
+
+
+
+
+                            Figure 2.5: IQS211A/B WLCSP-8 Reference Schematic
+
+
+
+
+        Figure 2.6: IQS211A/B WLCSP Reference Schematic with VREG Damping Enabled (OTP Bank3: bit3)
+
+
+
+Figures 2.5 and 2.6 show the reference designs for the chip-scale packages. Please take note of the
+following:
+
+   > The 1 µF capacitors on VDDHI and VREG, C3 and C1, are for default power mode. Please see
+     Table 2.4 to select the correct capacitors for low power modes.
+   > C5 = Example load of 10 µF. This value may vary to adjust sensitivity. 1 µF for higher sensitivity
+     and up to 60 µF for proximity detection use. A total load of 120 µF is allowed by the sensing
+     system.
+   > R1 = 470 Ω 0603 for added ESD protection.
+   > R2: Place a 40 Ω resistor in the VDDHI supply line to prevent a potential ESD induced latch-up.
+     Maximum supply current should be limited to 80 mA on the IQS211A/B VDDHI pin to prevent
+     latch-up.
+   > PGM should be connected directly to IO1/SCL/DATA.
+   > DAMP should be connected directly to IO2/SDA/EVENT.
+
+
+
+
+Copyright © Azoteq 2025                    IQS211A/B Datasheet                                  Page 9 of 52
+All Rights Reserved                          Revision v2.8.1                                      July 2025
+                                                   IQ Switch®
+                                               ProxSense® Series
+
+
+2.3       DFN-6 Package
+
+
+
+
+                                        Figure 2.7: IQS211A/B DFN-6 Pin-out
+
+
+                                        Table 2.3: DFN-6 Pin-out Description
+
+                                                IQS211B DFN-6
+          Pin     Name                Type                 Function
+                                                           Multifunction IO1 (open-drain outputiii )
+            1     PRIMARY I/O         Digital Input/Output SCL (I2 C Clock signal) /
+                                                           1-WIRE (data streaming)
+            2     VSS                 Ground               GND Reference
+                                                           Multifunction IO2 (open drain outputiii )
+                                                           SDA (I2 C Data output)
+            3     SECONDARY I/O       Digital Input/Output EVENT
+                                                           VREG Damping (Requires OTP Bank
+                                                           3, bit 3 selected)
+            4     VREG                Regulator output     Requires external capacitor
+            5     VDDHI               Supply Input         Supply: 1.764 V – 3.6 V
+                                                           Connect to conductive area intended
+            6     Cx                  Sense electrode
+                                                           for sensor
+
+
+
+
+                                  Figure 2.8: IQS211A/B DFN-6 Reference Schematic
+
+
+
+iii
+      Pull-up resistor required
+
+Copyright © Azoteq 2025                        IQS211A/B Datasheet                            Page 10 of 52
+All Rights Reserved                              Revision v2.8.1                                 July 2025
+                                                   IQ Switch®
+                                               ProxSense® Series
+
+
+2.4    Recommended Capacitor Values
+The VREG capacitor value (C1) is chosen to ensure VREG remains above the maximum BOD spec-
+ification stated in Table 7.3 The combination of C1 (VREG) and C3 (VDDHI) is chosen to prevent a
+potential ESD issue.
+
+Known issue: In some cases, the IQS211A/B will not recover from ESD events. In cases where a high
+current source or regulator with low impedance path is present (a source that keeps VDDHI above
+the BOD level), the ESD event drains the VREG capacitor, but VDDHI voltage remains above BOD.
+When the ESD event is timed with the “sleep” power mode it causes a firmware run-time failure that
+only recovers when forcing a POR on VDDHI.
+
+Recommended values to prevent this is shown in Table 2.4
+
+       Table 2.4: VDDHI and VREG Capacitor Size Recommendation to Prevent ESD Issues with Typical Hardware
+                                                  Combinations
+
+                                  8 ms (default)
+      Low power scan time                             64 ms               128 ms              160 ms
+                                  – 32 ms
+      Capacitor                   C1 = 1 µF           C1 = 4.7 µF         C1 = 4.7 µF         C1 = 4.7 µF
+      recommendation              C3 = 1 µF           C3 = 2.2 µF         C3 = 2.2 µF         C3 = 2.2 µF
+
+
+2.5    Exception to Recommended Capacitor Values
+In applications where the VDDHI source has high internal resistance or a high resistance path, it will
+be required to ensure C3 > C1 to prevent a VDDHI BOD after the IC sleep cycle (see Figure 4.12).
+
+          Table 2.5: Capacitor Values for VDDHI (C3) and VREG (C1) Under Certain Supply Voltage Conditions
+
+                                  8 ms (default)
+      Low power scan time                             64ms                128ms               160ms
+                                  – 32ms
+      Capacitor                   C1 = 1µF            C1 = 2.2 µF         C1 = 4.7 µF         C1 = 4.7 µF
+      recommendation              C3 = 1µF            C3 = 4.7 µF         C3 = 10 µF          C3 = 10 µF
+
+
+
+
+Copyright © Azoteq 2025                        IQS211A/B Datasheet                                    Page 11 of 52
+All Rights Reserved                              Revision v2.8.1                                         July 2025
+                                             IQ Switch®
+                                         ProxSense® Series
+
+
+3   Configurable Options
+
+The IQS211A/B offers various user-selectable options. These options may be selected via I2 C setup
+or one-time programmable (OTP) configuration. OTP settings may be ordered pre-programmed for
+bulk orders. I2 C setup allows access to all device settings while entering direct output mode as soon
+as selected by the MCU.
+
+Azoteq offers a Configuration Tool (CT210 or later) and associated software that can be used to
+program the OTP user options for prototyping purposes. For further information regarding this subject,
+please contact your local distributor or submit enquiries to Azoteq.
+
+Note: In-circuit programming of the OTP options are not recommended and Azoteq is unable to assist
+in any in-circuit programming designs.
+
+
+
+
+Copyright © Azoteq 2025                  IQS211A/B Datasheet                              Page 12 of 52
+All Rights Reserved                        Revision v2.8.1                                   July 2025
+                                                                            IQ Switch®
+                                                                        ProxSense® Series
+
+
+3.1         User Selectable OTP Options
+
+      OTP Bank 0                                                       IQS211A/B 000000xx TSR/CSR/DNR (Ordering Code)
+
+          Bit              7                   6                   5                     4                  3                      2                   1                     0
+      Descriptions     Base Value / Coarse Multiplier                   Scan Times                   Prox Wake-up                             Low-Power Scan Time
+                                                                                                                                                   000 - 9 ms
+                                                                         Idle / Active                                                            001 - 32 ms
+                            00 - 150 counts / 0
+                                                                         00 - 9 / 9 ms                 0 - Active                                 010 - 64 ms
+                                 01 - 75 / 1
+                                                                        01 - 9 / 64 ms                  direction                                 011 - 96 ms
+                                10 - 100 / 2
+                                                                       10 - 32 / 32 ms                  1 - Both                                 100 - 128 ms
+                                11 - 200 / 3
+                                                                       11 - 32 / 64 ms                 directionsi                               101 - 160 msii
+                        See ProxSense® Sensitivity
+                                                                       See Figure 4.11                                                           110 - 192 msii
+                                                                                                                                                 111 - 256 msii
+      OTP Bank 1                                                               IQS211A/B 0000xx00 TSR/CSR/DNR
+
+          Bit              7                   6                   5                     4                  3                      2                   1                     0
+                      Touch Late
+      Descriptions                        Filter Halt / Wake-up Threshold                           Touch Threshold                                    Movement Threshold
+                     Release (50%)
+                                                                                                  000 - 6 / 256 of LTAiii
+                                                                                                     001 - 2 / 256iii
+                                               00 - 4 counts (+2 LP)                                010 - 16 / 256iv                                        00 - 3 counts
+                      0 - Disabled                 01 - 2 (+2 LP)                                   011 - 32 / 256iv                                            01 - 6
+                      1 - Enabled                  10 - 8 (+2 LP)                                   100 - 48 / 256iv                                           10 - 15
+                                                  11 - 16 (+2 LP)                                   101 - 64 / 256iv                                            11 - 2
+                                                                                                    110 - 80 / 256iv
+                                                                                                    111 - 96 / 256iv
+      OTP Bank 2                                                               IQS211A/B 00xx0000 TSR/CSR/DNR
+
+          Bit              7                   6                   5                     4                  3                      2                   1                     0
+      Descriptions             Reseed After No Movement Time                             Movement Output Type                          Output / User Interface Selection
+                                                                                                                            000 - Activation (IO1) & Movement (IO2)
+                                                                                                                            001 - Movement Latch (IO1) & Movement (IO2)
+                                           000 - 2 s
+                                                                                                                            010 - Movement (IO1) & Input (IO2)
+                                           001 - 5 s                            00 - Normal (PFM)
+                                                                                                                            011 - Touch (IO1), Prox (IO2)
+                                          010 - 20 s                            01 - PWM
+                                                                                                                            100 - 1-Wire (IO1) & CLK (IO2) (only on events)
+                                          011 - 1 min                           10 - Constant Movement, clears
+                                          100 - 2 min                           upon no movement timeout                    101 - I2 C (pollingi ) no wakeup
+                                         101 - 10 min                           11 - PFM combined with activation           110 - I2 C with reset indication + RDY toggle on SCL
+                                         110 - 60 min                           output                                      111 - I2 C (pollingi ) + Wakeup + RDY toggle on SCL
+                                       111 - always halt
+                                                                                                                            I2 C address fixed on 0x47
+                                                                                                                            Runtime change from I2 C to standalone is possible
+      OTP Bank 3                                                               IQS211A/B 0x000000 TSR/CSR/DNR
+
+          Bit              7                   6                   5                     4                  3                      2                   1                     0
+                                                                                                                                                                     IO1 (Output) /
+                                                                                                         VREG                                     Halt Charge /
+      Descriptions                                      Reserved                                                               AC Filter                               IO2 (Input)
+                                                                                                        Damping                                  Reseed on IO1
+                                                                                                                                                                        Definition
+                                                                                                                                                                      0 - Normal /
+                                                                                                      0 - Disabled                                                    Halt charge
+                                                                                                                              0 - Normal          0 - Disabled
+                                                                                                      1 - Enabled                                                      1 - PWM /
+                                                                                                                             1 - Increased        1 - Enabled
+                                                                                                       (sub-2 µA)                                                       Reduce
+                                                                                                                                                                       sensitivity
+      OTP Bank 4                                                               IQS211A/B x0000000 TSR/CSR/DNR
+
+          Bit              7                   6                   5                     4                  3                      2                   1                     0
+                                                                                                                            Auto Activation
+                                                                                                                                (When
+      Descriptions                                      Reserved                                       ATI Partial                                           ATI Target
+                                                                                                                            Compensation
+                                                                                                                            Multiplier > 7)
+                                                                                                                                                           00 - 768 counts
+                                                                                                      0 - Disabled           0 - Disabled                     01 - 1200
+                                                                                                      1 - Enabled            1 - Enabled                      10 - 384ii
+                                                                                                                                                              11 - 192ii
+
+
+
+
+i
+      Kown issue: For sub-2 µA power consumption see: “Low-power scan time”, “VREG damping” and “ATI target” settings
+ii
+      sub-2µA
+iii
+      Proximity levels 2 × Debounced (slower wakeup).
+iv
+      Touch levels Un-debounced (quick wake-up).
+
+Copyright © Azoteq 2025                                                 IQS211A/B Datasheet                                                                       Page 13 of 52
+All Rights Reserved                                                       Revision v2.8.1                                                                            July 2025
+                                                                 IQ Switch®
+                                                             ProxSense® Series
+
+
+3.2     I2 C Registers
+                                                    Table 3.1: I2 C Communications Layout
+
+   Address/
+                                          Default
+  Command/     Register name/s     R/W                    Bit 7           Bit 6           Bit 5         Bit 4           Bit 3     Bit 2           Bit 1           Bit 0
+                                           Value
+     Byte
+      00H      PRODUCT_NUM         R       0x3D
+                                            0x01
+                                         (IQS211A)
+      01H       VERSION_NUM        R
+                                            0x02
+                                         (IQS211B)
+                                                                        Movement                                        Show
+      10H        SYSFLAGS0         R/W                  Movement                         PROX         TOUCH                     ATI Busy       Filter Halt     LP Active
+                                                                        Constant                                        Reset
+      41H       Movement Value     R
+      42H           CS_H           R
+      43H           CS_L           R
+      83H           LTA_H          R
+      84H           LTA_L          R
+                    Touch
+      90H
+                 Threshold_H
+      91H      Touch Threshold_L
+      C4H        MULTIPLIERS       R/W                     n/a                n/a          Coarse multiplier                         Fine multiplier
+      C5H      COMPENSATION        R/W                                                                          0–255
+                                                         Base Value/ Coarse
+                                                                                                                      Prox
+                                                        multiplier for Partial ATI:
+                                                                                                                   direction
+                                                                                          Do                       0 - Active
+      C6H     PROX_SETTINGS0       R/W                           00 – 150/0                          Redo ATI                                      n/a
+                                                                                        Reseed                     direction
+                                                                 01 – 75/1
+                                                                                                                    1 - Both
+                                                                 10 – 100/2
+                                                                                                                   directions
+                                                                 11 – 200/3
+                                                                                                                                000 - Activation (IO1) & Movement
+                                                                        If UI type
+                                                                                                                                (IO2)
+                                                                        011:
+                                                                                                                                001 - Movement Latch (IO1) &
+                                                                                                                                Movement (IO2)
+                                                                        0 - Halt
+                                                                                                                                010 - Movement (IO1) & Input (IO2)
+                                                                        charge/
+                                                                                                                                011 - Touch (IO1), Prox (IO2)
+                                                                        Reseed
+                                                         0 - Auto                       Halt         00 - Normal (PFM)          100 - 1-Wire (IO1) & CLK (IO2) (only
+                                                                        1-
+                                                        reseed in                       Charge/      01 - PWM                   on events)
+                                                                        Reduce
+                                                         seconds                        Reseed       10 - Constant              101 - I2 C (polling) no wakeup
+                                                                        sensitiv-
+      C7H     PROX_SETTINGS1       R/W                                                  on IO1,      Movement, clears upon
+                                                                        ity                                                     110 - I2 C with reset indication + RDY
+                                                         1 - Auto                       with IO1     no movement timeout
+                                                                                                                                toggle on SCL
+                                                        reseed in                       set as       11 - PFM combined
+                                                         minutes
+                                                                        If UI type
+                                                                                        output       with activation output     111 - I2 C (polling) + Wakeup + RDY
+                                                                        000:                                                    toggle on SCL
+
+                                                                        0-                                                      It is possible to change to non-I2 C
+                                                                        Normal
+                                                                                                                                modes when in I2 C mode. I2 C
+                                                                        1 - PWM
+                                                                                                                                functionality will only return after a
+                                                                        touch out
+                                                                                                                                power cycle
+                                                                                                                                                                Increase
+                                                        0 - Prox                                                                                               AC filters,
+                                                        Timeout                                                                                                 increase
+                                                                                         AUTO                        Touch
+                                                          of 2s                                                                  Partial                          touch
+                                                                                        Activa-                       Late                      Auto ATI
+      C8H     PROX_SETTINGS2       R/W                                        n/a                        n/a                      ATI                          threshold
+                                                                                        tion on                     Release                       off
+                                                        1 - Prox                                                                enabled                          with 10
+                                                                                        start up                     (50%)
+                                                        timeout                                                                                                  counts,
+                                                         of 20s                                                                                                 halt with
+                                                                                                                                                                    4
+      C9H        ATI_TARGET        R/W                                                                   x ∗ 8 = ATI target
+      CAH        LP_PERIOD         R/W                                                                 x ∗ 4 ms = sleep time
+                PROX_THRES-
+      CBH                          R/W
+                   HOLD
+               TOUCH_THRES-
+      CCH                          R/W
+                   HOLD
+              MOVEMENT_THR-
+      CDH                          R/W
+                 ESHOLD
+              AUTO_RESEED_LI-
+      CEH                          R/W                                                In seconds or minutes, based on PROX_SETTINGS1 bit 7
+                   MIT
+
+
+
+
+3.2.1       00H Product Number
+
+The product number is 0x3D.
+
+3.2.2       01H Version number
+
+The firmware version number is 0x01/0x02 depending on the choice of IC. Firmware is identical for
+both versions but makes tracking of IC type (A/B) possible.
+
+
+Copyright © Azoteq 2025                                       IQS211A/B Datasheet                                                                      Page 14 of 52
+All Rights Reserved                                             Revision v2.8.1                                                                           July 2025
+                                               IQ Switch®
+                                           ProxSense® Series
+
+
+3.2.3   10H SYSFLAGS0
+
+Bit 7: Movement - This bit is set with each movement event and reset once the system does not
+detect movement.
+
+Bit 6: Movement Latch - This bit is set only when a movement latch option is enabled, and a move-
+ment is detected. The bit is cleared only when a no-movement time-out occurs. A soft reset operation
+does not clear this bit.
+
+Bit 5: PROX - the prox bit is the same as the LTA filter halt for “freezing” the reference counts. This
+bit is set and reset based on the proximity/filter halt threshold and is always active independent of the
+user interface.
+
+Bit 4: TOUCH - the touch bit is the main activation output of the system. Any user interface that
+includes an activation event is based on this bit.
+
+Bit 3: Show reset - This bit is written at each hard-reset event. Manually clear this bit and monitor for
+detecting hardware reset events.
+
+Bit 2: ATI busy - The ATI busy indicates a period where the operating point of the device is being
+determined (calibration). Reading count values and status values may be inaccurate in this time.
+
+Bit 1: Filter Halt - The filter halt and PROX bit are very similar. Usually they will have the same value.
+The exception is when a debounced proximity event is not detected while a undebounced touch event
+is detected. In this case the filter halt will trigger, but not the PROX bit.
+
+Bit 0: LP active - With any low power mode active in register “CAH”, this bit is set. Low power modes
+available in register “C6H” do not affect this bit. This bit is set when no interaction leads to a low power
+state with no proximity or touch events.
+
+3.2.4   41H Movement Value
+
+The 8-bit movement value is an average of movement pulses over a time period. The value indicates
+intensity of movement over a short period.
+
+3.2.5   42H & 43H Counts (Immediate Filtered Capacitance)
+
+The counts are directly proportional to capacitance and the system is calibrated to make the counts
+as sensitive as possible to changes in capacitance for relative measurements.
+
+3.2.6   83H & 84H Long Term Average (LTA)
+
+The LTA is used as reference to compare with counts. The LTA will follow slow environmental changes
+with temperature, but will freeze once an event is triggered, calling a LTA “filter halt”.
+
+3.2.7   90H & 91H Touch Threshold Value
+
+The touch threshold value here is calculated from the chosen value in register “CCH”. The value will
+indicate at which value the counts will trigger a touch event.
+
+
+
+
+Copyright © Azoteq 2025                     IQS211A/B Datasheet                                Page 15 of 52
+All Rights Reserved                           Revision v2.8.1                                     July 2025
+                                                IQ Switch®
+                                            ProxSense® Series
+
+
+3.2.8   C4H MULTIPLIERS
+
+The multipliers register is a combination of the sensitivity multiplier and compensation multiplier val-
+ues. These values are determined by the calibration routine and give an indication of the capacitive
+load on the system.
+
+3.2.9   C5H COMPENSATION
+
+The COMPENSATION is also part of the calibration routine and offers gain to the system.
+
+3.2.10 C6H PROX_SETTINGS0
+
+Bit 7-6: Base value - as described in Section 5.1 under Base Value (Sensitivity Multiplier in Partial
+ATI Mode).
+
+Bit 5: Reseed - The reseed command will equal the LTA to the counts. When the LTA is inside the
+boundary set for the chosen target, the reseed will not cause a re-calibration. When the LTA is out of
+this boundary, an automatic re-calibration will be done.
+
+Bit 4: Redo-ATI - The redo-ATI command will force a recalibration. The bit is automatically cleared
+after the operation.
+
+Bit 3: Prox direction - The prox direction bit determines whether the prox status flag will be set for a
+delta in either direction, a rise or decrease in counts, or only for the active direction.
+
+3.2.11 C7H PROX_SETTINGS1
+
+For more information see Section 5.1.
+
+Bit 7: Auto reseed time guide - Auto-reseed time guide selection of the value set in register “CEH”.
+With this bit set the value of “CEH” will be in minutes and with this bit cleared, it will be in seconds.
+
+Bit 6: Bit (applies only to certain UIs).
+
+Bit 5: Activation output with input reseed and reset (halt charge) feature.
+
+Bit 4-3: Movement output type.
+
+Bit 2-0: User Interface Settings.
+
+3.2.12 C8H PROX_SETTINGS2
+
+Bit 7: PROX/Filter halt time-out definition - With this bit cleared the filter halt is only kept for 2
+seconds when no movement is detected during this period. With this bit set the filter halt condition
+remains for 20 seconds when no movement is detected. A movement event will reset this timer. This
+option is only available in I2 C mode.
+
+Bit 5: Auto Activation at power-up when P > 7 (absolute capacitance detection method, partial ATI
+must be enabled, select sensitivity with the “Sensitivity Multiplier”).
+
+Bit 3: Touch late release (50% of touch threshold).
+
+Bit 2: Partial ATI.
+
+
+Copyright © Azoteq 2025                     IQS211A/B Datasheet                             Page 16 of 52
+All Rights Reserved                           Revision v2.8.1                                  July 2025
+                                                 IQ Switch®
+                                             ProxSense® Series
+
+
+Bit 1: Auto-ATI off - With this bit set, the ATI algorithm will only execute with a “Redo-ATI” command. A
+no-movement time-out will execute a simple “reseed” command without the possibility of a recalibration
+occurring.
+
+Bit 0: AC filter increase.
+
+3.2.13 C9H ATI_TARGET
+
+Calibration routines will attempt to get the counts as close as possible to this target count. Although it
+is possible to reach a 2048 count target, it is recommended to aim for a maximum target of 1600 for
+the effect of noise and environment on the system.
+
+3.2.14 CAH LP_PERIOD
+
+The low power period refers to the part of the scan period where no communications or sensing is
+done. This period is indicated as the “sleep time” in Figure 4.11.
+
+3.2.15 CBH PROX_THRESHOLD
+
+The value chosen is a ratio applied to the target and more specifically, the actual count value after
+aiming for a specific target.
+
+The equation for deriving actual counts of the threshold below the LTA is as follows:
+
+                                                         (LTA × PTH)
+                                          PTH Actual =
+                                                             256
+As example take PTH = 4 with a target of 1200 and actual counts reached = 1180:
+
+
+                                         (LTA × PTH)   (1180 × 4)
+                          PTH Actual =               =            = 18 Counts
+                                             256          256
+
+In this case the proximity event will trigger, and the LTA filter halt is activated when the counts fall 18
+counts below the LTA.
+
+Threshold values are not dynamic and are locked at time of calibration.
+
+3.2.16 CCH TOUCH_THRESHOLD
+
+The touch threshold value is determined in the same way as the PROX_THRESHOLD above. When
+the TOUCH_TRESHOLD is ≥ 15, the touch is un-debounced. Touch flags are set, but streaming
+counts remain filtered, not indicating the event.
+
+3.2.17 CDH MOVEMENT_THRESHOLD
+
+The movement threshold value is determined in the same way as the PROX_THRESHOLD above. If
+using the movement feature, this value should be < 25.
+
+3.2.18 CEH AUTO_RESEED_LIMIT
+
+The automatic reseed time limit may be fine-tuned from:
+
+
+Copyright © Azoteq 2025                      IQS211A/B Datasheet                              Page 17 of 52
+All Rights Reserved                            Revision v2.8.1                                   July 2025
+                                           IQ Switch®
+                                       ProxSense® Series
+
+
+   > 1 – 255 seconds with C7H bit 7 cleared (always halt with CEH = 0xFF).
+   > 1 – 255 minutes with C7H bit 7 set (always halt with CEH = 0xFF).
+
+
+
+
+Copyright © Azoteq 2025                IQS211A/B Datasheet                   Page 18 of 52
+All Rights Reserved                      Revision v2.8.1                        July 2025
+                                                 IQ Switch®
+                                             ProxSense® Series
+
+
+4     Overview
+
+4.1     Device Characteristics
+The IQS211A/B is a device tailored for long term proximity or touch activations. It mainly offers two
+digital output pins, one with an activation threshold for large capacitive shifts and the other with a
+threshold for small movements even during a normal activation. There are also a few options to
+combine these two digital outputs where the application only allows for 1 output pin. These two
+outputs may be read via the IC pins in standalone mode or used for communications via I2 C or 1-
+Wire streaming mode.
+
+Various configurations are available via one-time programmable (OTP) options. I2 C mode also has
+access to all these settings.
+
+The movement output may be chosen to have a specific characteristic. This may be PFM (movement
+intensity via pulse count per time window), PWM, latched output or PWM combined with the normal
+threshold activation.
+
+4.1.1    Normal Threshold Operation
+
+With a normal activation (hand brought close) the output will become active. The output will de-
+activate as soon as the action is reversed (hand taken away). In addition a separate movement output
+will become active when movement is detected according to a movement threshold. Movement may
+be detected before the normal threshold is crossed. Movement detection is done via a completely
+separate digital filter while improving the efficiency of the sensor output (timer reset on movement).
+
+
+
+
+                 Figure 4.1: Flow Diagram of the Typical IQS211A/B Movement-based User Interface
+
+
+
+In a normal activation the output will stay active for as long as movements are detected. A time-out
+timer (configurable time) will be reset with each movement.
+
+
+
+
+Copyright © Azoteq 2025                       IQS211A/B Datasheet                                  Page 19 of 52
+All Rights Reserved                             Revision v2.8.1                                       July 2025
+                                                  IQ Switch®
+                                              ProxSense® Series
+
+
+
+
+                   Figure 4.2: Plot of IQS211A/B Streaming Data Along with The Digital Response
+
+
+
+4.1.2   Output Forced by Movement
+
+There is the option to force the output active for each movement detected. The output will be cleared
+as soon as there is no movement for the selected timer period.
+
+4.1.3   Long Term Recovery
+
+When changing the sensor capacitive environment, the sensor will adapt to the new environment. If
+the new environment decreases capacitance (wooden table to air), the sensor will rapidly adapt in
+order to accept new human activations. If the new environment increases capacitance (like air to steel
+table), the sensor will remain in activation until a time-out occurs (as seen in Figure 4.3) or until the
+device is returned to its previous environment.
+
+When the timer runs out, the output will be de-activated. Re-calibration is possible after de-activation
+because the timer will only time-out with no movement around the sensor.
+
+
+
+
+Copyright © Azoteq 2025                       IQS211A/B Datasheet                                 Page 20 of 52
+All Rights Reserved                             Revision v2.8.1                                      July 2025
+                                               IQ Switch®
+                                           ProxSense® Series
+
+
+
+
+                          Figure 4.3: Example of a Time-out Event with Recalibration
+
+
+
+4.1.4   Choosing a User Interface
+
+The user interface can be defined via OTP options or via an I2 C register.
+
+ACTIVATION & MOVEMENT UI
+
+
+
+
+                             Figure 4.4: Activation & Movement UI State Diagram
+
+
+
+
+Copyright © Azoteq 2025                     IQS211A/B Datasheet                        Page 21 of 52
+All Rights Reserved                           Revision v2.8.1                             July 2025
+                                            IQ Switch®
+                                        ProxSense® Series
+
+
+
+
+                               Figure 4.5: Toy Car Example of Default UI
+
+
+  1. Lights off.
+  2. Touch roof, lights on.
+  3. No touch on roof, lights off.
+  4. While in use (movement), lights on.
+  5. Roof on ground = touch.
+  6. No movement causes time-out, lights off.
+
+MOVEMENT LATCH & MOVEMENT UI
+
+
+
+
+                             Figure 4.6: Movement Latch UI State Diagram
+
+
+
+
+Copyright © Azoteq 2025                 IQS211A/B Datasheet                Page 22 of 52
+All Rights Reserved                       Revision v2.8.1                     July 2025
+                                                    IQ Switch®
+                                                ProxSense® Series
+
+
+
+
+                          Figure 4.7: Remote Control Example of Movement Latch UI Application
+
+
+  1. Remote backlight/LCD off.
+  2. Hand close to remote = LCD on.
+  3. Hand away, then LCD remains on.
+  4. LCD off after no movement time-out.
+  5. If remote in hand, but LCD off, then any small movement turns on LCD.
+  6. While in hand and movement, LCD remains on.
+
+MOVEMENT & INPUT UI
+
+
+
+
+                                    Figure 4.8: Device Charging Example of Input UI
+
+
+   > Device is operating on battery with designed sensitivity.
+   > Device is plugged-in for charging.
+   > Device ground reference changes and sensitivity increases.
+   > Input is given to reduce sensitivity.
+
+PROX & TOUCH UI
+
+
+
+
+Copyright © Azoteq 2025                          IQS211A/B Datasheet                            Page 23 of 52
+All Rights Reserved                                Revision v2.8.1                                 July 2025
+                                              IQ Switch®
+                                          ProxSense® Series
+
+
+
+
+                               Figure 4.9: Proximity and Touch State Diagram
+
+
+
+
+                                Figure 4.10: Proximity and Touch UI Example
+
+
+   > Proximity to the device activates proximity output.
+   > Touching the device activates the touch output (proximity remains triggered).
+   > Movement features are integrated and function the same as in the default “ACTIVATION &
+     MOVEMENT” user interface.
+
+4.1.5   Integrated Features
+
+The device includes an internal voltage regulator and reference capacitor (Cs ).
+
+Various advanced signal processing techniques are combined for creating a robust solution.
+
+These techniques include:
+
+   > Movement detection filter (to release an activation in the case of inactivity).
+   > Advanced noise filtering on incoming sample stream.
+   > Superior methods of parasitic capacitance compensation while preserving sensitivity.
+   > Unique option for capacitive load dependant activation on power-on.
+
+4.1.6   Communications Protocols
+
+The IQS211A/B offers a wide range of data streaming modes each with a specific purpose.
+
+Standard 2-wire I2 C polling is offered to access the entire range of settings and data offered by the
+IQS211A/B.
+
+
+Copyright © Azoteq 2025                    IQS211A/B Datasheet                            Page 24 of 52
+All Rights Reserved                          Revision v2.8.1                                 July 2025
+                                               IQ Switch®
+                                           ProxSense® Series
+
+
+Another I2 C option allows the device to be configured via I2 C then jump to any of the other modes
+when the communication window is closed. This option is offered to give full control over selecting
+settings while simplifying the main-loop code by only responding to direct digital outputs. The digital
+output pair will contain signature pulses to indicate power-on reset or an unexpected reset occurrence.
+I2 C configuration should be re-initiated in the event of an IQS211A/B reset.
+
+A 1-wire data streaming interface is offered for access to a variety of data over a single line. The 1-wire
+implementation may be enhanced (by using the IO2 pin) by only reading data when the IO2 clock pin
+toggles. The clock pin will only toggle when an event is active and produce a clock signal during this
+active period.
+
+1-Wire data streaming is a special use case for debugging with optical isolation and Azoteq PC
+software. For other requirements, please contact Azoteq
+
+4.1.7    Automatic Calibration
+
+Proven Automatic Tuning Implementation (ATI) algorithms are used to calibrate the device to the sense
+electrode. This algorithm is optimised for applications where a fixed detection distance is required.
+
+4.1.8    Capacitive Sensing Method
+
+The charge transfer method of capacitive sensing is employed on the IQS211A/B. Charge is continuously
+transferred from the Cx capacitor into a charge collection capacitor (internal) until this capacitor reaches
+a trip voltage. A “transfer cycle” refers to the charging of Cx and transferring the charge to the collection
+capacitor. The “charge cycle” refers to process of charging the collection capacitor to a trip voltage
+using charge transfers. A charge cycle is used to take a measurement of the capacitance of a sense
+“pad” or “electrode” relative to signal earth at a specific time.
+
+4.2     Operation
+4.2.1    Device Setup
+
+The device may be purchased pre-configured (large orders or popular configurations), programmed
+in-circuit during production or simply setup via I2 C.
+
+4.2.2    Movement Filter Response
+
+The movement filter runs continually, and the dedicated digital output will activate in PFM (pulse
+frequency modulation), PWM or latched mode.
+
+4.2.3    External Control
+
+With certain user interfaces, the “multifunction IO2” (optional line to connect to master device) can be
+used to signal:
+
+   > A “halt (sleep mode) and reseed” or “reduce sensitivity” in MOV&INPUT mode.
+   > A “halt (sleep mode) and reseed” in ACT&MOV mode. When enabled, the ACT output reads the
+     input periodically.
+
+RESEED
+
+
+
+
+Copyright © Azoteq 2025                    IQS211A/B Datasheet                                Page 25 of 52
+All Rights Reserved                          Revision v2.8.1                                     July 2025
+                                               IQ Switch®
+                                           ProxSense® Series
+
+
+A short pulse (t > 15 ms, t < 25 ms) will force the reference counts (long-term average) to match the
+actual counts (capacitance of sensor). The short pulse for a reseed operation also applies to the user
+configurable input option: “Reduce sensitivity”.
+
+HALT CHARGE (& RESET)
+
+By writing the pin low for a longer time (t > 50 ms), will force the IC into “halt charge” for low current
+consumption. It is important to consider current through the pull-up resistor when in sleep mode.
+
+The IC will perform a soft reset as soon as the pin is released after 50 ms or more. With a soft reset
+the IC will remember the activation state when going into the “halt charge” mode. The state will be
+recalled at the reset operation and cleared along with the calibration.
+
+In order to achieve a “halt charge” state with minimal power consumption it is recommended to
+configure the MCU output as push-pull for the input pin and perform the “halt charge”. With the
+“movement latch” function defined, do the operation twice to clear a possible activation at the time
+of calling a “halt charge”.
+
+REDUCE SENSITIVITY
+
+With a configurable bit the system sensitivity may be changed. The input may be used to reduce
+sensitivity in the following way:
+
+   > AC filter doubles in strength.
+   > Proximity threshold (filter halt) is increased by 4 counts.
+   > Activation threshold is increased by 10 counts.
+   > Movement sensitivity threshold is not changed.
+
+4.2.4   Low Power Options
+
+Various low-power configurations are offered in order to achieve the required current consumption
+during activated and non-activated conditions.
+
+These low power configurations make the power consumption and product response highly configurable
+during various events.
+
+
+
+
+Copyright © Azoteq 2025                    IQS211A/B Datasheet                               Page 26 of 52
+All Rights Reserved                          Revision v2.8.1                                    July 2025
+                                                    IQ Switch®
+                                                ProxSense® Series
+
+
+
+
+          Figure 4.11: Low Power Mode Description from Outside (No Interaction), to Inside (Full Interaction)
+
+
+
+
+                       Figure 4.12: Sample-, Scan-, Sleep- and Communication Time Diagram
+
+
+
+4.3   ProxSense® Sensitivity
+The measurement circuitry uses a temperature stable internal sample capacitor (CS ) and internal
+regulated voltage (VREG ). Internal regulation provides for more accurate measurements over temperature
+variation.
+
+The Automatic Tuning Implementation (ATI) is a sophisticated technology implemented on the ProxSense®
+series devices. It allows for optimal performance of the devices for a wide range of sense electrode
+capacitances, without modification or addition of external components. The ATI functionality ensures
+that sensor sensitivity is not affected by external influences such as temperate, parasitic capacitance
+and ground reference changes.
+
+The ATI process adjusts three values (Coarse multiplier, Fine multiplier, Compensation) using two
+parameters (ATI base and ATI target) as inputs. An 8-bit compensation value ensures that an accurate
+target is reached. The base value influences the overall sensitivity of the channel and establishes a
+base count from where the ATI algorithm starts executing. A rough estimation of sensitivity can be
+calculated as:
+                                                      Target
+                                        Sensitivity ∝
+                                                       Base
+Copyright © Azoteq 2025                         IQS211A/B Datasheet                                       Page 27 of 52
+All Rights Reserved                               Revision v2.8.1                                            July 2025
+                                            IQ Switch®
+                                        ProxSense® Series
+
+
+As seen from this equation, the sensitivity can be increased by either increasing the Target value
+or decreasing the Base value. A lower base value will typically result in lower multipliers and more
+compensation would be required. It should, however, be noted that a higher sensitivity will yield a
+higher noise susceptibility.
+
+4.4   Applicability
+All specifications, except where specifically mentioned otherwise, provided by this datasheet are
+applicable to the following ranges:
+
+   > Temperature:
+       • IQS211A: -20◦ C to 85◦ C
+       • IQS211B: -40◦ C to 85◦ C
+   > Supply voltage (VDDHI ):
+       • IQS211A/B: 1.764 V to 3.6 V
+
+
+
+
+Copyright © Azoteq 2025                  IQS211A/B Datasheet                            Page 28 of 52
+All Rights Reserved                        Revision v2.8.1                                 July 2025
+                                                IQ Switch®
+                                            ProxSense® Series
+
+
+5     Details on User Configurable Options
+
+5.1     Bank 0: Sensitivity and Scan Time Adjustments
+
+
+    Bank0: bit 7:6        Base Value (Sensitivity Multiplier in Partial ATI mode)
+
+See ProxSense® sensitivity.
+
+Changing the base value enables the designer to adjust sensitivity. Lower base values will increase
+sensitivity and are recommended for systems with a high SNR ratio. Higher base values will prevent
+noise from being amplified but will result in less sensitivity.
+
+With Bank4: bit 2 set (partial ATI), the area of operation may be fixed to a certain extent. This is ideal
+for stationary applications where a specific type of trigger is expected.
+
+With Bank4: bit 0 set (auto-activation P > 7), partial ATI must be enabled to ensure the desired
+results. With the “Sensitivity Multiplier” fixed, the P value will indicate whether a certain threshold has
+been crossed at power-up.
+
+
+    Bank0: bit 5:4        IDLE (Proximity) / ACTIVE (Touch) Scan Time
+
+Select an IDLE / ACTIVE combination scan time to achieve the desired response with target power
+consumption in mind.
+
+
+    Bank0: bit 3          Prox Wake-up Direction
+
+Active direction - only go to IDLE (proximity) scan time when an actual proximity event occurs.
+
+Both directions - go to IDLE (proximity) scan time when a proximity event occurs or when a significant
+environment change occurs. This mode will enable quick touch response in a dynamic environment
+
+As example, when sensing pad used on the wrist and the pad is covered for an extended time - the
+touch time-out occurs, and the sensor may be calibrated or not for the new “covered” environment
+(depending on the signal size). When the sensor pad is un-covered again, the “active direction”
+option causes a slow recovery from the situation while the “both directions” option causes an almost
+immediate recovery.
+
+*Known issue: When selecting “Both directions”, the sensor pad is covered, a time-out occurs, and
+the sensor is recalibrated (auto re-ATI) then a fault condition occurs. In this condition the sensor will
+use an outdated LTA reference for lower-power mode. This prevents the sensor from properly entering
+low power mode and power consumption will be as chosen for “idle” mode and not “low power / sleep”
+mode.
+
+
+    Bank0: bit 2:0        SLEEP (No Proximity) Low Power Scan Time
+
+Select a SLEEP scan time to determine the most significant power consumption figure of the device.
+
+
+
+
+Copyright © Azoteq 2025                     IQS211A/B Datasheet                               Page 29 of 52
+All Rights Reserved                           Revision v2.8.1                                    July 2025
+                                                  IQ Switch®
+                                              ProxSense® Series
+
+
+5.2   Bank 1: Threshold Adjustments
+
+
+ Bank1: bit 7             Touch Late Release (50% of Touch Threshold)
+
+This option will enable a user interface where activation would occur as usual, but the deactivation
+will occur at a relaxed threshold. It will therefore counter unwanted false releases. This option is ideal
+for handheld devices that will be active with a typical “grab” action but will not release when the grip
+on the device is relaxed.
+
+
+
+
+                             Figure 5.1: State Diagram of Touch Late Release Interface
+
+
+
+
+                                     Figure 5.2: Touch Late Release Example
+
+
+
+ Bank1: bit 6:5           Proximity Threshold (Delta Counts from LTA)
+
+The proximity threshold may be chosen to halt the filters that allow for temperature drift and other
+environmental effects. Choose a low value in order to increase the trigger distance for slow proximity
+activations. Choose a high value if the device and/or sensing electrode overlay is in a highly variable
+temperature environment. A high value is also recommended for touch button implementations with
+the IQS211A/B. This threshold will not trigger any of the output signals in most of the user interface
+options. The result of this threshold becomes an output in the “Proximity and touch” user interface
+option, where movement is only operating in the background.
+
+
+
+Copyright © Azoteq 2025                       IQS211A/B Datasheet                            Page 30 of 52
+All Rights Reserved                             Revision v2.8.1                                 July 2025
+                                              IQ Switch®
+                                          ProxSense® Series
+
+
+ Bank1: bit 4:2           Touch Threshold (Delta Percentage from LTA)
+
+The touch threshold is the highly variable threshold that will determine the triggering of the activation
+output. This threshold may be chosen for various proximity trigger distances (low values 1 to 7)
+including a few settings that allow for the implementation of a touch button (high values 8 to 90).
+
+Proximity levels (1 – 7) are debounced (x2), resulting in a slower wakeup from sleep mode (low power
+scan time x2).
+
+Touch levels (8 – 90) are un-debounced, resulting in a quick wake-up from sleep mode (low power
+scan time x1).
+
+
+ Bank1: bit 1:0           Movement Threshold (Delta Counts from Movement Average)
+
+The movement threshold is chosen according to the dynamic response longed for, but also according
+to the signal-to-noise ratio of the system. Battery powered applications generally deliver much higher
+SNR values, allowing for lower movement thresholds.
+
+5.3   Bank 2: Timer, Output Type and User Interface Adjustment
+
+
+ Bank2: bit 7:5           Reseed After No Movement Timer
+
+Depending on the user interface chosen, the activation output will clear when no movement is detected
+for the period selected here. This feature enables long-term detection in interactive applications while
+eliminating the risk of a device becoming stuck when placed on an inanimate object.
+
+
+ Bank2: bit 4:3           Movement Output Type
+
+The movement output is a secondary output (normally IO2 pin) that may be used as the main output or
+supporting output. This output may be altered to suit the requirements of various applications. When
+user interface of “IO1: Movement and IO2: Input” is selected this output will be at the IO1 pin.
+
+   > ‘00’ - The default pulse frequency modulated (PFM) signal indicates intensity of movement by
+     the density of pulses. This is a relatively slow output that may trigger occasional interrupts on
+     the master side. See Figure 5.3. Most intense detectable movements are indicated by active low
+     pulses with 10 ms width (20 ms period). Saturated movement intensity is indicated by a constant
+     low.
+   > ‘01’ - The pulse width modulation (PWM) option is ideal for driving analogue loads. This signal
+     runs at 1 kHz and the duty cycle is adapted according to the movement intensity.
+   > ‘10’ - The movement latched option triggers the output as soon as any movement is detected.
+     The output only clears when no movement is sensed for the time defined in Bank2: bit 7:5.
+   > ‘11’ - The same PFM-type output as in the ‘00’ setting, but here the output will only become
+     active once the activation threshold is reached.
+
+‘00’ - PFM (pulse frequency modulation)
+
+
+
+
+Copyright © Azoteq 2025                    IQS211A/B Datasheet                              Page 31 of 52
+All Rights Reserved                          Revision v2.8.1                                   July 2025
+                                                 IQ Switch®
+                                             ProxSense® Series
+
+
+
+
+                                Figure 5.3: Movement (PFM) and Activation Output
+
+
+
+‘01’ - PWM
+
+
+
+
+       Figure 5.4: PFM Movement Output (TOP: 15 ms Period Minimum) Compared with PWM Movement Output
+                                            (BOTTOM: 1 ms Period)
+
+
+
+‘10’ - Latched (forces output for duration of timer)
+
+
+
+
+      Figure 5.5: PFM Movement Output (TOP) Compared with Latched Movement Output (BOTTOM). Movement
+                                       Output is Forced by First Movement
+
+
+
+‘11’ - PWM (only active during activation)
+
+
+ Bank2: bit 2:0           User Interface Selection
+
+Follow the links in the OTP summary for information on the various options.
+
+5.4   Bank 3: VREG Damping, Sample Filter, Input Control and Output PWM
+
+
+ Bank3: bit 3             VREG Damping
+
+Copyright © Azoteq 2025                      IQS211A/B Datasheet                              Page 32 of 52
+All Rights Reserved                            Revision v2.8.1                                   July 2025
+                                               IQ Switch®
+                                           ProxSense® Series
+
+
+
+With this option enabled, be sure to follow the schematic in Figure 2.3 for TSOT23-6 or Figure 2.6 for
+WLCSP-8.
+
+Current consumption is optimized through minimising processor awake time. With the damping option
+enabled, the VREG stabilisation time is significantly decreased, effectively optimizing processor wake
+time. In low µA power modes, this has a significant effect.
+
+
+ Bank3: bit 2             AC Filter Increase
+
+With the AC filter increase enabled, the reaction time slows with more rapid changes being filtered
+out. This option is ideal for a system connected to a power supply with increased noise.
+
+
+ Bank3: bit 1             Activation Output with Input Reseed & Reset (Halt Charge) Feature
+
+Extended IO1 definition: “000” Activation & Movement UI / “001” Movement latch output (forced) &
+Movement UI
+
+With digital outputs enabled the IO1 pin has the option of being an input to “halt charge” / “reseed”. A
+short pulse (t > 15 ms, t < 25 ms) will initiate a reseed action (LTA = counts - 8) and a longer pulse (t
+> 50 ms) will enable a lower power mode without sensing. The IQS211A/B will reset after the longer
+pulse is released (after a “halt charge” the IC will reset).
+
+
+ Bank3: bit 0             Multifunction Bit (Applies Only to Certain UIs)
+
+Output definition: “000” Activation & Movement UI:
+
+The IO1 pin normally only triggering with crossing of the threshold can be configured to output the
+depth of activation in PWM data. This is ideal for interpreting the specific activation level with a master,
+or for simply indicating the activation level on an analogue load.
+
+Please note that when enabling this option, the PWM option on the IO2 pin will be disabled (Bank2:
+bit 4:3 option ‘01’ will be the same as ‘00’).
+
+Input definition: “010” Movement & Input UI:
+
+By selecting the UI with the IO2 pin defined as an input, this configuration bit will enable the choice of
+input between the following:
+
+   > ‘0’ - The halt charge & reseed option as defined above or
+   > ‘1’ - Reduce movement sensitivity for applications that may switch between battery usage and
+     more noisy power supplies for charging and back-up power.
+
+5.5   Bank 4: Partial ATI, ATI Target and Power-on Detection
+
+
+ Bank4: bit 3             Partial ATI
+
+Partial ATI may be selected to limit the automatic tuning range of the sensor. This may give more
+predictable results, especially when the sensor tends to calibrate close to the edges by automatically
+
+Copyright © Azoteq 2025                        IQS211A/B Datasheet                             Page 33 of 52
+All Rights Reserved                              Revision v2.8.1                                  July 2025
+                                               IQ Switch®
+                                           ProxSense® Series
+
+
+choosing a certain sensitivity multiplier value. Set this bit and select a specific sensitivity multiplier
+value in Base Value (Sensitivity Multiplier in Partial ATI mode). A lower sensitivity multiplier value is
+recommended for light capacitive loads, while higher values for large capacitive loads.
+
+Set this bit if the auto-activation at power-up bit is set (Bank4: bit 2). By setting this bit, the auto
+activation “threshold” is chosen by selecting a sensitivity multiplier value Base Value (Sensitivity
+Multiplier in Partial ATI mode). A lower sensitivity multiplier value will result in a sensitive threshold,
+while higher values will give a less sensitive threshold.
+
+
+                          Auto Activation at Power-up when P>7 (Absolute Capacitance
+ Bank4: bit 2             Detection Method, Partial ATI must be Enabled, Select Sensitivity with
+                          the “Sensitivity Multiplier”)
+
+With (Bank4: bit 3) set this option allows for absolute capacitance detection at power-up. Use this in
+devices that require a threshold decision at power-up without the calibration step. Select a “threshold”
+by adjusting the sensitivity multiplier value in Base Value (Sensitivity Multiplier in Partial ATI mode).
+A lower sensitivity multiplier value will result in a sensitive “threshold”, while higher values will give a
+less sensitive “threshold”.
+
+
+ Bank4: bit 1:0           ATI Target
+
+The default target of 768 ensures good performance in various environments. Set this bit when
+increased activation distance and movement sensitivity is required.
+
+The target of 1200 is recommended for battery powered devices where high SNR ratios are expected.
+
+Targets of 384 and 192 are for touch applications where power consumption and processor wake time
+are to be optimized.
+
+Movement features are most pronounced and effective when using a high target.
+
+
+
+
+Copyright © Azoteq 2025                     IQS211A/B Datasheet                                Page 34 of 52
+All Rights Reserved                           Revision v2.8.1                                     July 2025
+                                                   IQ Switch®
+                                               ProxSense® Series
+
+
+6     I2 C Interface
+
+Note: I2 C mode can only be used in devices that are pre-configured to function in this mode.
+
+Typical choices for pre-configured devices are:
+
+                                     Table 6.1: Typical Pre-configured Parts
+
+            Part number                                   Main Features
+                                                          No wake-up
+            IQS211B 00050000 TSR/CSR/DNR
+                                                          Suitable for bus usage
+                                                          Includes wake-up
+                                                          Not suitable for bus usage
+            IQS211B 00070000 TSR/CSR/DNR
+                                                          Includes reset indication
+                                                          Configured for RDY toggle on SCL
+
+
+Please note: During normal operation, the IQS211 does conversions and enters sleep mode for a
+pre-determined time set by the sample period bit. The IQS211 can enable wake-up, which allows
+the IQS211 to wake up from sleep mode for any activity on the I2 C bus and conversions will start
+immediately. Enabling wake-up will increase power consumption and lead to an inconsistent sampling
+rate.
+
+6.1       I2 C Address
+The IQS211A/B I2 C address is fixed at 0x47.
+
+6.2       I2 C Read
+To read from the device a current address read can be performed. This assumes that the address-
+command is already setup as desired.
+
+                                         Table 6.2: Current Address Read
+
+    Start        Control byte                    Data n                        Data n+1                   Stop
+     S          Addr + READ        ACK                          ACK                            NACK        S
+
+
+If the address-command must first be specified, then a random read must be performed. In this case,
+a WRITE is initially performed to setup the address-command, and then a repeated start is used to
+initiate the READ section.
+                                              Table 6.3: Random Read
+
+                                   Address-
+    Start     Control byte                              Start   Control byte              Data n           Stop
+                                   command
+      S      Addr + WRITE    ACK                 ACK      S     Addr + READ      ACK               NACK     S
+
+
+
+Note: The second start-bit shown after the Address command and ACK-bit can be viewed as a re-
+peated start. If there is a stop-bit before the second start-bit, the user will not be able to communicate
+with the device as the IQS211A/IQS211B does not have a workaround for the stop-bit.
+
+Copyright © Azoteq 2025                        IQS211A/B Datasheet                                  Page 35 of 52
+All Rights Reserved                              Revision v2.8.1                                       July 2025
+                                                       IQ Switch®
+                                                   ProxSense® Series
+
+
+6.3       I2 C Write
+To write settings to the device a Data Write is performed. Here the Address-Command is always
+required, followed by the relevant data bytes to write to the device.
+                                                   Table 6.4: Data Write
+
+                                        Address-
+  Start        Control byte                                       Data n                 Data n+1              Stop
+                                        command
+      S       Addr + WRITE       ACK                 ACK                      ACK                       ACK        S
+
+
+
+6.4       I2 C Operation
+The IQS211A/B may be configured as an I2 C device through the user interface selection in Bank2:
+bits 2:0:
+
+  Bank2: bits 2:0             Description
+      101                     Normal polling for use on I2 C bus
+                              I2 C polling with signature pulses at power-up / reset. The clock also has a
+             110
+                              RDY pulse incorporated before each possible communications window.
+                              The clock also has a RDY pulse incorporated before each possible
+             111
+                              communications window. The IC will wake-up on I2 C bus pin changes.
+
+
+6.4.1       Normal I2 C Polling (101)
+
+The IQS211A/B prioritizes doing capacitive conversions. With standard polling the IQS211A/B will
+do a conversion and thereafter open the window of maximum 20 ms for I2 C communications. If the
+microprocessor sends the correct address in this window, the IQS211A/B will respond with an ACK.
+When communications are successful, the window will close, and conversions will continue.
+
+
+
+
+          Figure 6.1: Typical Polling Example of IQS211A/B. The Sequence Addresses Register 0x00 (Top) and Reads
+                                            Data (0x3D) from Register 0x00 (Bottom)
+
+
+Copyright © Azoteq 2025                            IQS211A/B Datasheet                                  Page 36 of 52
+All Rights Reserved                                  Revision v2.8.1                                       July 2025
+                                               IQ Switch®
+                                           ProxSense® Series
+
+
+6.4.2   I2 C Polling with Reset Indication & RDY (110)
+
+This mode is based on I2 C, but not I2 C compatible. This mode is aimed at solutions that need the
+flexibility of the register settings but require standalone operation during run-time.
+
+The reset indication can be identified by a toggle on the SDA (IO2) line, followed by a toggle on the
+SCL(IO1) line at power-on or reset. The reset indication shows that the IQS211 has reset when the
+MCU did not. Standalone outputs are therefore not active and needs to be re-configured via I2 C.
+
+After a toggle on the SDA (IO2) line, the MCU can safely assume that IQS211 is now in I2 C mode and
+then toggle the IQS211 again, to confirm that a reset has occurred. The reset indication is valuable
+for a mode switch between I2 C and standalone mode.
+
+
+
+
+                                     Figure 6.2: Reset Indication Timing
+
+
+
+After changing the settings and more particularly the user interface option, the device will start oper-
+ating in the required mode.
+
+In this mode the IQS211A/B is not recommended to share a bus with other devices. Normal polling
+may be used, but the master may also monitor the I2 C clock line as an indication from the IQS211A/B
+that the communications window is open. The clock line therefore serves as a ready line.
+
+
+
+
+Copyright © Azoteq 2025                    IQS211A/B Datasheet                              Page 37 of 52
+All Rights Reserved                          Revision v2.8.1                                   July 2025
+                                               IQ Switch®
+                                           ProxSense® Series
+
+
+
+
+                               Figure 6.3: How to Use RDY Signal on Clock Line
+
+
+
+Communications may be initiated at any time from clock low-to-high transition plus 40 µs until 20 ms
+thereafter, when the communications window closes. Polling should be done within this time window
+to communicate with the device. If now communications are done the window will time out. If commu-
+nications are completed with a stop command, the window will close, and sampling will continue after
+a sleep period.
+
+After changing register 0xC7 bits 2:0 (memory map - user interface selection) in this mode, it is re-
+quired to read any other register in order to activate the chosen user interface (such as a standalone
+mode) before sending a stop command.
+
+6.4.3    I2 C Polling with RDY on Clock and Wake-up on Pin Change (111)
+
+This I2 C mode is aimed at applications that require the flexibility of I2 C settings but requires wake-up
+functionality from the master side. A ready indication is also given on the clock line to enable the
+master to efficiently handle the available communications window.
+
+The wake-up on pin change prevents this configuration from being efficiently used along with other
+devices on the bus.
+
+6.5     I2 C Flow
+6.5.1    I2 C Usage from Start-up
+
+   > Power on Reset
+   > Wait ttestmode to avoid test mode entry
+   > Wait tATI
+   > Start communication in desired mode as described in Section 6.4.
+
+
+
+
+Copyright © Azoteq 2025                     IQS211A/B Datasheet                              Page 38 of 52
+All Rights Reserved                           Revision v2.8.1                                   July 2025
+                                                IQ Switch®
+                                            ProxSense® Series
+
+
+
+
+                                Figure 6.4: Timing Specification During Power-on
+
+
+
+                                   Table 6.5: Various IQS211 Characteristics
+
+                   Description                                    TYP              UNIT
+                   tinit                                           730              µs
+                   ttest_mode                                      15               ms
+                   tATI                                            180              ms
+                   tstabilize (IDLE time = 9 ms)                 9 × 16             ms
+                   tstabilize (IDLE time = 32 ms)                32 × 16            ms
+                   tstartup (IDLE time = 9 ms)                     340              ms
+                   tstartup (IDLE time = 32 ms)                    708              ms
+
+
+6.5.2   When to Redo ATI in I2 C mode
+
+   > It is recommended to enable auto-ATI
+   > Updating settings in I2 C mode may cause a condition where the device remains in touch for an
+     extended time due to the updated settings. When updating most settings, it is recommended to
+     force ATI via PROX_SETTINGS0
+
+
+
+
+Copyright © Azoteq 2025                      IQS211A/B Datasheet                          Page 39 of 52
+All Rights Reserved                            Revision v2.8.1                               July 2025
+                                                    IQ Switch®
+                                                ProxSense® Series
+
+
+7      Specifications
+
+7.1      Absolute Maximum Ratings
+The following absolute maximum parameters are specified for the device:
+
+Note: Exceeding these maximum specifications may cause damage to the device.
+
+                                      Table 7.1: Absolute Maximum Specifications
+
+      Parameter                                               Absolute Maximum
+                                                              -20 °C to 85 °C (IQS211A)
+      Operating temperature
+                                                              -40 °C to 85 °C (IQS211B)
+      Supply Voltage (VDDHI - VSS)                            3.6 V
+      Maximum pin voltage                                     VDDHI + 0.5 V (may not exceed VDDHI max)
+      Maximum continuous current (for specific Pins)          10 mA
+      Minimum pin voltage                                     VSS - 0.5 V
+      Minimum power-on slope                                  100 V/s
+      ESD protection                                          ±8 kV (Human body model)
+      Package Moisture Sensitivity Level (MSL)                1
+
+
+                                  Table 7.2: IQS211A/B General Operating Conditions
+
+      Description                       Conditions              Parameter           MIN      TYP    MAX         Unit
+      Supply voltage                                              VDDHI            1.764     3.3     3.6         V
+      Internal regulator
+                                     1.8 ≤ VDDHI ≤ 3.6              VREG           1.62      1.7    1.79         V
+      output
+      Default Operating
+                                  3.3 V, Scan time = 9 ms         IIQS211DP                   77     88          µA
+      Current
+      Low Power Example             3.3 V, Scan time =
+                                                                IIQS211LP160                         2ii         µA
+      Settingi                      Scan time = 160 ms
+      Cx pin capacitance             1.8 ≤ VDDHI ≤ 3.6             CCxLoad                          120          pF
+
+
+                                Table 7.3: Start-up and Shut-down Slope Characteristics
+
+      Description                        Conditions                   Parameter            MIN     MAX         Unit
+      Power On Reset               VDDHI Slope ≥ 100 V/siii           PORVDDHI             0.3iv    1.7         V
+      VDDHI Brown Out
+                                   VDDHI Slope ≥ 100 V/siii            BODVDDHI            N/A      1.7          V
+      Detect
+      VREG Brown Out
+                                   VDDHI Slope ≥ 100 V/siii            BODVREG             N/A     1.58v         V
+      Detect
+
+
+i
+      Scan time in ms.
+ii
+      Defined for low target counts (192).
+iii
+      Applicable to full “operating temperature” range.
+iv
+      For a power cycle, ensure lowering VDDHI below the minimum value before ramping VDDHI past the maximum POR
+      value.
+v
+      In Figure 2.2, Capacitors C1 & C3 should be chosen to comply with this specification.
+
+Copyright © Azoteq 2025                         IQS211A/B Datasheet                                        Page 40 of 52
+All Rights Reserved                               Revision v2.8.1                                             July 2025
+                                                   IQ Switch®
+                                               ProxSense® Series
+
+                              Table 7.4: Input Signal Response Characteristics (IO1/IO2)
+
+    Description                                      MIN               TYP             MAX             Unit
+    Reseed function                                  15                 20              25             ms
+    Halt charge / Reduce sensitivity
+                                                      50                N/A                N/A           ms
+    function
+
+
+                                  Table 7.5: Communications Timing Characteristics
+
+    Description                                      MIN               TYP             MAX             Unit
+    tcomms_timeout                                    -                 20              -              ms
+
+
+                                        Table 7.6: Digital Input Trigger Levels
+
+  Description               Conditions           Parameter                 MIN                   MAX          Unit
+                                                   Input low
+  All digital inputs      Full VDDHI range                           0.3 × VDDHI                 1.7           V
+                                                level voltage
+                                                  Input high
+  All digital inputs      Full VDDHI range                                 N/A             0.7 × VDDHI         V
+                                                level voltage
+
+
+
+
+Copyright © Azoteq 2025                         IQS211A/B Datasheet                                      Page 41 of 52
+All Rights Reserved                               Revision v2.8.1                                           July 2025
+                                        IQ Switch®
+                                    ProxSense® Series
+
+
+8     Packaging Information
+
+8.1     TSOT23-6
+
+
+
+
+                               Figure 8.1: TSOT23-6 Packagingi
+
+
+                                Table 8.1: TSOT23-6 Dimensions
+
+
+                           Dimension     Min (mm)       Max (mm)
+
+                              A             2.60          3.00
+                              B             1.50          1.70
+                              C             2.80          3.00
+                              D             0.30          0.50
+                              E                 0.95 Basic
+                              F             0.84          1.00
+                              G             0.00          0.10
+                              H             0.30          0.50
+                              I              0◦            8◦
+                              J             0.03          0.20
+
+
+
+
+i
+    Drawing not on Scale
+
+Copyright © Azoteq 2025              IQS211A/B Datasheet           Page 42 of 52
+All Rights Reserved                    Revision v2.8.1                July 2025
+                                             IQ Switch®
+                                         ProxSense® Series
+
+
+8.2   WLCSP-8
+
+
+
+
+                                    Figure 8.2: WLCSP-8 Packaging
+
+
+
+                                 Table 8.2: WLCSP-8 Dimensions (in mm)
+
+
+                                         Dimensional Ref
+
+                          REF.        Min (mm)       Nom (mm)        Max (mm)
+
+                           A            0.310           0.350            0.390
+                          A1            0.085           0.100            0.115
+                          A2            0.225           0.250            0.275
+                          D             0.865           0.880            0.895
+                           E            1.455           1.470            1.485
+                          D1            0.300           0.350            0.400
+                          E1            1.000           1.050            1.100
+                           b            0.125           0.150            0.175
+                           e                         0.350 BSC
+                          SD                         0.175 BSC
+                          SE                         0.175 BSC
+                                       Tol. Form & Position
+
+                          aaa                           0.10
+                          bbb                           0.10
+                          ccc                           0.05
+                          ddd                           0.05
+
+
+
+
+Copyright © Azoteq 2025                  IQS211A/B Datasheet                     Page 43 of 52
+All Rights Reserved                        Revision v2.8.1                          July 2025
+                                         IQ Switch®
+                                     ProxSense® Series
+
+
+8.3   DFN-6
+                A
+
+
+                            D
+
+
+
+                                 E    B
+
+
+
+
+                C
+
+                 F                                                        H   I
+
+                                                                      G
+
+                                 Figure 8.3: DFN-6 Packaging
+
+
+
+                             Table 8.3: DFN-6 Dimensions (in mm)
+
+
+                          Dimension       Min (mm)      Max (mm)
+
+                             A              3.00               3.00
+                             B              2.50               2.50
+                             C              0.30               0.30
+                             D              0.35               0.35
+                             E              1.30               1.30
+                             F              2.20               2.20
+                             G              0.05               0.05
+                             H              0.75               0.75
+                             I              0.80               0.80
+
+
+
+
+Copyright © Azoteq 2025              IQS211A/B Datasheet                  Page 44 of 52
+All Rights Reserved                    Revision v2.8.1                       July 2025
+                                                  IQ Switch®
+                                              ProxSense® Series
+
+
+8.4   MSL Level
+Moisture Sensitivity Level (MSL) relates to the packaging and handling precautions for some semi-
+conductors. MSL is an electronic standard for the time period in which a moisture sensitive device can
+be exposed to ambient room conditions (approximately 30◦ C/85% RH, see IPC/JEDEC J-STD-020F
+for more information) before reflowing occurs.
+
+         Package          Level (duration)
+
+                          MSL 1 (Unlimited at ≤ 30◦ C/85% RH)
+         TSOT23-6
+                          Reflow profile peak temperature < 260◦ C for < 30 seconds
+                          Non-encapsulated device – not moisture sensitive
+         WLCSP-8
+                          Reflow profile peak temperature < 260◦ C for < 30 seconds
+                          MSL 1 (Unlimited at ≤ 30◦ C/85% RH)
+         DFN-6
+                          Reflow profile peak temperature < 260◦ C for < 30 seconds
+
+
+
+
+Copyright © Azoteq 2025                        IQS211A/B Datasheet                        Page 45 of 52
+All Rights Reserved                              Revision v2.8.1                             July 2025
+                                                    IQ Switch®
+                                                ProxSense® Series
+
+
+9     Ordering and Part-number Information
+
+9.1     Ordering Information
+Please check stock availability with your local distributor.
+
+
+
+
+                                                         Self-Capacitive Touch IC (manufacturer 1, on
+                                   IQS211A        =
+       IC NAME                                           special order onlyi )
+                                   IQS211B        =      Self-Capacitive Touch IC (manufacturer 2)
+                                                  =      IC configuration (hexadecimal)
+                                                  =      000 000 00 (default standalone)
+                                                  =      000 500 00 (I2 C bus compatible)
+       CONFIGURATION               zzz zzz zz            000 600 00 (I2 C with RDY indication, not
+                                                  =
+                                                         multi-device bus compatible)
+                                                         Special MOQs apply for other configurations -
+                                                  =
+                                                         Contact Azoteq
+                                       TS         =      TSOT23-6 package
+       PACKAGE TYPE                    CS         =      WLCSP-8 package
+                                       DN         =      DFN-6 package (On special order onlyi )
+                                                  =      Reel
+                                                  =      TSOT23-6 (3000 pcs/reel)
+                                        R
+       BULK Packaging                             =      WLCSP-8 (3000 pcs/reel)
+                                                  =      DFN-6 (6000 pcs/reel)
+                                     MOQ          =      1 reel. (Orders shipped as full reels)
+
+
+
+
+i
+    Special order codes are subject to larger minimum order quantities, longer lead times and are non-cancelable, non-
+    returnable.
+
+Copyright © Azoteq 2025                          IQS211A/B Datasheet                                    Page 46 of 52
+All Rights Reserved                                Revision v2.8.1                                         July 2025
+                                                IQ Switch®
+                                            ProxSense® Series
+
+
+9.2     Device Marking - Top
+9.2.1    TSOT23-6 Package Markings
+
+There are 2 marking versions for IQS211A:
+
+
+
+
+                            Figure 9.1: IQS211A Engineer Version, Marked as 221A
+
+
+
+
+                          Figure 9.2: Production Version Marking of TSOT23-6 IQS211A
+
+
+
+
+                          Figure 9.3: Production Version Marking of TSOT23-6 IQS211B
+
+
+
+
+        IC NAME           211A ENG           =      IQS211A Engineering version
+
+                          211A               =      IQS211A Production version
+
+                          211B               =      IQS211B Alternate manufacturer of IQS211A
+
+        Batch Code        xx                 =      AA to ZZ, then “aa” to “zz”
+
+
+
+
+Copyright © Azoteq 2025                     IQS211A/B Datasheet                         Page 47 of 52
+All Rights Reserved                           Revision v2.8.1                              July 2025
+                                              IQ Switch®
+                                          ProxSense® Series
+
+
+9.2.2    WLCSP-8 Package Markings
+
+
+
+
+                           Figure 9.4: Product Version Marking of WLCSP IQS211A
+
+
+
+
+                           Figure 9.5: Product Version Marking of WLCSP IQS211B
+
+
+
+9.2.3    DFN-6 Package Markings
+
+
+
+
+                          Figure 9.6: Production Version Marking of DFN-6 IQS211B
+
+
+
+
+        IC NAME           211B              =      IQS211B
+
+        Batch Code        xx                =      AA to ZZ, then “aa” to “zz”
+
+
+
+
+Copyright © Azoteq 2025                    IQS211A/B Datasheet                      Page 48 of 52
+All Rights Reserved                          Revision v2.8.1                           July 2025
+                                            IQ Switch®
+                                        ProxSense® Series
+
+
+9.3   Device Marking - Bottom
+Some batches IQS211A will not have any bottom markings. These devices are configured after mark-
+ing and may have variations in configuration - please refer to the reel label.
+
+Other batches will display the version and unique product code on the chip on the bottom marking.
+
+
+
+
+                                Figure 9.7: TSOT23-6 Tape Specification
+
+
+
+
+Copyright © Azoteq 2025                  IQS211A/B Datasheet                           Page 49 of 52
+All Rights Reserved                        Revision v2.8.1                                July 2025
+                                                             IQ Switch®
+                                                         ProxSense® Series
+
+
+9.4    Tape and Reel Specification
+              REEL DIMENSIONS                                                                  TAPE DIMENSIONS
+                                                                                 K0                     P1
+
+
+
+                                                                                                                                           W
+                                                                                                                                  B0
+
+
+
+
+                                        Reel Diameter
+                                                                                      Cavity                 A0
+
+                                                               A0 Dimension designed to accommodate the component width
+
+                                                               B0 Dimension designed to accommodate the component length
+
+                                                               K0 Dimension designed to accommodate the component thickness
+
+                                                               W    Overall width of the carrier tape
+
+                                                               P1 Pitch between successive cavity centers
+
+
+
+
+                                                        Reel Width (W1)
+                             QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+                                                                                                                    Sprocket Holes
+
+
+
+
+                                                         Q1    Q2              Q1       Q2
+
+
+                                                         Q3    Q4              Q3       Q4                        User Direction of Feed
+
+
+
+
+                                                               Pocket Quadrants
+
+                                     Figure 9.8: Tape and Reel Specification
+
+
+                                      Table 9.1: Tape and Reel Dimensions
+
+                                                       Reel                           Reel
+                                                 QTY                                                                 Pin1
+                          Package   Package           Diame-                          Width  A0    B0   K0  P1   W
+             Device                         Pins per                                                                 Quad-
+                           Type     Drawing             ter                            W1   (mm) (mm) (mm) (mm) (mm)
+                                                 reel                                                                 rant
+                                                       (mm)                           (mm)
+      IQS211ASzzzzzzzzTSR TSOT23/6 TSOT23-6  6   3000   178                             9.5  3.1   3.1  1.3  4    8    Q3
+       IQS211BzzzzzzzzTSR TSOT23/6 TSOT23-6  6   3000   178                             9.5  3.1   3.1  1.3  4    8    Q3
+       IQS211BzzzzzzzzCSR WLCSP8 WLCSP-8     8   3000   179                             8.4   1   1.55 0.48  4    8    Q3
+       IQS211BzzzzzzzzDNR   DFN6    DFN-6    6   6000   330                            12.4  2.8   3.3  1.2  4   12    Q1
+
+
+
+
+Copyright © Azoteq 2025                                   IQS211A/B Datasheet                                                          Page 50 of 52
+All Rights Reserved                                         Revision v2.8.1                                                               July 2025
+                                           IQ Switch®
+                                       ProxSense® Series
+
+
+10 Revision History
+
+     Release           Date        Changes
+       v0.9       November 2015    IQS211A preliminary datasheet
+       v1.0       December 2015    First release
+      v1.01       December 2015    Updated Ordering information and Marking
+      v1.10       September 2016   Latch-up prevention details added
+       v1.2       September 2017   Temperature range updated
+       v1.3        February 2018   Datasheet extended with relevant information
+                                   IQS211A/B datasheet release
+                                   IQS211B information added
+                                   IQS211A WLCSP option added
+       v2.1       December 2018    IO1/IO2 output type defined
+                                   Wider voltage minimum defined (1.8V -2%)
+                                   Input low/high voltage levels adapted to cover both
+                                   IQS211A and IQS211B
+       v2.2       November 2019    IQS211A WLCSP ordering information added
+       v2.3       February 2020    Updated LP Period multiplier from 16 to 4
+                                   Datasheet extended with relevant information:
+                                    > OTP table “wake-up in both directions” – known issue
+                                   added and explained in section “Bank0: bit 3”.
+                                    > OTP table “touch threshold” and “Touch threshold
+                                   (delta percentage from LTA)” section updated to show
+       v2.4         August 2020    which options are debounced causing a slower response.
+                                    > Section 6 I2 C information added and updated
+                                    > I2 C register description added
+                                    > POR timing diagram added
+                                    > Reset indication timing diagram added
+       v2.5        August 2020     Datasheet extended with DFN-6 package option
+       v2.6       September 2021   Tape and Reel Information Added
+                                   Minor formatting and text changes
+       v2.61        October 2021
+                                   Maximum Cx pin capacitance specified
+       v2.62        January 2022   Section 3.1 updated to include DNR option
+        v2.7          May 2025     Updated order codes section
+        v2.8         June 2025     Formatting changes
+
+
+
+
+Copyright © Azoteq 2025                IQS211A/B Datasheet                          Page 51 of 52
+All Rights Reserved                      Revision v2.8.1                               July 2025
+                                                               IQ Switch®
+                                                           ProxSense® Series
+
+
+Contact Information
+
+                                   South Africa (Headquarters)                                       China
+                                           1 Bergsig Avenue                              Room 501A, Block A
+               Physical                          Paarl                                T-Share International Centre
+               Address                           7646                               Taoyuan Road, Nanshan District
+                                              South Africa                           Shenzhen, Guangdong, PRC
+
+                                                                                            +86 755 8303 5294
+               Tel                          +27 21 863 0033
+                                                                                                 ext 808
+
+               Email                       info@azoteq.com                                    info@azoteq.com
+
+
+
+                                                    USA                                             Taiwan
+                                  7000 North Mopac Expressway                             Xintai 5th Road, Sec. 1
+                                            Suite 200                                         No. 99, 9F-12C
+               Physical
+                                             Austin                                            Xizhi District
+               Address
+                                            TX 78731                                      221001 New Taipei City
+                                              USA                                                  Taiwan
+
+               Tel                          +1 512 538 1995                                  +886 932 219 444
+
+               Email                       info@azoteq.com                                    info@azoteq.com
+
+
+
+
+                                                     Visit www.azoteq.com
+                                  for a list of distributors and worldwide representation.
+
+
+
+
+Patents as listed on www.azoteq.com/patents-trademarks/ may relate to the device or usage of the device.
+
+
+Azoteq® , Crystal Driver® , IQ Switch® , ProxSense® , ProxFusion® , LightSense™ , SwipeSwitch™ , Dycal™ , TriggerMax™ , WearMax™ , and
+the    logo are trademarks of Azoteq.
+
+
+The information in this Datasheet is believed to be accurate at the time of publication. Azoteq uses reasonable effort to maintain the
+information up-to-date and accurate, but does not warrant the accuracy, completeness or reliability of the information contained herein.
+All content and information are provided on an “as is” basis only, without any representations or warranties, express or implied, of any
+kind, including representations about the suitability of these products or information for any purpose. Azoteq disclaims all warranties and
+conditions with regard to these products and information, including but not limited to all implied warranties and conditions of merchantability,
+fitness for a particular purpose, title and non-infringement of any third party intellectual property rights. Azoteq assumes no liability for any
+damages or injury arising from any use of the information or the product or caused by, without limitation, failure of performance, error,
+omission, interruption, defect, delay in operation or transmission, even if Azoteq has been advised of the possibility of such damages. The
+applications mentioned herein are used solely for the purpose of illustration and Azoteq makes no warranty or representation that such
+applications will be suitable without further modification, nor recommends the use of its products for application that may present a risk
+to human life due to malfunction or otherwise. Azoteq products are not authorized for use as critical components in life support devices
+or systems. No licenses to patents are granted, implicitly, express or implied, by estoppel or otherwise, under any intellectual property
+rights. In the event that any of the abovementioned limitations or exclusions does not apply, it is agreed that Azoteq’s total liability for all
+losses, damages and causes of action (in contract, tort (including without limitation, negligence) or otherwise) will not exceed the amount
+already paid by the customer for the products. Azoteq reserves the right to alter its products, to make corrections, deletions, modifications,
+enhancements, improvements and other changes to the content and information, its products, programs and services at any time or to
+move or discontinue any contents, products, programs or services without prior notification. For the most up-to-date information and binding
+Terms and Conditions please refer to www.azoteq.com.
+
+
+                                                              info@azoteq.com
+

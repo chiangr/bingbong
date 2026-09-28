@@ -1,0 +1,2328 @@
+                                                                                                                                                                           DRV5032
+                                                                                                                                  SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+                   DRV5032 Ultra-Low-Power Digital-Switch Hall Effect Sensor
+1 Features                                                                             3 Description
+•   Industry-leading ultra-low power consumption                                       The DRV5032 device is an ultra-low-power digital-
+    – 5Hz version: 0.54µA                                                              switch Hall effect sensor, designed for the most
+    – 20Hz versions: 1.3µA                                                             compact and battery-sensitive systems. The device
+    – 80Hz version: 5.2µA                                                              is offered in multiple magnetic thresholds, sampling
+•   Operating VCC range: 1.65V to 5.5V                                                 rates, output drivers, and packages to accommodate
+•   Operating temperature range: –40°C to +85°C                                        various applications.
+•   Magnetic threshold options (maximum BOP):                                          When the applied magnetic flux density exceeds the
+    – DG Version: 3.4mT                                                                BOP threshold, the device outputs a low voltage. The
+    – DU Version: 3.9mT                                                                output stays low until the flux density decreases to
+    – FA, FB, FC, FD Versions: 4.8mT                                                   less than BRP, and then the output either drives a
+    – AJ Version: 9.5mT                                                                high voltage or becomes high impedance, depending
+    – ZE Version: 63mT                                                                 on the device version. By incorporating an internal
+•   Omnipolar and unipolar options                                                     oscillator, the device samples the magnetic field and
+•   Open-drain and push-pull output options                                            updates the output at a rate of 80Hz, 20Hz or 5Hz
+•   SOT-23, X2SON and TO-92 package options                                            for the lowest current consumption. Omnipolar and
+2 Applications                                                                         unipolar magnetic responses are available.
+                                                                                       The device operates from a VCC range of 1.65V to
+•   Battery-critical position sensing
+                                                                                       5.5V, and is packaged in a standard SOT-23, TO-92
+•   Electricity meter tamper detection
+                                                                                       and small X2SON.
+•   Cell Phone, laptop, or tablet case sensing
+•   E-locks, smoke detectors, appliances                                                                                            Package Information
+•   Medical devices, IoT systems                                                                                     PART NUMBER             PACKAGE(1)            PACKAGE SIZE(2)
+•   Valve or solenoid position detection                                                                                                  DBZ (SOT-23, 3)         2.92mm × 2.37mm
+•   Contactless diagnostics or activation
+                                                                                          DRV5032                                         DMR (X2SON, 4)          1.4mm × 1.1mm
+                                                                                                                                          LPG (TO-92, 3)          4mm × 1.52mm
+
+                                                                                       (1)                             For all available packages, see the orderable addendum at
+                                                                                                                       the end of the data sheet.
+                                                                                       (2)                             The package size (length × width) is a nominal value and
+                                                                                                                       includes pins, where applicable.
+                                                                                                                     1.4
+                 distance
+                                                                            VCC
+                                                                                                                     1.2
+
+
+
+
+                                                                                       Average Supply Current (A)
+                             DRV5032                         Controller
+                             VCC                                                                                      1
+
+    N S                             OUT                      GPIO
+                                                                                                                     0.8
+                             GND
+                                                                                                                     0.6
+
+                                                                                                                     0.4
+                                Copyright © 201 7, Texas Instrumen ts Incorpor ate d
+                                                                                                                                                                           1.65V
+                     Typical Schematic                                                                               0.2                                                   3V
+                                                                                                                                                                           5.5V
+                                                                                                                      0
+                                                                                                                      -40           -10            20              50         80
+                                                                                                                                              Te mperature (C)
+
+                                                                                                                           Current Consumption of 5Hz Version
+
+
+
+
+     An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+     intellectual property matters and other important disclaimers. PRODUCTION DATA.
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                                                                    www.ti.com
+
+
+                                                                        Table of Contents
+1 Features............................................................................1     7.4 Device Functional Modes..........................................15
+2 Applications..................................................................... 1     8 Application and Implementation.................................. 16
+3 Description.......................................................................1       8.1 Application Information............................................. 16
+4 Device Comparison......................................................... 2              8.2 Typical Applications.................................................. 16
+5 Pin Configuration and Functions...................................3                       8.3 Best Design Practices...............................................20
+6 Specifications.................................................................. 4        8.4 Power Supply Recommendations.............................21
+  6.1 Absolute Maximum Ratings........................................ 4                    8.5 Layout....................................................................... 21
+  6.2 ESD Ratings............................................................... 4        9 Device and Documentation Support............................22
+  6.3 Recommended Operating Conditions.........................4                            9.1 Documentation Support............................................ 22
+  6.4 Thermal Information....................................................4              9.2 Receiving Notification of Documentation Updates....22
+  6.5 Electrical Characteristics.............................................5              9.3 Support Resources................................................... 22
+  6.6 Magnetic Characteristics.............................................6                9.4 Trademarks............................................................... 22
+  6.7 Typical Characteristics................................................ 7             9.5 Electrostatic Discharge Caution................................22
+7 Detailed Description......................................................10              9.6 Glossary....................................................................22
+  7.1 Overview................................................................... 10      10 Revision History.......................................................... 22
+  7.2 Functional Block Diagram......................................... 10                11 Mechanical, Packaging, and Orderable
+  7.3 Feature Description...................................................11              Information.................................................................... 23
+
+
+4 Device Comparison
+                                                                Table 4-1. Device Comparison
+                                MAXIMUM                       MAGNETIC                     OUTPUT                    SAMPLING                        PACKAGES
+      VERSION
+                               THRESHOLD                      RESPONSE                      TYPE                       RATE                          AVAILABLE
+    DRV5032DG                       3.4 mT                       Unipolar                  Push-pull                     80 Hz                          X2SON
+    DRV5032DU                       3.9 mT                       Unipolar                  Push-pull                     20 Hz               SOT-23, X2SON, TO-92
+     DRV5032FA                                                  Omnipolar                  Push-pull                     20 Hz               SOT-23, X2SON, TO-92
+     DRV5032FB                                                  Omnipolar                  Push-pull                      5 Hz               SOT-23, X2SON, TO-92
+                                    4.8 mT
+     DRV5032FC                                                  Omnipolar                 Open-drain                     20 Hz                     SOT-23, TO-92
+     DRV5032FD                                                   Unipolar                  Push-pull                     20 Hz                     X2SON, TO-92
+     DRV5032AJ                      9.5 mT                      Omnipolar                 Open-drain                     20 Hz               SOT-23, X2SON, TO-92
+     DRV5032ZE                      63 mT                       Omnipolar                 Open-drain                     20 Hz                     SOT-23, TO-92
+
+
+
+
+2       Submit Document Feedback                                                                                         Copyright © 2024 Texas Instruments Incorporated
+
+                                                                     Product Folder Links: DRV5032
+                                                                                                                                                      DRV5032
+www.ti.com                                                                                             SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+
+5 Pin Configuration and Functions
+
+
+                    VCC              1                                                             VCC              1
+
+
+
+                                                3          GND                                                               3            GND
+
+
+
+                 OUT                 2                                                          OUT2                2
+
+
+       Figure 5-1. FA, FB, FC, AJ, ZE Versions DBZ                                 Figure 5-2. DU Version DBZ Package 3-Pin SOT-23
+             Package 3-Pin SOT-23 Top View                                                             Top View
+                                 VCC        OUT                                                                 VCC       OUT1
+                                 1              4                                                                 1          4
+
+
+                                     Thermal                                                                        Thermal
+                                       Pad                                                                            Pad
+
+
+                                 2              3                                                                 2          3
+                     GND      NC                                                                      GND OUT2
+   Figure 5-3. FA, FB, AJ Versions DMR Package 4-                                   Figure 5-4. DU, DG, FD Versions DMR Package 4-
+                 Pin X2SON Top View                                                               Pin X2SON Top View
+
+                                 3                         OUT                                                  3                          OUT2
+
+                                 2                         GND                                                  2                          GND
+
+                                 1                         VCC                                                  1                          VCC
+
+
+       Figure 5-5. FA, FB, FC, AJ, ZE Versions LPG                                  Figure 5-6. DU, FD Versions LPG Package 3-Pin
+             Package 3-Pin TO-92 Top View                                                           TO-92 Top View
+
+                                                               Table 5-1. Pin Functions
+                                          PIN
+                                          TO-92
+            SOT-23                                                X2SON      X2SON     I/O                              DESCRIPTION
+                          SOT-23         (FA, FB,    TO-92
+ NAME       (FA, FB,                                             (FA, FB,   (DU, DG,
+                           (DU)          FC, AJ,    (DU, FD)
+           FC, AJ, ZE)                                             AJ)        FD)
+                                           ZE)
+ GND            3            3              2          2            2          2       —     Ground reference
+ OUT            2           —               3          —            4          —       O     Omnipolar output that responds to north and south magnetic poles
+                                                                                             Unipolar output that responds to north magnetic poles near the top
+ OUT1          —            —              —           —           —           4       O
+                                                                                             of the package
+                                                                                             Unipolar output that responds to south magnetic poles near the
+ OUT2          —             2             —           3           —           3       O
+                                                                                             top of the package
+                                                                                             No-connect. This pin is not connected to the silicon. Leave this
+ NC            —            —              —           —            3          —       —     pin floating or tied to ground. Solder the pin to the board for
+                                                                                             mechanical support.
+                                                                                             1.65-V to 5.5-V power supply. TI recommends connecting this pin
+ VCC            1            1              1          1            1          1       —
+                                                                                             to a ceramic capacitor to ground with a value of at least 0.1 µF.
+ Thermal                                                                                     No-connect. Leave this pin floating or tied to ground. Solder the
+               —            —              —           —          PAD         PAD      —
+ Pad                                                                                         pin to the board for mechanical support.
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                                          Submit Document Feedback                 3
+                                                               Product Folder Links: DRV5032
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                                               www.ti.com
+
+6 Specifications
+6.1 Absolute Maximum Ratings
+over operating free-air temperature range (unless otherwise noted)(1)
+                                                                                                        MIN                 MAX            UNIT
+    Power supply voltage                       VCC                                                      –0.3                  5.5            V
+    Power supply voltage slew rate             VCC                                                      Unlimited                          V / µs
+    Output voltage                             OUT, OUT1, OUT2                                          –0.3           VCC + 0.3             V
+    Output current                             OUT, OUT1, OUT2                                           –5                     5           mA
+    Magnetic flux density, BMAX                                                                         Unlimited                            T
+    Junction temperature, TJ                                                                                                 105            °C
+    Storage temperature, Tstg                                                                           –65                  150            °C
+
+(1)        Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress
+           ratings only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under
+           Recommended Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device
+           reliability.
+
+6.2 ESD Ratings
+                                                                                                                           VALUE             UNIT
+                                                     Human-body model (HBM), per ANSI/ESDA/JEDEC
+                                                                                                                           ±6000
+                                                     JS-001(1)
+    V(ESD)           Electrostatic discharge                                                                                                     V
+                                                     Charged-device model (CDM), per JEDEC specification
+                                                                                                                           ±750
+                                                     JESD22-C101(2)
+
+(1)        JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2)        JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+
+6.3 Recommended Operating Conditions
+over operating free-air temperature range (unless otherwise noted)
+                                                                                                                    MIN             MAX       UNIT
+    VCC            Power supply voltage                                                                             1.65             5.5         V
+    VO             Output voltage                                                                                      0             5.5         V
+    IO             Output current                                                                                     –5               5         mA
+    TA             Operating ambient temperature                                                                     –40             85          °C
+
+
+
+6.4 Thermal Information
+                                                                                               DRV5032
+                       THERMAL METRIC(1)                            DBZ (SOT-23)             DMR (X2SON)               LPG (TO-92)               UNIT
+                                                                        3 PINS                  4 PINS                     3 PINS
+    RθJA         Junction-to-ambient thermal resistance                   356                     159                      183.1                 °C/W
+    RθJC(top)    Junction-to-case (top) thermal resistance                128                     77                        74.2                 °C/W
+    RθJB         Junction-to-board thermal resistance                     94                      102                      158.8                 °C/W
+    ΨJT          Junction-to-top characterization parameter               11.4                    0.9                       15.2                 °C/W
+    ΨJB          Junction-to-board characterization parameter             92                      100                      158.8                 °C/W
+
+(1)        For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+           note.
+
+
+
+
+4          Submit Document Feedback                                                                       Copyright © 2024 Texas Instruments Incorporated
+
+                                                             Product Folder Links: DRV5032
+                                                                                                                           DRV5032
+www.ti.com                                                                           SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+
+6.5 Electrical Characteristics
+for VCC = 1.65V to 5.5V, over operating free-air temperature range (unless otherwise noted)
+                   PARAMETER                              TEST CONDITIONS                    MIN            TYP     MAX     UNIT
+ PUSH-PULL OUTPUT DRIVER
+ VOH        High-level output voltage             IOUT = –1mA                          VCC – 0.35       VCC – 0.1              V
+ VOL        Low-level output voltage              IOUT = 1mA                                                  0.1    0.3       V
+ OPEN-DRAIN OUTPUT
+            High impedance output leakage
+ IOZ                                              VCC = 5.5V, OUT = 5.5V                                       5     100       nA
+            current
+ VOL        Low-level output voltage              IOUT = 1mA                                                  0.1    0.3       V
+ DG VERSION
+ fS         Frequency of magnetic sampling                                                    40              80     120       Hz
+ tS         Period of magnetic sampling                                                         8           12.5      25     ms
+                                                  VCC = 1.8V                                                  5.2
+ ICC(AVG)   Average current consumption           VCC = 3V                                                    5.7    7.9     µA
+                                                  VCC = 5V                                                     6
+ DU, FA, FC, FD, AJ, ZE VERSIONS
+ fS         Frequency of magnetic sampling                                                   13.3             20      37       Hz
+ tS         Period of magnetic sampling                                                       27              50      75     ms
+                                                  VCC = 1.8V                                                  1.3
+ ICC(AVG)   Average current consumption           VCC = 3V                                                    1.6    3.5     µA
+                                                  VCC = 5V                                                    2.3
+ FB VERSION
+ fS         Frequency of magnetic sampling                                                    3.5              5     8.5       Hz
+ tS         Period of magnetic sampling                                                      117             200     286     ms
+                                                  VCC = 1.8V                                                0.54
+ ICC(AVG)   Average current consumption           VCC = 3V                                                  0.69     1.8     µA
+                                                  VCC = 5V                                                  1.06
+ ALL VERSIONS
+ ICC(PK)    Peak current consumption                                                                           2     2.7     mA
+ tON        Power-on time (see Figure 8-7)                                                                    55     100       µs
+ tACTIVE    Active time period (see Figure 8-7)                                                               40               µs
+
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                     Submit Document Feedback        5
+                                                     Product Folder Links: DRV5032
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                                        www.ti.com
+
+6.6 Magnetic Characteristics
+for VCC = 1.65V to 5.5V, over operating free-air temperature range (unless otherwise noted)(1)
+                        PARAMETER                                    TEST CONDITIONS                      MIN        TYP        MAX      UNIT
+    DG VERSION
+                                                          OUT1 pin (north)(2)
+                                                                                                        –3.32        –2.5      –1.72
+                                                          TA = 25C
+                                                          OUT1 pin (north)(2)                           –3.40        –2.5      –1.56
+    BOP         Magnetic threshold operate point                                                                                          mT
+                                                          OUT2 pin (south)
+                                                                                                         1.72         2.5        3.32
+                                                          TA = 25C
+                                                          OUT2 pin (south)                               1.56         2.5        3.40
+                                                          OUT1 pin (north)(2)
+                                                                                                        –2.62        –1.8      –1.17
+                                                          TA = 25C
+                                                          OUT1 pin (north)(2)                           –2.73        –1.8        –0.9
+    BRP         Magnetic threshold release point                                                                                          mT
+                                                          OUT2 pin (south)
+                                                                                                         1.17         1.8        2.62
+                                                          TA = 25C
+                                                          OUT2 pin (south)                                 0.9        1.8        2.73
+                                                          Each output
+                                                                                                         0.21         0.7        1.19
+    BHYS        Magnetic hysteresis: |BOP – BRP|          TA = 25C                                                                        mT
+                                                          Each output                                    0.13         0.7        1.27
+    DU VERSION
+                                                          OUT1 pin (north)(2)                            –3.9        –2.5        –1.2
+    BOP         Magnetic threshold operate point                                                                                          mT
+                                                          OUT2 pin (south)                                 1.2        2.5         3.9
+                                                          OUT1 pin (north)(2)                            –3.5        –1.8        –0.9
+    BRP         Magnetic threshold release point                                                                                          mT
+                                                          OUT2 pin (south)                                 0.9        1.8         3.5
+    BHYS        Magnetic hysteresis: |BOP – BRP|          Each output                                      0.1        0.7         1.9     mT
+    FA, FB, FC VERSIONS
+    BOP         Magnetic threshold operate point                                                         ±1.5          ±3        ±4.8     mT
+    BRP         Magnetic threshold release point                                                         ±0.5        ±1.5          ±3     mT
+    BHYS        Magnetic hysteresis: |BOP – BRP|                                                           0.8        1.5           3     mT
+    FD VERSION
+                                                          OUT1 pin (north)(2)                            –4.8          –3        –1.5
+    BOP         Magnetic threshold operate point                                                                                          mT
+                                                          OUT2 pin (south)                                 1.5          3         4.8
+                                                          OUT1 pin (north)(2)                              –3        –1.5        –0.5
+    BRP         Magnetic threshold release point                                                                                          mT
+                                                          OUT2 pin (south)                                 0.5        1.5           3
+    BHYS        Magnetic hysteresis: |BOP – BRP|          Each output                                      0.8        1.5           3     mT
+    AJ VERSION
+    BOP         Magnetic threshold operate point                                                           ±4          ±7        ±9.5     mT
+    BRP         Magnetic threshold release point                                                           ±3        ±5.6        ±7.5     mT
+    BHYS        Magnetic hysteresis: |BOP – BRP|                                                           0.5        1.4           3     mT
+    ZE VERSION
+    BOP         Magnetic threshold operate point                                                          ±33         ±47        ±63      mT
+    BRP         Magnetic threshold release point                                                          ±30         ±43        ±58      mT
+    BHYS        Magnetic hysteresis: |BOP – BRP|                                                           1.2          4         8.5     mT
+
+(1)        For a graphical description of magnetic thresholds, see the Magnetic Response section.
+(2)        X2SON package only.
+
+
+
+
+6          Submit Document Feedback                                                                 Copyright © 2024 Texas Instruments Incorporated
+
+                                                          Product Folder Links: DRV5032
+                                                                                                                                                                                                                      DRV5032
+www.ti.com                                                                                                                                                                SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+
+6.7 Typical Characteristics
+                                               3                                                                                                         1.4
+
+
+                                           2.5                                                                                                           1.2
+
+
+
+
+   Average Supply Current (A)                                                                                   Average Supply Current (A)
+                                                                                                                                                             1
+                                               2
+                                                                                                                                                         0.8
+                                           1.5
+                                                                                                                                                         0.6
+                                               1
+                                                                                                                                                         0.4
+
+                                           0.5                                                       1.65V                                                                                                            1.65V
+                                                                                                     3V                                                  0.2                                                          3V
+                                                                                                     5.5V                                                                                                             5.5V
+                                               0                                                                                                             0
+                                               -40          -10             20             50           80                                                   -40           -10              20             50           80
+                                                                       Te mperature (C)                                                                                               Te mperature (C)
+                                            Figure 6-1. ICC(AVG) vs Temperature (20-Hz versions)                                                             Figure 6-2. ICC(AVG) vs Temperature (5-Hz version)
+                                               7                                                                                                         8
+
+
+
+
+                                                                                                                 Magnetic Threshold Operate Point (mT)
+                                           6.5                                                                                                           7
+
+
+
+
+   Average Supply Current (A)
+                                               6                                                                                                         6
+
+                                           5.5                                                                                                                                                     FA, FB, FC, FD Versions
+                                                                                                                                                         5                                         AJ Version
+                                                                                                                                                                                                   DG, DU Versions
+                                               5                                                                                                         4
+
+                                           4.5                                                       1.65V
+                                                                                                     3V                                                  3
+                                                                                                     5.5V
+                                               4
+                                                                                                                                                         2
+                                               -40          -10             20             50           80
+                                                                                                                                                         -40        -20          0         20         40         60     80
+                                                                       Te mperature (C)
+                                                                                                                                                                                      Te mperature (°C)
+                                               Figure 6-3. ICC(AVG) vs Temperature (40-Hz version)
+                                                                                                                                                                     Figure 6-4. |BOP| vs Temperature
+                                           6                                                                                                             8
+
+
+
+
+   Magnetic Threshold Release Point (mT)                                                                         Magnetic Threshold Operate Point (mT)
+                                                                                                                                                         7
+                                           5
+
+                                                                                                                                                         6
+                                           4
+                                                                                   FA, FB, FC, FD Versions                                                                                        FA, FB, FC, FD Versions
+                                                                                                                                                         5                                        AJ Version
+                                                                                   AJ Version
+                                                                                   DG, DU Versions                                                                                                DG, DU Versions
+                                           3
+                                                                                                                                                         4
+
+                                           2                                                                                                             3
+
+
+                                           1                                                                                                             2
+                                           -40        -20         0        20         40        60      80                                                1.5             2.5               3.5            4.5           5.5
+                                                                      Te mperature (°C)                                                                                              Supply Voltage (V)
+
+                                                        Figure 6-5. |BRP| vs Temperature                                                                                   Figure 6-6. |BOP| vs VCC
+
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                                                                                                             Submit Document Feedback           7
+                                                                                                Product Folder Links: DRV5032
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                                                                                                                                          www.ti.com
+
+6.7 Typical Characteristics (continued)
+                                                              6                                                                                                              60
+
+
+
+
+    Magnetic Threshold Release Point (mT)                                                                                            Magnetic Threshold Operate Point (mT)
+                                                              5                                                                                                              55
+
+
+                                                                                                                                                                             50
+                                                              4
+                                                                                                   FA, FB, FC, FD Versions
+                                                                                                   AJ Version                                                                45
+                                                              3                                    DG, DU Versions
+
+                                                                                                                                                                             40
+                                                              2
+                                                                                                                                                                             35
+
+                                                              1
+                                                               1.5            2.5           3.5             4.5            5.5                                               30
+                                                                                     Supply Voltage (V)                                                                       -40               -10           20             50             80
+                                                                                                                                                                                                        Temperature (°C)
+                                                                                Figure 6-7. |BRP| vs VCC                                                                                                                                    D020
+                                                                                                                                                                                       Figure 6-8. ZE Version |BOP| vs Temperature
+                                                              60                                                                                                             50
+
+
+
+
+                      Magnetic Threshold Release Point (mT)                                                                          Magnetic Threshold Operate Point (mT)
+                                                              55
+                                                                                                                                                                             49
+
+                                                              50
+                                                                                                                                                                             48
+                                                              45
+                                                                                                                                                                             47
+                                                              40
+
+                                                                                                                                                                             46
+                                                              35
+
+
+                                                              30                                                                                                             45
+                                                               -40             -10          20             50            80                                                    1.5              2.5           3.5            4.5           5.5
+                                                                                      Temperature (°C)                    D021
+                                                                                                                                                                                                       Supply Voltage (V)                   D018
+                                                                      Figure 6-9. ZE Version |BRP| vs Temperature                                                                         Figure 6-10. ZE Version |BOP| vs VCC
+                                                              45                                                                                                              2
+
+
+
+
+                    Magnetic Threshold Release Point (mT)
+                                                              44
+                                                                                                                                                                             1.5
+
+                                                              43
+
+                                                                                                                                   Density
+                                                                                                                                                                              1
+                                                              42
+
+                                                                                                                                                                             0.5
+                                                              41
+
+
+                                                              40                                                                                                              0
+                                                                1.5            2.5          3.5            4.5           5.5                                                       4          5         6         7          8         9   9.5
+                                                                                     Supply Voltage (V)                   D019
+                                                                                                                                                                                              Magnetic Threshold Operate Point (mT)         D102
+                                                                         Figure 6-11. ZE Version |BRP| vs VCC                                                                                  TA = 25°C, VCC = 1.65 V to 5.5 V
+                                                                                                                                                     Figure 6-12. AJ Version BOP Probability Density Function
+
+
+
+
+8                                                             Submit Document Feedback                                                                                                                Copyright © 2024 Texas Instruments Incorporated
+
+                                                                                                                  Product Folder Links: DRV5032
+                                                                                                                                       DRV5032
+www.ti.com                                                                                     SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+
+6.7 Typical Characteristics (continued)
+               2                                                                        5
+
+
+                                                                                        4
+              1.5
+
+                                                                                        3
+
+    Density                                                                   Density
+               1
+                                                                                        2
+
+              0.5
+                                                                                        1
+
+
+               0                                                                        0
+                    3    4            5            6            7   7.5                  0.5   1          1.5          2         2.5    3
+                        Magnetic Threshold Release Point (mT)       D103
+                                                                                                      Magnetic Hysteresis (mT)          D101
+
+                         TA = 25°C, VCC = 1.65 V to 5.5 V                                          TA = 25°C, VCC = 1.65 V to 5.5 V
+         Figure 6-13. AJ Version BRP Probability Density Function             Figure 6-14. AJ Version BHYS Probability Density Function
+
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                                  Submit Document Feedback      9
+                                                            Product Folder Links: DRV5032
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                                             www.ti.com
+
+7 Detailed Description
+7.1 Overview
+The DRV5032 device is a magnetic sensor with a digital output that indicates when the magnetic flux density
+threshold has been crossed. The device integrates a Hall effect element, analog signal conditioning, and a
+low-frequency oscillator that enables ultra-low average power consumption. By operating from a 1.65-V to 5.5-V
+supply, the device periodically measures magnetic flux density, updates the output, and enters a low-power
+sleep state.
+7.2 Functional Block Diagram
+                                                         0.1 F
+                                                          (min)              VCC
+
+
+                                                                                                              (1)
+                                                                                                      VCC
+
+                                       Voltage          Ultra-low-power
+                                      Regulator             Oscillator
+                                                                                                                        OUT / OUT1
+
+
+
+                                                         REF                    Output
+                                                                                Control                                             (1)
+              Element Bias                                                                            VCC
+
+                Offset                      Amp
+              Cancellation
+                                                                                                                        OUT2
+             Temperature
+             Compensation
+
+
+
+        (1) Output type depe nds on de vice ve rsi on
+                                                                            GND
+                                                                                         Copyright © 201 7, Texas Instrumen ts Incorpor ate d
+
+
+
+
+10    Submit Document Feedback                                                                     Copyright © 2024 Texas Instruments Incorporated
+
+                                                         Product Folder Links: DRV5032
+                                                                                                                            DRV5032
+www.ti.com                                                                              SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+
+7.3 Feature Description
+7.3.1 Magnetic Flux Direction
+The DRV5032 device is sensitive to the magnetic field component that is perpendicular to the top of the package
+(as shown in Figure 7-1).
+                                                                                  TO-92
+
+                                                                                                            B
+
+                                            B
+
+                                                                         B
+                           SOT-23
+                                                                X2SON
+
+
+
+                                                        PCB
+
+
+                                                   Figure 7-1. Direction of Sensitivity
+
+The magnetic flux that travels from the bottom to the top of the package is considered positive in this data sheet.
+This condition exists when a south magnetic pole is near the top of the package. The magnetic flux that travels
+from the top to the bottom of the package results in negative millitesla values.
+                                      positive B                                           negative B
+
+
+
+
+                                           N                                                   S
+
+
+
+                                           S                                                   N
+
+
+
+
+                                         PCB                                                  PCB
+
+
+
+
+                                                   Figure 7-2. Flux Direction Polarity
+
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                         Submit Document Feedback   11
+                                                        Product Folder Links: DRV5032
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                                     www.ti.com
+
+7.3.2 Device Version Comparison
+The following table lists the available device versions.
+                       MAXIMUM              MAGNETIC                    OUTPUT                SAMPLING                    PACKAGES
+      VERSION
+                      THRESHOLD             RESPONSE                     TYPE                   RATE                      AVAILABLE
+     DRV5032DG            3.4 mT                Unipolar                Push-pull               80 Hz                       X2SON
+     DRV5032DU            3.9 mT                Unipolar                Push-pull               20 Hz              SOT-23, X2SON, TO-92
+     DRV5032FA                                  Omnipolar               Push-pull               20 Hz              SOT-23, X2SON, TO-92
+     DRV5032FB                                  Omnipolar               Push-pull                  5 Hz            SOT-23, X2SON, TO-92
+                          4.8 mT
+     DRV5032FC                                  Omnipolar               Open-drain              20 Hz                    SOT-23, TO-92
+     DRV5032FD                                  Unipolar                Push-pull               20 Hz                    X2SON, TO-92
+     DRV5032AJ            9.5 mT                Omnipolar               Open-drain              20 Hz              SOT-23, X2SON, TO-92
+     DRV5032ZE            63 mT                 Omnipolar               Open-drain              20 Hz                    SOT-23, TO-92
+
+
+7.3.2.1 Magnetic Threshold
+Devices that have a lower magnetic threshold detect magnets at a farther distance. Higher thresholds generally
+require a closer distance or larger magnet.
+7.3.2.2 Magnetic Response
+The FA, FB, FC, AJ, and ZE device versions have omnipolar functionality, and these versions all respond to the
+north and south poles the same way as shown in Figure 7-3.
+                                                                 OUT
+                                           BHYS                                      BHYS
+                                                             VCC
+
+
+
+
+                                                             0V
+                                                                                                              B
+                           north         BOP BRP                 0 mT            BRP BOP              south
+                                           Figure 7-3. Omnipolar Functionality
+
+The DU, DG and FD device versions have unipolar functionality. Pin OUT1 only responds to flux in the top-down
+direction (north), and pin OUT2 only responds to flux in the bottom-up direction (south).
+                                    OUT1                                                OUT2
+                   BHYS                                                                                           BHYS
+                                   VCC                                                 VCC
+
+
+
+
+                                   0V                                                  0V
+                                                             B                                                                           B
+     north       BOP BRP            0 mT             south               north              0 mT           BRP BOP              south
+                                           Figure 7-4. Unipolar Functionality
+
+12    Submit Document Feedback                                                                  Copyright © 2024 Texas Instruments Incorporated
+
+                                                   Product Folder Links: DRV5032
+                                                                                                                               DRV5032
+www.ti.com                                                                                  SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+
+7.3.2.3 Output Type
+The DU, DG, FA, FB, and FD device versions have push-pull CMOS outputs that can drive a VCC or ground
+level. The FC, AJ, and ZE device versions have open-drain outputs that can become high impedance or drive
+ground. For these versions, an external pullup resistor must be used.
+                                                                           VCC
+
+
+
+
+                                                        Output                     Output
+                                                        Control
+
+
+
+
+                                                  Figure 7-5. Push-Pull Output (Simplified)
+
+
+
+
+                                                        Output                     Output
+                                                        Control
+
+
+
+
+                                              Figure 7-6. Open-Drain Output (Simplified)
+
+7.3.2.4 Sampling Rate
+When the DRV5032 device powers up, it measures the first magnetic sample and sets the output within the tON
+time. The output is latched, and the device enters an ultra-low-power sleep state. After each tS time, the device
+measures a new sample and updates the output, if necessary. If the magnetic field does not change between
+periods, the output does not change.
+
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                          Submit Document Feedback     13
+                                                          Product Folder Links: DRV5032
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                        www.ti.com
+
+         VCC
+
+
+     1.65 V
+                        tON
+
+
+                                                                                                                     time
+                                                                                     tACTIVE
+          ICC                            tS                              tS
+
+      ICC(PK)
+
+
+
+
+                                                                                                                      time
+
+     Output
+         VCC
+
+                    Invalid             1st sample                     2nd sample                     3rd sample
+
+       GND
+
+                                                                                                                     time
+                                                Figure 7-7. Timing Diagram
+
+
+
+
+14    Submit Document Feedback                                                      Copyright © 2024 Texas Instruments Incorporated
+
+                                                 Product Folder Links: DRV5032
+                                                                                                                            DRV5032
+www.ti.com                                                                              SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+
+7.3.3 Hall Element Location
+The sensing element inside the device is in the center of both packages when viewed from the top. Figure 7-8
+shows the tolerances and side-view dimensions.
+                                                    SOT-23
+                                                   Top View
+
+                                                                             SOT-23
+                                                                            Side View
+
+                                      centered                                                650 µm
+                                         ±70 µm                                               ±80 µm
+
+
+
+
+                                                     X2SON
+                                                    Top View
+
+                                                                             X2SON
+                                                                            Side View
+                                      centered                                            250 µm
+                                         ±60 µm                                            ±50 µm
+
+
+
+
+                                                      TO-92
+                                                     Top View
+                                                  2 mm     2 mm
+                                                                              TO-92
+                                      1.54 mm                               Side View
+
+                                                     ±50 µm                                  1030 µm
+                                      1.61 mm                                                 ±115 µm
+
+
+
+
+                                                  Figure 7-8. Hall Element Location
+
+7.4 Device Functional Modes
+The DRV5032 device has one mode of operation that applies when the Recommended Operating Conditions are
+met.
+
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                         Submit Document Feedback   15
+                                                        Product Folder Links: DRV5032
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                                       www.ti.com
+
+8 Application and Implementation
+                                                                Note
+      Information in the following applications sections is not part of the TI component specification,
+      and TI does not warrant its accuracy or completeness. TI’s customers are responsible for
+      determining suitability of components for their purposes, as well as validating and testing their design
+      implementation to confirm system functionality.
+
+8.1 Application Information
+The DRV5032 device is typically used to detect the proximity of a magnet. The magnet is often attached to a
+movable component in the system.
+8.1.1 Output Type Tradeoffs
+The push-pull output allows for the lowest system power consumption because there is no current leakage path
+when the output drives high or low. The open-drain output involves a leakage path through the external pullup
+resistor when the output drives low.
+The open-drain outputs of multiple devices can be tied together to form a logical AND. In this setup, if any sensor
+drives low, the voltage on the shared node becomes low. This can allow a single GPIO to measure an array of
+sensors.
+8.2 Typical Applications
+8.2.1 General-Purpose Magnet Sensing
+
+                                             distance
+                                                                                                               VCC
+
+                                                              DRV5032                          Controller
+                                                              VCC
+                          N S                                          OUT                     GPIO
+                                                              GND
+
+
+
+                                                                  Copyright © 201 7, Texas Instrumen ts Incorpor ate d
+
+                                        Figure 8-1. Typical Application Diagram
+
+8.2.1.1 Design Requirements
+For this design example, use the parameters listed in Table 8-1.
+                                                Table 8-1. Design Parameters
+                                   DESIGN PARAMETER                                           EXAMPLE VALUE
+                                             VCC                                                      3.3 V
+                                           Magnet                                              1-cm Cube NdFeB
+                                  Closest magnet distance                                             2.5 cm
+                           Magnetic flux density at closest distance                                 7.8 mT
+                       Magnetic flux density when magnet moves away                              Close to 0 mT
+
+
+8.2.1.2 Detailed Design Procedure
+When designing a digital-switch magnetic sensing system, consider these three variables: the magnet, sensing
+distance, and threshold of the sensor.
+
+
+16    Submit Document Feedback                                                                     Copyright © 2024 Texas Instruments Incorporated
+
+                                                    Product Folder Links: DRV5032
+                                                                                                                                  DRV5032
+www.ti.com                                                                                     SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+
+The DRV5032 device has a detection threshold specified by parameter BOP. To reliably activate the sensor, the
+magnet must apply greater than the maximum specified BOP. In such a system, the sensor typically detects the
+magnet before the magnet moves to the closest position. When the magnet moves away from the sensor, the
+magnet must apply less than the minimum specified BRP to reliably release the sensor.
+Magnets are made from various ferromagnetic materials that have trade-offs in cost, drift with temperature,
+absolute max temperature ratings, remanence or residual induction (Br), and coercivity (Hc). The Br and the
+dimensions of a magnet determine the magnetic flux density (B) the magnet produces in 3-dimensional space.
+For simple magnet shapes, such as rectangular blocks and cylinders, there are simple equations that solve B at
+a given distance centered with the magnet.
+
+
+                               Thickness                                                                 Thickness
+                Width
+
+
+                                                  Distance                                                               Distance
+                                                                                                        S     N
+           Length          S        N                             B                                                                       B
+                                                                                                                     Diameter
+
+
+
+
+                                      Figure 8-2. Rectangular Block and Cylinder Magnets
+
+Use Equation 1 for the rectangular block shown in Figure 8-2:
+
+                  B
+            B = πr arctan                 WL
+                                                        − arctan                  WL
+                                                                                                                                    (1)
+                                  2D 4D2 + W2 + L2                    2 D+T    4 D+T
+                                                                                       2
+                                                                                           + W2 + L2
+
+Use Equation 2 for the cylinder shown in Figure 8-2:
+
+                  B
+            B = 2r                D+T
+                                                  −      D
+                                                                                                                                    (2)
+                                  2       2               2
+                           0.5C     + D+T             0.5C     + D2
+
+
+where
+•    W is width.
+•    L is length.
+•    T is thickness (the direction of magnetization).
+•    D is distance.
+•    C is diameter.
+An online tool that uses these formulas is located at http://www.ti.com/product/drv5033.
+All magnetic materials generally have a lower Br at higher temperatures. Make sure the systems have margin to
+account for this, as well as for mechanical tolerances.
+
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                             Submit Document Feedback      17
+                                                             Product Folder Links: DRV5032
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                                                                        www.ti.com
+
+8.2.1.3 Application Curve
+
+                                                                60
+                                                                55
+                                                                50
+
+
+
+
+                                   Magnetic Flux Density (mT)
+                                                                45
+                                                                40
+                                                                35
+                                                                30
+                                                                25
+                                                                20
+                                                                15
+                                                                10
+                                                                 5
+                                                                 0
+                                                                     1       1.5      2       2.5     3     3.5       4     4.5     5
+                                                                                                Distance (cm)                       D017
+
+                            Figure 8-3. Magnetic Profile of a 1-cm Cube NdFeB Magnet
+
+8.2.2 Three-Position Switch
+This application uses the DRV5032FD for a three-position switch.
+                                                                                          1        2        3
+
+
+
+
+                                                                                                 PCB
+
+                        Figure 8-4. Three-Position Slider Switch With Embedded Magnet
+
+8.2.2.1 Design Requirements
+For this design example, use the parameters listed in Table 8-2.
+                                                                             Table 8-2. Design Parameters
+                                                                     DESIGN PARAMETER                              EXAMPLE VALUE
+                                                                           Hall effect device                         DRV5032FD
+                                                                                   VCC                                      5V
+                                                                         Switch travel distance                   5 mm in each direction
+                                                                                Magnet                               10-mm cylinder
+                                                   Mechanical tolerance per position                                      ±0.5 mm
+
+
+8.2.2.2 Detailed Design Procedure
+A standard 2-pole magnet produces strong perpendicular flux components near the outer edges of the poles,
+and no perpendicular flux near the center at the north-south pole boundary. When the DRV5032FD is below
+the center of the magnet, the device receives close to 0 mT, and both outputs drive high. If the switch with the
+embedded magnet moves left or right, the sensor receives a north or south field, and OUT1 or OUT2 drive low.
+This provides 3 digital states of detection.
+The length of the magnet should ideally be two times the distance of travel toward each side. Then, when the
+switch is pushed to either side, the outer edge of the magnet is positioned directly above the sensor where the
+magnet applies the strongest perpendicular flux component.
+
+
+18    Submit Document Feedback                                                                                                      Copyright © 2024 Texas Instruments Incorporated
+
+                                                                                   Product Folder Links: DRV5032
+                                                                                                                            DRV5032
+www.ti.com                                                                               SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+
+To determine the magnitude of magnetic flux density for a given magnet and distance, TI recommends to either
+use simulation software, test with a linear Hall effect sensor, or test with a gaussmeter.
+8.2.2.3 Application Curve
+Figure 8-5 shows the typical magnetic flux lines around a 2-pole magnet.
+
+
+
+
+                                                  Figure 8-5. Typical Magnetic Flux Lines
+
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                       Submit Document Feedback     19
+                                                         Product Folder Links: DRV5032
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                        www.ti.com
+
+8.3 Best Design Practices
+The Hall element is sensitive to magnetic fields that are perpendicular to the top of the package, therefore a
+correct magnet approach must be used for the sensor to detect the field. Figure 8-6 shows correct and incorrect
+approaches.
+
+                                                         CORRECT
+
+
+
+
+                                        S                                       S
+
+
+
+                                        N                                       N
+
+
+
+
+                                                     N      S
+
+
+
+
+                                                      INCORRECT
+
+
+
+
+                                                     N      S
+
+
+
+
+                               Figure 8-6. Correct and Incorrect Magnet Approaches
+
+
+
+
+20    Submit Document Feedback                                                      Copyright © 2024 Texas Instruments Incorporated
+
+                                                Product Folder Links: DRV5032
+                                                                                                                       DRV5032
+www.ti.com                                                                          SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+
+8.4 Power Supply Recommendations
+The DRV5032 device is powered from 1.65-V to 5.5-V DC power supplies. A decoupling capacitor close to the
+device must be used to provide local energy with minimal inductance. TI recommends using a ceramic capacitor
+with a value of at least 0.1 µF.
+
+8.5 Layout
+8.5.1 Layout Guidelines
+Magnetic fields pass through most nonferromagnetic materials with no significant disturbance. It is common
+practice to embed Hall effect sensors within plastic or aluminum enclosures and sensing magnets on the
+outside. Magnetic fields also easily pass through most printed-circuit boards, which makes placing the magnet
+on the opposite side possible.
+8.5.2 Layout Examples
+
+
+
+
+                                                             VCC      OUT
+              VCC
+
+                                                               Thermal
+                                                                 Pad
+                        GND
+                                                                                         VCC           GND           OUT
+
+                                                             GND      NC
+              OUT
+
+
+
+                                                  Figure 8-7. Layout Examples
+
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                  Submit Document Feedback     21
+                                                    Product Folder Links: DRV5032
+DRV5032
+SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024                                                                                              www.ti.com
+
+9 Device and Documentation Support
+9.1 Documentation Support
+9.1.1 Related Documentation
+For related documentation see the following:
+• Texas Instruments, DRV5032-SOLAR-EVM user guide
+• Texas Instruments, Power Gating Systems with Magnetic Sensors application brief
+• Texas Instruments, Low-Power Door and Window Sensor With Sub-1GHz and 10-Year Coin Cell Battery Life
+   design guide
+• Texas Instruments, Magnetic Tamper Detection Using Low-Power Hall Effect Sensors design guide
+• Texas Instruments, Fault Monitoring for Overhead Fault Indicators Using Ultra-Low-Power design guide
+9.2 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. Click on
+Notifications to register and receive a weekly digest of any product information that has changed. For change
+details, review the revision history included in any revised document.
+9.3 Support Resources
+TI E2E™ support forums are an engineer's go-to source for fast, verified answers and design help — straight
+from the experts. Search existing answers or ask your own question to get the quick design help you need.
+Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do
+not necessarily reflect TI's views; see TI's Terms of Use.
+9.4 Trademarks
+TI E2E™ is a trademark of Texas Instruments.
+All trademarks are the property of their respective owners.
+9.5 Electrostatic Discharge Caution
+                   This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled
+                   with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+                   ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may
+                   be more susceptible to damage because very small parametric changes could cause the device not to meet its published
+                   specifications.
+
+
+9.6 Glossary
+ TI Glossary            This glossary lists and explains terms, acronyms, and definitions.
+
+10 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+Changes from Revision G (July 2024) to Revision H (December 2024)                                              Page
+• Changed the status of the FB device version in the DMR package from Preview to Active ............................. 1
+
+
+
+Changes from Revision F (February 2022) to Revision G (July 2024)                                                                                Page
+• Added DG device version to the DMR (X2SON) package................................................................................. 1
+• Added preview FB device version information for the DMR (X2SON) package.................................................1
+• Changed Device Information table to Package Information .............................................................................. 1
+• Changed the X2SON package in the layout examples image to match the pinout image in the Pin
+  Configuration and Functions section................................................................................................................ 21
+
+
+
+
+22    Submit Document Feedback                                                                           Copyright © 2024 Texas Instruments Incorporated
+
+                                                          Product Folder Links: DRV5032
+                                                                                                                                                                DRV5032
+www.ti.com                                                                                                     SLVSDC7H – APRIL 2017 – REVISED DECEMBER 2024
+
+Changes from Revision E (January 2020) to Revision F (February 2022)                                       Page
+• Updated the numbering format for tables, figures, and cross-references throughout the document................. 1
+
+
+
+Changes from Revision D (November 2017) to Revision E (January 2020)                                                                                                 Page
+• Added LPG (TO-92) package ............................................................................................................................1
+• Added notes for the DU and FD package magnetic threshold operate points in the Magnetic Characteristics
+  table.................................................................................................................................................................... 6
+• Added probability density function plots for BOP, BRP, and BHYS to the Typical Characteristics section............ 7
+
+
+
+Changes from Revision C (September 2017) to Revision D (November 2017)                                                                    Page
+• Added the DU device version to the data sheet ................................................................................................ 2
+
+
+
+Changes from Revision B (August 2017) to Revision C (September 2017)                                                          Page
+• Changed the status of the AJ device version from Preview to Active ............................................................... 2
+
+
+
+Changes from Revision A (May 2017) to Revision B (August 2017)                                                                 Page
+• Added the ZE device version and the preview AJ device version......................................................................2
+
+
+
+Changes from Revision * (April 2017) to Revision A (May 2017)                                                                                 Page
+• Added the FA and FD device versions............................................................................................................... 1
+
+
+11 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most
+current data available for the designated devices. This data is subject to change without notice and revision of
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+
+
+
+
+Copyright © 2024 Texas Instruments Incorporated                                                                                   Submit Document Feedback                23
+                                                                   Product Folder Links: DRV5032
+                                                                                                                                    PACKAGE OPTION ADDENDUM
+
+  www.ti.com                                                                                                                                                      11-Sep-2026
+
+
+
+
+PACKAGING INFORMATION
+
+ Orderable part number   Status     Material type   Package | Pins     Package qty | Carrier     RoHS      Lead finish/       MSL rating/       Op temp (°C)   Part marking
+                            (1)          (2)                                                      (3)      Ball material      Peak reflow                           (6)
+                                                                                                                (4)                (5)
+
+    DRV5032AJDBZR         Active     Production     SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85    (1M6W, 2AJ)
+   DRV5032AJDBZR.A        Active     Production     SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85    (1M6W, 2AJ)
+    DRV5032AJDMRR         Active     Production     X2SON (DMR) | 4     3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85        2AJ
+   DRV5032AJDMRR.A        Active     Production     X2SON (DMR) | 4     3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85        2AJ
+    DRV5032AJDMRT        Obsolete    Production     X2SON (DMR) | 4              -                 -          Call TI            Call TI          -40 to 85        2AJ
+     DRV5032AJLPG         Active     Production     TO-92 (LPG) | 3        1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32AJ
+    DRV5032AJLPG.A        Active     Production     TO-92 (LPG) | 3        1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32AJ
+    DRV5032AJLPGM         Active     Production     TO-92 (LPG) | 3        3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32AJ
+   DRV5032AJLPGM.A        Active     Production     TO-92 (LPG) | 3        3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32AJ
+    DRV5032DGDMRR         Active     Production     X2SON (DMR) | 4     3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85       2DG
+  DRV5032DGDMRR.A         Active     Production     X2SON (DMR) | 4     3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85       2DG
+    DRV5032DUDBZR         Active     Production     SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85        2DU
+   DRV5032DUDBZR.A        Active     Production     SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85        2DU
+    DRV5032DUDBZT        Obsolete    Production     SOT-23 (DBZ) | 3             -                 -          Call TI            Call TI          -40 to 85        2DU
+    DRV5032DUDMRR         Active     Production     X2SON (DMR) | 4     3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85        2DU
+   DRV5032DUDMRR.A        Active     Production     X2SON (DMR) | 4     3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85        2DU
+    DRV5032DUDMRT        Obsolete    Production     X2SON (DMR) | 4              -                 -          Call TI            Call TI          -40 to 85        2DU
+     DRV5032DULPG         Active     Production     TO-92 (LPG) | 3        1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32DU
+    DRV5032DULPG.A        Active     Production     TO-92 (LPG) | 3        1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32DU
+    DRV5032DULPGM         Active     Production     TO-92 (LPG) | 3        3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32DU
+   DRV5032DULPGM.A        Active     Production     TO-92 (LPG) | 3        3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32DU
+    DRV5032FADBZR         Active     Production     SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85    (1LVW, 2FA)
+   DRV5032FADBZR.A        Active     Production     SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85    (1LVW, 2FA)
+    DRV5032FADBZT        Obsolete    Production     SOT-23 (DBZ) | 3             -                 -          Call TI            Call TI          -40 to 85    (1LVW, 2FA)
+    DRV5032FADMRR         Active     Production     X2SON (DMR) | 4     3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85        2FA
+   DRV5032FADMRR.A        Active     Production     X2SON (DMR) | 4     3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85        2FA
+    DRV5032FADMRT        Obsolete    Production     X2SON (DMR) | 4              -                 -          Call TI            Call TI          -40 to 85        2FA
+     DRV5032FALPG         Active     Production     TO-92 (LPG) | 3        1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32FA
+    DRV5032FALPG.A        Active     Production     TO-92 (LPG) | 3        1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32FA
+
+
+                                                                                         Addendum-Page 1
+                                                                                                                                                   PACKAGE OPTION ADDENDUM
+
+       www.ti.com                                                                                                                                                                11-Sep-2026
+
+
+
+
+       Orderable part number          Status     Material type      Package | Pins    Package qty | Carrier     RoHS      Lead finish/       MSL rating/       Op temp (°C)   Part marking
+                                        (1)            (2)                                                       (3)      Ball material      Peak reflow                           (6)
+                                                                                                                               (4)                (5)
+
+         DRV5032FALPGM                Active      Production        TO-92 (LPG) | 3       3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32FA
+        DRV5032FALPGM.A               Active      Production        TO-92 (LPG) | 3       3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32FA
+         DRV5032FBDBZR                Active      Production       SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85    (1LWW, 2FB)
+        DRV5032FBDBZR.A               Active      Production       SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85    (1LWW, 2FB)
+          DRV5032FBLPG                Active      Production        TO-92 (LPG) | 3       1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32FB
+         DRV5032FBLPG.A               Active      Production        TO-92 (LPG) | 3       1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32FB
+         DRV5032FBLPGM                Active      Production        TO-92 (LPG) | 3       3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32FB
+        DRV5032FBLPGM.A               Active      Production        TO-92 (LPG) | 3       3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32FB
+         DRV5032FCDBZR                Active      Production       SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85    (1M7W, 2FC)
+        DRV5032FCDBZR.A               Active      Production       SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85    (1M7W, 2FC)
+          DRV5032FCLPG                Active      Production        TO-92 (LPG) | 3       1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32FC
+         DRV5032FCLPG.A               Active      Production        TO-92 (LPG) | 3       1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32FC
+         DRV5032FCLPGM                Active      Production        TO-92 (LPG) | 3       3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32FC
+        DRV5032FCLPGM.A               Active      Production        TO-92 (LPG) | 3       3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32FC
+         DRV5032FDDMRR                Active      Production       X2SON (DMR) | 4     3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85        2FD
+        DRV5032FDDMRR.A               Active      Production       X2SON (DMR) | 4     3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85        2FD
+         DRV5032FDDMRT               Obsolete     Production       X2SON (DMR) | 4              -                 -          Call TI            Call TI          -40 to 85        2FD
+          DRV5032FDLPG                Active      Production        TO-92 (LPG) | 3       1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32FD
+         DRV5032FDLPG.A               Active      Production        TO-92 (LPG) | 3       1000 | BULK            Yes          SN           N/A for Pkg Type      -40 to 85       32FD
+         DRV5032FDLPGM                Active      Production        TO-92 (LPG) | 3       3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32FD
+        DRV5032FDLPGM.A               Active      Production        TO-92 (LPG) | 3       3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32FD
+         DRV5032ZEDBZR                Active      Production       SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85    (1M8W, 2ZE)
+        DRV5032ZEDBZR.A               Active      Production       SOT-23 (DBZ) | 3    3000 | LARGE T&R          Yes          SN          Level-1-260C-UNLIM     -40 to 85    (1M8W, 2ZE)
+          DRV5032ZEDBZT              Obsolete     Production       SOT-23 (DBZ) | 3             -                 -          Call TI            Call TI          -40 to 85    (1M8W, 2ZE)
+          DRV5032ZELPG                Active      Production        TO-92 (LPG) | 3    1000 | SMALL T&R          Yes          SN           N/A for Pkg Type      -40 to 85       32ZE
+         DRV5032ZELPG.A               Active      Production        TO-92 (LPG) | 3    1000 | SMALL T&R          Yes          SN           N/A for Pkg Type      -40 to 85       32ZE
+         DRV5032ZELPGM                Active      Production        TO-92 (LPG) | 3       3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32ZE
+        DRV5032ZELPGM.A               Active      Production        TO-92 (LPG) | 3       3000 | AMMO            Yes          SN           N/A for Pkg Type      -40 to 85       32ZE
+
+(1)
+      Status: For more details on status, see our product life cycle.
+
+
+
+
+                                                                                                        Addendum-Page 2
+                                                                                                                                                                      PACKAGE OPTION ADDENDUM
+
+       www.ti.com                                                                                                                                                                                                   11-Sep-2026
+
+
+
+
+(2)
+   Material type: When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+
+(3)
+      RoHS values: Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+
+(4)
+   Lead finish/Ball material: Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+
+(5)
+  MSL rating/Peak reflow: The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+
+(6)
+      Part marking: There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+
+
+
+
+                                                                                                          Addendum-Page 3
+                                                                                  PACKAGE MATERIALS INFORMATION
+
+www.ti.com                                                                                                                                          10-Sep-2026
+
+
+
+TAPE AND REEL INFORMATION
+
+       REEL DIMENSIONS                                                                         TAPE DIMENSIONS
+                                                                                          K0         P1
+
+
+
+                                                                                                                            B0 W
+                                         Reel
+                                       Diameter
+                                                                                       Cavity             A0
+                                                                A0       Dimension designed to accommodate the component width
+                                                                B0       Dimension designed to accommodate the component length
+                                                                K0       Dimension designed to accommodate the component thickness
+                                                                W        Overall width of the carrier tape
+                                                                P1       Pitch between successive cavity centers
+
+
+                                        Reel Width (W1)
+                              QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+
+                                                                                                           Sprocket Holes
+
+
+                                                  Q1       Q2             Q1    Q2
+
+                                                  Q3       Q4             Q3    Q4                    User Direction of Feed
+
+
+
+                                                            Pocket Quadrants
+
+
+*All dimensions are nominal
+             Device           Package Package Pins              SPQ           Reel   Reel   A0                    B0         K0     P1     W     Pin1
+                               Type Drawing                                 Diameter Width (mm)                  (mm)       (mm)   (mm)   (mm) Quadrant
+                                                                              (mm) W1 (mm)
+    DRV5032AJDBZR             SOT-23     DBZ           3        3000           180.0           8.4        3.2    2.85       1.3    4.0    8.0     Q3
+    DRV5032AJDBZR             SOT-23     DBZ           3        3000           180.0           8.4        2.9    3.35       1.35   4.0    8.0     Q3
+    DRV5032AJDBZR             SOT-23     DBZ           3        3000           178.0           9.0        3.15   2.77       1.22   4.0    8.0     Q3
+    DRV5032AJDMRR             X2SON      DMR           4        3000           179.0           8.4        1.27   1.57       0.5    4.0    8.0     Q1
+   DRV5032DGDMRR              X2SON      DMR           4        3000           180.0           8.4        1.27   1.57       0.5    4.0    8.0     Q1
+    DRV5032DUDBZR             SOT-23     DBZ           3        3000           180.0           8.4        3.15   2.77       1.22   4.0    8.0     Q3
+   DRV5032DUDMRR              X2SON      DMR           4        3000           180.0           8.4        1.27   1.57       0.5    4.0    8.0     Q1
+    DRV5032FADBZR             SOT-23     DBZ           3        3000           180.0           8.4        3.15   2.77       1.22   4.0    8.0     Q3
+    DRV5032FADBZR             SOT-23     DBZ           3        3000           178.0           9.0        3.15   2.77       1.22   4.0    8.0     Q3
+    DRV5032FADBZR             SOT-23     DBZ           3        3000           180.0           8.4        2.9    3.35       1.35   4.0    8.0     Q3
+    DRV5032FADBZR             SOT-23     DBZ           3        3000           180.0           8.4        3.2    2.85       1.3    4.0    8.0     Q3
+    DRV5032FADMRR             X2SON      DMR           4        3000           179.0           8.4        1.27   1.57       0.5    4.0    8.0     Q1
+    DRV5032FBDBZR             SOT-23     DBZ           3        3000           180.0           8.4        2.9    3.35       1.35   4.0    8.0     Q3
+    DRV5032FBDBZR             SOT-23     DBZ           3        3000           180.0           8.4        3.15   2.77       1.22   4.0    8.0     Q3
+    DRV5032FBDBZR             SOT-23     DBZ           3        3000           180.0           8.4        3.2    2.85       1.3    4.0    8.0     Q3
+    DRV5032FBDBZT             SOT-23     DBZ           3             0         180.0           8.4        3.2    2.85       1.3    4.0    8.0     Q3
+
+
+
+
+                                                                         Pack Materials-Page 1
+                                                           PACKAGE MATERIALS INFORMATION
+
+www.ti.com                                                                                                       10-Sep-2026
+
+
+
+             Device   Package Package Pins   SPQ       Reel   Reel   A0            B0     K0     P1     W     Pin1
+                       Type Drawing                  Diameter Width (mm)          (mm)   (mm)   (mm)   (mm) Quadrant
+                                                       (mm) W1 (mm)
+    DRV5032FCDBZR     SOT-23   DBZ     3     3000      180.0      8.4      2.9    3.35   1.35   4.0    8.0     Q3
+    DRV5032FCDBZR     SOT-23   DBZ     3     3000      180.0      8.4      3.2    2.85   1.3    4.0    8.0     Q3
+    DRV5032FCDBZR     SOT-23   DBZ     3     3000      180.0      8.4      3.15   2.77   1.22   4.0    8.0     Q3
+   DRV5032FDDMRR      X2SON    DMR     4     3000      179.0      8.4      1.27   1.57   0.5    4.0    8.0     Q1
+    DRV5032ZEDBZR     SOT-23   DBZ     3     3000      180.0      8.4      3.2    2.85   1.3    4.0    8.0     Q3
+    DRV5032ZEDBZR     SOT-23   DBZ     3     3000      180.0      8.4      2.9    3.35   1.35   4.0    8.0     Q3
+    DRV5032ZEDBZR     SOT-23   DBZ     3     3000      178.0      9.0      3.15   2.77   1.22   4.0    8.0     Q3
+
+
+
+
+                                                   Pack Materials-Page 2
+                                                                PACKAGE MATERIALS INFORMATION
+
+www.ti.com                                                                                                                10-Sep-2026
+
+
+
+ TAPE AND REEL BOX DIMENSIONS
+
+
+
+
+                                                               Width (mm)
+                                                                                 H
+
+
+
+
+                      W                                   L
+
+
+
+
+*All dimensions are nominal
+             Device           Package Type   Package Drawing   Pins         SPQ      Length (mm)   Width (mm)   Height (mm)
+     DRV5032AJDBZR              SOT-23            DBZ           3           3000        210.0        185.0         35.0
+     DRV5032AJDBZR              SOT-23            DBZ           3           3000        210.0        185.0         35.0
+     DRV5032AJDBZR              SOT-23            DBZ           3           3000        180.0        180.0         18.0
+    DRV5032AJDMRR               X2SON             DMR           4           3000        200.0        183.0         25.0
+    DRV5032DGDMRR               X2SON             DMR           4           3000        200.0        183.0         25.0
+    DRV5032DUDBZR               SOT-23            DBZ           3           3000        183.0        183.0         20.0
+    DRV5032DUDMRR               X2SON             DMR           4           3000        210.0        185.0         35.0
+    DRV5032FADBZR               SOT-23            DBZ           3           3000        183.0        183.0         20.0
+    DRV5032FADBZR               SOT-23            DBZ           3           3000        180.0        180.0         18.0
+    DRV5032FADBZR               SOT-23            DBZ           3           3000        210.0        185.0         35.0
+    DRV5032FADBZR               SOT-23            DBZ           3           3000        210.0        185.0         35.0
+    DRV5032FADMRR               X2SON             DMR           4           3000        200.0        183.0         25.0
+    DRV5032FBDBZR               SOT-23            DBZ           3           3000        210.0        185.0         35.0
+    DRV5032FBDBZR               SOT-23            DBZ           3           3000        183.0        183.0         20.0
+    DRV5032FBDBZR               SOT-23            DBZ           3           3000        210.0        185.0         35.0
+     DRV5032FBDBZT              SOT-23            DBZ           3            0          210.0        185.0         35.0
+    DRV5032FCDBZR               SOT-23            DBZ           3           3000        210.0        185.0         35.0
+    DRV5032FCDBZR               SOT-23            DBZ           3           3000        210.0        185.0         35.0
+
+
+
+
+                                                        Pack Materials-Page 3
+                                                        PACKAGE MATERIALS INFORMATION
+
+www.ti.com                                                                                                   10-Sep-2026
+
+
+
+             Device   Package Type   Package Drawing   Pins     SPQ     Length (mm)   Width (mm)   Height (mm)
+    DRV5032FCDBZR       SOT-23            DBZ           3       3000       183.0        183.0         20.0
+    DRV5032FDDMRR       X2SON             DMR           4       3000       200.0        183.0         25.0
+    DRV5032ZEDBZR       SOT-23            DBZ           3       3000       210.0        185.0         35.0
+    DRV5032ZEDBZR       SOT-23            DBZ           3       3000       210.0        185.0         35.0
+    DRV5032ZEDBZR       SOT-23            DBZ           3       3000       180.0        180.0         18.0
+
+
+
+
+                                                Pack Materials-Page 4
+                                                                                                        PACKAGE OUTLINE
+ LPG0003A                                                                SCALE 1.300
+                                                                                                TO-92 - 5.05 mm max height
+                                                                                                                TRANSISTOR OUTLINE
+
+
+
+                                                   4.1
+                                                   3.9
+
+
+
+                           3.25
+                           3.05                                          0.55
+                                                                    3X
+                                                                         0.40            5.05
+                                                                                         MAX
+                                           1                  3
+
+
+
+
+                                                                      3X (0.8)
+
+
+
+
+                            3X
+                           15.5
+                           15.1
+
+
+
+
+                                    0.48                                                             0.51
+                               3X                                                               3X
+                                    0.35                                                             0.36
+                                                                  2X 1.27 0.05
+                                                   2.64
+                                                   2.44
+
+
+                                                   2.68
+                                                   2.28
+                                                                                       1.62
+                            2X (45 )                                                   1.42
+
+
+
+
+                                               1    2     3
+                          (0.5425)                                       0.86
+                                                                         0.66
+                                                                                                                    4221343/C 01/2018
+
+NOTES:
+
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+   per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+
+
+
+
+                                                                         www.ti.com
+                                                            EXAMPLE BOARD LAYOUT
+LPG0003A                                                       TO-92 - 5.05 mm max height
+                                                                                 TRANSISTOR OUTLINE
+
+
+
+
+                                                   FULL R
+               0.05 MAX    (1.07)                    TYP
+                                               METAL
+           ALL AROUND                          TYP                    3X ( 0.75) VIA
+               TYP
+
+
+                                                                                2X
+                                                                                METAL
+
+                   (1.7)                                             2X (1.7)
+
+
+
+                                                                                 2X
+                                                                                 SOLDER MASK
+                                                                                 OPENING
+                              1                  2             3
+            (R0.05) TYP                                              2X (1.07)
+                                     (1.27)
+           SOLDER MASK
+               OPENING                        (2.54)
+
+
+                                    LAND PATTERN EXAMPLE
+                                    NON-SOLDER MASK DEFINED
+                                           SCALE:20X
+
+
+
+
+                                                                                    4221343/C 01/2018
+
+
+
+
+                                              www.ti.com
+                                                    TAPE SPECIFICATIONS
+LPG0003A                                             TO-92 - 5.05 mm max height
+                                                                             TRANSISTOR OUTLINE
+
+
+
+
+                                         0   1
+                        13.0                                        0    1
+                        12.4
+
+
+
+
+                                                      1 MAX
+  21
+  18
+
+       2.5 MIN
+                                                      6.5
+                                                      5.5
+                                                            9.5
+                                                            8.5                          0.25
+                                                                                         0.15
+
+                                                                  19.0
+                                                                  17.5
+
+
+
+
+                                                   3.8-4.2 TYP           0.45
+                 6.55          12.9                                      0.35
+                 6.15          12.5
+
+
+
+
+                                                                                4221343/C 01/2018
+
+
+
+
+                                      www.ti.com
+                                                                  GENERIC PACKAGE VIEW
+DMR 4                                                                  X2SON - 0.4 mm max height
+1.1 x 1.4, 0.5 mm pitch                                                     PLASTIC SMALL OUTLINE - NO LEAD
+
+
+
+
+               This image is a representation of the package family, actual package may vary.
+                             Refer to the product data sheet for package details.
+
+
+
+
+                                                                                                   4229480/A
+
+
+
+
+                                                    www.ti.com
+                                                                                                                       PACKAGE OUTLINE
+DMR0004A                                                                SCALE 9.000
+                                                                                                                 X2SON - 0.4 mm max height
+                                                                                                                       PLASTIC SMALL OUTLINE - NO LEAD
+
+
+
+
+                                                       1.15                                  A
+                                  B
+                                                       1.05
+
+
+
+
+                PIN 1 INDEX AREA
+
+                                                                                            1.45
+                                                                                            1.35
+
+
+
+
+                                                                                              (0.13) TYP
+
+                                                                                                         C
+                       0.4 MAX
+
+                                                                                                              SEATING PLANE
+                           0.05                        NOTE 4
+                           0.00                                                                               0.08 C
+
+                                                      2X 0.5
+
+                                                      SYMM
+
+                                              2                     3
+                                                                                                                       NOTE 4
+
+                                                                                              EXPOSED
+                                                                                              THERMAL PAD
+
+
+                                                       5                                   SYMM
+                            0.6 0.1
+
+
+
+                                                                                                       0.25
+                                                                                                  4X
+                         PIN 1 ID                                                                      0.15
+                      (OPTIONAL)
+
+                                                  1             4
+                                                                                           0.27
+                                                                                      4X
+                                                                                           0.17
+                                                      0.8 0.1                               0.1        C B       A
+                                                                                            0.05        C
+                                                                                                                                      4222825/B 05/2022
+NOTES:
+
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+   per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. The package thermal pad must be soldered to the printed circuit board for thermal and mechanical performance.
+4. Quantity and shape of side wall metal may vary.
+
+
+
+
+                                                                        www.ti.com
+                                                                                         EXAMPLE BOARD LAYOUT
+DMR0004A                                                                                          X2SON - 0.4 mm max height
+                                                                                                           PLASTIC SMALL OUTLINE - NO LEAD
+
+
+
+
+                                                                    2X (0.5)
+                                              4X (0.22)
+                                                                                           (R0.05) TYP
+                                                           1                   4
+
+
+                                               4X (0.4)
+
+
+
+
+                                                                   5
+                                                                                          SYMM
+                                                 (0.6)
+                                                                                                   (1.4)
+
+
+
+
+                                        ( 0.2) VIA
+
+
+
+
+                                                               2                   3
+                                                                       SYMM
+
+                                                                       (0.8)
+
+
+                                                     LAND PATTERN EXAMPLE
+                                                                   SCALE:35X
+
+
+
+
+                   0.05 MAX                                                            0.05 MIN
+               ALL AROUND                                                          ALL AROUND
+                                                   METAL                                                           SOLDER MASK
+                                                                                                                   OPENING
+
+
+                                                     SOLDER MASK
+                                                     OPENING                                                       METAL UNDER
+                                                                                                                   SOLDER MASK
+                              NON SOLDER MASK                                                     SOLDER MASK
+                                  DEFINED                                                           DEFINED
+                                (PREFERRED)
+
+                                                          SOLDER MASK DETAILS
+
+
+
+
+                                                                                                                          4222825/B 05/2022
+NOTES: (continued)
+
+5. This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments literature
+   number SLUA271 (www.ti.com/lit/slua271).
+6. Vias are optional depending on application, refer to device data sheet. If all or some are implemented, recommended via locations are shown.
+   It is recommended that vias under paste be filled, plugged or tented.
+
+
+
+
+                                                                        www.ti.com
+                                                                                  EXAMPLE STENCIL DESIGN
+DMR0004A                                                                                X2SON - 0.4 mm max height
+                                                                                               PLASTIC SMALL OUTLINE - NO LEAD
+
+
+
+
+                                                              2X (0.5)
+                                      4X (0.22)
+                                                                                      (R0.05) TYP
+                                                    1                     4
+
+
+
+                                        4X (0.4)
+
+
+
+
+                                                             5
+                                                                                      SYMM
+                                         (0.57)
+                                                                                              (1.4)
+
+
+
+
+                                       METAL
+                                       TYP
+
+
+
+
+                                                         2                    3
+                                                              SYMM
+
+
+                                                                 (0.76)
+
+
+                                                   SOLDER PASTE EXAMPLE
+                                                   BASED ON 0.1 mm THICK STENCIL
+
+                                                      EXPOSED PAD 5:
+                                           90% PRINTED SOLDER COVERAGE BY AREA
+                                                         SCALE:50X
+
+
+
+
+                                                                                                                  4222825/B 05/2022
+
+NOTES: (continued)
+
+7. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+   design recommendations.
+
+
+
+
+                                                                   www.ti.com
+                                                                                                                       PACKAGE OUTLINE
+DMR0004B                                                                SCALE 9.000
+                                                                                                                 X2SON - 0.4 mm max height
+                                                                                                                       PLASTIC SMALL OUTLINE - NO LEAD
+
+
+
+
+                                                       1.15                                  A
+                                    B
+                                                       1.05
+
+
+
+
+                PIN 1 INDEX AREA
+
+                                                                                            1.45
+                                                                                            1.35
+
+
+
+
+                                                                                                                               DIMENSION TABLE
+                                                                                                                        OPTION     A      B      C
+                                                                                                                         DIM A    0.1   0.127  0.127
+                                                                                              (DIM A) TYP
+                                                                                                                         DIM B    0.2    0.17   0.2
+                                                                                                         C
+                       0.4 MAX
+
+                                                                                                              SEATING PLANE
+                           0.05                        NOTE 4
+                           0.00                                                                               0.08 C
+
+                                                      2X 0.5
+
+                                                      SYMM
+                          2X (0.15)
+                                              2                     3
+                                                                                                                       NOTE 4
+
+                        4X (0.15)
+                                                                                              EXPOSED
+                                                                                              THERMAL PAD
+
+
+                                                       5                                   SYMM
+                          0.6 0.1
+
+
+
+                                                                                                       0.25
+                                                                                                  4X
+                                                                                                       0.15
+                       PIN 1 ID
+                         (R0.1)
+
+                                                  1             4
+                        8X (0.07)
+                                                                                           0.27
+                             4X (DIM B)                                               4X
+                                                                                           0.17
+                                                                                            0.1        C B A
+                                                      0.8 0.1
+                                                                                            0.05        C
+                                                                                                                                       4229425/B 04/2026
+NOTES:
+
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+   per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. The package thermal pad must be soldered to the printed circuit board for thermal and mechanical performance.
+4. Quantity, shape and location of side wall metal may vary.
+
+
+
+
+                                                                        www.ti.com
+                                                                                         EXAMPLE BOARD LAYOUT
+DMR0004B                                                                                          X2SON - 0.4 mm max height
+                                                                                                           PLASTIC SMALL OUTLINE - NO LEAD
+
+
+
+
+                                                                    2X (0.5)
+                                              4X (0.22)
+                                                                                           (R0.05) TYP
+                                                           1                   4
+
+
+                                               4X (0.4)
+
+
+
+
+                                                                   5
+                                                                                          SYMM
+                                                 (0.6)
+                                                                                                   (1.4)
+
+
+
+
+                                        ( 0.2) VIA
+
+
+
+
+                                                               2                   3
+                                                                       SYMM
+
+                                                                       (0.8)
+
+
+                                                     LAND PATTERN EXAMPLE
+                                                                   SCALE:35X
+
+
+
+
+                   0.05 MAX                                                            0.05 MIN
+               ALL AROUND                                                          ALL AROUND
+                                                   METAL                                                           SOLDER MASK
+                                                                                                                   OPENING
+
+
+                                                     SOLDER MASK
+                                                     OPENING                                                       METAL UNDER
+                                                                                                                   SOLDER MASK
+                              NON SOLDER MASK                                                     SOLDER MASK
+                                  DEFINED                                                           DEFINED
+                                (PREFERRED)
+
+                                                          SOLDER MASK DETAILS
+
+
+
+
+                                                                                                                          4229425/B 04/2026
+NOTES: (continued)
+
+5. This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments literature
+   number SLUA271 (www.ti.com/lit/slua271).
+6. Vias are optional depending on application, refer to device data sheet. If all or some are implemented, recommended via locations are shown.
+   It is recommended that vias under paste be filled, plugged or tented.
+
+
+
+
+                                                                        www.ti.com
+                                                                                  EXAMPLE STENCIL DESIGN
+DMR0004B                                                                                X2SON - 0.4 mm max height
+                                                                                               PLASTIC SMALL OUTLINE - NO LEAD
+
+
+
+
+                                                              2X (0.5)
+                                      4X (0.22)
+                                                                                      (R0.05) TYP
+                                                    1                     4
+
+
+
+                                        4X (0.4)
+
+
+
+
+                                                             5
+                                                                                      SYMM
+                                         (0.57)
+                                                                                              (1.4)
+
+
+
+
+                                       METAL
+                                       TYP
+
+
+
+
+                                                         2                    3
+                                                              SYMM
+
+
+                                                                 (0.76)
+
+
+                                                   SOLDER PASTE EXAMPLE
+                                                   BASED ON 0.1 mm THICK STENCIL
+
+                                                      EXPOSED PAD 5:
+                                           90% PRINTED SOLDER COVERAGE BY AREA
+                                                         SCALE:50X
+
+
+
+
+                                                                                                                  4229425/B 04/2026
+
+NOTES: (continued)
+
+7. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+   design recommendations.
+
+
+
+
+                                                                   www.ti.com
+                                                                                                          PACKAGE OUTLINE
+ DBZ0003A                                                          SCALE 4.000
+                                                                                                   SOT-23 - 1.12 mm max height
+                                                                                                            SMALL OUTLINE TRANSISTOR
+
+
+
+
+                                                2.64                                                             C
+                                                2.10
+                                                                                                             1.12 MAX
+                                                 1.4
+                                                               B                         A
+                                                 1.2                                                                            0.1 C
+                    PIN 1
+              INDEX AREA
+
+                                   1
+
+
+                      0.95       (0.125)
+                                                                                       3.04
+              1.9                                                                      2.80
+                                                                                  3
+                               (0.15)
+                               NOTE 4
+
+
+
+                                        2
+                         0.5
+                    3X
+                         0.3
+                         0.2       C A B                                                       4X 0 -15                     0.10
+                                                                                                              (0.95)             TYP
+                                                                                                                            0.01
+
+
+
+
+                                                                        4X 4 -15
+
+
+
+                0.25
+          GAGE PLANE                                                                    0.20
+                                                                                             TYP
+                                                                                        0.08
+
+
+
+                                            0.6
+                                                TYP          SEATING PLANE
+                    0 -8 TYP                0.2
+
+
+
+
+                                                                                                                        4214838/F 08/2024
+
+NOTES:
+
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+   per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. Reference JEDEC registration TO-236, except minimum foot length.
+4. Support pin may differ or may not be present.
+5. Body dimensions do not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not exceed
+   0.25mm per side
+
+
+
+
+                                                                                 www.ti.com
+                                                                               EXAMPLE BOARD LAYOUT
+ DBZ0003A                                                                            SOT-23 - 1.12 mm max height
+                                                                                                      SMALL OUTLINE TRANSISTOR
+
+
+
+
+                                                                     PKG
+                                                       3X (1.3)
+                                                   1
+
+                                        3X (0.6)
+
+
+
+                                                                                               SYMM
+
+                                                                                           3
+                                    2X (0.95)
+
+
+                                                   2
+
+                                   (R0.05) TYP
+                                                                     (2.1)
+
+
+
+                                                       LAND PATTERN EXAMPLE
+                                                                   SCALE:15X
+
+
+
+
+                                                                                                         SOLDER MASK
+                 SOLDER MASK                       METAL             METAL UNDER                         OPENING
+                 OPENING                                             SOLDER MASK
+
+
+
+
+                                      0.07 MAX                                            0.07 MIN
+                                      ALL AROUND                                          ALL AROUND
+
+                                 NON SOLDER MASK                                       SOLDER MASK
+                                     DEFINED                                             DEFINED
+                                   (PREFERRED)
+
+                                                       SOLDER MASK DETAILS
+
+
+
+
+                                                                                                               4214838/F 08/2024
+
+NOTES: (continued)
+
+5. Publication IPC-7351 may have alternate designs.
+6. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+
+
+
+
+                                                                  www.ti.com
+                                                                               EXAMPLE STENCIL DESIGN
+ DBZ0003A                                                                              SOT-23 - 1.12 mm max height
+                                                                                                      SMALL OUTLINE TRANSISTOR
+
+
+
+
+                                                                  PKG
+
+                                                     3X (1.3)
+                                                1
+
+                                     3X (0.6)
+
+
+
+                                                                                             SYMM
+                                                                                         3
+                                  2X(0.95)
+
+
+                                                2
+
+                               (R0.05) TYP
+                                                                  (2.1)
+
+
+
+                                                    SOLDER PASTE EXAMPLE
+                                                     BASED ON 0.125 THICK STENCIL
+                                                             SCALE:15X
+
+
+
+
+                                                                                                                   4214838/F 08/2024
+
+NOTES: (continued)
+
+7. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+   design recommendations.
+8. Board assembly site may have different recommendations for stencil design.
+
+
+
+
+                                                                  www.ti.com
+                                         IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS”
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+
+                                                Copyright © 2026, Texas Instruments Incorporated
+                                                                Last updated 10/2025
+

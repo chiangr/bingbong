@@ -1,0 +1,528 @@
+   Osptek Display
+
+AMOLED SPECIFICATION
+       Model No:
+
+
+    AM110Q126294LK1
+                                            REVISION RECORD
+
+      REV NO.           CONTENTS                       REVISION ITEM                   REV DATE
+       版 本                内 容                             修改项目                           日 期
+
+         V1.0            First release                    Preliminary                  2024-08-07
+
+
+
+
+                                              CONTENTS
+
+       1. GENERAL SPECIFICATIONS(主要特征描述) …………………………              P.3
+       2. EXTERNAL DIMENSIONS(外形尺寸) ……………………………… ..… P.4
+       3. ABSOLUTE MAXIMUM RATINGS(极限参数)………………...………… P.5
+       4. ELECTRICAL CHARACTERISTICS(模块电气特性).………………… . P.5
+       5. BACKLIGHT SPECIFICATION(背光电气特性)…………………………. NULL
+       6. ELECTRO-OPTICAL CHARACTERISTICS(光电参数)……………….           P.6
+       7. INTERFACE DESCRIPTION(接口定义描述)..………………….....……          P.7
+       8. TIMING CHARACTERIST(时序特征).………………………….………               P.8-9
+       9. RELIABILITY TEST CONDITIONS(可靠性实验条件)…………..……           P.10-11
+       10. INSPECTION CRITERION(检查标准)(参考REX-IIS) …………….          P.11
+       11. PRECAUTIONS FOR USING LCD MODULES(使用注意事项)..….... .... P.11-12
+       12. PRIOR CONSULT MATTER (提前商议事项) ……………………….…             P.12
+
+
+Shenzhen Osprey Optoelectronics Technology Co., Ltd.   https://www.osptek.com   0755-26810170       2 / 11
+         1. GENERAL SPECIFICATIONS(主要特征描述)
+                        Item 项目                                  Contents        内容              Unit 单位
+                   Display Type
+                                                                   16.7M LTPS                         AMOLED
+                     显示类型
+                  Diagonal Length
+                                                                       1.10                             Inch
+                        尺寸
+           Recommended Viewing Direction
+                                                                      ALL                             O’Clock
+                   推荐使用方向
+                  Dot arrangement
+                                                                126*3(R.G.B)*294                        Dot
+                        点阵
+               Assembly size (W*H*T)
+                                                                 15.40*38.97*1.88                       mm3
+                   总成尺寸（宽*高*厚）
+                 Module size (W*H*T)                                                                    mm3
+                                                                12.96*30.94*0.800
+                模块外围尺寸（宽*高*厚）
+                  Viewing area (W*H)                                                                    mm2
+                                                                   11.16*25.78
+                    可视区域（宽*高）
+                   Active area (W*H)                                                                    mm
+                                                                                                          2
+                                                                   10.96*25.58
+                  有效显示区域（宽*高）
+                    Pixel size (W*H)                                                                    mm2
+                                                                  0.1335*0.1335
+                    像素大小（宽*高）
+                    Display Driver IC
+                                                                    ICNA3306
+                    显示驱动芯片
+                        Power IC
+                                                                       无
+                        电源芯片
+                     Interface Type
+                                                                      SPI4
+                        接口类型
+
+
+
+
+Shenzhen Osprey Optoelectronics Technology Co., Ltd.   https://www.osptek.com         0755-26810170           3 / 11
+                                                                                                                                                                                                                                                                                                                                              4 / 11
+                                      有害物质管理标准                                                                                                                                                                                                                      REV       Date           Description
+                                                                                                                                                                                                                                                                                           NEW
+                                  欧盟RoHS环保指令
+                                  欧盟RoHS环保指令+无卤素要求
+                                                                                                                                                                                                                                                                                                                                      0755-26810170
+
+
+
+                                  ___________有害物质管理标准 第____版
+                                                                                                                       正视图                                             侧视图                                       背视图
+                                                                                                                                                                          0.80±0.2
+                                                                                                                                                                        0.15±0.05 POL
+                                                                                                                    12.96±0.15(LCD OD)
+                                                                                                                                                                        0.30±0.05(Encap）
+                                                                                                                              10.96(AA)           1.00                  0.20±0.05(ITO)
+                                                                                                                                                                         0.15±0.1(Foam Tape)                         12.36±0.3(Foam)
+                                                                                                                                                                                                                                                                                                                                     https://www.osptek.com
+
+
+
+                                                         30.94±0.15(LCD OD)        28.05(Encap Glass)
+                                                                                                                                                                                               30.34±0.3(Foam)
+
+                                                                                                        25.58(AA)
+                                                                                                                                                                                                                                                                                                            SPI4 接口
+                                                                                                                                                                                                                                                                                                             NO. SYMBOL
+                                                                                                                                                                                                                                                                                                             1 VCC 3.3V
+                                                                                                                                                                                                                                                                                                             2 CTP_INT 1.8V
+2. EXTERNAL DIMENSIONS(外形尺寸)
+
+
+
+
+                                                                                                                                                                                                                                                                                                             3 CTP_VDD 3.3V
+                                                                                                                                                  触控PAD 双面粘
+                                                                                                                    单层弯折区
+                                                                                                                                                  TESA 8857 T=0.05mm
+                                                                                                                                                                         0.92                                                     单层弯折区
+                                                                                                                                                                                                                                                                                                             4 CTP_SCL 1.8V
+                                                                                                                                                          器件表面加贴                                                                                                                                             5 IOVCC 1.8V
+                                                                                                                                                                                                                                                                                                             6 CTP_SDA 1.8V
+                                                                                                                                  TP元件区域
+                                                                                                                                  H=0.70MAX             绝缘胶T=0.05MM,                                                                                                                                         7 TP IOVCC 1.8V
+                                                   23 24                                                                                        (FPC+钢片+器件+绝缘胶）                                                                               24 23                                                          8 CTP_RST 1.8V
+                                                                                                                       元件区域                                  高度1.3MAX                                                                                                                                        9   GND
+                                                                                                                                                                                                                                                                                                                                          Shenzhen Osprey Optoelectronics Technology Co., Ltd.
+
+
+
+
+                                                    23                        24
+                                                                                                          弯                           1       7                                                                                           弯
+                                                                                                                      H=0.70MAX                                                                                                                                                                              10 GND
+                                                                                                                                                                                                                                                             0.80
+                                     连接器型号：
+                                                                                                          折
+                                                                                                          区                           1       7
+                                                                                                                                                    贴绝缘胶
+                                                                                                                                                    T=0.05MM                                                     7        1
+                                                                                                                                                                                                                                          折
+                                                                                                                                                                                                                                          区
+                                                                                                                                                                                                                                                      0.80
+                                                                                                                                                                                                                                                                          TP PIN定义                           11 GND
+                                                    1                         2
+                                                                                                                                                                                                                                                                                                             12 TE
+                                    WB2564024M 1 2                                                                                                                       1.03                                                                 2 1
+                                                                                                                                                                                                                                                                          1     CTP_VDD3.3V                  13 MTP
+                                                                                                                 器件表面加贴                                                         +0.05mm双面胶带撕手                                                                                                                14 RST
+                                                                                                               绝缘胶T=0.05MM,                                                                                                                                               2     TP IOVCC1.8V                 15 GND
+                                                                                                         (FPC+钢片+器件+绝缘胶）                                                                                                                                                        CTP_RST1.8V                  16 SDO
+                                                                                                                                                                                                                                                                          3                                  17 ELVDD 4.6V
+                                                                                                                  高度1.3MAX
+                                                                                                                                                                                                                                                                          4     CTP_SDA1.8V                  18 SD1
+                                                                                                                                                                                                                                                                                                             19 ELVDD 4.6V
+                               Specification:                                                                                                                                                                                                                             5     CTP_SCL1.8V                  20 DCX
+                                1). Display mode: 1.1" 126*294 16.7M Colors AMOLED;                                                                                                                                                                                       6     CTP_INT1.8V                  21 ELVSS -2.4V
+                                2). Viewing angle: L88/R88/T88/B88 (Min);                                                                                                                                                                                                                                    22 SCL
+                                3). Operating temp.: -20°C~+60°C;
+                                                                                                                                                                                                                                                                          7     GND                          23 ELVSS -2.4V
+                                                                                                                                                                                                                                                                                                             24 CSX
+                                  Storage temp.: -30°C~+70°C;
+                                4). IC: ICNA3306(Display);CHSC6417 (Touch);(Power IC主板上自带);                                                                                                                                                                                   Shenzhen Osprey Optoelectronics Technology Co., Ltd.
+                                5). Interface: SPI4; Brightness: 400CD/M2(Type); Gamma 2.5&2.2(Options);
+                                6). General Tolerance:±0.20.                                                                                                                                                                                                                             AMOLED
+                                7). Rohs Compliancy.                                                                                                                                                                                                                                                                            1
+                                8). Recommended Case Open Area should be less than Module V.A;
+                                                                                                                                                                                                                                                                                                                                                                                                       5 / 11
+                             有害物质管理标准                                                                                                                                                                                                                                                                        REV       Date                      Description
+                                                                                                                                                                                                                                                                                                                                               NEW
+                         欧盟RoHS环保指令
+                         欧盟RoHS环保指令+无卤素要求
+                                                                                                                                                                                                                                                                                                                                                                                               0755-26810170
+
+
+
+                         ___________有害物质管理标准                                                      第____版
+                                                                                                                                  正视图                                                  侧视图                                                 背视图
+                                                                                                                                                                                                   ATC 1.88±0.2
+                                                                                                                                                                                                   0.90±0.05 CG
+                                                                                                                                                                                                  OCA 0.175±0.05
+                                                                                                                                                                                                                                                                                                               弯折示意图
+                                                                                                                                   15.40±0.05(OD)                                                  0.60±0.05 直升边
+                                                                                                                                   11.16±0.1 VA              2.12±0.1                                0.80±0.2                                                                                                 总成弯折出货
+                                                                                                                                                                                                  0.15±0.05 POL
+                                                          2.41±0.1
+
+                                                                                                                               12.96±0.15(LCD OD)
+                                                                                                                                                                                                  0.30±0.05(Encap）
+                                                                                                                                         10.96(AA)         1.00                                   0.20±0.05(ITO)                               12.36±0.3(Foam)
+                                                                                                                                                                                                   0.15±0.1(Foam Tape)
+                                                                                                                                                                                                                                               R110A001 NH5 XXXX-XXX                                               R110A001 NH5 XXXX-XXX
+                                                                                                                                                                     0.30        倒2.5D弧度   0.30
+                                                                                                                                                                                                                                                                                                                                                                                              https://www.osptek.com
+
+
+                                                                         30.94±0.15(LCD OD)   28.05(Encap Glass)
+                                                          25.78±0.1 VA
+
+
+                                                                                                                                                                  背面丝印黑色                                                                                                                                                                                 0.80
+                                                                                                                                                                                                                         30.34±0.3(Foam)
+
+                                                                                                                   25.58(AA)
+                                                                                                                                                                                                                                                                                                                                                                1 2
+                                         38.97±0.05(OD)
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                2    1
+                                                                                                                                                                                                                                                                                                               7          1                     弯
+                                                                                                                                        透明视窗                                                                                                                                                                                                    折
+                                                                                                                                                                                                                                                                                                                                    元件区域                                  SPI4 接口
+                                                                                                                                        表面镀AF                                                                                                                                                                  7          1                     区
+                                                                                                                                                                                                                                                                                                                                   H=0.70MAX
+                                                                                                                                                                                                                                                                                                                                                                24   23
+                                                                                                                                                                  背面丝印冷灰9C                                                                                                                                                                                                NO. SYMBOL
+                                                                                                                                                                                                   3.10MAX
+                                                                                                                                                                                                                                                                                                                                                                23 24
+                                                                                                                                                                                                                                                                                                                                                    0.80±0.2              1   VCC 3.3V
+                                                                                                                                                                                                                                                                                                  1.00±0.2
+                                                                                                                                                                                                   3.30MAX                                                                                                             TP元件区域
+                                                                                                                                                                                                                                                                                                                                                                          2   CTP_INT 1.8V
+                                                                                                                                                                                                                                                                                                                                                         0.80
+                                                                                                                                                                                                                                                                                                                       H=0.70MAX
+                                                                                                                                                                                                                                                                                                                                                                          3   CTP_VDD 3.3V
+                                                                                                                                                            触控PAD 双面粘
+                                                                                                                               单层弯折区
+                                                                                                                                                            TESA 8857 T=0.05mm
+                                                                                                                                                                                                                                                                单层弯折区
+                                                                                                                                                                                                                                                                                                                                                                          4   CTP_SCL 1.8V
+                                                                                                                                                                     器件表面加贴                                                                                                                                                                                               5   IOVCC 1.8V
+                                                                                                                                                                                                                                                                                                                                                                          6   CTP_SDA 1.8V
+                                                                                                                                             TP元件区域
+                                                                                                                                             H=0.70MAX             绝缘胶T=0.05MM,                                                                                                                                                                                           7   TP IOVCC 1.8V
+                                                  23 24                                                                                                    (FPC+钢片+器件+绝缘胶）                                                                                                  24 23                                                                                         8   CTP_RST 1.8V
+                                                                                                                                                                                                                                                                                                                                                                                                   Shenzhen Osprey Optoelectronics Technology Co., Ltd.
+
+
+
+
+                                                           23                      24                                             元件区域                                  高度1.3MAX                                                                                                                                                                                          9   GND
+                                                                                                                     弯                           1       7                                                                                                              弯
+                                                                                                                                 H=0.70MAX                                                                                                                                                                                                                                10 GND
+                                                                                                                                                                                                                                                                                           0.80
+                                                                                                                     折                                         贴绝缘胶                                                                                                     折           0.80
+                                                                                                                                                                                                                                                                                                                   TP PIN定义
+ASSEMBLY SIZE(总成尺寸)
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                          11 GND
+                            连接器型号：
+                                                                                                                     区                           1       7     T=0.05MM                                                                    7          1                 区
+                                                            1                         2
+                                                                                                                                                                                                                                                                                                                                                                          12 TE
+                           WB2564024M 1 2                                                                                                                                                                                                                                   2 1
+                                                                                                                                                                                                                                                                                                                   1          CTP_VDD3.3V                                 13 MTP
+                                                                                                                            器件表面加贴                                                                    +0.05mm双面胶带撕手                                                                                                                                                       14 RST
+                                                                                                                          绝缘胶T=0.05MM,                                                                                                                                                                             2          TP IOVCC1.8V                                15 GND
+                                                                                                                    (FPC+钢片+器件+绝缘胶）                                                                                                                                                                                           CTP_RST1.8V                                 16 SDO
+                                                                                                                                                                                                                                                                                                                   3                                                      17 ELVDD 4.6V
+                                                                                                                             高度1.3MAX
+                                                                                                                                                                                                                                                                                                                   4          CTP_SDA1.8V                                 18 SD1
+                                                                                                                                                                                                                                                                                                                                                                          19 ELVDD 4.6V
+                      Specification:                                                                                                                                                                                                                                                                               5          CTP_SCL1.8V                                 20 DCX
+                       1). Display mode: 1.1" 126*294 16.7M Colors AMOLED;                                                                                                                                                                                                                                         6          CTP_INT1.8V                                 21 ELVSS -2.4V
+                       2). Viewing angle: L88/R88/T88/B88 (Min);                                                                                                                                                                                                                                                                                                          22 SCL
+                       3). Operating temp.: -20°C~+60°C;
+                                                                                                                                                                                                                                                                                                                   7          GND                                         23 ELVSS -2.4V
+                                                                                                                                                                                                                                                                                                                                                                          24 CSX
+                         Storage temp.: -30°C~+70°C;
+                       4). IC: ICNA3306(Display);CHSC6417 (Touch);(Power IC主板上自带);                                                                                                                                                                                                                                      Shenzhen Osprey Optoelectronics Technology Co., Ltd.
+                       5). Interface: SPI4; Brightness: 400CD/M2(Type); Gamma 2.5&2.2(Options);
+                       6). General Tolerance:±0.20.                                                                                                                                                                                                                                                                                            AMOLED
+                       7). Rohs Compliancy.                                                                                                                                                                                                                                                                                                                                            1
+                       8). Recommended Case Open Area should be less than Module V.A;                                                                                                                                                                                                                                                    AM110Q126294LK1
+ 3. ABSOLUTE MAXIMUM RATINGS(极限参数)
+
+
+
+
+ 4. ELECTRICAL CHARACTERISTICS(模块电气特性 )
+
+
+
+
+5.
+     4.1 Display Driver IC
+        ICNA3306 (Refer to the IC datasheet).
+
+ 6. BACKLIGHT SPECIFICATION(背光电气特性 )……… NULL
+
+Shenzhen Osprey Optoelectronics Technology Co., Ltd.   https://www.osptek.com   0755-26810170   6 / 11
+  7. ELECTRO-OPTICAL CHARACTERISTICS(光电参数)
+               Item                     Symbol         Condition        Min           Typ         Max         Unit           Note
+      Surface Luminance                   Lv                                          400                     cd/m2          Note1
+                                                           θ=0
+    Luminance uniformity             WHITE              =0           85             -            -          %            Note2
+                                                         Ta=25℃
+        Contrast Ratio                    Cr                              -         100000:1         -           -           Note3
+                                                       Up/Down/
+        Viewing Angle                                 Right/Left        85             -            -         deg           Note4
+                                                         Cr≥10
+                                         Red x                                        TBD
+                                         Red y                                        TBD
+                                        Green x                                       TBD
+                                                         θ=0
+     Color Coordinate of                Green y                                       TBD
+          CIE1931                                       =0                                                     -          Note 5
+                                        Blue x         Ta=25℃.                        TBD
+                                        Blue y                                        TBD
+                                        White x                         0.270         0.290       0.310
+                                        White y                         0.290         0.310       0.330
+          NTSC ratio                      -                -              97           108          -           %          CIE1931
+              Life Time                  T95              25℃            200            -            -        hours            -
+
+
+  8.INTERFACE DESCRIPTION(接口定义描述)
+    Pin No.                    Symbol              I/O                                        Description                             Memo
+
+       Pin脚                    符 号                输入/出                                           描述                                   备注
+
+          1       VCC 3.3V                        P            Power supply for LCM internal Analog
+
+          2       CTP_INT 1.8V                    I            CTP Driver I2C interrupt output pin
+
+          3       CTP_VDD 3.3V                    P            Power supply for CTP internal Analog
+
+          4       CTP_SCL 1.8V                    I            CTP Driver I2C clock pin
+
+          5       IOVCC 1.8V                      P            Power Supply for I/O    System.
+
+          6       CTP_SDA 1.8V                    IO           CTP Driver I2C data pin
+
+          7       TP_IOVCC 1.8V                   P            Power Supply for I/O    System.
+
+          8       CTP_RST 1.8V                    I            CTP Driver hardware reset pin
+
+        9-11      GND                             P            Ground
+
+         12       TE                              O            Tearing effect output pin ; Enable Cmd:0x35 data:0x00
+
+         13       MTP                             I            AMOLED OTP Voltage input Pin ;      Please fix this pin at Open/GND
+
+         14       RST                             I            AMOLED Reset signal pin
+
+         15       GND                             P            Ground
+
+         16       SDO                             O            SPI interface output pin
+
+         17       ELVDD 4.6V                      P            Positive output voltage for AMOLED panel display
+
+         18       SDI                             I            Serial Data input/output pin.
+
+         19       ELVDD 4.6V                      P            Positive output voltage for AMOLED panel display
+
+         20       DCX                             I            Data/Command select pin. H: Data; L: Command.
+
+         21       ELVSS -2.4V                     P            Negative output voltage for AMOLED panel display
+
+         22       SCL                             I            SPI clock pin
+
+         23       ELVSS -2.4V                     P            Negative output voltage for AMOLED panel display
+
+         24       CSX                             I            Chip selection pin
+
+
+Shenzhen Osprey Optoelectronics Technology Co., Ltd.                           https://www.osptek.com                 0755-26810170          7 / 11
+  9.TIMING CHARACTERIST (时序特征)
+
+
+
+
+Shenzhen Osprey Optoelectronics Technology Co., Ltd.   https://www.osptek.com   0755-26810170   8 / 11
+    10.Reset timing
+
+
+
+
+  11.ELIABILITY TEST CONDITIONS(可靠性实验条件)
+     NO.             Test Item                         Test Condition                  Inspection after test
+     序号                 实验                                实验条件                                    判定标准
+                        项目
+                  High Temperature                                                Inspection after 2~4 hours storage at
+       1                                   80±2˚C,240 hrs                         room temperature, the sample shall
+                      Storage
+                                                                                  be free from defects.
+                        高温 Storage
+              Low Temperature
+       2                                   -40±2˚C,240 hrs                        (试验结束后须正常室温存放2~4个小时之
+                        存放
+                        低温                                                        后才能测试判定，不允许有以下缺 陷)
+                        存放
+                  High Temperature
+       3                                   70±2˚C,240 hrs                         1.    Air bubble in the LCD
+                  Operating 高温操作
+                                                                                        （模块中有气泡）;
+                   Low Temperature
+       4          Operating 低温操作           -20±2˚C,240 hrs                        2.    Seal leak（漏液）;
+
+                                                                                  3.    Non-display（不显示）;
+             Damp proof Test Storage
+       5                              60±2˚C,90%RH,240 hrs                        4.    Missing segment（
+                                                                                                       s 漏笔）
+                                                                                                           ;
+                     高温高湿
+                                                                                  5.    Glass crack（玻璃破碎）;
+            Temperature存放
+                        Cycle Storage -40˚C ∽ +80˚C dwell time=0.5hrs 100
+       6                                                                          6.    Current IDD is twice higher than
+                     冷热循环                            Cycles.                            initial value
+                       存放             Frequency( 频 率 ):10HZ-55Hz ,                      （电流 Idd 大于初时值的 2倍）;
+                  Vibration Test           Amplitude（振幅）:1.5mm , x,y,z            7.    The surface damage（表面损伤）
+                     振荡试验
+       7                                   every direction for 1 hour             8.    Do not meet the electrical chara
+
+                                           (Packing condition) （包装状态，                    cteristics（不满足模块电气性能）
+
+                                           X,Y,Z 每个方向各 1 小时）
+
+Shenzhen Osprey Optoelectronics Technology Co., Ltd.     https://www.osptek.com        0755-26810170             9 / 11
+                                               Drop to the ground from 1M height,
+                      Dropping Test            one time, every side of carton
+       8                  跌落                   (Packing condition) (包装状态，一米
+                          试验                   高度,6 面各一次)
+                                               Voltage:8KV;
+                         ESD Test
+       9                   静电
+                                               Air discharge(空气放电),10 times
+                                               Voltage:4KV; （C:150pf; R:330Ω;）
+                           测试
+                                               Connet discharge(接触放电),10 times
+
+     Remark（备注）
+              ：
+     1. The samples should be applied to only on test item(每个被测试样品只能用于其中的一个测试项目);
+     2. Sample size for each teat item is 5~10 pcs(每个测试项目的样品数量为 5~10 片);
+     3. For Damp Proof Test, Pure water(Resistance>10M Ω)should be used（对于防潮试验，试验箱的用水必须是
+           电阻大于 10M 欧姆的纯水）;
+     4. In case of malfunction defect caused by ESD damage, if it would be recovered to normal state
+           after resetting ,it would be judged as a good part（如果由静电引起产品故障，当放置一段时间后能够
+           恢复正常，则不视为产品缺陷）;
+     5. Failure        Judgment     Criterion:      Basic     Specification       ,Electrical       Characteristic,         mechanical
+           Characteristic, Optical Characteristic（故障判断标准：基本规格，电气特性，机械特性，光电特性）.
+
+
+   12.INSPECTION CRITERION(检查标准 )(参考REX-BZ-001)
+
+  13.PRECAUTIONS FOR USING LCD MODULES(使用注意事项 )
+  13.1Using LCD Modules 使用
+       13.1.1      As glass is fragile, It tends to become or chipped during handling especially on the edges. Please avoid
+                   dropping or jarring. Do not subject it to a mechanical shock by dropping it or impact. (由于玻璃是脆的，使
+                   用过程请特别注意边缘区，防止跌落或振动，不能机械碰撞)。
+       13.1.2 Do not apply excessive force to the display surface or the adjoining are since this may cause the color tone
+                to vary. Do not touch the display with bare hands. This will stain the display area and degraded insulation
+                between terminals(some cosmetics are determined to the polarizer) (请勿施加过大的压力于显示屏或连接部位，否
+                则会引起色调变化。不要裸手接触显示屏，这将弄脏显示区和降低端子之间的绝缘能力。一些外观问题是由偏光片决定的)。
+       13.1.3 The polarizer covering the display surface of the LCD module is soft and easily scratched. Handle this
+                polarizer carefully. Do not touch, push or rub the exposed polarizes with anything harder than an HB pencil
+                lead (glass, tweezers, etc.). Do not put or attach anything on the display area to avoid leaving marks on it.
+                Condensation on the surface and contact with terminals due to cold will damage, stain or dirty the polarizer.
+                After products are tested at low temperature they must be warmed up in a container before coming in to contact
+                with room temperature air.( 覆盖液晶显示模块显示平面的偏光片是软性且易被擦伤，请小心轻拿。请勿用任何硬度大于
+                HB 铅笔芯的物品（玻璃，镊子等） 接触、撞压或摩擦裸露偏光片不要放置或粘附物体在显示区域上以免留下痕迹。冷凝在
+                表面和端子将会损坏或弄脏偏光片。产品在 低温下测试之后，与室温空气接触之前必须在容器内升温)
+       13.1.4 If the display surface becomes contaminated, breathe on the surface and gently wipe it with a soft dry cloth.
+                If it is heavily contaminated, moisten cloth with one of the following solvents:       Isopropyl alcohol;
+                   Ethyl alcohol . Do not scrub hard to avoid damaging the display surface(如果显示平面受污，可对平面吹热气且
+                轻轻地用软性干布擦除。如果受污严重，用含下列一种溶剂的湿布擦除:甘油, 酒精 。请勿用力擦拭以免损坏显示平面。)
+       13.1.5 Solvents other than those above-mentioned may damage the polarizer. Especially, do not use the following:
+                Water, Ketone, Aromatic solvents. Wipe off saliva or water drops immediately, contact with water over a long
+                period of time may cause deformation or color fading. Avoid contact with oil and fats. (除以上提到的溶剂外，
+                其他溶剂可能会损坏偏光片，特别要避免使用以下溶剂： 水, 丙酮，芳烃溶剂。立即擦掉唾液或水滴，长时间与水接触会引
+                起变形或褪色。避免接触油和油脂)
+       13.1.6 Do not attempt to disassemble or process the LCD module. （请勿拆卸液晶显示模块）
+       13.1.7 Electro-Static Discharge Control, Since this module uses a CMOS LSI, the same careful attention should be paid
+                to electrostatic discharge as for an ordinary CMOS IC. To prevent destruction of the elements by static
+                electricity, be careful to maintain an optimum work environment.（由于液晶显示模块使用CMOS 集成电路，要特别注
+                意静电放电问题。对CMOS器件，要特别注意静电。为防止静电损坏，注意保持合宜的工作环境）
+
+Shenzhen Osprey Optoelectronics Technology Co., Ltd.           https://www.osptek.com              0755-26810170              10 / 11
+       13.1.8 Input logic voltage before apply analog high voltage such as LCD driving voltage when power on. Remove analog
+              high voltage before logic voltage when power off the module. Input each signal after the positive/negative
+              voltage becomes stable. （开机时，先让逻辑电压，再接通模拟高压， 如显示屏驱动电压。关机时，先断开模拟高压，再
+              关逻辑电压。正负电源都稳定后再送控制信号。）
+       13.1.9 In the use of connector products, the operating process of attention to turn off the power before pull off and
+              insert action. To avoid damage to the module (在使用连接器的产品时，插接过程注意先关闭电源再进行拔插动作, 避
+              免损坏模块)
+       13.1.10     Precaution for assemble the module with BTB connector:Please note the position of the male and female
+                  connector position, don’t assemble or assemble like the method which the following picture shows
+                 （用板对板连接器安装液晶显示模块注意事项：请注意连接器的公母及连接位置，请勿出现下图所示的错误连接方式）
+
+
+
+
+    13.2 Storage Modules 储存
+       13.2.1 Store them in a dark place. Do not expose to sunlight or fluorescent light, keep the temperature between 0°C
+              and 35°C, and keep the relative humidity between 40%RH and 60%RH.    （避光保存，避免直接暴露在太阳光或黄光灯
+              下，保持温度在 0~35 摄氏度之间,保持相对湿度在 40%RH 和 60%RH 之间。）
+
+       13.2.2 The polarizer surface should not come in contact with any other objects (We advise you to store them in the
+              anti-static electricity container in which they were shipped). （偏光片表面避免接触其他物质，建议存放在货运防
+              静电包装中）
+    13.3 Soldering
+       13.3.1 Iron head temperature（铬铁头实际温度）: 350±10˚C，Soldering time（焊接时间）: <3-4S. Soldering don’t repeat
+              above 3 times（焊接次数勿超过 3 次）
+
+       13.3.2 If soldering flux is used, be sure to remove any remaining flux after finishing to soldering operation (This
+              does not apply in the of a non-halogen type of flux). It is recommended that you protect the LCD surface case
+              with a cover during soldering to prevent any damage due to flux spatters.      （如果使用助焊剂，完成焊接后一定
+              要清除剩余的助焊剂（除非卤化物助焊剂）。建议焊接时用盖子保护显示屏面以避免因焊剂油溅出造成的任何损坏。）
+
+
+   14. PRIOR CONSULT MATTER (提前商议事项)
+    14.1 For OSP electronics standard products, we keep the right to change material, process ...
+    for improving the product property without prior notice to our customer.
+         （对于鱼鹰光电的标准模块产品，我们保留在不通知客户的情况下,为提高产品性能而改变原材料及加工方
+         法等的权利。 ）
+    14.2If you have special requirement about reliability condition, please let us know before you
+        start the design on our samples.
+         （如对可靠性条件有特殊要求，请在模块设计开发前通知我们。
+                                    ）
+
+
+
+
+Shenzhen Osprey Optoelectronics Technology Co., Ltd.          https://www.osptek.com            0755-26810170               11 / 11
+
