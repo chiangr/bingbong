@@ -1,0 +1,40 @@
+export const pathSteps = [
+  { name: 'Aluminum cap', tag: '22.5 mm of metal · part of a 95 mm system',
+    title: 'The metal gives the field somewhere to move charge.',
+    body: 'On receive, an arriving electric field pushes mobile electrons in the cap and the other conductors. Their different potentials create an RF voltage at the feed. On transmit, the radio drives that voltage and current, exciting a radiating mode of the cap and ground structure together.',
+    fact: 'The main tray and rear lid are PC/ABS. The cap is 6061-T6 aluminum; it is not a continuous metal shell around the electronics.',
+    why: 'A longer participating structure can radiate more effectively than the small cap alone. The battery, display metal, crown, and your hand also change its current distribution.' },
+  { name: 'Ring & contact', tag: 'Insulating ring → plated tab → BeCu spring',
+    title: 'A mechanical joint becomes an electrical feed.',
+    body: 'The optical polycarbonate ring separates the cap mechanically and electrically from the neighboring assembly. An integral L-shaped cap tab passes through a sealed opening. Its gold-plated underside meets a compressed, gold-plated beryllium-copper spring on the board.',
+    fact: 'The spring touches a deliberately conductive land. Anodized aluminum elsewhere has an insulating oxide layer; pressing onto that finish is not a dependable RF connection.',
+    why: 'Contact continuity, tab geometry, and the insulating gap all matter. The gap holds electric-field energy. A good DC continuity result alone cannot prove a good RF match.' },
+  { name: 'Feed & protection', tag: 'J302 → D301 + L301 · antenna-side node',
+    title: 'DC and radio frequency see different circuits.',
+    body: 'The short exposed feed runs from the spring back to the copper edge. D301 shunts a static-discharge surge to ground. L301 provides a DC return from the exposed cap and also participates in the RF match. It is a branch to ground, not a component in series with the signal.',
+    fact: 'The proposed 22 nH inductor has about +j100 Ω reactance at 722 MHz, even though its DC resistance is small. The proposed suppressor is ≤ 0.3 pF; its capacitance must be included when tuning.',
+    why: 'Ground copper ends at X = 63 mm; the board continues to X = 68 mm. The feed trace and finger beyond the copper edge are part of the antenna geometry, not a normal 50 Ω transmission line.' },
+  { name: 'Matching network', tag: 'L302 ∥ C302 → C303 → C304 + trim',
+    title: 'Translate the antenna’s impedance for the radio.',
+    body: 'Impedance describes both how much voltage is needed for a current and how their timing differs. The capacitive, electrically small antenna generally does not look like 50 Ω. Series and shunt reactances reshape that relationship so more of the traveling wave is accepted at the radio-side port.',
+    fact: 'The v3 starting network has L302 15 nH in parallel with C302 1.0 pF, then shunt C303 1.5 pF and series C304 3.3 pF when traced toward the IC. Spare positions allow tuning.',
+    why: 'The parallel LC pair changes from inductive below its ~1.30 GHz resonance to capacitive above it. This gives the design flexibility in both low and high cellular bands. These values do not establish a successful match.' },
+  { name: '50 Ω route', tag: 'R301 → J301 → C301 → ANT',
+    title: 'A trace and its return path guide the wave together.',
+    body: 'On the grounded part of the board, a coplanar waveguide carries energy in the fields around the signal trace and nearby ground. The trace width, ground spacing, dielectric, and layer spacing set its characteristic impedance. The continuous ground under it gives RF return current a nearby path.',
+    fact: 'R301 begins as a 0 Ω series spare. J301 is a normally-through RF test switch. C301 is a proposed 100 pF series DC block. The grounded RF route targets 50 Ω; its final dimensions depend on the fabrication stackup.',
+    why: '50 Ω is a traveling-wave voltage/current ratio, not 50 Ω of copper resistance. A slotted ground, long shunt connection, or arbitrary trace-width change alters the fields and can introduce reflections.' },
+  { name: 'nRF9151 IC', tag: 'ANT · pin 35 · single-ended 50 Ω interface',
+    title: 'The IC turns an analog wave back into information.',
+    body: 'The RF pin carries a continuously varying voltage relative to the IC ground. Inside the radio, the receiver amplifies, filters, and downconverts the selected channel. The modem then estimates symbols, decodes the protected data, and delivers a packet to the application processor.',
+    fact: 'Transmit runs the process in the opposite direction: encoded symbols control an RF waveform, and the transmitter drives the antenna interface. The passive antenna and match work in both directions.',
+    why: 'The aluminum never recognizes a boop or a bit. The modem recognizes patterns in the received signal. Network registration, cellular coverage, software, and the delivery service complete communication.' }
+];
+
+export const deliverySteps = [
+  ['A gesture becomes data.', 'The application turns a crown press into a small message. Error-correcting codes, synchronization, and cellular framing are added before transmission.'],
+  ['The modem shapes a carrier.', 'The transmitter maps coded bits into symbols and drives an RF waveform through ANT, the matching network, and the cap-and-ground antenna. The symbol demonstration below shows only one building block.'],
+  ['A cell tower receives the field.', 'An arriving electromagnetic wave produces a tiny RF signal in the tower’s antenna. Its receiver synchronizes, estimates the symbols, and decodes the uplink.'],
+  ['The network routes the message.', 'The cellular network and the application’s delivery service route the packet toward the paired device. This is not a direct radio link between the two keychains.'],
+  ['Their IC recovers the message.', 'A downlink field induces an RF voltage in their antenna. The feed and matching network transfer it to the nRF9151 receiver; decoded data makes their device respond.']
+];

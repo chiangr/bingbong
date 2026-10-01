@@ -67,7 +67,7 @@ export async function createScene(container,{capture=false,bake=false,warmup=war
   function project(point,product=main){product.group.updateMatrixWorld();const p=point.clone().applyMatrix4(product.group.matrixWorld).project(camera);return{x:(p.x+1)*width/2,y:(1-p.y)*height/2};}
   function projectCrown(){return project(new THREE.Vector3(-44,0,0));}
   function draw(time=performance.now()){
-    if(disposed)return;animation=0;
+    animation=0;if(disposed||viewHidden())return;
     const delta=Math.min(.05,Math.max(.001,(time-lastTime)/1000));lastTime=time;const t=time/1000;const f=frame;
     const ease=f.reduced?1:1-Math.exp(-delta*9);
     for(const key of numerical){const value=target(key);current[key]=f.scrollDriven&&spatial.has(key)?value:(current[key]??value)+(value-(current[key]??value))*ease;}
@@ -98,9 +98,10 @@ export async function createScene(container,{capture=false,bake=false,warmup=war
     const pin=document.querySelector('.part-pin');
     if(pin&&assembly&&current.study>.001){const point=assembly.anchor(assembly.selected)?.project(camera);if(point){const px=(point.x+1)*width/2,py=(1-point.y)*height/2;pin.style.left=`${Math.min(width-150,Math.max(30,px))}px`;pin.style.top=`${py}px`;pin.style.opacity=String(current.study*assembly.parts[assembly.selected].opacity*Math.max(0,(Math.max(...(f.weights??[1]))-.6)/.4)*(py>85&&py<height*(width<700?.42:.85)?1:0));}}else if(pin)pin.style.opacity='0';
     const unsettled=numerical.some(key=>Math.abs(target(key)-current[key])>.0001)||Math.abs(orbit.x-orbitNow.x)+Math.abs(orbit.y-orbitNow.y)>.0001;
-    if(!document.hidden&&(!f.reduced||unsettled))animation=requestAnimationFrame(draw);
+    if(!viewHidden()&&(!f.reduced||unsettled))animation=requestAnimationFrame(draw);
   }
-  function wake(){if(ready&&!animation&&!disposed&&!contextLost&&!document.hidden)animation=requestAnimationFrame(draw);}
+  const viewHidden=()=>document.hidden||document.body.classList.contains('rf-lab-open');
+  function wake(){if(ready&&!animation&&!disposed&&!contextLost&&!viewHidden())animation=requestAnimationFrame(draw);}
   function setFrame(next){frame={...next};if(!initialized){for(const key of numerical)current[key]=target(key);initialized=true;}wake();}
   function anchorView(){if(orbitChapter!==frame.chapter){const weight=(frame.weights?.[orbitChapter]??0)/(frame.weights?.[frame.chapter]||1);orbit.x*=weight;orbit.y*=weight;orbitNow.x*=weight;orbitNow.y*=weight;orbitChapter=frame.chapter;}}
   function hit(event){const rect=container.getBoundingClientRect();mouse.set((event.clientX-rect.left)/width*2-1,-(event.clientY-rect.top)/height*2+1);raycaster.setFromCamera(mouse,camera);return raycaster.intersectObject(main.group,true).find(hit=>hit.object.visible&&(!assembly||!hit.object.userData.partId||hit.object.userData.pickOpacity>.2));}
@@ -109,10 +110,10 @@ export async function createScene(container,{capture=false,bake=false,warmup=war
   const onUp=e=>{if(e?.type==='lostpointercapture'&&(e.target!==container||container.hasPointerCapture(e.pointerId)))return;if(e?.type==='pointerup'&&drag?.part&&frame.study>.5&&Math.hypot(e.clientX-drag.startX,e.clientY-drag.startY)<6)container.dispatchEvent(new CustomEvent('partselect',{detail:drag.part,bubbles:true}));drag=null;container.classList.remove('is-dragging');};
   container.addEventListener('pointerdown',onDown);container.addEventListener('pointermove',onMove);for(const type of ['pointerup','pointercancel','lostpointercapture'])container.addEventListener(type,onUp);
   const observer=new ResizeObserver(resize);observer.observe(container);resize();
-  const visibility=()=>{if(document.hidden){cancelAnimationFrame(animation);animation=0;onUp();}else{lastTime=performance.now();wake();}};document.addEventListener('visibilitychange',visibility);
+  const visibility=()=>{if(viewHidden()){cancelAnimationFrame(animation);animation=0;onUp();}else{lastTime=performance.now();wake();}};document.addEventListener('visibilitychange',visibility);document.addEventListener('rf-lab-visibility',visibility);
   const lost=e=>{e.preventDefault();contextLost=true;cancelAnimationFrame(animation);animation=0;document.body.classList.add('no-webgl');};renderer.domElement.addEventListener('webglcontextlost',lost);
   renderer.domElement.addEventListener('webglcontextrestored',async()=>{try{environment.texture.needsUpdate=true;for(const material of materials)material.needsUpdate=true;await renderer.compileAsync(scene,camera);contextLost=false;document.body.classList.remove('no-webgl');wake();}catch{document.body.classList.add('no-webgl');}});
   // KHR_parallel_shader_compile lets the browser remain responsive during setup.
   await yieldTask();await renderer.compileAsync(scene,camera);main.update({halo:1});await renderer.compileAsync(scene,camera);ready=true;
-  return{setFrame,projectCrown,renderer,main,other,draw,prepareAssembly,get assembly(){return assembly;},selectPart(id){assembly?.select(id);wake();},get environment(){return environment;},get orbit(){return {...orbit};},rotateView(direction){anchorView();orbit.y+=direction*Math.PI/5;wake();},resetView(){orbit.x=0;orbit.y=0;wake();},dispose(){disposed=true;cancelAnimationFrame(animation);observer.disconnect();document.removeEventListener('visibilitychange',visibility);scene.traverse(o=>{o.geometry?.dispose();if(o.material)o.material.dispose();});environment.dispose();renderer.dispose();}};
+  return{setFrame,projectCrown,renderer,main,other,draw,prepareAssembly,get assembly(){return assembly;},selectPart(id){assembly?.select(id);wake();},get environment(){return environment;},get orbit(){return {...orbit};},rotateView(direction){anchorView();orbit.y+=direction*Math.PI/5;wake();},resetView(){orbit.x=0;orbit.y=0;wake();},dispose(){disposed=true;cancelAnimationFrame(animation);observer.disconnect();document.removeEventListener('visibilitychange',visibility);document.removeEventListener('rf-lab-visibility',visibility);scene.traverse(o=>{o.geometry?.dispose();if(o.material)o.material.dispose();});environment.dispose();renderer.dispose();}};
 }

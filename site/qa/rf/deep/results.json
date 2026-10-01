@@ -1,0 +1,401 @@
+{
+  "date": "2026-09-24T21:25:19.265Z",
+  "checks": [
+    {
+      "name": "Every QPSK phase integrates to A cos φ and A sin φ",
+      "pass": true
+    },
+    {
+      "name": "All 95 printable ASCII characters survive clean modulation and demodulation",
+      "pass": true
+    },
+    {
+      "name": "HI has the agreed byte and symbol sequence",
+      "pass": true
+    },
+    {
+      "name": "Empty, non-ASCII, and overlong inputs are rejected",
+      "pass": true
+    },
+    {
+      "name": "No elapsed time means zero accumulated I and Q",
+      "pass": true
+    },
+    {
+      "name": "A phase offset below 45 degrees stays inside each quadrant",
+      "pass": true
+    },
+    {
+      "name": "A 60-degree rotation corrupts unaligned data",
+      "pass": true
+    },
+    {
+      "name": "Measured known-pilot alignment recovers the phase and message",
+      "pass": true
+    },
+    {
+      "name": "A known 45-degree pilot observed at 105 degrees reveals 60 degrees",
+      "pass": true
+    },
+    {
+      "name": "Strong repeatable interference creates real decision errors",
+      "pass": true
+    },
+    {
+      "name": "At parallel resonance branch currents cancel while energy is conserved",
+      "pass": true
+    },
+    {
+      "name": "LC net current agrees with the reciprocal of its reactance",
+      "pass": true
+    },
+    {
+      "name": "Matched, shorted, and open boundaries have the correct reflected phase",
+      "pass": true
+    },
+    {
+      "name": "Complex reflected amplitude squared agrees with independent circuit power",
+      "pass": true
+    },
+    {
+      "name": "Shared field controls keep charge, derivative, and units synchronized 1440",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion field advances the traveling wave by one step 1440",
+      "pass": true
+    },
+    {
+      "name": "All 16 real component positions synchronize the inspector and schematic 1440",
+      "pass": true
+    },
+    {
+      "name": "Inductor current peaks a quarter-cycle after voltage 1440",
+      "pass": true
+    },
+    {
+      "name": "Resonance exposes equal, opposite branch currents 1440",
+      "pass": true
+    },
+    {
+      "name": "Near-zero input current has no misleading arrow 1440",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion LC control steps without starting an animation 1440",
+      "pass": true
+    },
+    {
+      "name": "Local equation controls expose the initial capacitive load 1440",
+      "pass": true
+    },
+    {
+      "name": "Canceling reactance still leaves a resistance mismatch 1440",
+      "pass": true
+    },
+    {
+      "name": "The equation walkthrough uses the actual bench calculation 1440",
+      "pass": true
+    },
+    {
+      "name": "A matched load removes the reflected wave 1440",
+      "pass": true
+    },
+    {
+      "name": "An open load restores unit reflected amplitude 1440",
+      "pass": true
+    },
+    {
+      "name": "A half-symbol integral does not pretend to be a completed decision 1440",
+      "pass": true
+    },
+    {
+      "name": "Four two-bit decisions recover the first ASCII byte 1440",
+      "pass": true
+    },
+    {
+      "name": "Eight symbol decisions recover HI 1440",
+      "pass": true
+    },
+    {
+      "name": "Rotating the received phase visibly corrupts the message 1440",
+      "pass": true
+    },
+    {
+      "name": "Known-pilot measurement aligns the receiver and restores HI 1440",
+      "pass": true
+    },
+    {
+      "name": "Added interference can change decisions even with a fixed carrier 1440",
+      "pass": true
+    },
+    {
+      "name": "Custom text is decoded and rendered safely as text 1440",
+      "pass": true
+    },
+    {
+      "name": "The whole-message waveform keeps the selected symbol in view 1440",
+      "pass": true
+    },
+    {
+      "name": "Invalid text disables decoding and hides stale waveforms 1440",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion users can recover an entire message instantly 1440",
+      "pass": true
+    },
+    {
+      "name": "Long message waveform scrolls within its own region 1440",
+      "pass": true
+    },
+    {
+      "name": "The worked first H symbol yields I negative, Q positive, and 01 1440",
+      "pass": true
+    },
+    {
+      "name": "Expanded chapter 1 is accessible 1440",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Expanded chapter 2 is accessible 1440",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Expanded chapter 3 is accessible 1440",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Expanded chapter 4 is accessible 1440",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "part animation advances 1440",
+      "pass": true
+    },
+    {
+      "name": "part animation pauses 1440",
+      "pass": true
+    },
+    {
+      "name": "lc animation advances 1440",
+      "pass": true
+    },
+    {
+      "name": "lc animation pauses 1440",
+      "pass": true
+    },
+    {
+      "name": "Reflected-wave animation advances 1440",
+      "pass": true
+    },
+    {
+      "name": "Leaving a chapter stops its animation 1440",
+      "pass": true
+    },
+    {
+      "name": "Receiver animation accumulates before deciding 1440",
+      "pass": true
+    },
+    {
+      "name": "Pausing the receiver preserves its running integral 1440",
+      "pass": true
+    },
+    {
+      "name": "Resuming continues from the partial symbol 1440",
+      "pass": true
+    },
+    {
+      "name": "Receiver animation decides at a full symbol boundary 1440",
+      "pass": true
+    },
+    {
+      "name": "Closing the lab stops the receiver 1440",
+      "pass": true
+    },
+    {
+      "name": "Shared field controls keep charge, derivative, and units synchronized 390",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion field advances the traveling wave by one step 390",
+      "pass": true
+    },
+    {
+      "name": "All 16 real component positions synchronize the inspector and schematic 390",
+      "pass": true
+    },
+    {
+      "name": "Inductor current peaks a quarter-cycle after voltage 390",
+      "pass": true
+    },
+    {
+      "name": "Resonance exposes equal, opposite branch currents 390",
+      "pass": true
+    },
+    {
+      "name": "Near-zero input current has no misleading arrow 390",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion LC control steps without starting an animation 390",
+      "pass": true
+    },
+    {
+      "name": "Local equation controls expose the initial capacitive load 390",
+      "pass": true
+    },
+    {
+      "name": "Canceling reactance still leaves a resistance mismatch 390",
+      "pass": true
+    },
+    {
+      "name": "The equation walkthrough uses the actual bench calculation 390",
+      "pass": true
+    },
+    {
+      "name": "A matched load removes the reflected wave 390",
+      "pass": true
+    },
+    {
+      "name": "An open load restores unit reflected amplitude 390",
+      "pass": true
+    },
+    {
+      "name": "A half-symbol integral does not pretend to be a completed decision 390",
+      "pass": true
+    },
+    {
+      "name": "Four two-bit decisions recover the first ASCII byte 390",
+      "pass": true
+    },
+    {
+      "name": "Eight symbol decisions recover HI 390",
+      "pass": true
+    },
+    {
+      "name": "Rotating the received phase visibly corrupts the message 390",
+      "pass": true
+    },
+    {
+      "name": "Known-pilot measurement aligns the receiver and restores HI 390",
+      "pass": true
+    },
+    {
+      "name": "Phone keeps recovered text visible during channel changes 390",
+      "pass": true,
+      "detail": {
+        "x": 24,
+        "y": 159,
+        "width": 342,
+        "height": 94
+      }
+    },
+    {
+      "name": "Added interference can change decisions even with a fixed carrier 390",
+      "pass": true
+    },
+    {
+      "name": "Custom text is decoded and rendered safely as text 390",
+      "pass": true
+    },
+    {
+      "name": "The whole-message waveform keeps the selected symbol in view 390",
+      "pass": true
+    },
+    {
+      "name": "Invalid text disables decoding and hides stale waveforms 390",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion users can recover an entire message instantly 390",
+      "pass": true
+    },
+    {
+      "name": "Long message waveform scrolls within its own region 390",
+      "pass": true
+    },
+    {
+      "name": "The worked first H symbol yields I negative, Q positive, and 01 390",
+      "pass": true
+    },
+    {
+      "name": "Expanded chapter 1 is accessible 390",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Expanded chapter 2 is accessible 390",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Expanded chapter 3 is accessible 390",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Expanded chapter 4 is accessible 390",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "part animation advances 390",
+      "pass": true
+    },
+    {
+      "name": "part animation pauses 390",
+      "pass": true
+    },
+    {
+      "name": "lc animation advances 390",
+      "pass": true
+    },
+    {
+      "name": "lc animation pauses 390",
+      "pass": true
+    },
+    {
+      "name": "Reflected-wave animation advances 390",
+      "pass": true
+    },
+    {
+      "name": "Leaving a chapter stops its animation 390",
+      "pass": true
+    },
+    {
+      "name": "Receiver animation accumulates before deciding 390",
+      "pass": true
+    },
+    {
+      "name": "Pausing the receiver preserves its running integral 390",
+      "pass": true
+    },
+    {
+      "name": "Resuming continues from the partial symbol 390",
+      "pass": true
+    },
+    {
+      "name": "Receiver animation decides at a full symbol boundary 390",
+      "pass": true
+    },
+    {
+      "name": "Closing the lab stops the receiver 390",
+      "pass": true
+    },
+    {
+      "name": "The standalone artifact includes the calculated message receiver",
+      "pass": true
+    },
+    {
+      "name": "No expanded-lesson browser exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

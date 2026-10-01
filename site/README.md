@@ -31,6 +31,7 @@ Deploy the contents of `dist/` to a static host at the domain root. No server, a
 - In **Inside**, select a component button or click the 3D part to read how it is made and fitted. The crown opens into ten component groups.
 - In **The mechanical click**, step the race forward or backward. Exactly two ceramic balls move against the 24 grooves while the BeCu leaves deflect.
 - In **The cap and antenna**, trace the board → spring finger → plated land → cap connection. The cap is turned to expose its underside; the board is cropped to the RF edge.
+- Open **RF lab** in the navigation or antenna chapter, or visit `/#rf-lab`, for a four-part interactive study. Follow equations from charge and current to traveling fields; inspect all 16 proposed RF component positions; animate LC branch currents and reflected waves; and decode a typed message through actual I/Q mixing and integration. The receiver exposes symbol boundaries, phase errors, a known pilot, and interference. The matching bench and receiver use documented teaching models, not measured bingbong antenna data or a complete LTE PHY. Escape or Back returns to the product; a static primer remains available without JavaScript.
 - In **Coming together**, scroll, scrub, play, pause or reset the six-stage assembly. On phones the compact controller remains below the object while its introduction scrolls away.
 - Sound is opt-in. Reduced motion stops ambient movement and scroll catch-up; the object follows the user's scroll directly and retains manual interaction.
 
@@ -48,6 +49,11 @@ Deploy the contents of `dist/` to a static host at the domain root. No server, a
 | `src/components/product-model.js` | Parametric exterior in millimetres; materials, crown, display and halo |
 | `src/components/assembly-model.js`, `assembly-geometry.js` | Lazy internal geometry, cutaways, spring motion and fitting paths |
 | `src/assembly-data.js`, `assembly-interactions.js`, `assembly.css` | Component catalogue, manufacturing notes and assembly controls |
+| `src/sections/rf-lab.js`, `src/rf-content.js`, `src/rf-lab.js`, `src/rf-lab.css` | RF study content, schematic, accessible modal, and experiments |
+| `src/rf-model.js` | Auditable passive-circuit calculations for the educational matching bench |
+| `src/rf-components.js` | Component-by-component explanations of the working RF schematic, including DNP positions |
+| `src/rf-lessons-content.js`, `src/rf-lessons.js`, `src/rf-lessons.css` | Detailed first-principles equations, animations, and worked receiver interface |
+| `src/rf-signal.js` | Independent models for QPSK encoding/mixing, pilot phase measurement, LC currents, and complex reflection |
 | `src/components/studio.js` | Source of the studio lighting environment |
 | `src/components/mascot.js` | Original wordless creature and animated reactions |
 | `src/interactions.js` | Pet, boop, hold, sound and timer lifecycle |
@@ -68,12 +74,16 @@ node scripts/live-check.mjs
 node scripts/scroll-check.mjs
 node scripts/assembly-check.mjs
 node scripts/delivery-check.mjs
+node scripts/rf-check.mjs
+node scripts/rf-lessons-check.mjs
 node scripts/lighthouse.mjs
 ```
 
 QA uses installed Google Chrome through Playwright. The main suite captures every chapter at 390, 820, 1440 and 1920 px, in both system themes and motion settings. The fixed midnight palette is intentional in both themes. The scroll suite measures rendered movement across every chapter in both directions, including reduced motion, intermediate stops, screen/halo fades, mobile clipping, wheel input and boop navigation. Additional checks cover 360 px, touch, keyboard, live startup, object rotation, graphics-context recovery, no JavaScript, offline reload and the standalone file.
 
 See [DESIGN_NOTES.md](DESIGN_NOTES.md) for measured results and limitations. Browser-emulated touch/performance is not a physical-phone test.
+
+The RF checks cover analytical circuit reference cases, energy conservation, all four study panels at 360/390/820/1440 px, keyboard and reduced-motion interactions, browser history, accessibility, the static primer, and the standalone HTML. The expanded lesson checks add analytic I/Q identities, all printable ASCII round-trips, phase/pilot recovery, LC current cancellation and energy conservation, each component inspector, partial-symbol decisions, custom and invalid inputs, animation lifecycle, and a visible phone readout. Evidence is in `qa/rf/` and `qa/rf/deep/`. See [the RF source register](qa/rf/source-register.md) for design authority, model assumptions, and the report/schematic test-port discrepancy.
 
 The physical facts and wording come from `SITE_BRIEF.md` and the local engineering reports. The assembly study uses the September 19 report's coaxial reference build; crown architecture/materials, rotary seal, sensor/contact choices and RF results remain open. This is an explanatory model, not production CAD. [Assembly source register](qa/assembly/source-register.md) records the component references. Fonts are self-hosted under the SIL Open Font License; licences accompany them. Three.js's MIT notice is in `public/THIRD_PARTY_NOTICES.txt`. Earlier source/static archives are preserved in `revisions/first-build/` and `revisions/scroll-edition/`.
 

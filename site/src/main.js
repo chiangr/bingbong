@@ -3,8 +3,11 @@ import { createInteractions } from './interactions.js';
 import { assetUrl } from './assets.js';
 import { createAssemblyInteractions } from './assembly-interactions.js';
 import { warmGraphics } from './components/graphics-warmup.js';
+import { createRFLab } from './rf-lab.js';
+import './rf-lab.css';
 
 const body=document.body;body.classList.add('enhanced');
+createRFLab();
 // Download the renderer and prepare the graphics driver while the page measures
 // its scroll track. Neither needs to wait for the first synchronous layout.
 const graphicsWarmup=warmGraphics(),sceneModule=import('./components/scene.js');

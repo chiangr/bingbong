@@ -1,0 +1,592 @@
+{
+  "date": "2026-09-24T21:23:23.405Z",
+  "checks": [
+    {
+      "name": "Unmatched 10 − j150 Ω load has the analytical reflection",
+      "pass": true
+    },
+    {
+      "name": "Reactance cancellation leaves a resistance mismatch",
+      "pass": true
+    },
+    {
+      "name": "The bare load can be matched including coil loss",
+      "pass": true
+    },
+    {
+      "name": "The hand load can be matched including coil loss",
+      "pass": true
+    },
+    {
+      "name": "The contact load can be matched including coil loss",
+      "pass": true
+    },
+    {
+      "name": "A matched resistor accepts everything and radiates nothing",
+      "pass": true
+    },
+    {
+      "name": "An ideal disconnected feed reflects everything",
+      "pass": true
+    },
+    {
+      "name": "An open antenna leaves the shunt capacitor visible at the input",
+      "pass": true
+    },
+    {
+      "name": "Power is nonnegative and conserved across 300 circuit cases",
+      "pass": true
+    },
+    {
+      "name": "A fixed match detunes away from its design frequency",
+      "pass": true
+    },
+    {
+      "name": "Retuning the hypothetical hand cannot recover its absorption loss",
+      "pass": true
+    },
+    {
+      "name": "The real topology’s ideal parallel LC changes sign between bands",
+      "pass": true
+    },
+    {
+      "name": "Direct RF link opens the modal 1440",
+      "pass": true
+    },
+    {
+      "name": "Phase scrub reverses the charge 1440",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion advances one quarter-cycle 1440",
+      "pass": true
+    },
+    {
+      "name": "Chapter 1 accessibility 1440",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 1 has no page overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Chapter 2 accessibility 1440",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 2 has no page overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Chapter 3 accessibility 1440",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 3 has no page overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Chapter 4 accessibility 1440",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 4 has no page overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "All six physical stages select their schematic 1440",
+      "pass": true
+    },
+    {
+      "name": "Transmit reverses the accessible path order 1440",
+      "pass": true
+    },
+    {
+      "name": "High-band LC explanation becomes capacitive 1440",
+      "pass": true
+    },
+    {
+      "name": "Matching controls produce 50 Ω with low reflection 1440",
+      "pass": true
+    },
+    {
+      "name": "Adding the hand detunes a fixed match 1440",
+      "pass": true
+    },
+    {
+      "name": "Retuning the hand lowers reflection but retains absorption 1440",
+      "pass": true
+    },
+    {
+      "name": "UI shows matched resistor’s zero useful radiation 1440",
+      "pass": true
+    },
+    {
+      "name": "Broken feed disables matching with an explanation 1440",
+      "pass": true
+    },
+    {
+      "name": "Slider works from keyboard 1440",
+      "pass": true
+    },
+    {
+      "name": "QPSK selection changes both phase and waveform 1440",
+      "pass": true
+    },
+    {
+      "name": "Message journey reaches the other IC 1440",
+      "pass": true
+    },
+    {
+      "name": "Tab keyboard navigation selects and focuses first chapter 1440",
+      "pass": true
+    },
+    {
+      "name": "Escape closes a shared link at the antenna chapter 1440",
+      "pass": true
+    },
+    {
+      "name": "Browser Back restores the product and its scroll 1440",
+      "pass": true
+    },
+    {
+      "name": "Browser Forward reopens the study 1440",
+      "pass": true
+    },
+    {
+      "name": "Field cycle advances and pauses 1440",
+      "pass": true
+    },
+    {
+      "name": "Fast history navigation retains modal state 1440",
+      "pass": true
+    },
+    {
+      "name": "Background WebGL pauses while the RF lab covers it 1440",
+      "pass": true
+    },
+    {
+      "name": "The live product resumes after closing 1440",
+      "pass": true
+    },
+    {
+      "name": "Direct RF link opens the modal 820",
+      "pass": true
+    },
+    {
+      "name": "Phase scrub reverses the charge 820",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion advances one quarter-cycle 820",
+      "pass": true
+    },
+    {
+      "name": "Chapter 1 accessibility 820",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 1 has no page overflow 820",
+      "pass": true
+    },
+    {
+      "name": "Chapter 2 accessibility 820",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 2 has no page overflow 820",
+      "pass": true
+    },
+    {
+      "name": "Chapter 3 accessibility 820",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 3 has no page overflow 820",
+      "pass": true
+    },
+    {
+      "name": "Chapter 4 accessibility 820",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 4 has no page overflow 820",
+      "pass": true
+    },
+    {
+      "name": "All six physical stages select their schematic 820",
+      "pass": true
+    },
+    {
+      "name": "Transmit reverses the accessible path order 820",
+      "pass": true
+    },
+    {
+      "name": "High-band LC explanation becomes capacitive 820",
+      "pass": true
+    },
+    {
+      "name": "Matching controls produce 50 Ω with low reflection 820",
+      "pass": true
+    },
+    {
+      "name": "Adding the hand detunes a fixed match 820",
+      "pass": true
+    },
+    {
+      "name": "Retuning the hand lowers reflection but retains absorption 820",
+      "pass": true
+    },
+    {
+      "name": "UI shows matched resistor’s zero useful radiation 820",
+      "pass": true
+    },
+    {
+      "name": "Broken feed disables matching with an explanation 820",
+      "pass": true
+    },
+    {
+      "name": "Slider works from keyboard 820",
+      "pass": true
+    },
+    {
+      "name": "QPSK selection changes both phase and waveform 820",
+      "pass": true
+    },
+    {
+      "name": "Message journey reaches the other IC 820",
+      "pass": true
+    },
+    {
+      "name": "Tab keyboard navigation selects and focuses first chapter 820",
+      "pass": true
+    },
+    {
+      "name": "Escape closes a shared link at the antenna chapter 820",
+      "pass": true
+    },
+    {
+      "name": "Browser Back restores the product and its scroll 820",
+      "pass": true
+    },
+    {
+      "name": "Browser Forward reopens the study 820",
+      "pass": true
+    },
+    {
+      "name": "Field cycle advances and pauses 820",
+      "pass": true
+    },
+    {
+      "name": "Fast history navigation retains modal state 820",
+      "pass": true
+    },
+    {
+      "name": "Background WebGL pauses while the RF lab covers it 820",
+      "pass": true
+    },
+    {
+      "name": "The live product resumes after closing 820",
+      "pass": true
+    },
+    {
+      "name": "Direct RF link opens the modal 390",
+      "pass": true
+    },
+    {
+      "name": "Phase scrub reverses the charge 390",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion advances one quarter-cycle 390",
+      "pass": true
+    },
+    {
+      "name": "Chapter 1 accessibility 390",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 1 has no page overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Chapter 2 accessibility 390",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 2 has no page overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Chapter 3 accessibility 390",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 3 has no page overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Chapter 4 accessibility 390",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 4 has no page overflow 390",
+      "pass": true
+    },
+    {
+      "name": "All six physical stages select their schematic 390",
+      "pass": true
+    },
+    {
+      "name": "Transmit reverses the accessible path order 390",
+      "pass": true
+    },
+    {
+      "name": "High-band LC explanation becomes capacitive 390",
+      "pass": true
+    },
+    {
+      "name": "Matching controls produce 50 Ω with low reflection 390",
+      "pass": true
+    },
+    {
+      "name": "Adding the hand detunes a fixed match 390",
+      "pass": true
+    },
+    {
+      "name": "Retuning the hand lowers reflection but retains absorption 390",
+      "pass": true
+    },
+    {
+      "name": "UI shows matched resistor’s zero useful radiation 390",
+      "pass": true
+    },
+    {
+      "name": "Broken feed disables matching with an explanation 390",
+      "pass": true
+    },
+    {
+      "name": "Slider works from keyboard 390",
+      "pass": true
+    },
+    {
+      "name": "Phone readout stays visible beside the tuning interaction 390",
+      "pass": true,
+      "detail": {
+        "x": 24,
+        "y": 159,
+        "width": 342,
+        "height": 67.84375
+      }
+    },
+    {
+      "name": "QPSK selection changes both phase and waveform 390",
+      "pass": true
+    },
+    {
+      "name": "Message journey reaches the other IC 390",
+      "pass": true
+    },
+    {
+      "name": "Tab keyboard navigation selects and focuses first chapter 390",
+      "pass": true
+    },
+    {
+      "name": "Escape closes a shared link at the antenna chapter 390",
+      "pass": true
+    },
+    {
+      "name": "Browser Back restores the product and its scroll 390",
+      "pass": true
+    },
+    {
+      "name": "Browser Forward reopens the study 390",
+      "pass": true
+    },
+    {
+      "name": "Field cycle advances and pauses 390",
+      "pass": true
+    },
+    {
+      "name": "Fast history navigation retains modal state 390",
+      "pass": true
+    },
+    {
+      "name": "Background WebGL pauses while the RF lab covers it 390",
+      "pass": true
+    },
+    {
+      "name": "The live product resumes after closing 390",
+      "pass": true
+    },
+    {
+      "name": "Direct RF link opens the modal 360",
+      "pass": true
+    },
+    {
+      "name": "Phase scrub reverses the charge 360",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion advances one quarter-cycle 360",
+      "pass": true
+    },
+    {
+      "name": "Chapter 1 accessibility 360",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 1 has no page overflow 360",
+      "pass": true
+    },
+    {
+      "name": "Chapter 2 accessibility 360",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 2 has no page overflow 360",
+      "pass": true
+    },
+    {
+      "name": "Chapter 3 accessibility 360",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 3 has no page overflow 360",
+      "pass": true
+    },
+    {
+      "name": "Chapter 4 accessibility 360",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Chapter 4 has no page overflow 360",
+      "pass": true
+    },
+    {
+      "name": "All six physical stages select their schematic 360",
+      "pass": true
+    },
+    {
+      "name": "Transmit reverses the accessible path order 360",
+      "pass": true
+    },
+    {
+      "name": "High-band LC explanation becomes capacitive 360",
+      "pass": true
+    },
+    {
+      "name": "Matching controls produce 50 Ω with low reflection 360",
+      "pass": true
+    },
+    {
+      "name": "Adding the hand detunes a fixed match 360",
+      "pass": true
+    },
+    {
+      "name": "Retuning the hand lowers reflection but retains absorption 360",
+      "pass": true
+    },
+    {
+      "name": "UI shows matched resistor’s zero useful radiation 360",
+      "pass": true
+    },
+    {
+      "name": "Broken feed disables matching with an explanation 360",
+      "pass": true
+    },
+    {
+      "name": "Slider works from keyboard 360",
+      "pass": true
+    },
+    {
+      "name": "Phone readout stays visible beside the tuning interaction 360",
+      "pass": true,
+      "detail": {
+        "x": 24,
+        "y": 159,
+        "width": 312,
+        "height": 67.84375
+      }
+    },
+    {
+      "name": "QPSK selection changes both phase and waveform 360",
+      "pass": true
+    },
+    {
+      "name": "Message journey reaches the other IC 360",
+      "pass": true
+    },
+    {
+      "name": "Tab keyboard navigation selects and focuses first chapter 360",
+      "pass": true
+    },
+    {
+      "name": "Escape closes a shared link at the antenna chapter 360",
+      "pass": true
+    },
+    {
+      "name": "Browser Back restores the product and its scroll 360",
+      "pass": true
+    },
+    {
+      "name": "Browser Forward reopens the study 360",
+      "pass": true
+    },
+    {
+      "name": "Field cycle advances and pauses 360",
+      "pass": true
+    },
+    {
+      "name": "Fast history navigation retains modal state 360",
+      "pass": true
+    },
+    {
+      "name": "Background WebGL pauses while the RF lab covers it 360",
+      "pass": true
+    },
+    {
+      "name": "The live product resumes after closing 360",
+      "pass": true
+    },
+    {
+      "name": "No-JavaScript RF link reaches a complete static primer",
+      "pass": true
+    },
+    {
+      "name": "Static primer has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Standalone HTML includes a working RF experiment",
+      "pass": true
+    },
+    {
+      "name": "Standalone RF lab makes no network requests",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No RF browser exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

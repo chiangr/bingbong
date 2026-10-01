@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-24T21:26:37.099Z",
+  "checks": [
+    {
+      "name": "Readable LC labels and reflection scroll at 390",
+      "pass": true,
+      "overflow": 0,
+      "scroll": true,
+      "violations": []
+    },
+    {
+      "name": "Readable LC labels and reflection scroll at 360",
+      "pass": true,
+      "overflow": 0,
+      "scroll": true,
+      "violations": []
+    },
+    {
+      "name": "No browser exceptions",
+      "pass": true,
+      "errors": []
+    }
+  ]
+}
