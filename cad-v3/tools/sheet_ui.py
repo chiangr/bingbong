@@ -64,8 +64,8 @@ S.junction(cx)
 r504 = res("R504", "2k2", cx[0] + 13.97, cx[1], rot=90)
 S.wire(cx, r504.pin(1))
 e = S.place("Connector_Generic:Conn_01x01", stock("Connector_Generic", "Conn_01x01"), "E501", "GRIP RING",
-            r504.pin(2)[0] + 10.16, cx[1], rot=180, footprint="Bingbong_v3:SpringContact_TBD",
-            fields={"MPN": "spring contact to buried 316L ring [U]"}, ref_off=(0, -3), val_off=(0, 3.5))
+            r504.pin(2)[0] + 10.16, cx[1], rot=180, footprint="Bingbong_v3:Harwin_S7141-45R",
+            fields={"MPN": "Harwin S7141-45R"}, ref_off=(0, -3), val_off=(0, 3.5))
 S.wire(r504.pin(2), e.pin(1))
 # supply group
 yg = 95.25
@@ -81,7 +81,9 @@ cap_group("IQS_VREG", (("C503", "4.7uF", C0402), ("C504", "100pF", C0402)), 71.1
 pullup("R505", "4.7k", 104.14, yg + 3.81, "IQS_SCL")
 pullup("R506", "4.7k", 119.38, yg + 3.81, "IQS_SDA")
 S.text((19, 27), "Detects a hand around the body. Its sense pin (Cx) measures the capacitance of a metal ring\n"
-                 "buried inside the crown-end wall (E501 is the spring contact to that ring).", NOTE)
+                 "buried inside the crown-end wall (E501 is the spring contact to that ring).\n"
+                 "E501 = Harwin S7141-45R (same part as J302), top side at the crown-end edge: it presses up\n"
+                 "on a plated tab of the ring that reaches over the board, land z = 1.65 above the PCB top.", NOTE)
 S.text((85, 70), "R504 2k2 + C505 10 pF: low-pass so\n"
                  "the 700 MHz / 23 dBm LTE burst is not\n"
                  "rectified into false touches (report 5.13).\n"

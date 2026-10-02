@@ -336,7 +336,7 @@ for n, x in ((1, -0.675), (2, 0.675)):
     f.smd(str(n), x, 0, 0.65, 0.7, mask=0.05)
 made.append(f.write())
 
-# ---- Harwin S7141-45R SMT spring finger (J302) — Customer Information Sheet S7141-45R iss.5 (01.05.24),
+# ---- Harwin S7141-45R SMT spring finger (J302 antenna feed, E501 grip ring) — Customer Information Sheet S7141-45R iss.5 (01.05.24),
 # "Recommended PCB layout" (+/-0.05): one pad 3.30 x 2.80; the part's 4.60 x 2.30 base starts 0.35 inside the pad's
 # left edge, so it overhangs the right edge by 1.65 (overall 4.95). Contact apex under the pick & place circle,
 # ~3.95 from the pad's left edge [inferred from the drawing, not dimensioned]. Working height 1.40-1.90, free 2.50.
